@@ -1,0 +1,1340 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": 8,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "campaign": "ISWAT"
+  },
+  "description": {
+    "name": "Xing La",
+    "ID": "YHQ1zBmzE9An",
+    "createDate": 1383666039186,
+    "pointTotal": 225,
+    "height": "64",
+    "weight": "150",
+    "sizeMod": 0,
+    "age": "27",
+    "appearance": "Skinny East Asian woman with gleaming eyes and bony teeth",
+    "statusText": "",
+    "repText": "+2 from anyone she does work for (Artificer), +1 in close confines (Sanitized Metabolism), -2 for Clueless, most of the time, -2 from those who can hear her voice (Disturbing Voice)",
+    "shortStory": "",
+    "story": "All missions on Lenin-2 are hell. I guess that&lsquo;s why they call it a &ldquo;Hell parallel.&rdquo; It&rsquo;s way too hot, and there&rsquo;s nothing but bugs and carp to eat, and if you close your eyes for two seconds, some kind of savage is going to try and smash in your skull with a rusted-out electrical transformer bar. The major powers (except the British Empire) went Communist in the late 19th century and, just like the Soviets did to Russia in Homeline, they wrecked the environment big time over the next century. Britain lost what the Chinese called &ldquo;the Summer Wars&rdquo; to the Communist powers in the 1950s, and that knocked the struts out from under the global economy, too. Hong Kong and expatriate Americans in Shanghai had managed to spread capitalism to China, though, so technological progress kept progressing - until the ecological collapse took everything down with it. The Gulf Stream shut down and shifted global weather patterns. Catastrophic warming melted the ice caps and flooded the coastlines; mega-storms tore through the desertified continental interiors; famines killed billions of people. While all this was going on, the Bolsheviks, the Mitteleuropan DKAP, and the Christian Communist Congressional Party fought &ldquo;the Autumn Wars&rdquo; over the stinking remains of the fresh water and the fish. The few million survivors are grinding along at medieval tech levels, except for the Chinese, who had enough stuff that some survivor settlements can keep the lights on and the engines running. Until the plankton all dies, anyhow.<br /><br />We run surveys all over the planet, trying to see if we can somehow jumpstart the ecology again, just like China was trying to do before the ax fell. We wind up trying to salvage a lot of the Chinese records, and so we&lsquo;ve kind of made Soochow Island our &ldquo;hell away from hell.&rdquo; They&lsquo;ve got liquor, and electric lights, and cooked food, and gambling, and all the comforts of home. A lot of these coastal Chinese got genetic grafts during the last, desperate &ldquo;try anything&rdquo; times; with some of them, it seems to have helped. One really sharp local - I mean sharp as a nanofiber, nothing gets past her - probably has some water-rat DNA in her; her eyes are red, and her teeth aren&rsquo;t quite right. But she can hold her breath for half an hour, track stuff by the smell, and see in the dark. More importantly, Xing La (that&rsquo;s her name) can drive, fly, or float anything that moves. And if it doesn&lsquo;t move, she can make it move. She&lsquo;s a natural pilot, too, and she doesn&rsquo;t depend on radio or instruments like half the people Infinity sends out here. She has like a sixth sense for these wrecks, and without her, we wouldn&rsquo;t have found that lost conveyer before the cannibals got to it. We&rsquo;ve probably hired her for some kind of work on every mission in Lenin-2 for the past four years, and she&rsquo;s been more places and done a better job than plenty of folks from Homeline.<br /><br />So what I&rsquo;m trying to say, I guess, is that the team and I, we feel kind of bad about leaving her there in her miserable hole to die with the rest of the human race on that ball of mud. I mean, if it turns out that we can&rsquo;t reseed the krill, and we can&rsquo;t fix the North Atlantic, and we can&rsquo;t find any earthworms that can stay alive in the plague zones for more than a month. And she&rsquo;s got nothing but talent, and drive, and pluck to spare, and it&rsquo;s even more wasted than most of Lenin-2 is. Anyhow, we&rsquo;ve sent her name and profile upstairs to - well, I&rsquo;d better not say who, but you know who I mean - and hopefully, they need someone who can drive a motorcycle up a sheer cliff, or thread an airship through the eye of a typhoon. If not, so help me Buddha, I&rsquo;ll smuggle her back to Homeline myself.",
+    "goals": "",
+    "notes": "GURPS (4th Edition) Basic Set: Characters, pg 322\n",
+    "artPath": "../characters/images/xingla.png",
+    "race": "human"
+  },
+  "playerInfo": {
+    "name": "iconic"
+  },
+  "preferences": {
+    "display": {
+      "theme": "blue",
+      "watermark": "1",
+      "grimoire": false,
+      "adjTraitRows": true,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 0,
+    "DX": 40,
+    "IQ": 40,
+    "HT": 30,
+    "HP": 0,
+    "Will": 0,
+    "Per": 0,
+    "FP": -9,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Cantonese",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Cantonese",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Mandarin",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Mandarin",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Shanghainese",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Shanghainese",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "East Asian",
+      "physMntlScl": "M",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "B23",
+      "key": "CulturalFamiliarity",
+      "description": "native"
+    },
+    {
+      "name": "Homeline",
+      "physMntlScl": "M",
+      "cost": 1,
+      "key": "CulturalFamiliarity"
+    },
+    {
+      "name": "Absolute Direction",
+      "physMntlScl": "MP",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 34",
+      "key": "AbsoluteDirection"
+    },
+    {
+      "name": "Breath-Holding",
+      "physMntlScl": "P",
+      "cost": 2,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 41",
+      "key": "BreathHolding",
+      "exoticSprntl": "Ex",
+      "levels": 3
+    },
+    {
+      "name": "Discriminatory Smell",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 49",
+      "key": "DiscriminatorySmell"
+    },
+    {
+      "name": "Infravision",
+      "physMntlScl": "P",
+      "cost": 10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 60",
+      "key": "Infravision",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "Legal Enforcement Powers",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 65",
+      "key": "LegalEnforcementPowers",
+      "levels": 3,
+      "highestLevel": 3
+    },
+    {
+      "name": "Pressure Support",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 76",
+      "key": "PressureSupport",
+      "exoticSprntl": "Ex",
+      "levels": 1,
+      "lowestLevel": 1,
+      "highestLevel": 3
+    },
+    {
+      "name": "Sanitized Metabolism",
+      "physMntlScl": "P",
+      "cost": 1,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 101",
+      "key": "SanitizedMetabolism",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "Striking ST",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 88",
+      "key": "StrikingST_Bite_Only",
+      "exoticSprntl": "Ex",
+      "levels": 10,
+      "levelsName": "ST +",
+      "EnhLimsArray": [
+        {
+          "text": "Bite Only",
+          "value": -60
+        }
+      ]
+    },
+    {
+      "name": "Artificer Talent",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 89-90",
+      "key": "ArtificerTalent",
+      "levels": 2,
+      "highestLevel": 4
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Clueless",
+      "physMntlScl": "M",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 126",
+      "key": "Clueless"
+    },
+    {
+      "name": "Disturbing Voice",
+      "physMntlScl": "P",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 132",
+      "key": "DisturbingVoice",
+      "group": "voice"
+    },
+    {
+      "name": "Duty",
+      "physMntlScl": "So",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 133",
+      "key": "Duty",
+      "multiple": 1,
+      "ConstantModsArray": [
+        {
+          "text": "Frequency: Almost All the Time (15 or less)",
+          "value": -15
+        },
+        {
+          "text": "Extremely Hazardous",
+          "value": -5
+        }
+      ],
+      "description": "to ISWAT"
+    },
+    {
+      "name": "Gluttony",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 137",
+      "key": "Gluttony",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist almost all the time (roll of 15 or less)",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Hard of Hearing",
+      "physMntlScl": "P",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 138",
+      "key": "HardOfHearing"
+    },
+    {
+      "name": "Low Empathy",
+      "physMntlScl": "M",
+      "cost": -20,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 142",
+      "key": "LowEmpathy",
+      "group": "empathy"
+    },
+    {
+      "name": "Shyness",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 154",
+      "key": "Shyness",
+      "MultipliersArray": [
+        {
+          "text": "Severe",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Skinny",
+      "physMntlScl": "P",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 18",
+      "key": "Skinny",
+      "group": "build"
+    },
+    {
+      "name": "Unnatural Feature",
+      "physMntlScl": "P",
+      "cost": -1,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 22",
+      "key": "UnnaturalFeature",
+      "multiple": 1,
+      "levels": 2,
+      "highestLevel": 5,
+      "description": "Lambent eyes and bony teeth"
+    },
+    {
+      "name": "Unusual Biochemistry",
+      "physMntlScl": "P",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 160",
+      "key": "UnusualBiochemistry",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "Poverty: Struggling (x1/2)",
+      "physMntlScl": "So",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 25",
+      "key": "PovertyStrugglingx12",
+      "group": "wealth",
+      "description": "1/2 starting wealth"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Attentive",
+      "physMntlScl": null,
+      "cost": -1
+    },
+    {
+      "name": "Bad posture (-1 to Dancing and Sex Appeal)",
+      "physMntlScl": "JSONcircRef:traits.32.physMntlScl",
+      "cost": -1
+    },
+    {
+      "name": "Code of Honor\n(&ldquo;Stay bought and finish the job&rdquo;)",
+      "physMntlScl": "JSONcircRef:traits.32.physMntlScl",
+      "cost": -1
+    },
+    {
+      "name": "Incompetence (Finance)",
+      "physMntlScl": "JSONcircRef:traits.32.physMntlScl",
+      "cost": -1
+    },
+    {
+      "name": "Likes processed food (especially fast food)",
+      "physMntlScl": "JSONcircRef:traits.32.physMntlScl",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Crewman",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 185",
+      "points": 2,
+      "type": "M",
+      "specCategName": "vessel class",
+      "key": "Crewman",
+      "TL": 7,
+      "specialization": "Airshipman"
+    },
+    {
+      "name": "Armoury",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 178",
+      "points": 1,
+      "type": "M",
+      "key": "Armoury",
+      "TL": 7,
+      "specialization": "Hvy Weapons"
+    },
+    {
+      "name": "Axe/Mace",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 2,
+      "type": "P",
+      "key": "AxeMace"
+    },
+    {
+      "name": "Breath Control",
+      "attribute": "HT",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 182",
+      "points": 8,
+      "type": "P",
+      "key": "BreathControl"
+    },
+    {
+      "name": "Drive!",
+      "attribute": "DX",
+      "difficulty": 3,
+      "reference": "Basic Set - Characters, pg 175",
+      "points": 72,
+      "type": "P",
+      "wildcard": true,
+      "key": "DriveWildcard"
+    },
+    {
+      "name": "Electrician",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 189",
+      "points": 1,
+      "type": "M",
+      "minTL": 6,
+      "key": "Electrician",
+      "TL": 7
+    },
+    {
+      "name": "Elec. Repair",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 190",
+      "points": 4,
+      "type": "M",
+      "minTL": 7,
+      "key": "ElectronicsRepair",
+      "TL": 7,
+      "specialization": "Sensors"
+    },
+    {
+      "name": "Elec. Repair",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 190",
+      "points": 2,
+      "type": "M",
+      "minTL": 7,
+      "key": "ElectronicsRepair",
+      "TL": 7,
+      "specialization": "Sonar"
+    },
+    {
+      "name": "Fishing",
+      "attribute": "Per",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 1,
+      "type": "P",
+      "key": "Fishing"
+    },
+    {
+      "name": "Gunner",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 198",
+      "points": 4,
+      "type": "P",
+      "minTL": 2,
+      "specCategName": "weapon type",
+      "key": "Gunner",
+      "TL": 7,
+      "specialization": "Rockets"
+    },
+    {
+      "name": "Knot-Tying",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 203",
+      "points": 2,
+      "type": "P",
+      "key": "KnotTying"
+    },
+    {
+      "name": "Machinist",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 206",
+      "points": 1,
+      "type": "M",
+      "minTL": 2,
+      "key": "Machinist",
+      "TL": 7
+    },
+    {
+      "name": "Mechanic",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 207",
+      "points": 2,
+      "type": "M",
+      "minTL": 2,
+      "key": "Mechanic",
+      "TL": 7,
+      "specialization": "Gas Engine"
+    },
+    {
+      "name": "Navigation",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 211",
+      "points": 2,
+      "type": "M",
+      "key": "Navigation",
+      "TL": 2,
+      "specialization": "Sea"
+    },
+    {
+      "name": "Navigation",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 211",
+      "points": 1,
+      "type": "M",
+      "key": "Navigation",
+      "TL": 7,
+      "specialization": "Sea"
+    },
+    {
+      "name": "Scrounging",
+      "attribute": "Per",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 8,
+      "type": "P",
+      "key": "Scrounging"
+    },
+    {
+      "name": "Scuba",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 219",
+      "points": 1,
+      "type": "M",
+      "minTL": 6,
+      "key": "Scuba",
+      "TL": 8
+    },
+    {
+      "name": "Crewman",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 185",
+      "points": 2,
+      "type": "M",
+      "specCategName": "vessel class",
+      "key": "Crewman",
+      "TL": 7,
+      "specialization": "Seamanship"
+    },
+    {
+      "name": "Smuggling",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 221",
+      "points": 1,
+      "type": "M",
+      "key": "Smuggling"
+    },
+    {
+      "name": "Spear Thrower",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 222",
+      "points": 4,
+      "type": "P",
+      "key": "SpearThrower"
+    },
+    {
+      "name": "Survival",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 1,
+      "type": "P",
+      "key": "Survival",
+      "specialization": "Island/Beach"
+    },
+    {
+      "name": "Survival",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 1,
+      "type": "P",
+      "key": "Survival",
+      "specialization": "Swampland"
+    },
+    {
+      "name": "Swimming",
+      "attribute": "HT",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 224",
+      "points": 4,
+      "type": "P",
+      "key": "Swimming"
+    }
+  ],
+  "equipment": [],
+  "weapons": [],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "KnifeThrowing",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "StaffSkill",
+      "Throwing",
+      "ThrowingStick",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "BullDancing",
+      "CombatWeaponSport",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw",
+      "Aerobatics",
+      "Aquabatics"
+    ],
+    "ManualDexteritySkills": [
+      "Artist",
+      "Jeweler",
+      "KnotTying",
+      "Leatherworking",
+      "Lockpicking",
+      "Pickpocket",
+      "Sewing",
+      "SleightofHand",
+      "Surgery"
+    ],
+    "AthleticSkillsGURPSLite": [
+      "Acrobatics",
+      "Jumping",
+      "Riding",
+      "Swimming",
+      "Throwing",
+      "Hiking",
+      "Bicycling"
+    ],
+    "ArtificerTalent": [
+      "Armoury",
+      "Carpentry",
+      "Electrician",
+      "ElectronicsRepair",
+      "Engineer",
+      "Machinist",
+      "Masonry",
+      "Mechanic",
+      "Smith"
+    ],
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "BodySense_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "BodySense"
+    },
+    "NavigationSea_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Sea"
+    },
+    "NavigationAir_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Air"
+    },
+    "NavigationLand_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Land"
+    },
+    "TasteSmell_from_DiscriminatorySmell": {
+      "from": "DiscriminatorySmell",
+      "amount": 4,
+      "target": "TasteSmell"
+    },
+    "Tracking_from_DiscriminatorySmell": {
+      "from": "DiscriminatorySmell",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "SwingDamage_from_StrikingST": {
+      "from": "StrikingST",
+      "amount": 1,
+      "targetCategory": "swing",
+      "target": "swST"
+    },
+    "ThrustDamage_from_StrikingST": {
+      "from": "StrikingST",
+      "amount": 1,
+      "targetCategory": "",
+      "target": "thrST"
+    },
+    "Armoury_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Armoury"
+    },
+    "Carpentry_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Carpentry"
+    },
+    "Electrician_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Electrician"
+    },
+    "Electronics_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Electronics"
+    },
+    "ElectronicsRepair_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "ElectronicsRepair"
+    },
+    "Engineer_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Engineer"
+    },
+    "Machinist_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Machinist"
+    },
+    "Masonry_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Masonry"
+    },
+    "Mechanic_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Mechanic"
+    },
+    "Smith_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Smith"
+    },
+    "SavoirFaire_from_Clueless": {
+      "from": "Clueless",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "Hearing_from_HardofHearing": {
+      "from": "HardofHearing",
+      "amount": -4,
+      "target": "Hearing"
+    },
+    "Acting_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Acting"
+    },
+    "Captivate_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Captivate"
+    },
+    "Carousing_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Carousing"
+    },
+    "Criminology_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Criminology"
+    },
+    "DetectLies_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "Diplomacy_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "FastTalk_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Interrogation_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Interrogation"
+    },
+    "Leadership_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "Merchant_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Persuade_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Persuade"
+    },
+    "Politics_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Politics"
+    },
+    "SavoirFaire_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SexAppeal_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "Streetwise_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Suggest_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Suggest"
+    },
+    "SwayEmotions_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SwayEmotions"
+    },
+    "PeopleSkills_from_Shyness": {
+      "from": "Shyness",
+      "amount": -1,
+      "targetCategory": "GR",
+      "target": "PeopleSkills"
+    },
+    "Fishing_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Fishing"
+    },
+    "NavigationSpace_from_SpatialSense3D": {
+      "from": "SpatialSense3D",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Space"
+    },
+    "NavigationHyperspace_from_SpatialSense3D": {
+      "from": "SpatialSense3D",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Hyperspace"
+    },
+    "Navigation_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Navigation"
+    },
+    "Survival_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Survival"
+    },
+    "Swimming_from_Fat": {
+      "from": "Fat",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Swimming"
+    },
+    "Swimming_from_Overweight": {
+      "from": "Overweight",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Swimming"
+    },
+    "Swimming_from_VeryFat": {
+      "from": "VeryFat",
+      "amount": 5,
+      "targetCategory": "SK",
+      "target": "Swimming"
+    },
+    "ArtificerTalentGroup_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "GR",
+      "target": "ArtificerTalent"
+    }
+  },
+  "prerequisites": {
+    "Scuba_requires_Swimming": {
+      "target": "Scuba",
+      "category": "SK",
+      "prereq": "Swimming"
+    }
+  },
+  "defaults": {
+    "Armoury_from_Engineer": {
+      "target": "Armoury",
+      "penalty": -4,
+      "from": "Engineer",
+      "fromSpec": "same"
+    },
+    "AxeMace_from_Flail": {
+      "target": "AxeMace",
+      "penalty": -4,
+      "from": "Flail"
+    },
+    "AxeMace_from_TwoHandedAxeMace": {
+      "target": "AxeMace",
+      "penalty": -3,
+      "from": "TwoHandedAxeMace"
+    },
+    "BreathControl_from_stat": {
+      "target": "BreathControl",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Electrician_from_EngineerElectrical": {
+      "target": "Electrician",
+      "penalty": -3,
+      "from": "Engineer",
+      "fromSpec": "Electrical"
+    },
+    "ElectronicsRepair_from_ElectronicsOperation_Sensors": {
+      "from": "ElectronicsOperation",
+      "targetSpec": "Sensors",
+      "penalty": -3,
+      "target": "ElectronicsRepair",
+      "fromSpec": "Sensors"
+    },
+    "ElectronicsRepair_from_ElectronicsOperation_Sonar": {
+      "from": "ElectronicsOperation",
+      "targetSpec": "Sonar",
+      "penalty": -3,
+      "target": "ElectronicsRepair",
+      "fromSpec": "Sonar"
+    },
+    "Gunner_from_Gunner": {
+      "target": "Gunner",
+      "penalty": -4,
+      "from": "Gunner"
+    },
+    "KnotTying_from_Climbing": {
+      "target": "KnotTying",
+      "penalty": -4,
+      "from": "Climbing"
+    },
+    "KnotTying_from_CrewmanSeamanship": {
+      "target": "KnotTying",
+      "penalty": -4,
+      "from": "Crewman",
+      "fromSpec": "Seamanship"
+    },
+    "Machinist_from_Mechanic": {
+      "target": "Machinist",
+      "penalty": -5,
+      "from": "Mechanic"
+    },
+    "Mechanic_from_Mechanic": {
+      "target": "Mechanic",
+      "penalty": -4,
+      "from": "Mechanic"
+    },
+    "Mechanic_from_Engineer": {
+      "target": "Mechanic",
+      "penalty": -4,
+      "from": "Engineer",
+      "fromSpec": "same"
+    },
+    "Mechanic_from_Machinist": {
+      "target": "Mechanic",
+      "penalty": -5,
+      "from": "Machinist"
+    },
+    "NavigationSea_from_stat": {
+      "target": "Navigation",
+      "targetSpec": "Sea",
+      "penalty": false,
+      "category": "stat"
+    },
+    "NavigationSea_from_NavigationAir": {
+      "target": "Navigation",
+      "targetSpec": "Sea",
+      "penalty": -2,
+      "from": "Navigation",
+      "fromSpec": "Air"
+    },
+    "NavigationSea_from_NavigationLand": {
+      "target": "Navigation",
+      "targetSpec": "Sea",
+      "penalty": -2,
+      "from": "Navigation",
+      "fromSpec": "Land"
+    },
+    "NavigationSea_from_Astronomy": {
+      "target": "Navigation",
+      "targetSpec": "Sea",
+      "penalty": -5,
+      "from": "Astronomy"
+    },
+    "NavigationSea_from_CrewmanSeamanship": {
+      "target": "Navigation",
+      "targetSpec": "Sea",
+      "penalty": -5,
+      "from": "Crewman",
+      "fromSpec": "Seamanship"
+    },
+    "Scuba_from_EnvSuitDivingSuit": {
+      "target": "Scuba",
+      "penalty": -2,
+      "from": "EnvironmentSuit",
+      "fromSpec": "Diving Suit"
+    },
+    "SpearThrower_from_ThrownWeaponSpear": {
+      "target": "SpearThrower",
+      "penalty": -4,
+      "from": "ThrownWeapon",
+      "fromSpec": "Spear"
+    },
+    "Survival_from_Naturalist": {
+      "target": "Survival",
+      "penalty": -3,
+      "from": "Naturalist"
+    }
+  }
+}

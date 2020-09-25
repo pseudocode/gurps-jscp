@@ -1,0 +1,23 @@
+.fill-in { color: #150; }
+.editable { color: #078; }
+/*.ready { background-color: #cfc; } not transparent */
+.ready { background-color: rgba(135,255,135,0.4); }
+
+/*.titlebar { background-image: url("../images/ivy-dark-sm-fade.png"); }*/
+.titlebar { background-color: #CDC; }
+.dialog, .dialogWindow { color: #432; background-image: url("../images/ivy-light-lg-fade.png"); border-color: #ACA; }
+.dialog input, .dialog select, .dialog textarea, .dialog button { background-color: #DFD; }
+
+/* 
+.dialog input, .dialog select, .dialog textarea, .dialog button { background-image: url("../images/ivy-dark-sm-fade.png"); }
+ */
+
+.editable:hover, .wear_wield_able:hover, .clickable:hover { background-color: #EEE9BF; }
+.dialog select option:hover { background-color:  #EEE9BF; }
+
+fieldset legend:hover, label:hover, .label:hover { color: #071; }
+#edition_watermark { color: rgba(170,220,170,0.4); }
+
+/*.zrow { background-color: #DDF0DD; }*/
+.zrow { background-color: rgba(170,220,170,0.4); }
+.millenial.ability_table tr:nth-child(even) { background-color: rgba(170,220,170,0.4); }

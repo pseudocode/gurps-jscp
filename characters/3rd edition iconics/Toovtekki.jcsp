@@ -1,0 +1,6072 @@
+{
+  "gameInfo": {
+    "ruleset": "e3",
+    "TL": 3,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "GM": "Jonathan"
+  },
+  "description": {
+    "name": "Toov'tekki",
+    "ID": "OuGicQ1YgwiP",
+    "createDate": 784626950974,
+    "pointTotal": "131",
+    "height": 60,
+    "weight": 100,
+    "sizeMod": "",
+    "age": "",
+    "appearance": "Foppish, overdressed, tattoed goblin, 5' tall, 100 lbs.",
+    "statusText": "",
+    "repText": "",
+    "shortStory": "Gentlegoblin, merchant, righter of wrongs.  Grew up in Megalos, lived in Araterre, now travels.",
+    "story": "",
+    "goals": "",
+    "notes": "",
+    "artPath": "../characters/images/Roldaice_CedricBaer.jpg",
+    "race": "goblin"
+  },
+  "playerInfo": {
+    "name": "Jim"
+  },
+  "preferences": {
+    "display": {
+      "theme": "orange",
+      "watermark": "2",
+      "grimoire": true,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": true,
+      "skillsSupp": true,
+      "stuffScroll": true,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "traitsSuppAll": false,
+      "skillsSuppAll": false,
+      "stuffSuppAll": false,
+      "property": true,
+      "TLinfo": true,
+      "shortnames": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 0,
+    "DX": 0,
+    "IQ": "30",
+    "HT": "-10",
+    "HP": 0,
+    "Will": 0,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Goblin",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 5,
+      "key": "Goblin",
+      "templateTrait": true
+    },
+    {
+      "name": "Racial DX Modifier",
+      "physMntlScl": "P",
+      "cost": "att",
+      "hasLevels": true,
+      "key": "RacialDXModifier",
+      "levels": 1,
+      "lowestLevel": -8,
+      "posNegLevels": true,
+      "inTemplate": "Goblin"
+    },
+    {
+      "name": "Racial IQ Modifier",
+      "physMntlScl": "M",
+      "cost": "att",
+      "hasLevels": true,
+      "key": "RacialIQModifier",
+      "levels": 1,
+      "lowestLevel": -8,
+      "posNegLevels": true,
+      "inTemplate": "Goblin"
+    },
+    {
+      "name": "Night Vision",
+      "physMntlScl": "P",
+      "cost": 10,
+      "reference": "Basic Set 3rd ed., pg 22",
+      "key": "NightVision",
+      "group": "Dark Vision",
+      "inTemplate": "Goblin"
+    },
+    {
+      "name": "Magery",
+      "type": "A",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": true,
+      "key": "Magery",
+      "exoticSprntl": "Su",
+      "levels": 3,
+      "lowestLevel": 1,
+      "highestLevel": 3,
+      "fixedCost": 5
+    },
+    {
+      "name": "Literacy",
+      "type": "A",
+      "physMntlScl": "M",
+      "cost": 10,
+      "key": "Literacy",
+      "group": "literacy"
+    },
+    {
+      "name": "Unusual Background",
+      "type": "A",
+      "physMntlScl": "So",
+      "cost": 10,
+      "key": "UnusualBackground",
+      "requestBasicCost": true,
+      "description": "has lived in Araterre"
+    },
+    {
+      "name": "Status",
+      "type": "A",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "Status",
+      "levels": 1,
+      "lowestLevel": -4,
+      "highestLevel": 8,
+      "description": "merchant"
+    },
+    {
+      "name": "Racial ST Modifier",
+      "physMntlScl": "P",
+      "cost": "att",
+      "hasLevels": true,
+      "key": "RacialSTModifier",
+      "levels": -2,
+      "lowestLevel": -8,
+      "posNegLevels": true,
+      "inTemplate": "Goblin"
+    },
+    {
+      "name": "Impulsiveness",
+      "physMntlScl": "M",
+      "cost": -10,
+      "reference": "Basic Set 3rd ed., pg 33",
+      "key": "Impulsiveness",
+      "inTemplate": "Goblin"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Finicky",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -10
+    },
+    {
+      "name": "Code of Honor",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "key": "CodeofHonor",
+      "multiple": 1,
+      "levels": 1,
+      "highestLevel": 3,
+      "description": "Gentlemen's - weak"
+    },
+    {
+      "name": "Overconfidence",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -10,
+      "key": "Overconfidence"
+    },
+    {
+      "name": "Stubbornness",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "key": "Stubborn"
+    },
+    {
+      "name": "Sense of Duty",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "key": "SenseOfDuty",
+      "multiple": 1,
+      "levels": 1,
+      "highestLevel": 4,
+      "description": "to the weak and needy"
+    },
+    {
+      "name": "Sense of Duty",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "key": "SenseOfDuty",
+      "multiple": 2,
+      "levels": 1,
+      "highestLevel": 4,
+      "description": "to Jabu and Ch&ocirc;-tii"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Fancies himself a gentleman",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Style-conscious dandy",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Status-conscious",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Gives his things Latin-sounding names",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Passionate; reacts first, thinks later",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "line": "Combat skills"
+    },
+    {
+      "name": "Fencing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 50",
+      "points": 0.5,
+      "type": "P",
+      "key": "Fencing"
+    },
+    {
+      "name": "Cloak",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 184",
+      "points": 0.5,
+      "type": "P",
+      "key": "Cloak",
+      "useDefaultFrom": "Buckler"
+    },
+    {
+      "name": "Body Sense",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 181",
+      "points": 2,
+      "type": "P",
+      "key": "BodySense"
+    },
+    {
+      "name": "Staff",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 1,
+      "type": "P",
+      "key": "StaffSkill"
+    },
+    {
+      "name": "Bow",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 182",
+      "points": 2,
+      "type": "P",
+      "key": "Bow",
+      "dash": false
+    },
+    {
+      "name": "Magic Jet",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Compendium I, pg 148",
+      "points": 4,
+      "type": "P",
+      "key": "MagicJet"
+    },
+    {
+      "name": "Knife",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 0.5,
+      "type": "P",
+      "key": "Knife"
+    },
+    {
+      "name": "Knife Throwing",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 51",
+      "points": 0.5,
+      "type": "P",
+      "key": "KnifeThrowing"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Languages"
+    },
+    {
+      "name": "Anglish",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "USER",
+      "points": 0,
+      "type": "M",
+      "description": "native",
+      "key": "language"
+    },
+    {
+      "name": "Arabic",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "USER",
+      "points": 0.5,
+      "type": "M",
+      "key": "language"
+    },
+    {
+      "name": "Trader's Tongue",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "USER",
+      "points": 0.5,
+      "type": "M",
+      "key": "language"
+    },
+    {
+      "name": "Aralaise",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "USER",
+      "points": 0.5,
+      "type": "M",
+      "key": "language"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Social skills"
+    },
+    {
+      "name": "Fast-Talk",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 0.5,
+      "type": "M",
+      "key": "FastTalk",
+      "useDefaultFrom": "Acting"
+    },
+    {
+      "name": "Acting",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 174",
+      "points": 0.5,
+      "type": "M",
+      "key": "Acting",
+      "useDefaultFrom": "Performance"
+    },
+    {
+      "name": "Performance",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 212",
+      "points": 2,
+      "type": "M",
+      "key": "Performance",
+      "useDefaultFrom": "Acting"
+    },
+    {
+      "name": "Savoir-Faire",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 0.5,
+      "type": "M",
+      "key": "SavoirFaire"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 0.5,
+      "type": "M",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Araterre",
+      "specCategName": "area"
+    },
+    {
+      "name": "Detect Lies",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 0.5,
+      "type": "M",
+      "key": "DetectLies"
+    },
+    {
+      "name": "Diplomacy",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 0.5,
+      "type": "M",
+      "key": "Diplomacy"
+    },
+    {
+      "name": "Merchant",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 209",
+      "points": 2,
+      "type": "M",
+      "key": "Merchant"
+    },
+    {
+      "name": "Politics",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 215",
+      "points": 0.5,
+      "type": "M",
+      "key": "Politics"
+    },
+    {
+      "name": "Holdout",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 200",
+      "points": 0.5,
+      "type": "M",
+      "key": "Holdout",
+      "useDefaultFrom": "SleightofHand"
+    },
+    {
+      "name": "Scrounging",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 0.5,
+      "type": "M",
+      "key": "Scrounging"
+    },
+    {
+      "name": "History",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 200",
+      "points": 0.5,
+      "type": "M",
+      "key": "History",
+      "specCategName": "region, era, culture, <em>etc.</em>"
+    },
+    {
+      "name": "Literature",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 205",
+      "points": 0.5,
+      "type": "M",
+      "key": "Literature"
+    },
+    {
+      "name": "Theology",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 0.5,
+      "type": "M",
+      "key": "Theology"
+    },
+    {
+      "name": "Heraldry",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 199",
+      "points": 0.5,
+      "type": "M",
+      "key": "Heraldry"
+    },
+    {
+      "name": "Occultism",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 212",
+      "points": 0.5,
+      "type": "M",
+      "key": "Occultism"
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 222",
+      "points": 1,
+      "type": "P",
+      "key": "Stealth",
+      "dash": false
+    },
+    {
+      "name": "Cooking",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 185",
+      "points": 0.5,
+      "type": "M",
+      "key": "Cooking"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Medical skills"
+    },
+    {
+      "name": "Diagnosis",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 0.5,
+      "type": "M",
+      "key": "Diagnosis",
+      "TL": 3
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Animal skills"
+    },
+    {
+      "name": "Animal Handling",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 175",
+      "points": 1,
+      "type": "M",
+      "key": "AnimalHandling",
+      "specCategName": "order/family",
+      "specializations": [
+        "Canines",
+        "Equines",
+        "Felines",
+        "Raptors"
+      ],
+      "specialization": "Raptors"
+    },
+    {
+      "name": "Teamster",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 225",
+      "points": 1,
+      "type": "M",
+      "key": "Teamster"
+    },
+    {
+      "name": "Riding",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 217",
+      "points": 0.5,
+      "type": "P",
+      "key": "Riding",
+      "specCategName": "riding beast",
+      "specialization": "horse"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": false
+    },
+    {
+      "line": false
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Making & Breaking"
+    },
+    {
+      "name": "Find Weakness",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 164",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true
+      },
+      "stats": {
+        "castcost": 1,
+        "time": 2,
+        "duration": null,
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "FindWeakness"
+    },
+    {
+      "name": "Weaken",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 164",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": 2,
+        "duration": "permanent",
+        "time": 5,
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Weaken"
+    },
+    {
+      "name": "Restore",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 164",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "2/hex",
+        "maintaincost": "half",
+        "duration": "10 min",
+        "time": 3,
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Restore"
+    },
+    {
+      "name": "Rejoin",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 164",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1/10 lb",
+        "maintaincost": "half",
+        "duration": "10 min",
+        "time": "4/10 lb",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Rejoin"
+    },
+    {
+      "name": "Repair",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 164",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "2/5 lb",
+        "duration": "permanent",
+        "time": "1/10 lb",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Repair"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Illusion & Creation"
+    },
+    {
+      "name": "Simple Illusion",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "area": true
+      },
+      "stats": {
+        "castcost": 1,
+        "maintaincost": "half",
+        "duration": "1 min"
+      },
+      "spell": true,
+      "key": "SimpleIllusion",
+      "colleges": [
+        "Illusion & Creation:IC"
+      ]
+    },
+    {
+      "name": "Complex Illusion",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "ComplexIllusion",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Illusion & Creation:IC"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Perfect Illusion",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "PerfectIllusion",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Illusion & Creation:IC"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Illusion Shell",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "IllusionShell",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Illusion & Creation:IC"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Illusion Disguise",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "IllusionDisguise",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Illusion & Creation:IC"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Create Object",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "CreateObject",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Illusion & Creation:IC"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Create Animal",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "CreateAnimal",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Illusion & Creation:IC"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Create Servant",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "CreateServant",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Illusion & Creation:IC"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Healing"
+    },
+    {
+      "name": "Lend Strength",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1/FP restored",
+        "time": "1 sec",
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "LendStrength",
+      "colleges": [
+        "Healing"
+      ]
+    },
+    {
+      "name": "Recover Strength",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 6,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "duration": "&mdash;",
+        "notes": "speeds Fatigue recovery; see B162",
+        "time": "1 sec",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration"
+      },
+      "spell": true,
+      "key": "RecoverStrength",
+      "colleges": [
+        "Healing"
+      ]
+    },
+    {
+      "name": "Lend Health",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "1 hr",
+        "castcost": "1/HT loaned",
+        "time": "1 sec",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "LendHealth",
+      "colleges": [
+        "Healing"
+      ]
+    },
+    {
+      "name": "Minor Healing",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1-3",
+        "notes": "restores 1 HT/pt spent",
+        "time": "1 sec",
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration"
+      },
+      "spell": true,
+      "key": "MinorHealing",
+      "colleges": [
+        "Healing"
+      ]
+    },
+    {
+      "name": "Major Healing",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1-4",
+        "notes": "restores 2 HT/pt spent",
+        "time": "1 sec",
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration"
+      },
+      "spell": true,
+      "key": "MajorHealing",
+      "colleges": [
+        "Healing"
+      ]
+    },
+    {
+      "name": "Sterilize",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Sterilize",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Healing"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Cure Disease",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "CureDisease",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Healing"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Restoration",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Restoration",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Healing"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Food"
+    },
+    {
+      "name": "Test Food",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "TestFood",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Food"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Preserve Food",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "PreserveFood",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Food"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Decay",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Decay",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Food"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Sound"
+    },
+    {
+      "name": "Sound",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Sound",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Sound"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Movement"
+    },
+    {
+      "name": "Apportation",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Apportation",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Movement"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Air-Golem",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "AirGolem",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Movement"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Protection & Warning"
+    },
+    {
+      "name": "Weather Dome",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "WeatherDome",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Protection & Warning:PW"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Force Dome",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "ForceDome",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Protection & Warning:PW"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Mystic Mist",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "MysticMist",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Protection & Warning:PW"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Shield",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "ShieldSpell",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Protection & Warning:PW"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Enchantment"
+    },
+    {
+      "name": "Enchant",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set 3rd ed., pg 160",
+      "points": 2,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "permanent",
+        "time": "&mdash;",
+        "notes": "See <i>Enchanting</i> (B152-153), <i>Enchant</i> (B160).",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration"
+      },
+      "spell": true,
+      "key": "Enchant",
+      "colleges": [
+        "Enchantment"
+      ]
+    },
+    {
+      "name": "Powerstone",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 161",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "permanent",
+        "time": "&mdash;",
+        "notes": "See <i>Enchanting</i> (B152-153), <i>Powerstone</i> (B161).",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration"
+      },
+      "spell": true,
+      "key": "Powerstone",
+      "colleges": [
+        "Enchantment"
+      ]
+    },
+    {
+      "name": "Dancing Weapon",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "spell": true,
+      "key": "DancingWeapon",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Enchantment"
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Knowledge"
+    },
+    {
+      "name": "Seeker",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 163",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": 3,
+        "time": "1 sec",
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Seeker",
+      "colleges": [
+        "Knowledge"
+      ]
+    },
+    {
+      "name": "Trace",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 163",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": 3,
+        "maintaincost": 1,
+        "duration": "1 hr",
+        "time": "1 min",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Trace",
+      "colleges": [
+        "Knowledge"
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Light & Darkness"
+    },
+    {
+      "name": "Light",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 163",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": 1,
+        "maintaincost": 1,
+        "duration": "1 min",
+        "time": "1 sec",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Light",
+      "colleges": [
+        "Light & Darkness:LD"
+      ]
+    },
+    {
+      "name": "Continual Light",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 163",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "2-6",
+        "duration": "2d days",
+        "time": "1 sec",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "ContinualLight",
+      "colleges": [
+        "Light & Darkness:LD"
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Meta"
+    },
+    {
+      "name": "Bless",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Bless",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Meta-Spells"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Curse",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Curse",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Meta-Spells"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Remove Curse",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "RemoveCurse",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "castcost": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "colleges": [
+        "Meta-Spells"
+      ],
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Earth"
+    },
+    {
+      "name": "Seek Earth",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 156",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true
+      },
+      "stats": {
+        "castcost": 3,
+        "time": 10
+      },
+      "spell": true,
+      "key": "SeekEarth",
+      "colleges": [
+        "Earth"
+      ]
+    },
+    {
+      "name": "Shape Earth",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 156",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "permanent",
+        "castcost": "6 up to 20#, or 10/hex"
+      },
+      "spell": true,
+      "key": "ShapeEarth",
+      "colleges": [
+        "Earth"
+      ]
+    },
+    {
+      "name": "Earth to Stone",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 156",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "permanent",
+        "castcost": "3 up to 20#, or 5/hex"
+      },
+      "spell": true,
+      "key": "EarthtoStone",
+      "colleges": [
+        "Earth"
+      ]
+    },
+    {
+      "name": "Create Earth",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 156",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "permanent",
+        "castcost": "4/hex create, 2/hex solidify"
+      },
+      "spell": true,
+      "key": "CreateEarth",
+      "colleges": [
+        "Earth"
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Air"
+    },
+    {
+      "name": "Purify Air",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 157",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "area": true
+      },
+      "stats": {
+        "castcost": 1
+      },
+      "spell": true,
+      "key": "PurifyAir",
+      "colleges": [
+        "Air"
+      ]
+    },
+    {
+      "name": "Stench",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "area": true
+      },
+      "stats": {
+        "duration": "5 min",
+        "castcost": 1
+      },
+      "spell": true,
+      "key": "Stench",
+      "colleges": [
+        "Air"
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Fire"
+    },
+    {
+      "name": "Ignite Fire",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 158",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1-4",
+        "maintaincost": "same"
+      },
+      "spell": true,
+      "key": "IgniteFire",
+      "colleges": [
+        "Fire"
+      ]
+    },
+    {
+      "name": "Shape Fire",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 158",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "area": true
+      },
+      "stats": {
+        "duration": "1 min",
+        "castcost": 2,
+        "maintaincost": "half"
+      },
+      "spell": true,
+      "key": "ShapeFire",
+      "colleges": [
+        "Fire"
+      ]
+    },
+    {
+      "name": "Create Fire",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 158",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "area": true
+      },
+      "stats": {
+        "duration": "1 min",
+        "castcost": 2,
+        "maintaincost": "half"
+      },
+      "spell": true,
+      "key": "CreateFire",
+      "colleges": [
+        "Fire"
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Water"
+    },
+    {
+      "name": "Seek Water",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 159",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true
+      },
+      "stats": {
+        "castcost": 2,
+        "time": "1 sec",
+        "duration": "JSONcircRef:skills.48.stats.duration",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "SeekWater"
+    },
+    {
+      "name": "Purify Water",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 159",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "spcl": true
+      },
+      "stats": {
+        "time": "see notes",
+        "castcost": "1/gal",
+        "duration": "Purified water stays pure unless re-contaminated.",
+        "notes": "Usually 5 to 10 seconds per gallon, unless a large container and ring are used.",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration"
+      },
+      "spell": true,
+      "key": "PurifyWater"
+    },
+    {
+      "name": "Create Water",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 159",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "2/gal",
+        "duration": "The created water is permanent.",
+        "time": "1 sec",
+        "maintaincost": "JSONcircRef:skills.48.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "CreateWater"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "<i>Percebus</i>, a pony (ST 30, DX 11, IQ 4, HT 13, move 13)",
+      "weight": 800,
+      "cost": 1200,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "<i>Atallan</i>, a covered wagon",
+      "weight": 500,
+      "cost": 400,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "outfit 1, upper-class clothing",
+      "weight": 1,
+      "cost": 200,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "outfit 2, upper-class clothing",
+      "weight": 1,
+      "cost": 200,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "outfit 3, upper-class clothing",
+      "weight": 1,
+      "cost": 200,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "light cloak, medium quality",
+      "weight": 2,
+      "cost": 45,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "light cloak, fine quality",
+      "weight": 2,
+      "cost": 200,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "heavy cloak, good quality",
+      "weight": 2,
+      "cost": 100,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "nightshirt",
+      "weight": 0,
+      "cost": 10,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "nightcap",
+      "weight": 0,
+      "cost": 5,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "slippers",
+      "weight": 1,
+      "cost": 10,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "large chest",
+      "weight": 30,
+      "cost": 100,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "bedroll",
+      "weight": 10,
+      "cost": 40,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "woolen blanket",
+      "weight": 5,
+      "cost": 20,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 4
+    },
+    {
+      "name": "washbasin & pitcher",
+      "weight": 5,
+      "cost": 50,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "20-man tent",
+      "weight": 100,
+      "cost": 300,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "tent pole",
+      "weight": 3,
+      "cost": 5,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 16
+    },
+    {
+      "name": "extra wagon wheel",
+      "weight": 40,
+      "cost": 40,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "hand mirror, brush & comb set",
+      "weight": 2,
+      "cost": 30,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "cookware set",
+      "weight": 80,
+      "cost": 30,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "bowls and utensils for 3",
+      "weight": 3,
+      "cost": 10,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "10-gal water barrel",
+      "weight": 80,
+      "cost": 15,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 4
+    },
+    {
+      "name": "waterskin, 5 gal",
+      "weight": 40,
+      "cost": 30,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "addedCost": 50,
+      "description": "Purify Water spell",
+      "TL": 0,
+      "LC": 6
+    },
+    {
+      "name": "1-gal wineskin",
+      "weight": 8,
+      "cost": 20,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 2
+    },
+    {
+      "name": "Lardor: basic wooden box",
+      "weight": 15,
+      "cost": 50,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "30 days' food (flour, dried fruit, jerky, spices, etc.)",
+      "weight": 40,
+      "cost": 40,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "currying brush for Percy",
+      "weight": 1,
+      "cost": 10,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "dress gloves, fine linen",
+      "weight": 0,
+      "cost": 200,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "boots, leather, knee-high, fold-down cuff, w/concealed knife sheath in right boot",
+      "weight": 3,
+      "cost": 150,
+      "TL": 1,
+      "LC": "JSONcircRef:skills.48.stats.duration",
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "DR": 2,
+      "PD": 2,
+      "location": [
+        "domFoot",
+        "offFoot"
+      ],
+      "number": 1,
+      "worn": true
+    },
+    {
+      "name": "saddle, bit and bridle",
+      "weight": 20,
+      "cost": 150,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "shoes, leather, nice",
+      "weight": 2,
+      "cost": 80,
+      "TL": 1,
+      "LC": "JSONcircRef:skills.48.stats.duration",
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "DR": 1,
+      "PD": 1,
+      "location": [
+        "domFoot",
+        "offFoot"
+      ],
+      "number": 1
+    },
+    {
+      "name": "gloves; light leather, nice",
+      "weight": 0,
+      "cost": 80,
+      "TL": 1,
+      "LC": 1,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "location": [
+        "domHand",
+        "offHand"
+      ],
+      "PD": 1,
+      "DR": 1,
+      "layerable": true
+    },
+    {
+      "name": "hat; dark red felt, macaw feather",
+      "weight": 1,
+      "cost": 40,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "light leather jerkin, decorated and enchanted",
+      "weight": 4,
+      "cost": 100,
+      "TL": 3,
+      "LC": 6,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "DR": 2,
+      "PD": 2,
+      "location": [
+        "torso"
+      ],
+      "layerable": true,
+      "addedCost": 2000,
+      "description": "undefined"
+    },
+    {
+      "name": "money pouch",
+      "weight": 0,
+      "cost": 20,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "5-carat gem",
+      "weight": 0,
+      "cost": 500,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 3
+    },
+    {
+      "name": "talent",
+      "weight": 0.1,
+      "cost": 1000,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 2
+    },
+    {
+      "name": "sheckle",
+      "weight": 0.02,
+      "cost": 1,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 125
+    },
+    {
+      "name": "halala",
+      "weight": "0.02",
+      "cost": 1,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 100
+    },
+    {
+      "name": "2987 in sheckles and larger coin",
+      "weight": 4,
+      "cost": 2987,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "game token, Cu",
+      "weight": 0,
+      "cost": 0,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "addedCost": 0,
+      "description": "",
+      "TL": 0,
+      "LC": 6
+    },
+    {
+      "name": "Umbrella tattoo",
+      "weight": 0,
+      "cost": 10,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on head",
+      "addedCost": 0
+    },
+    {
+      "name": "Power 2 tattoo",
+      "weight": 0,
+      "cost": 100,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "around eyes",
+      "addedCost": 0
+    },
+    {
+      "name": "Power 2 tattoo",
+      "weight": 0,
+      "cost": 100,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on feet",
+      "addedCost": 0
+    },
+    {
+      "name": "Power 2 tattoo",
+      "weight": 0,
+      "cost": 100,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "right hand",
+      "addedCost": 0
+    },
+    {
+      "name": "Power 2 tattoo",
+      "weight": 0,
+      "cost": 100,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on ears/nose/throat",
+      "addedCost": 0
+    },
+    {
+      "name": "Breathe Water tattoo",
+      "weight": 0,
+      "cost": 40,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on ears/nose/throat",
+      "addedCost": 0
+    },
+    {
+      "name": "Truthsayer tattoo",
+      "weight": 0,
+      "cost": 50,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on ears/nose/throat",
+      "addedCost": 0
+    },
+    {
+      "name": "Blink tattoo",
+      "weight": 0,
+      "cost": 80,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on ears/nose/throat",
+      "addedCost": 0
+    },
+    {
+      "name": "Speed 2 tattoo",
+      "weight": 0,
+      "cost": 100,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on feet",
+      "addedCost": 0
+    },
+    {
+      "name": "See Secrets tattoo",
+      "weight": 0,
+      "cost": 40,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "around eyes",
+      "addedCost": 0
+    },
+    {
+      "name": "Mage Sight tattoo",
+      "weight": 0,
+      "cost": 80,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "around eyes",
+      "addedCost": 0
+    },
+    {
+      "name": "See Invisible tattoo",
+      "weight": 0,
+      "cost": 80,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "around eyes",
+      "addedCost": 0
+    },
+    {
+      "name": "Dark Vision tattoo",
+      "weight": 0,
+      "cost": 40,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "around eyes",
+      "addedCost": 0
+    },
+    {
+      "name": "Invisibility tattoo",
+      "weight": 0,
+      "cost": 120,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on feet",
+      "addedCost": 0
+    },
+    {
+      "name": "Walk On Air tattoo",
+      "weight": 0,
+      "cost": 50,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on feet",
+      "addedCost": 0
+    },
+    {
+      "name": "Haste 2 tattoo",
+      "weight": 0,
+      "cost": 50,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on feet",
+      "addedCost": 0
+    },
+    {
+      "name": "Sound Jet tattoo",
+      "weight": 0,
+      "cost": 40,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on right hand",
+      "addedCost": 0
+    },
+    {
+      "name": "Missile Shield tattoo",
+      "weight": 0,
+      "cost": 40,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on right hand",
+      "addedCost": 0
+    },
+    {
+      "name": "Clean tattoo",
+      "weight": 0,
+      "cost": 10,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on right hand",
+      "addedCost": 0
+    },
+    {
+      "name": "Blur 3 tattoo",
+      "weight": 0,
+      "cost": 60,
+      "TL": 0,
+      "LC": 6,
+      "number": 1,
+      "description": "on right hand",
+      "addedCost": 0
+    }
+  ],
+  "weapons": [
+    {
+      "name": "<i>Contifax</i> - fine staff w/ 8-point dedicated powerstone",
+      "weight": 4,
+      "cost": 10,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "bulk": -8,
+      "note": "JSONcircRef:skills.48.stats.duration",
+      "qualityEffectGroup": "mace/cr",
+      "quality": 2,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "StaffSkill": [
+          {
+            "title": "swung",
+            "hands": "both",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": 2,
+              "type": "cr"
+            },
+            "reach": "1,2",
+            "parryBonus": "0"
+          },
+          {
+            "title": "thrust",
+            "hands": "both",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 2,
+              "type": "cr"
+            },
+            "reach": "1,2",
+            "parryBonus": "0"
+          }
+        ]
+      },
+      "number": 1,
+      "addedCost": 1370,
+      "shots": 0
+    },
+    {
+      "name": "<i>Vermain</i> - fine large knife",
+      "weight": 1,
+      "cost": 40,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "bulk": -2,
+      "note": "[1]",
+      "qualityEffectGroup": "edged",
+      "quality": 2,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swung",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -1,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "parryBonus": "-1"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 1,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "parryBonus": "-1"
+          }
+        ],
+        "KnifeThrowing": [
+          {
+            "title": "thrown",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 1,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "rangeBasedOnST": true,
+            "halfDamageRange": 0.8,
+            "maximumRange": 1.5,
+            "snapShot": 12,
+            "accuracy": "0",
+            "rateOfFire": "1"
+          }
+        ]
+      },
+      "number": 1,
+      "addedCost": 40,
+      "shots": 0
+    }
+  ],
+  "collections": {
+    "equipped": "worn",
+    "default": [
+      "default collection",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1",
+      "JSONcircRef:equipment.0",
+      "JSONcircRef:equipment.1",
+      "JSONcircRef:equipment.2",
+      "JSONcircRef:equipment.3",
+      "JSONcircRef:equipment.4",
+      "JSONcircRef:equipment.5",
+      "JSONcircRef:equipment.6",
+      "JSONcircRef:equipment.7",
+      "JSONcircRef:equipment.8",
+      "JSONcircRef:equipment.9",
+      "JSONcircRef:equipment.10",
+      "JSONcircRef:equipment.11",
+      "JSONcircRef:equipment.12",
+      "JSONcircRef:equipment.13",
+      "JSONcircRef:equipment.14",
+      "JSONcircRef:equipment.15",
+      "JSONcircRef:equipment.16",
+      "JSONcircRef:equipment.17",
+      "JSONcircRef:equipment.18",
+      "JSONcircRef:equipment.19",
+      "JSONcircRef:equipment.20",
+      "JSONcircRef:equipment.21",
+      "JSONcircRef:equipment.22",
+      "JSONcircRef:equipment.23",
+      "JSONcircRef:equipment.24",
+      "JSONcircRef:equipment.25",
+      "JSONcircRef:equipment.26",
+      "JSONcircRef:equipment.27",
+      "JSONcircRef:equipment.28",
+      "JSONcircRef:equipment.29",
+      "JSONcircRef:equipment.30",
+      "JSONcircRef:equipment.31",
+      "JSONcircRef:equipment.32",
+      "JSONcircRef:equipment.33",
+      "JSONcircRef:equipment.34",
+      "JSONcircRef:equipment.35",
+      "JSONcircRef:equipment.36",
+      "JSONcircRef:equipment.37",
+      "JSONcircRef:equipment.38",
+      "JSONcircRef:equipment.39",
+      "JSONcircRef:equipment.40",
+      {
+        "line": false
+      },
+      {
+        "line": "Tattoos"
+      },
+      "JSONcircRef:equipment.41",
+      "JSONcircRef:equipment.42",
+      "JSONcircRef:equipment.50",
+      "JSONcircRef:equipment.51",
+      "JSONcircRef:equipment.52",
+      "JSONcircRef:equipment.53",
+      "JSONcircRef:equipment.45",
+      "JSONcircRef:equipment.46",
+      "JSONcircRef:equipment.47",
+      "JSONcircRef:equipment.48",
+      "JSONcircRef:equipment.44",
+      "JSONcircRef:equipment.57",
+      "JSONcircRef:equipment.58",
+      "JSONcircRef:equipment.59",
+      "JSONcircRef:equipment.60",
+      "JSONcircRef:equipment.43",
+      "JSONcircRef:equipment.49",
+      "JSONcircRef:equipment.54",
+      "JSONcircRef:equipment.56",
+      "JSONcircRef:equipment.55"
+    ],
+    "clotheschest": [
+      "clothes chest",
+      "JSONcircRef:equipment.11",
+      "JSONcircRef:equipment.4",
+      "JSONcircRef:equipment.6",
+      "JSONcircRef:equipment.7",
+      "JSONcircRef:equipment.8",
+      "JSONcircRef:equipment.9",
+      "JSONcircRef:equipment.10",
+      "JSONcircRef:equipment.27",
+      "JSONcircRef:equipment.3",
+      "JSONcircRef:equipment.30"
+    ],
+    "lardor": [
+      "lardor",
+      "JSONcircRef:equipment.24",
+      "JSONcircRef:equipment.25"
+    ],
+    "Percy": [
+      "Percy",
+      "JSONcircRef:equipment.0",
+      "JSONcircRef:equipment.29"
+    ],
+    "purse": [
+      "purse",
+      "JSONcircRef:equipment.34",
+      "JSONcircRef:equipment.35",
+      "JSONcircRef:equipment.36",
+      "JSONcircRef:equipment.37",
+      "JSONcircRef:equipment.38",
+      "JSONcircRef:equipment.39",
+      "JSONcircRef:equipment.40"
+    ],
+    "wagon": [
+      "wagon",
+      "JSONcircRef:equipment.1",
+      "JSONcircRef:collections.lardor",
+      "JSONcircRef:collections.clotheschest",
+      "JSONcircRef:collections.purse",
+      "JSONcircRef:equipment.12",
+      "JSONcircRef:equipment.14",
+      "JSONcircRef:equipment.15",
+      "JSONcircRef:equipment.16",
+      "JSONcircRef:equipment.17",
+      "JSONcircRef:equipment.13",
+      "JSONcircRef:equipment.18",
+      "JSONcircRef:equipment.19",
+      "JSONcircRef:equipment.20",
+      "JSONcircRef:equipment.21",
+      "JSONcircRef:equipment.22",
+      "JSONcircRef:equipment.23",
+      "JSONcircRef:equipment.26",
+      "JSONcircRef:equipment.29"
+    ],
+    "tattoos": [
+      "tattoos",
+      {
+        "line": "Head"
+      },
+      "JSONcircRef:equipment.41",
+      {
+        "line": "Eyes"
+      },
+      "JSONcircRef:equipment.42",
+      "JSONcircRef:equipment.50",
+      "JSONcircRef:equipment.51",
+      "JSONcircRef:equipment.52",
+      "JSONcircRef:equipment.53",
+      {
+        "line": "Feet"
+      },
+      "JSONcircRef:equipment.43",
+      "JSONcircRef:equipment.49",
+      "JSONcircRef:equipment.54",
+      "JSONcircRef:equipment.55",
+      "JSONcircRef:equipment.56",
+      {
+        "line": "Right hand"
+      },
+      "JSONcircRef:equipment.44",
+      "JSONcircRef:equipment.57",
+      "JSONcircRef:equipment.58",
+      "JSONcircRef:equipment.59",
+      "JSONcircRef:equipment.60",
+      {
+        "line": "Ears, nose, throat"
+      },
+      "JSONcircRef:equipment.45",
+      "JSONcircRef:equipment.46",
+      "JSONcircRef:equipment.47",
+      "JSONcircRef:equipment.48"
+    ],
+    "worn": [
+      "worn",
+      "wield",
+      "StaffSkill",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1",
+      "JSONcircRef:equipment.2",
+      "JSONcircRef:equipment.5",
+      "wear",
+      "JSONcircRef:equipment.28",
+      "wear",
+      "JSONcircRef:equipment.31",
+      "JSONcircRef:equipment.32",
+      "wear",
+      "JSONcircRef:equipment.33",
+      {
+        "line": false
+      },
+      "JSONcircRef:collections.tattoos"
+    ]
+  },
+  "templates": {
+    "Goblin": {
+      "name": "Goblin",
+      "value": 5,
+      "traits": [
+        {
+          "name": "Racial ST Modifier",
+          "physMntlScl": "P",
+          "cost": "att",
+          "hasLevels": true,
+          "key": "RacialSTModifier",
+          "posNegLevels": true,
+          "lowestLevel": -8,
+          "levels": -2
+        },
+        {
+          "name": "Racial DX Modifier",
+          "physMntlScl": "P",
+          "cost": "att",
+          "hasLevels": true,
+          "key": "RacialDXModifier",
+          "posNegLevels": true,
+          "lowestLevel": -8,
+          "levels": 1
+        },
+        {
+          "name": "Racial IQ Modifier",
+          "physMntlScl": "M",
+          "cost": "att",
+          "hasLevels": true,
+          "key": "RacialIQModifier",
+          "posNegLevels": true,
+          "lowestLevel": -8,
+          "levels": 1
+        },
+        {
+          "name": "Night Vision",
+          "physMntlScl": "P",
+          "cost": 10,
+          "hasLevels": false,
+          "reference": "Basic Set 3rd ed., pg 22",
+          "key": "NightVision",
+          "group": "Dark Vision"
+        },
+        {
+          "name": "Impulsiveness",
+          "physMntlScl": "M",
+          "cost": -10,
+          "hasLevels": false,
+          "reference": "Basic Set 3rd ed., pg 33",
+          "key": "Impulsiveness"
+        }
+      ],
+      "key": "Goblin"
+    }
+  },
+  "groups": {
+    "HandWeaponSkills": [
+      "AxeMace",
+      "Blackjack",
+      "Broadsword",
+      "Fencing",
+      "Flail",
+      "ForceSword",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "MainGauche",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Spear",
+      "StaffSkill",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling"
+    ],
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "Bulldancing",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw",
+      "Aerobatics",
+      "Aquabatics"
+    ],
+    "MagicalSkills": [
+      "Alchemy",
+      "BodySense",
+      "Flight",
+      "IllusionArt",
+      "MagicBreath",
+      "MagicJet",
+      "Occultism",
+      "RitualMagic",
+      "RuneLore",
+      "SpellThrowing",
+      "SymbolDrawing",
+      "Thaumatology",
+      "WeirdMagic"
+    ],
+    "PsiSkills": [
+      "PsiSense",
+      "EmotionSense",
+      "Telesend",
+      "Telereceive",
+      "MentalBlow",
+      "MindShield",
+      "Sleep",
+      "Mindwipe",
+      "Telecontrol",
+      "Telekinesis",
+      "Levitation",
+      "Pyrokinesis",
+      "Cryokinesis",
+      "PKShield",
+      "Clairvoyance",
+      "Clairaudience",
+      "Psychometry",
+      "Precognition",
+      "Autoteleport",
+      "Exoteleport",
+      "Healing",
+      "PsionicResistance",
+      "PsiStatic",
+      "BodySense",
+      "Flight",
+      "MindBlock",
+      "Paraphysics",
+      "Psionics"
+    ],
+    "Magical": "JSONcircRef:groups.MagicalSkills",
+    "SocialSkills": [
+      "Acting",
+      "Administration",
+      "AreaKnowledge",
+      "Bard",
+      "Diplomacy",
+      "FastTalk",
+      "Gambling",
+      "Leadership",
+      "Merchant",
+      "Performance",
+      "Politics",
+      "SavoirFaire",
+      "SexAppeal",
+      "Strategy",
+      "Tactics",
+      "Teaching",
+      "AppreciateBeauty",
+      "EroticArt",
+      "Intimidation",
+      "PerformanceRitual",
+      "SavoirFaireDojo",
+      "SavoirFaireServant",
+      "TeaCeremony"
+    ],
+    "ThiefSpySkills": [
+      "Acting",
+      "Climbing",
+      "Camouflage",
+      "Demolition",
+      "DetectLies",
+      "Disguise",
+      "Escape",
+      "FastTalk",
+      "Forgery",
+      "Holdout",
+      "IntelligenceAnalysis",
+      "Interrogation",
+      "LipReading",
+      "Lockpicking",
+      "Pickpocket",
+      "Poisons",
+      "Scrounging",
+      "Shadowing",
+      "SleightofHand",
+      "Stealth",
+      "Streetwise",
+      "Tracking",
+      "Traps",
+      "UnderwaterDemolition",
+      "Ventriloquism",
+      "BrainHacking",
+      "ComputerHacking",
+      "Filch",
+      "Starglazing",
+      "UtteringofBaseCoin"
+    ],
+    "OutdoorSkills": [
+      "AreaKnowledge",
+      "Boating",
+      "Climbing",
+      "Fishing",
+      "Naturalist",
+      "Navigation",
+      "Seamanship",
+      "Survival",
+      "Tracking",
+      "AnimalGuise",
+      "BowandPalette",
+      "Cartography",
+      "FlintSparking",
+      "HardHatDiving",
+      "Hiking",
+      "Mimicry",
+      "OpenDressDiving",
+      "Orienteering",
+      "Skating",
+      "Surveying"
+    ],
+    "ScienceSkills": [
+      "Agronomy",
+      "Alchemy",
+      "Anthropology",
+      "Archaeology",
+      "Architecture",
+      "Astrogation",
+      "Astronomy",
+      "Biochemistry",
+      "Botany",
+      "Chemistry",
+      "ComputerProgramming",
+      "Criminology",
+      "Ecology",
+      "Economics",
+      "Electronics",
+      "Engineer",
+      "Forensics",
+      "Genetics",
+      "Geology",
+      "History",
+      "Linguistics",
+      "Literature",
+      "Mathematics",
+      "Metallurgy",
+      "Meteorology",
+      "Naturalist",
+      "NuclearPhysics",
+      "Occultism",
+      "Physics",
+      "Physiology",
+      "Prospecting",
+      "Psychology",
+      "Research",
+      "Theology",
+      "Zoology",
+      "Abacus",
+      "ArtificialIntelligence",
+      "Cartography",
+      "ComputerHacking",
+      "ConspiracyTheory",
+      "Cryptanalysis",
+      "Cryptography",
+      "Cryptology",
+      "Cyphering",
+      "Herbalist",
+      "Herbary",
+      "HistoryEsoteric",
+      "Hydrology",
+      "HyperspacePhysics",
+      "Paleontology",
+      "Paraphysics",
+      "Philosophy",
+      "Photonics",
+      "Planetology",
+      "ProbabilityPhysics",
+      "Psionics",
+      "Science",
+      "SpeedReading",
+      "Surveying",
+      "TemporalElectronics",
+      "TemporalPhysics",
+      "Thanatology",
+      "Thaumatology",
+      "WeirdScience",
+      "Xenobiology",
+      "Xenology"
+    ],
+    "Science": "JSONcircRef:groups.ScienceSkills",
+    "Scientific": "JSONcircRef:groups.ScienceSkills",
+    "ScientificSkills": "JSONcircRef:groups.ScienceSkills",
+    "ProfessionalSkills": [
+      "Accounting",
+      "ComputerOperation",
+      "ElectronicsOperation",
+      "Heraldry",
+      "Law",
+      "Abacus",
+      "Aviation",
+      "Bartender",
+      "Courtesan",
+      "CyberdeckOperation",
+      "Exorcism",
+      "Fortunetelling",
+      "MusicalNotation",
+      "Panhandling",
+      "Sailor",
+      "TemporalOperation",
+      "Typing",
+      "VideoProduction"
+    ],
+    "CraftSkills": [
+      "AppreciateBeauty",
+      "ArmouryTL5down",
+      "ArmouryTL6plus",
+      "BeverageMaking",
+      "Blacksmith",
+      "Carpentry",
+      "Cooking",
+      "Cooperage",
+      "Distilling",
+      "Dyeing",
+      "Fireworks",
+      "GlassBlowing",
+      "Jeweler",
+      "Leatherworking",
+      "Masonry",
+      "Mechanic",
+      "Needlecraft",
+      "Netmaking",
+      "Pottery",
+      "Shipbuilding",
+      "ShipbuildingStarship",
+      "StoneKnapping",
+      "Tanning",
+      "Tattooing",
+      "Weaving",
+      "Woodworking"
+    ],
+    "SoftCraftSkills": [
+      "AppreciateBeauty",
+      "BeverageMaking",
+      "Carpentry",
+      "Cooking",
+      "Cooperage",
+      "Distilling",
+      "Dyeing",
+      "Fireworks",
+      "GlassBlowing",
+      "Leatherworking",
+      "Needlecraft",
+      "Netmaking",
+      "Pottery",
+      "StoneKnapping",
+      "Tanning",
+      "Tattooing",
+      "Weaving",
+      "Woodworking"
+    ],
+    "Craft": "JSONcircRef:groups.CraftSkills",
+    "MedicalSkills": [
+      "Diagnosis",
+      "FirstAid",
+      "Hypnotism",
+      "Physician",
+      "Surgery",
+      "ChiTreatment",
+      "Herbalist",
+      "Herbary",
+      "Pharmacy",
+      "Veterinary",
+      "YinYangHealing"
+    ],
+    "AnimalSkills": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Tracking",
+      "Veterinary",
+      "Bulldancing",
+      "Bullfighting",
+      "EquestrianAcrobatics",
+      "SnakeCharming"
+    ],
+    "VehicleSkills": [
+      "Battlesuit",
+      "Bicycling",
+      "Boating",
+      "Driving",
+      "Gunner",
+      "Mechanic",
+      "Motorcycle",
+      "Piloting",
+      "Powerboat",
+      "Teamster",
+      "VaccSuit",
+      "Airshipman",
+      "Aviation",
+      "Exoskeleton",
+      "Sailor",
+      "Shiphandling"
+    ],
+    "MakingBreakingSpells": [
+      "FindWeakness",
+      "Rejoin",
+      "Repair",
+      "Restore",
+      "Shatter",
+      "Weaken"
+    ],
+    "MB": "JSONcircRef:groups.MakingBreakingSpells",
+    "MakingBreaking": "JSONcircRef:groups.MakingBreakingSpells",
+    "MakingBreakingMBSpells": "JSONcircRef:groups.MakingBreakingSpells",
+    "Spells": [
+      "BeastSummoning",
+      "BeastSoother",
+      "BirdControl",
+      "MammalControl",
+      "ReptileControl",
+      "MindReading",
+      "Persuasion",
+      "SenseEmotion",
+      "SenseFoes",
+      "SenseLife",
+      "Truthsayer",
+      "ControlEarthElemental",
+      "CreateEarth",
+      "CreateEarthElemental",
+      "EarthtoAir",
+      "EarthtoStone",
+      "EarthVision",
+      "SeekEarth",
+      "ShapeEarth",
+      "StoneMissile",
+      "StonetoEarth",
+      "SummonEarthElemental",
+      "BreatheWater",
+      "Clouds",
+      "ControlAirElemental",
+      "CreateAir",
+      "CreateAirElemental",
+      "Lightning",
+      "PredictWeather",
+      "PurifyAir",
+      "Rain",
+      "ShapeAir",
+      "SummonAirElemental",
+      "WalkonAir",
+      "Cold",
+      "ControlFireElemental",
+      "CreateFire",
+      "CreateFireElemental",
+      "ExtinguishFire",
+      "Fireball",
+      "Heat",
+      "IgniteFire",
+      "ResistFire",
+      "ShapeFire",
+      "SummonFireElemental",
+      "ControlWaterElemental",
+      "CreateWater",
+      "CreateWaterElemental",
+      "DestroyWater",
+      "Fog",
+      "IceSphere",
+      "PurifyWater",
+      "SeekWater",
+      "ShapeWater",
+      "SummonWaterElemental",
+      "WalkonWater",
+      "Accuracy",
+      "Deflect",
+      "Enchant",
+      "Fortify",
+      "Lighten",
+      "Power",
+      "Powerstone",
+      "Puissance",
+      "RemoveEnchantment",
+      "Scroll",
+      "StaffSpell",
+      "Awaken",
+      "LendHealth",
+      "LendStrength",
+      "MajorHealing",
+      "MinorHealing",
+      "RecoverStrength",
+      "AnalyzeMagic",
+      "Aura",
+      "DetectMagic",
+      "IdentifySpell",
+      "Seeker",
+      "Trace",
+      "Blur",
+      "ContinualLight",
+      "Darkness",
+      "Flash",
+      "Light",
+      "FindWeakness",
+      "Rejoin",
+      "Repair",
+      "Restore",
+      "Shatter",
+      "Weaken",
+      "Bravery",
+      "Daze",
+      "Fear",
+      "Foolishness",
+      "MassDaze",
+      "MassSleep",
+      "Sleep",
+      "SimpleIllusion",
+      "ComplexIllusion",
+      "PerfectIllusion",
+      "IllusionShell",
+      "IllusionDisguise",
+      "CreateObject",
+      "CreateAnimal",
+      "CreateServant",
+      "Sterilize",
+      "CureDisease",
+      "Restoration",
+      "TestFood",
+      "PreserveFood",
+      "Decay",
+      "Sound",
+      "Apportation",
+      "AirGolem",
+      "WeatherDome",
+      "ForceDome",
+      "MysticMist",
+      "ShieldSpell",
+      "DancingWeapon",
+      "Bless",
+      "Curse",
+      "RemoveCurse",
+      "Stench",
+      "PathofAnimal",
+      "PathofBodyControl",
+      "PathofCommunicationEmpathy",
+      "PathofEarth",
+      "PathofAir",
+      "PathofFire",
+      "PathofWater",
+      "PathofEnchantment",
+      "PathofFood",
+      "PathofGate",
+      "PathofHealing",
+      "PathofIllusionCreation",
+      "PathofKnowledge",
+      "PathofLightDarkness",
+      "PathofMakingBreaking",
+      "PathofMetaSpells",
+      "PathofMindControl",
+      "PathofMovement",
+      "PathofNecromancy",
+      "PathofPlant",
+      "PathofProtectionWarning",
+      "PathofSound",
+      "Clumsiness",
+      "Deathtouch",
+      "Hinder",
+      "Itch",
+      "Pain",
+      "ParalyzeLimb",
+      "RootedFeet",
+      "Spasm",
+      "WitherLimb",
+      "HideThoughts",
+      "Entombment",
+      "FleshtoStone",
+      "StonetoFlesh",
+      "NoSmell",
+      "DeflectEnergy",
+      "ResistCold",
+      "ExplosiveFireball",
+      "IcyWeapon",
+      "PlanarSummons",
+      "PlaneShift",
+      "LendEnergy",
+      "LendVitality",
+      "RecoverEnergy",
+      "GreatHealing",
+      "Counterspell",
+      "DispelMagic",
+      "Forgetfulness",
+      "Command",
+      "Haste",
+      "GreatHaste",
+      "Lockmaster",
+      "DeflectMissile",
+      "DeathVision",
+      "SenseSpirit",
+      "SummonSpirit",
+      "Zombie",
+      "TurnZombie",
+      "SummonDemon",
+      "Banish",
+      "Armor",
+      "Magelock",
+      "AnimalControl",
+      "BeastLink",
+      "BeastPossession",
+      "BeastRouser",
+      "BeastSeeker",
+      "BeastSpeech",
+      "GreatShapeshift",
+      "HybridControl",
+      "Master",
+      "PartialShapeshifting",
+      "PermanentBeastPossession",
+      "PermanentShapeshifting",
+      "ProtectAnimal",
+      "RepelAnimal",
+      "RepelHybrids",
+      "Rider",
+      "RiderWithin",
+      "Shapeshifting",
+      "ShapeshiftOthers",
+      "SpiderSilk",
+      "AirJet",
+      "AirVision",
+      "AirVortex",
+      "BodyofAir",
+      "BodyofWind",
+      "BreatheAir",
+      "Concussion",
+      "DestroyAir",
+      "DevitalizeAir",
+      "EssentialAir",
+      "Odor",
+      "Sandstorm",
+      "SeekAir",
+      "WallofWind",
+      "Windstorm",
+      "Agonize",
+      "AlterBody",
+      "AlterVisage",
+      "AlterVoice",
+      "Ambidexterity",
+      "Balance",
+      "Boost",
+      "Cadence",
+      "Choke",
+      "Climbing",
+      "ControlLimb",
+      "Corpulence",
+      "Debility",
+      "Decapitation",
+      "Enlarge",
+      "EnlargeOther",
+      "Frailty",
+      "Fumble",
+      "Gauntness",
+      "Grace",
+      "Haircut",
+      "HairGrowth",
+      "HoldBreath",
+      "Hunger",
+      "LengthenLimb",
+      "Might",
+      "Nauseate",
+      "Perfume",
+      "Reflexes",
+      "ResistPain",
+      "Retch",
+      "Roundabout",
+      "Sensitize",
+      "Shrink",
+      "ShrinkOther",
+      "StopSpasm",
+      "StrikeBarren",
+      "StrikeBlind",
+      "StrikeDeaf",
+      "StrikeDumb",
+      "StrikeNumb",
+      "Stun",
+      "Tanglefoot",
+      "Thirst",
+      "Tickle",
+      "TotalParalysis",
+      "Touch",
+      "TransformBody",
+      "TransformOther",
+      "Transmogrification",
+      "Vigor",
+      "WeakenBlood",
+      "HideEmotion",
+      "Vexation",
+      "DreamViewing",
+      "DreamSending",
+      "DreamProjection",
+      "LendLanguage",
+      "BorrowLanguage",
+      "GiftofTongues",
+      "GiftofLetters",
+      "MindSearch",
+      "MindSending",
+      "Telepathy",
+      "Retrogression",
+      "LendSkill",
+      "BorrowSkill",
+      "CompelTruth",
+      "Insignificance",
+      "Presence",
+      "Communication",
+      "SoulRider",
+      "ControlPerson",
+      "Possession",
+      "DispelPossession",
+      "PermanentPossession",
+      "ExchangeBodies",
+      "SeekPass",
+      "PredictEarthMovement",
+      "SandJet",
+      "MudJet",
+      "WalkThroughEarth",
+      "EarthtoWater",
+      "PartialPetrifaction",
+      "RainofStones",
+      "EssentialEarth",
+      "BodyofStone",
+      "Steelwraith",
+      "PurifyEarth",
+      "Earthquake",
+      "Volcano",
+      "AlterTerrain",
+      "MoveTerrain",
+      "TemporaryEnchantment",
+      "Hex",
+      "Speed",
+      "SuspendEnchantment",
+      "ResistEnchantment",
+      "LesserWish",
+      "Talisman",
+      "Amulet",
+      "AdjustableClothing",
+      "Golem",
+      "ImpressionBlocker",
+      "Malefice",
+      "Ensorcel",
+      "SpellStone",
+      "Wish",
+      "Hideaway",
+      "Leak",
+      "Simulacrum",
+      "Doppelganger",
+      "GreatWish",
+      "Bane",
+      "GracefulWeapon",
+      "LoyalSword",
+      "QuickDraw",
+      "PenetratingWeapon",
+      "DefendingWeapon",
+      "WeaponSpirit",
+      "Cornucopia",
+      "QuickAim",
+      "GhostWeapon",
+      "SpellArrow",
+      "BlankSpellArrow",
+      "SpeedSpellArrow",
+      "DancingShield",
+      "DefendingShield",
+      "Limit",
+      "Name",
+      "Password",
+      "Attune",
+      "Manastone",
+      "Homunculus",
+      "Effigy",
+      "SoulStone",
+      "CrystalBall",
+      "BodyofFlames",
+      "BreatheFire",
+      "BurningDeath",
+      "BurningTouch",
+      "EssentialFlame",
+      "FastFire",
+      "FireCloud",
+      "Fireproof",
+      "FlameJet",
+      "FlamingArmor",
+      "FlamingMissiles",
+      "FlamingWeapon",
+      "PhantomFlame",
+      "RainofFire",
+      "SeekFire",
+      "SlowFire",
+      "Smoke",
+      "Warmth",
+      "SeekFood",
+      "Season",
+      "FarTasting",
+      "Mature",
+      "PurifyFood",
+      "Cook",
+      "PrepareGame",
+      "KnowRecipe",
+      "PoisonFood",
+      "CreateFood",
+      "EssentialFood",
+      "WatertoWine",
+      "Distill",
+      "FoolsBanquet",
+      "MonksBanquet",
+      "Timeport",
+      "TimeportOther",
+      "Timeslip",
+      "TimeslipOther",
+      "RapidJourney",
+      "PlanarVisit",
+      "PlaneShiftOther",
+      "Phase",
+      "PhaseOther",
+      "Beacon",
+      "TraceTeleport",
+      "DivertTeleport",
+      "CreateDoor",
+      "SeekGate",
+      "ScryGate",
+      "ControlGate",
+      "CreateGate",
+      "SlowTime",
+      "AccelerateTime",
+      "HideObject",
+      "Sanctuary",
+      "SuspendTime",
+      "TimeOut",
+      "BodyReading",
+      "FinalRest",
+      "ShareEnergy",
+      "RemoveContagion",
+      "RelieveSickness",
+      "ShareVitality",
+      "ResistDisease",
+      "ResistPoison",
+      "StopBleeding",
+      "NeutralizePoison",
+      "InstantNeutralizePoison",
+      "RelieveAddiction",
+      "RelieveMadness",
+      "RestoreSight",
+      "RestoreHearing",
+      "RestoreMemory",
+      "RestoreSpeech",
+      "StopParalysis",
+      "RelieveParalysis",
+      "InstantRestoration",
+      "Regeneration",
+      "InstantRegeneration",
+      "Cleansing",
+      "SuspendedAnimation",
+      "HealingSlumber",
+      "HaltAging",
+      "Youth",
+      "Resurrection",
+      "Independence",
+      "KnowIllusion",
+      "ControlIllusion",
+      "DispelIllusion",
+      "Inscribe",
+      "Phantom",
+      "Initiative",
+      "Duplicate",
+      "CreateWarrior",
+      "CreateMount",
+      "ControlCreation",
+      "DispelCreation",
+      "Measurement",
+      "TellTime",
+      "Alarm",
+      "FarFeeling",
+      "FindDirection",
+      "TellPosition",
+      "TestLoad",
+      "SenseMana",
+      "MageSight",
+      "MageSense",
+      "SeekMagic",
+      "SummonShade",
+      "GlassWall",
+      "KnowLocation",
+      "WizardEye",
+      "InvisibleWizardEye",
+      "WizardMouth",
+      "WizardNose",
+      "WizardHand",
+      "AstralVision",
+      "Memorize",
+      "Pathfinder",
+      "Projection",
+      "HistorySpell",
+      "AncientHistory",
+      "Prehistory",
+      "ReconstructSpell",
+      "KnowTrueShape",
+      "Recall",
+      "RememberPath",
+      "SeeSecrets",
+      "ScentsofthePast",
+      "ImagesofthePast",
+      "EchoesofthePast",
+      "Divination",
+      "Colors",
+      "RemoveShadow",
+      "ShapeLight",
+      "BrightVision",
+      "Infravision",
+      "NightVision",
+      "HawkVision",
+      "SmallVision",
+      "DarkVision",
+      "Blackout",
+      "Glow",
+      "Gloom",
+      "LightJet",
+      "Mirror",
+      "RemoveReflection",
+      "WallOfLight",
+      "ShapeDarkness",
+      "Hide",
+      "SeeInvisible",
+      "MageLight",
+      "ContinualMageLight",
+      "Sunlight",
+      "ContinualSunlight",
+      "Invisibility",
+      "BodyofShadow",
+      "Sunbolt",
+      "InspiredCreation",
+      "AwakenCraftSpirit",
+      "Clean",
+      "Soilproof",
+      "Dye",
+      "Copy",
+      "AnimateObject",
+      "Stiffen",
+      "Knot",
+      "Reshape",
+      "Rive",
+      "Ruin",
+      "Explode",
+      "Fasten",
+      "Mapmaker",
+      "Shatterproof",
+      "Sharpen",
+      "Toughen",
+      "Transparency",
+      "MysticMark",
+      "WeaponSelf",
+      "TransformObject",
+      "ContractObject",
+      "ExtendObject",
+      "ShrinkObject",
+      "EnlargeObject",
+      "Disintegrate",
+      "Scryguard",
+      "SuspendSpell",
+      "Ward",
+      "ConcealMagic",
+      "Reflect",
+      "Scrywall",
+      "GreatWard",
+      "FalseAura",
+      "MagicResistance",
+      "Scryfool",
+      "PenetratingSpell",
+      "CatchSpell",
+      "SuspendMagic",
+      "DisplaceSpell",
+      "SpellShield",
+      "SpellWall",
+      "Pentagram",
+      "SuspendCurse",
+      "SuspendMana",
+      "LendSpell",
+      "ChargePowerstone",
+      "Spellguard",
+      "RemoveAura",
+      "DrainMana",
+      "RestoreMana",
+      "StealSpell",
+      "Telecast",
+      "HangSpell",
+      "MaintainSpell",
+      "ThrowSpell",
+      "SuspendMagery",
+      "DrainMagery",
+      "Delay",
+      "Link",
+      "Reflex",
+      "KeenHearing",
+      "KeenVision",
+      "KeenSense",
+      "DullSense",
+      "Alertness",
+      "Dullness",
+      "Panic",
+      "Terror",
+      "RearVision",
+      "Berserker",
+      "MentalStun",
+      "Disorient",
+      "Encrypt",
+      "Fascinate",
+      "Wisdom",
+      "WeakenWill",
+      "StrengthenWill",
+      "Loyalty",
+      "Drunkenness",
+      "Madness",
+      "EmotionControl",
+      "Mindlessness",
+      "CompelLie",
+      "Lure",
+      "PeacefulSleep",
+      "Sickness",
+      "WillLock",
+      "Oath",
+      "PermanentForgetfulness",
+      "Vigil",
+      "Charm",
+      "Ecstasy",
+      "Enthrall",
+      "PermanentMadness",
+      "FalseMemory",
+      "Avoid",
+      "Nightmare",
+      "Hallucination",
+      "LesserGeas",
+      "Suggestion",
+      "MassSuggestion",
+      "GlibTongue",
+      "Enslave",
+      "GreatHallucination",
+      "GreatGeas",
+      "Glue",
+      "Grease",
+      "HoldFast",
+      "IncreaseBurden",
+      "Jump",
+      "Levitation",
+      "LightenBurden",
+      "Locksmith",
+      "LongMarch",
+      "Poltergeist",
+      "QuickMarch",
+      "SlowFall",
+      "Wallwalker",
+      "DancingObject",
+      "DistantBlow",
+      "Manipulate",
+      "Slow",
+      "Undo",
+      "WingedKnife",
+      "Flight",
+      "LightTread",
+      "Slide",
+      "FlyingCarpet",
+      "HawkFlight",
+      "EtherealBody",
+      "Pull",
+      "Repel",
+      "Swim",
+      "Teleport",
+      "TeleportOther",
+      "Blink",
+      "BlinkOther",
+      "Freedom",
+      "CloudWalking",
+      "CloudVaulting",
+      "Animation",
+      "StealEnergy",
+      "StealVitality",
+      "Materialize",
+      "Solidify",
+      "AffectSpirits",
+      "SkullSpirit",
+      "TurnSpirit",
+      "ControlZombie",
+      "ZombieSummoning",
+      "MassZombie",
+      "SlowHealing",
+      "StopHealing",
+      "CommandSpirit",
+      "Age",
+      "Pestilence",
+      "Evisceration",
+      "AnimateShadow",
+      "RottingDeath",
+      "SoulJar",
+      "EntrapSpirit",
+      "RepelSpirits",
+      "BindSpirit",
+      "StealAttribute",
+      "StealSkill",
+      "StealYouth",
+      "StealBeauty",
+      "AstralBlock",
+      "Lich",
+      "Wraith",
+      "SeekPlant",
+      "IdentifyPlant",
+      "HealPlant",
+      "ShapePlant",
+      "BlessPlants",
+      "HidePath",
+      "PlantGrowth",
+      "PlantVision",
+      "PollenCloud",
+      "Blight",
+      "Blossom",
+      "Conceal",
+      "ForestWarning",
+      "TangleGrowth",
+      "CreatePlant",
+      "FalseTracks",
+      "PlantSense",
+      "RejuvenatePlant",
+      "WitherPlant",
+      "WalkThroughPlants",
+      "WalkThroughWood",
+      "PlantControl",
+      "EssentialWood",
+      "AnimatePlant",
+      "PlantForm",
+      "PlantSpeech",
+      "RainofNuts",
+      "ArborealImmurement",
+      "PlantFormOther",
+      "BodyofWood",
+      "BodyofSlime",
+      "SenseDanger",
+      "DetectPoison",
+      "Block",
+      "Hardiness",
+      "Watchdog",
+      "Nightingale",
+      "SenseObservation",
+      "TurnBlade",
+      "Bladeturning",
+      "MissileShield",
+      "CatchMissile",
+      "ReverseMissiles",
+      "ReturnMissile",
+      "ReflectGaze",
+      "Shade",
+      "IronArm",
+      "AtmosphereDome",
+      "ResistPressure",
+      "TeleportShield",
+      "ForceWall",
+      "UtterDome",
+      "UtterWall",
+      "Silence",
+      "SoundVision",
+      "Thunderclap",
+      "Voices",
+      "Garble",
+      "ImitateVoice",
+      "WallofSilence",
+      "Hush",
+      "MageStealth",
+      "GreatVoice",
+      "Noise",
+      "DelayedMessage",
+      "ResistSound",
+      "SoundJet",
+      "Converse",
+      "FarHearing",
+      "Scribe",
+      "MusicalScribe",
+      "Message",
+      "SilverTongue",
+      "WizardEar",
+      "InvisibleWizardEar",
+      "SeekMachine",
+      "RevealFunction",
+      "MachineControl",
+      "MachineSummoning",
+      "MachineSpeech",
+      "Glitch",
+      "Malfunction",
+      "Schematic",
+      "Rebuild",
+      "AnimateMachine",
+      "MachinePossession",
+      "PermanentMachinePossession",
+      "AwakenComputer",
+      "SeekPower",
+      "SeekFuel",
+      "TestFuel",
+      "PreserveFuel",
+      "PurifyFuel",
+      "CreateFuel",
+      "EssentialFuel",
+      "StopPower",
+      "LendPower",
+      "Propel",
+      "ConductPower",
+      "StealPower",
+      "DrawPower",
+      "MagneticVision",
+      "RadioHearing",
+      "SpectrumVision",
+      "SeeRadiation",
+      "SeekRadiation",
+      "Irradiate",
+      "ExtinguishRadiation",
+      "ResistRadiation",
+      "CureRadiation",
+      "RadiationJet",
+      "BreatheRadiation",
+      "SeekPlastic",
+      "IdentifyMetal",
+      "IdentifyPlastic",
+      "ShapeMetal",
+      "ShapePlastic",
+      "MetalVision",
+      "PlasticVision",
+      "BodyofMetal",
+      "BodyofPlastic",
+      "SeekCoastline",
+      "Umbrella",
+      "BodyofWater",
+      "FoulWater",
+      "Freeze",
+      "IceSlick",
+      "IcyMissiles",
+      "MeltIce",
+      "ResistWater",
+      "SnowShoes",
+      "WaterJet",
+      "WaterVision",
+      "Whirlpool",
+      "Coolness",
+      "CreateIce",
+      "Dehydrate",
+      "IceDagger",
+      "IcyTouch",
+      "WalkThroughWater",
+      "DrySpring",
+      "EssentialWater",
+      "Frostbite",
+      "SnowJet",
+      "BodyofIce",
+      "BoilWater",
+      "CondenseSteam",
+      "CreateAcid",
+      "CreateSpring",
+      "FleshtoIce",
+      "CreateSteam",
+      "ResistAcid",
+      "Geyser",
+      "RainofAcid",
+      "SteamJet",
+      "AcidBall",
+      "AcidJet",
+      "RainofIceDaggers",
+      "IcyBreath",
+      "BreatheSteam",
+      "SpitAcid",
+      "EssentialAcid",
+      "Frost",
+      "Waves",
+      "Current",
+      "Tide",
+      "Wind",
+      "Snow",
+      "Hail",
+      "Warm",
+      "Cool",
+      "Storm",
+      "ResistLightning",
+      "ExplosiveLightning",
+      "LightningWhip",
+      "ShockingTouch",
+      "SparkCloud",
+      "SparkStorm",
+      "WallofLightning",
+      "BallofLightning",
+      "LightningStare",
+      "BodyofLightning",
+      "LightningArmor",
+      "LightningWeapon",
+      "LightningMissiles"
+    ],
+    "HealingSpells": [
+      "Awaken",
+      "LendHealth",
+      "LendStrength",
+      "MajorHealing",
+      "MinorHealing",
+      "RecoverStrength",
+      "PathofHealing",
+      "LendEnergy",
+      "LendVitality",
+      "RecoverEnergy",
+      "GreatHealing"
+    ],
+    "Healing": "JSONcircRef:groups.HealingSpells",
+    "EnchantmentSpells": [
+      "Accuracy",
+      "Deflect",
+      "Enchant",
+      "Fortify",
+      "Lighten",
+      "Power",
+      "Powerstone",
+      "Puissance",
+      "RemoveEnchantment",
+      "Scroll",
+      "StaffSpell",
+      "PathofEnchantment"
+    ],
+    "Enchantment": "JSONcircRef:groups.EnchantmentSpells",
+    "KnowledgeSpells": [
+      "AnalyzeMagic",
+      "Aura",
+      "DetectMagic",
+      "IdentifySpell",
+      "Seeker",
+      "Trace",
+      "PathofKnowledge"
+    ],
+    "Knowledge": "JSONcircRef:groups.KnowledgeSpells",
+    "LightDarknessSpells": [
+      "Blur",
+      "ContinualLight",
+      "Darkness",
+      "Flash",
+      "Light",
+      "PathofLightDarkness"
+    ],
+    "LD": "JSONcircRef:groups.LightDarknessSpells",
+    "LightDarkness": "JSONcircRef:groups.LightDarknessSpells",
+    "LightDarknessLDSpells": "JSONcircRef:groups.LightDarknessSpells",
+    "EarthSpells": [
+      "ControlEarthElemental",
+      "CreateEarth",
+      "CreateEarthElemental",
+      "EarthtoAir",
+      "EarthtoStone",
+      "EarthVision",
+      "SeekEarth",
+      "ShapeEarth",
+      "StoneMissile",
+      "StonetoEarth",
+      "SummonEarthElemental",
+      "PathofEarth",
+      "Entombment",
+      "FleshtoStone",
+      "StonetoFlesh"
+    ],
+    "SeekSpells": [
+      "SeekEarth",
+      "SeekWater"
+    ],
+    "Earth": "JSONcircRef:groups.EarthSpells",
+    "AirSpells": [
+      "BreatheWater",
+      "Clouds",
+      "ControlAirElemental",
+      "CreateAir",
+      "CreateAirElemental",
+      "EarthtoAir",
+      "Lightning",
+      "PredictWeather",
+      "PurifyAir",
+      "Rain",
+      "ShapeAir",
+      "SummonAirElemental",
+      "WalkonAir",
+      "PathofAir",
+      "NoSmell",
+      "Stench"
+    ],
+    "Air": "JSONcircRef:groups.AirSpells",
+    "FireSpells": [
+      "Cold",
+      "ControlFireElemental",
+      "CreateFire",
+      "CreateFireElemental",
+      "ExtinguishFire",
+      "Fireball",
+      "Heat",
+      "IgniteFire",
+      "ResistFire",
+      "ShapeFire",
+      "SummonFireElemental",
+      "PathofFire",
+      "DeflectEnergy",
+      "ResistCold",
+      "ExplosiveFireball"
+    ],
+    "Fire": "JSONcircRef:groups.FireSpells",
+    "WaterSpells": [
+      "BreatheWater",
+      "ControlWaterElemental",
+      "CreateWater",
+      "CreateWaterElemental",
+      "DestroyWater",
+      "Fog",
+      "IceSphere",
+      "PurifyWater",
+      "Rain",
+      "SeekWater",
+      "ShapeWater",
+      "SummonWaterElemental",
+      "WalkonWater",
+      "PathofWater",
+      "IcyWeapon"
+    ],
+    "Water": "JSONcircRef:groups.WaterSpells",
+    "IllusionCreation": [
+      "ComplexIllusion",
+      "ControlCreation",
+      "ControlIllusion",
+      "CreateAnimal",
+      "CreateObject",
+      "CreateServant",
+      "CreateWarrior",
+      "DispelCreation",
+      "DispelIllusion",
+      "IllusionDisguise",
+      "IllusionShell",
+      "Independence",
+      "KnowIllusion",
+      "PerfectIllusion",
+      "SimpleIllusion"
+    ],
+    "IllusionCreationSpells": "JSONcircRef:groups.IllusionCreation",
+    "Food": [
+      "Banquet",
+      "Cook",
+      "CreateFood",
+      "Decay",
+      "Distill",
+      "Ferment",
+      "MonksBanquet",
+      "PoisonFood",
+      "PreserveFood",
+      "PurifyFood",
+      "SeekFood",
+      "TestFood",
+      "WatertoWine"
+    ],
+    "FoodSpells": "JSONcircRef:groups.Food",
+    "Colleges": [
+      "Air",
+      "Earth",
+      "Fire",
+      "Water",
+      "Animal",
+      "CommunicationEmpathy",
+      "Enchantment",
+      "Healing",
+      "Knowledge",
+      "LightDarkness",
+      "MakingBreaking",
+      "MindControl",
+      "BodyControl",
+      "Food",
+      "IllusionCreation",
+      "Meta",
+      "Movement",
+      "Necromantic",
+      "Plant",
+      "ProtectionWarning",
+      "Sound",
+      "BodyControlSpells",
+      "IllusionCreationSpells",
+      "FoodSpells",
+      "SoundSpells",
+      "MovementSpells",
+      "ProtectionWarningSpells",
+      "MetaSpells",
+      "NecromanticSpells",
+      "PlantSpells",
+      "Gate"
+    ],
+    "Sound": [
+      "DelayedMessage",
+      "FarHearing",
+      "GreatVoice",
+      "Hush",
+      "InvisibleWizardEar",
+      "KeenEars",
+      "MageStealth",
+      "Noise",
+      "Scribe",
+      "Silence",
+      "Sound",
+      "SoundJet",
+      "SoundVision",
+      "Thunderclap",
+      "Voices",
+      "WallofSilence",
+      "WizardEar"
+    ],
+    "SoundSpells": "JSONcircRef:groups.Sound",
+    "Movement": [
+      "AirGolem",
+      "Apportation",
+      "Blink",
+      "EtherealBody",
+      "Flight",
+      "Glue",
+      "GreatHaste",
+      "Haste",
+      "HawkFlight",
+      "Levitation",
+      "LightenBurden",
+      "Lockmaster",
+      "Locksmith",
+      "Manipulate",
+      "Poltergeist",
+      "QuickMarch",
+      "SlowFall",
+      "Swim",
+      "Teleport",
+      "TeleportOther",
+      "Undo",
+      "Wallwalker",
+      "WingedKnife",
+      "PathofMovement",
+      "Hinder",
+      "DeflectMissile"
+    ],
+    "MovementSpells": "JSONcircRef:groups.Movement",
+    "ProtectionWarning": [
+      "Armor",
+      "ForceDome",
+      "IronArm",
+      "Nightingale",
+      "Magelock",
+      "MissileShield",
+      "MysticMist",
+      "ReverseMissiles",
+      "SenseDanger",
+      "ShieldSpell",
+      "TeleportShield",
+      "Umbrella",
+      "UtterDome",
+      "Watchdog",
+      "WeatherDome",
+      "PathofProtectionWarning"
+    ],
+    "ProtectionWarningSpells": "JSONcircRef:groups.ProtectionWarning",
+    "Meta": [
+      "ActivateRunes",
+      "Bless",
+      "ConcealMagic",
+      "Curse",
+      "Counterspell",
+      "Delay",
+      "DispelMagic",
+      "DrainMana",
+      "GreatWard",
+      "Pentagram",
+      "Link",
+      "MagicResistance",
+      "Reflect",
+      "Reflex",
+      "RemoveCurse",
+      "RestoreMana",
+      "Scryguard",
+      "Scrywall",
+      "SpellShield",
+      "Ward",
+      "PathofMetaSpells"
+    ],
+    "MetaSpells": "JSONcircRef:groups.Meta",
+    "AnimalSpells": [
+      "BeastLink",
+      "BeastPossession",
+      "BeastSeeker",
+      "BeastSpeech",
+      "BeastSummoning",
+      "BeastSoother",
+      "BirdControl",
+      "FishControl",
+      "InsectControl",
+      "MammalControl",
+      "Master",
+      "MolluskControl",
+      "ReptileControl",
+      "Rider",
+      "RiderWithin",
+      "Shapeshifting",
+      "ShapeshiftOthers"
+    ],
+    "BodyControlSpells": [
+      "AlterVisage",
+      "AlterBody",
+      "Climbing",
+      "Clumsiness",
+      "CurseMissile",
+      "Deathtouch",
+      "Dexterity",
+      "Fatigue",
+      "Hinder",
+      "Itch",
+      "Might",
+      "Pain",
+      "ParalyzeLimb",
+      "ResistPain",
+      "RootedFeet",
+      "Roundabout",
+      "Sickness",
+      "Spasm",
+      "StrikeBlind",
+      "StrikeDeaf",
+      "StrikeDumb",
+      "Stun",
+      "Tanglefoot",
+      "TotalParalysis",
+      "Vigor",
+      "WitherLimb"
+    ],
+    "CommunicationEmpathySpells": [
+      "BorrowLanguage",
+      "BorrowSkill",
+      "CompelTruth",
+      "ControlPerson",
+      "ExchangeBodies",
+      "Exorcism",
+      "GiftofLetters",
+      "GiftofTongues",
+      "HideThoughts",
+      "LendLanguage",
+      "LendSkill",
+      "MindReading",
+      "MindSearch",
+      "MindSending",
+      "Persuasion",
+      "PermanentPossession",
+      "Possession",
+      "SenseEmotion",
+      "SenseFoes",
+      "SenseLife",
+      "SoulRider",
+      "Telepathy",
+      "Truthsayer"
+    ],
+    "MindControlSpells": [
+      "Alertness",
+      "Avoid",
+      "Berserker",
+      "Bravery",
+      "Charm",
+      "Daze",
+      "Drunkenness",
+      "EmotionControl",
+      "Enslave",
+      "FalseMemory",
+      "Fear",
+      "Foolishness",
+      "Forgetfulness",
+      "GreatGeas",
+      "KeenEars",
+      "KeenEyes",
+      "KeenNose",
+      "LesserGeas",
+      "Loyalty",
+      "MassDaze",
+      "MassSleep",
+      "MassSuggestion",
+      "MentalStun",
+      "Mindlessness",
+      "PeacefulSleep",
+      "PermanentForgetfulness",
+      "Madness",
+      "Nightmare",
+      "Panic",
+      "PermanentMadness",
+      "RearVision",
+      "Sickness",
+      "Sleep",
+      "Suggestion",
+      "Terror",
+      "Wisdom"
+    ],
+    "NecromanticSpells": [
+      "Age",
+      "Animation",
+      "Banish",
+      "ControlZombie",
+      "DeathVision",
+      "Pestilence",
+      "PlanarSummons",
+      "Resurrection",
+      "SenseSpirit",
+      "SkullSpirit",
+      "SoulJar",
+      "StealHealth",
+      "StealStrength",
+      "StealYouth",
+      "SummonDemon",
+      "SummonShade",
+      "SummonSpirit",
+      "TurnZombie",
+      "Zombie"
+    ],
+    "PlantSpells": [
+      "AnimatePlant",
+      "BlessPlants",
+      "CreatePlant",
+      "ForestWarning",
+      "HealPlant",
+      "HidePath",
+      "IdentifyPlant",
+      "PlantForm",
+      "PlantGrowth",
+      "PlantSense",
+      "SeekPlant",
+      "ShapePlant",
+      "TangleGrowth",
+      "WitherPlant"
+    ],
+    "WeaponsSkills": [
+      "AxeMace",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "Fencing",
+      "FireSiphon",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shield",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "ThrowingStick",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "bows": [
+      "Bow",
+      "ShortBow",
+      "Longbow",
+      "CompositeBow"
+    ],
+    "WeaponsGURPSLite": [
+      "Axe",
+      "Baton",
+      "Blackjack",
+      "Bow",
+      "Broadsword",
+      "Colt45",
+      "CompositeBow",
+      "Crossbow",
+      "Dagger",
+      "Flail",
+      "Glaive",
+      "Glock17",
+      "GreatAxe",
+      "Greatsword",
+      "Halberd",
+      "Javelin",
+      "KnifeLarge",
+      "KnifeSmall",
+      "LightClub",
+      "Longbow",
+      "Mace",
+      "Maul",
+      "Morningstar",
+      "MsrLuger",
+      "Poleaxe",
+      "Prodd",
+      "Quarterstaff",
+      "Rapier",
+      "RemingtonM870_12G",
+      "Revolver38",
+      "Revolver44M",
+      "Saber",
+      "Shortsword",
+      "ShortBow",
+      "Sling",
+      "Smallsword",
+      "Spear",
+      "StaffSling",
+      "ThrowingAxe",
+      "WltrPPK",
+      "BrassKnuckles",
+      "BroadswordThr",
+      "GreatswordThr",
+      "PumpShotgun12G",
+      "Derringer41",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "Revolver357M",
+      "AutoPistol44M",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "SniperRifle338"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "BeamWeapons",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Flail",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "JitteSai",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "Throwing",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "EmotionSkills": [
+      "Acting",
+      "Carousing",
+      "Criminology",
+      "DetectLies",
+      "Diplomacy",
+      "Enthrallment",
+      "FastTalk",
+      "Interrogation",
+      "Leadership",
+      "Merchant",
+      "Politics",
+      "Psychology",
+      "SavoirFaire",
+      "SexAppeal",
+      "Sociology",
+      "Streetwise"
+    ],
+    "PeopleSkills": [
+      "Acting",
+      "Carousing",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Merchant",
+      "Panhandling",
+      "Performance",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise",
+      "Teaching"
+    ],
+    "SmoothOperatorTalent": [
+      "Acting",
+      "Carousing",
+      "DetectLies",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Panhandling",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise"
+    ],
+    "BusinessAcumenTalent": [
+      "Accounting",
+      "Administration",
+      "Economics",
+      "Finance",
+      "Gambling",
+      "MarketAnalysis",
+      "Merchant",
+      "Propaganda"
+    ],
+    "BusinessAcumen": "JSONcircRef:groups.BusinessAcumenTalent",
+    "PhysiologicalSkills": [
+      "BodyLanguage",
+      "Diagnosis",
+      "FirstAid",
+      "Physician",
+      "PressurePoints",
+      "PressureSecrets",
+      "Surgery"
+    ],
+    "HealerTalent": [
+      "Diagnosis",
+      "EsotericMedicine",
+      "FirstAid",
+      "Pharmacy",
+      "Physician",
+      "Physiology",
+      "Psychology",
+      "Surgery",
+      "Veterinary"
+    ],
+    "AnimalSkillsGURPSLite": [
+      "AnimalHandling",
+      "Riding"
+    ],
+    "AnimalFriendTalent": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary"
+    ],
+    "AnimalFriend": "JSONcircRef:groups.AnimalFriendTalent",
+    "AthleticSkillsGURPSLite": [
+      "Acrobatics",
+      "Bicycling",
+      "Hiking",
+      "Jumping",
+      "Riding",
+      "Swimming",
+      "Throwing"
+    ],
+    "SpellColleges": [
+      "Air",
+      "Earth",
+      "Fire",
+      "Water",
+      "BodyControl",
+      "CommunicationEmpathy",
+      "Enchantment",
+      "Gate",
+      "Healing",
+      "Knowledge",
+      "LightDarkness",
+      "Meta",
+      "MindControl",
+      "Movement",
+      "Necromantic",
+      "ProtectionWarning",
+      "Animal",
+      "MakingBreaking",
+      "Food",
+      "IllusionCreation",
+      "Plant",
+      "Sound",
+      "BodyControlSpells",
+      "IllusionCreationSpells",
+      "FoodSpells",
+      "SoundSpells",
+      "MovementSpells",
+      "ProtectionWarningSpells",
+      "MetaSpells",
+      "NecromanticSpells",
+      "PlantSpells"
+    ],
+    "PW": [
+      "PathofProtectionWarning",
+      "ShieldSpell",
+      "Armor",
+      "Magelock",
+      "ForceDome",
+      "IronArm",
+      "Nightingale",
+      "MissileShield",
+      "MysticMist",
+      "ReverseMissiles",
+      "SenseDanger",
+      "TeleportShield",
+      "Umbrella",
+      "UtterDome",
+      "Watchdog",
+      "WeatherDome"
+    ],
+    "Protection": "JSONcircRef:groups.PW",
+    "ProtectionWarningPWSpells": "JSONcircRef:groups.PW",
+    "Seek": [
+      "SeekEarth",
+      "SeekWater"
+    ],
+    "KnownLanguages": [],
+    "Social": [
+      "Acting",
+      "Administration",
+      "AreaKnowledge",
+      "Bard",
+      "Diplomacy",
+      "FastTalk",
+      "Gambling",
+      "Leadership",
+      "Merchant",
+      "Performance",
+      "Politics",
+      "SavoirFaire",
+      "SexAppeal",
+      "Strategy",
+      "Tactics",
+      "Teaching",
+      "AppreciateBeauty",
+      "EroticArt",
+      "Intimidation",
+      "PerformanceRitual",
+      "SavoirFaireDojo",
+      "SavoirFaireServant",
+      "TeaCeremony"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "1": {
+      "from": "ElvenskillbonusesBardSavoirFaire",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "DX_from_RacialDXModifier": {
+      "from": "RacialDXModifier",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "DX"
+    },
+    "IQ_from_RacialIQModifier": {
+      "from": "RacialIQModifier",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "IQ"
+    },
+    "Spells_from_Magery": {
+      "from": "Magery",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "group",
+      "target": "Spells"
+    },
+    "Status_from_Status": {
+      "from": "Status",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "AD",
+      "target": "Status"
+    },
+    "ST_from_RacialSTModifier": {
+      "from": "RacialSTModifier",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Strength"
+    },
+    "BodySense_from_SpatialSense3D": {
+      "from": "SpatialSense3D",
+      "fromCategory": "AD",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "BodySense"
+    },
+    "BodySense_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "fromCategory": "AD",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "BodySense"
+    },
+    "Language_from_CulturalAdaptability": {
+      "from": "CulturalAdaptability",
+      "fromCategory": "AD",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Language"
+    },
+    "Language_from_LanguageTalent": {
+      "from": "LanguageTalent",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Language"
+    },
+    "FastTalk_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_SubsonicSpeech": {
+      "from": "SubsonicSpeech",
+      "fromCategory": "AD",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Acting_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Acting"
+    },
+    "Acting_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Acting"
+    },
+    "Performance_from_Voice": {
+      "from": "Voice",
+      "fromCategory": "AD",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Performance"
+    },
+    "SavoirFaire_from_Clueless": {
+      "from": "Clueless",
+      "fromCategory": "DI",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Voice": {
+      "from": "Voice",
+      "fromCategory": "AD",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "DetectLies_from_Empathy": {
+      "from": "Empathy",
+      "fromCategory": "AD",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "Diplomacy_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_Voice": {
+      "from": "Voice",
+      "fromCategory": "AD",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Merchant_from_ColorBlind": {
+      "from": "ColorBlind",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_CompulsiveSpendthrift": {
+      "from": "CompulsiveSpendthrift",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_CompulsiveSpending": {
+      "from": "CompulsiveSpending",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_Gullibility": {
+      "from": "Gullibility",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Politics_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Politics"
+    },
+    "Politics_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Politics"
+    },
+    "Politics_from_Voice": {
+      "from": "Voice",
+      "fromCategory": "AD",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Politics"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "fromCategory": "AD",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Encumbrance": {
+      "from": "Encumbrance",
+      "fromCategory": "enc",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Thaumatology_from_Magery": {
+      "from": "Magery",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Thaumatology"
+    },
+    "FastTalk_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Truthfulness": {
+      "from": "Truthfulness",
+      "amount": -5,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Performance_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Performance"
+    },
+    "SavoirFaire_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "DetectLies_from_Sensitive": {
+      "from": "Sensitive",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "Diplomacy_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Language_from_Linguistics": {
+      "from": "Linguistics",
+      "fromCategory": "SK",
+      "amount": 0.1,
+      "targetCategory": "SK",
+      "target": "Language"
+    }
+  },
+  "prerequisites": {
+    "Enchant_requires_10othercolleges": {
+      "target": "Enchant",
+      "prereq": "override"
+    },
+    "Sterilize_requires_InsectControl_pgroup2": {
+      "target": "Sterilize",
+      "prereq": "override",
+      "pgroup": 2
+    },
+    "Teamster_requires_AnimalHandling": {
+      "target": "Teamster",
+      "category": "SK",
+      "prereq": "AnimalHandling"
+    },
+    "FindWeakness_requires_Earth": {
+      "target": "FindWeakness",
+      "number": 1,
+      "prereq": "Earth"
+    },
+    "FindWeakness_requires_Air": {
+      "target": "FindWeakness",
+      "number": 1,
+      "prereq": "Air"
+    },
+    "FindWeakness_requires_Fire": {
+      "target": "FindWeakness",
+      "number": 1,
+      "prereq": "Fire"
+    },
+    "FindWeakness_requires_Water": {
+      "target": "FindWeakness",
+      "number": 1,
+      "prereq": "Water"
+    },
+    "Weaken_requires_FindWeakness": {
+      "target": "Weaken",
+      "prereq": "FindWeakness"
+    },
+    "Restore_requires_Weaken_pgroup1": {
+      "target": "Restore",
+      "prereq": "Weaken",
+      "pgroup": 1
+    },
+    "Rejoin_requires_Weaken": {
+      "target": "Rejoin",
+      "prereq": "Weaken"
+    },
+    "Rejoin_requires_Restore": {
+      "target": "Rejoin",
+      "prereq": "Restore"
+    },
+    "Repair_requires_Magery2": {
+      "target": "Repair",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Repair_requires_Rejoin": {
+      "target": "Repair",
+      "prereq": "Rejoin"
+    },
+    "LendStrength_requires_Magery_pgroup1": {
+      "target": "LendStrength",
+      "category": "ADS",
+      "prereq": "Magery",
+      "pgroup": 1
+    },
+    "LendStrength_requires_Empathy_pgroup1": {
+      "target": "LendStrength",
+      "category": "ADS",
+      "prereq": "Empathy",
+      "pgroup": 1
+    },
+    "RecoverStrength_requires_Magery": {
+      "target": "RecoverStrength",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "RecoverStrength_requires_LendStrength": {
+      "target": "RecoverStrength",
+      "prereq": "LendStrength"
+    },
+    "LendHealth_requires_LendStrength": {
+      "target": "LendHealth",
+      "prereq": "LendStrength"
+    },
+    "MinorHealing_requires_LendHealth": {
+      "target": "MinorHealing",
+      "prereq": "LendHealth"
+    },
+    "MajorHealing_requires_Magery": {
+      "target": "MajorHealing",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "MajorHealing_requires_MinorHealing": {
+      "target": "MajorHealing",
+      "prereq": "MinorHealing"
+    },
+    "Enchant_requires_Magery2": {
+      "target": "Enchant",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Powerstone_requires_Enchant": {
+      "target": "Powerstone",
+      "prereq": "Enchant"
+    },
+    "Seeker_requires_Magery": {
+      "target": "Seeker",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Seeker_requires_IQ": {
+      "target": "Seeker",
+      "category": "stat",
+      "level": 12,
+      "prereq": "IQ"
+    },
+    "Seeker_requires_SeekSpells": {
+      "target": "Seeker",
+      "number": 2,
+      "prereq": "SeekSpells"
+    },
+    "Trace_requires_Seeker": {
+      "target": "Trace",
+      "prereq": "Seeker"
+    },
+    "ContinualLight_requires_Light": {
+      "target": "ContinualLight",
+      "prereq": "Light"
+    },
+    "ShapeEarth_requires_SeekEarth": {
+      "target": "ShapeEarth",
+      "prereq": "SeekEarth"
+    },
+    "EarthtoStone_requires_Magery": {
+      "target": "EarthtoStone",
+      "prereq": "Magery",
+      "category": "ADS"
+    },
+    "EarthtoStone_requires_ShapeEarth": {
+      "target": "EarthtoStone",
+      "prereq": "ShapeEarth"
+    },
+    "CreateEarth_requires_EarthtoStone": {
+      "target": "CreateEarth",
+      "prereq": "EarthtoStone"
+    },
+    "ShapeFire_requires_IgniteFire": {
+      "target": "ShapeFire",
+      "prereq": "IgniteFire"
+    },
+    "CreateFire_requires_IgniteFire": {
+      "target": "CreateFire",
+      "prereq": "IgniteFire"
+    },
+    "PurifyWater_requires_SeekWater": {
+      "target": "PurifyWater",
+      "prereq": "SeekWater"
+    },
+    "CreateWater_requires_PurifyWater": {
+      "target": "CreateWater",
+      "prereq": "PurifyWater"
+    },
+    "Restore_requires_SimpleIllusion_pgroup1": {
+      "target": "Restore",
+      "prereq": "SimpleIllusion",
+      "pgroup": 1
+    },
+    "SimpleIllusion_requires_IQ": {
+      "target": "SimpleIllusion",
+      "category": "stat",
+      "level": 11,
+      "prereq": "IQ"
+    },
+    "ComplexIllusion_requires_Sound": {
+      "target": "ComplexIllusion",
+      "prereq": "Sound"
+    },
+    "ComplexIllusion_requires_SimpleIllusion": {
+      "target": "ComplexIllusion",
+      "prereq": "SimpleIllusion"
+    },
+    "PerfectIllusion_requires_Magery": {
+      "target": "PerfectIllusion",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "PerfectIllusion_requires_ComplexIllusion": {
+      "target": "PerfectIllusion",
+      "prereq": "ComplexIllusion"
+    },
+    "IllusionShell_requires_SimpleIllusion": {
+      "target": "IllusionShell",
+      "prereq": "SimpleIllusion"
+    },
+    "IllusionDisguise_requires_SimpleIllusion": {
+      "target": "IllusionDisguise",
+      "prereq": "SimpleIllusion"
+    },
+    "CreateObject_requires_Magery2": {
+      "target": "CreateObject",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "CreateObject_requires_CreateEarth": {
+      "target": "CreateObject",
+      "prereq": "CreateEarth"
+    },
+    "CreateObject_requires_PerfectIllusion": {
+      "target": "CreateObject",
+      "prereq": "PerfectIllusion"
+    },
+    "CreateAnimal_requires_CreateWater": {
+      "target": "CreateAnimal",
+      "prereq": "CreateWater"
+    },
+    "CreateAnimal_requires_CreateObject": {
+      "target": "CreateAnimal",
+      "prereq": "CreateObject"
+    },
+    "CreateAnimal_requires_IQ": {
+      "target": "CreateAnimal",
+      "category": "stat",
+      "level": 13,
+      "prereq": "IQ"
+    },
+    "CreateServant_requires_Magery3": {
+      "target": "CreateServant",
+      "level": 3,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "CreateServant_requires_IQ": {
+      "target": "CreateServant",
+      "category": "stat",
+      "level": 13,
+      "prereq": "IQ"
+    },
+    "CreateServant_requires_CreateObject": {
+      "target": "CreateServant",
+      "prereq": "CreateObject"
+    },
+    "Sterilize_requires_Decay_pgroup1": {
+      "target": "Sterilize",
+      "prereq": "Decay",
+      "pgroup": 1
+    },
+    "Sterilize_requires_InsectControl_pgroup1": {
+      "target": "Sterilize",
+      "prereq": "InsectControl",
+      "pgroup": 1
+    },
+    "CureDisease_requires_Sterilize": {
+      "target": "CureDisease",
+      "prereq": "Sterilize"
+    },
+    "CureDisease_requires_MajorHealing": {
+      "target": "CureDisease",
+      "prereq": "MajorHealing"
+    },
+    "Restoration_requires_MajorHealing": {
+      "target": "Restoration",
+      "prereq": "MajorHealing"
+    },
+    "PreserveFood_requires_Sterilize": {
+      "target": "PreserveFood",
+      "prereq": "Sterilize"
+    },
+    "PreserveFood_requires_TestFood": {
+      "target": "PreserveFood",
+      "prereq": "TestFood"
+    },
+    "Decay_requires_TestFood": {
+      "target": "Decay",
+      "prereq": "TestFood"
+    },
+    "Apportation_requires_Magery": {
+      "target": "Apportation",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "AirGolem_requires_Magery2": {
+      "target": "AirGolem",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "AirGolem_requires_Apportation": {
+      "target": "AirGolem",
+      "prereq": "Apportation"
+    },
+    "WeatherDome_requires_2Air": {
+      "target": "WeatherDome",
+      "prereq": "Air",
+      "number": 2
+    },
+    "WeatherDome_requires_2Earth": {
+      "target": "WeatherDome",
+      "prereq": "Earth",
+      "number": 2
+    },
+    "WeatherDome_requires_2Fire": {
+      "target": "WeatherDome",
+      "prereq": "Fire",
+      "number": 2
+    },
+    "WeatherDome_requires_2Water": {
+      "target": "WeatherDome",
+      "prereq": "Water",
+      "number": 2
+    },
+    "ForceDome_requires_Magery": {
+      "target": "ForceDome",
+      "prereq": "Magery",
+      "category": "ADS"
+    },
+    "ForceDome_requires_WeatherDome": {
+      "target": "ForceDome",
+      "prereq": "WeatherDome"
+    },
+    "ForceDome_requires_Apportation": {
+      "target": "ForceDome",
+      "prereq": "Apportation"
+    },
+    "MysticMist_requires_Magery_pgroup1": {
+      "target": "MysticMist",
+      "prereq": "Magery",
+      "category": "ADS",
+      "pgroup": 1
+    },
+    "MysticMist_requires_Watchdog_pgroup1": {
+      "target": "MysticMist",
+      "prereq": "Watchdog",
+      "pgroup": 1
+    },
+    "MysticMist_requires_Magery_pgroup2": {
+      "target": "MysticMist",
+      "prereq": "Magery",
+      "category": " ADS",
+      "pgroup": 2
+    },
+    "MysticMist_requires_ShieldSpell_pgroup2": {
+      "target": "MysticMist",
+      "prereq": "ShieldSpell",
+      "pgroup": 2
+    },
+    "ShieldSpell_requires_Magery2": {
+      "target": "ShieldSpell",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "DancingWeapon_requires_AirGolem": {
+      "target": "DancingWeapon",
+      "prereq": "AirGolem"
+    },
+    "Bless_requires_Magery2": {
+      "target": "Bless",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Bless_requires_2spellsfrom10colleges": {
+      "target": "Bless",
+      "number": 10,
+      "prereq": "Colleges",
+      "meta": true,
+      "mult": 2
+    },
+    "Curse_requires_Magery2": {
+      "target": "Curse",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Curse_requires_2spellsfrom10colleges": {
+      "target": "Curse",
+      "number": 10,
+      "prereq": "Colleges",
+      "meta": true,
+      "mult": 2
+    },
+    "RemoveCurse_requires_Magery2": {
+      "target": "RemoveCurse",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "RemoveCurse_requires_15colleges": {
+      "target": "RemoveCurse",
+      "number": 15,
+      "prereq": "Colleges",
+      "meta": true
+    },
+    "Stench_requires_PurifyAir": {
+      "target": "Stench",
+      "prereq": "PurifyAir"
+    },
+    "LendStrength_requires_Magery1_pgroup1": {
+      "target": "LendStrength",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1,
+      "pgroup": 1
+    },
+    "RecoverStrength_requires_Magery1": {
+      "target": "RecoverStrength",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1
+    },
+    "MajorHealing_requires_Magery1": {
+      "target": "MajorHealing",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1
+    },
+    "Seeker_requires_Magery1": {
+      "target": "Seeker",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1
+    },
+    "EarthtoStone_requires_Magery1": {
+      "target": "EarthtoStone",
+      "prereq": "Magery",
+      "level": 1,
+      "category": "ADS"
+    },
+    "MinorHealing_requires_LendVitality": {
+      "target": "MinorHealing",
+      "prereq": "LendVitality"
+    },
+    "Apportation_requires_Magery1": {
+      "target": "Apportation",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1
+    },
+    "Shield_requires_Magery2": {
+      "target": "ShieldSpell",
+      "level": 2,
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Seeker_requires_IQ12": {
+      "target": "Seeker",
+      "category": "stat",
+      "level": 12,
+      "prereq": "IQ"
+    }
+  },
+  "defaults": {
+    "Cloak_from_Buckler": {
+      "target": "Cloak",
+      "penalty": -4,
+      "category": "SK",
+      "from": "Buckler"
+    },
+    "Cloak_from_Shield": {
+      "target": "Cloak",
+      "penalty": -4,
+      "category": "SK",
+      "from": "Shield"
+    },
+    "BodySense_from_Acrobatics": {
+      "target": "BodySense",
+      "penalty": -3,
+      "category": "SK",
+      "from": "Acrobatics"
+    },
+    "StaffSkill_from_DX": {
+      "target": "StaffSkill",
+      "penalty": -5,
+      "from": "DX"
+    },
+    "StaffSkill_from_Spear": {
+      "target": "StaffSkill",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Spear"
+    },
+    "FastTalk_from_Acting": {
+      "target": "FastTalk",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Acting"
+    },
+    "Acting_from_Bard": {
+      "target": "Acting",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Bard"
+    },
+    "Acting_from_Performance": {
+      "target": "Acting",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Performance"
+    },
+    "Performance_from_Acting": {
+      "target": "Performance",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Acting"
+    },
+    "Performance_from_Bard": {
+      "target": "Performance",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Bard"
+    },
+    "DetectLies_from_Psychology": {
+      "target": "DetectLies",
+      "penalty": -4,
+      "category": "SK",
+      "from": "Psychology"
+    },
+    "Politics_from_Diplomacy": {
+      "target": "Politics",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Diplomacy"
+    },
+    "Holdout_from_SleightofHand": {
+      "target": "Holdout",
+      "penalty": -3,
+      "category": "SK",
+      "from": "SleightofHand"
+    },
+    "History_from_Archaeology": {
+      "target": "History",
+      "penalty": -6,
+      "category": "SK",
+      "from": "Archaeology"
+    },
+    "Heraldry_from_SavoirFaire": {
+      "target": "Heraldry",
+      "penalty": -3,
+      "category": "SK",
+      "from": "SavoirFaire"
+    },
+    "Occultism_from_IQ": {
+      "target": "Occultism",
+      "penalty": -6,
+      "from": "IQ"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ"
+    },
+    "Stealth_from_DX": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "DX"
+    },
+    "Diagnosis_from_FirstAid": {
+      "target": "Diagnosis",
+      "penalty": -8,
+      "category": "SK",
+      "from": "FirstAid"
+    },
+    "Diagnosis_from_Physician": {
+      "target": "Diagnosis",
+      "penalty": -4,
+      "category": "SK",
+      "from": "Physician"
+    },
+    "Diagnosis_from_Veterinary": {
+      "target": "Diagnosis",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Veterinary"
+    },
+    "Teamster_from_AnimalHandling": {
+      "target": "Teamster",
+      "penalty": -4,
+      "category": "SK",
+      "from": "AnimalHandling"
+    },
+    "Teamster_from_Riding": {
+      "target": "Teamster",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Riding"
+    },
+    "Riding_from_AnimalHandling": {
+      "target": "Riding",
+      "penalty": -3,
+      "category": "SK",
+      "from": "AnimalHandling"
+    },
+    "Cloak_from_Net": {
+      "target": "Cloak",
+      "penalty": -4,
+      "from": "Net"
+    },
+    "StaffSkill_from_Polearm": {
+      "target": "StaffSkill",
+      "penalty": -2,
+      "from": "Polearm"
+    },
+    "Knife_from_ForceSword": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "ForceSword"
+    },
+    "Knife_from_MainGauche": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "MainGauche"
+    },
+    "Knife_from_Shortsword": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "Shortsword"
+    },
+    "Acting_from_PublicSpeaking": {
+      "target": "Acting",
+      "penalty": -5,
+      "from": "PublicSpeaking"
+    },
+    "Performance_from_PublicSpeaking": {
+      "target": "Performance",
+      "penalty": -2,
+      "from": "PublicSpeaking"
+    },
+    "DetectLies_from_stat": {
+      "target": "DetectLies",
+      "penalty": false,
+      "category": "stat"
+    },
+    "DetectLies_from_BodyLanguage": {
+      "target": "DetectLies",
+      "penalty": -4,
+      "from": "BodyLanguage"
+    },
+    "Diplomacy_from_Politics": {
+      "target": "Diplomacy",
+      "penalty": -6,
+      "from": "Politics"
+    },
+    "Merchant_from_Finance": {
+      "target": "Merchant",
+      "penalty": -6,
+      "from": "Finance"
+    },
+    "Merchant_from_MarketAnalysis": {
+      "target": "Merchant",
+      "penalty": -4,
+      "from": "MarketAnalysis"
+    },
+    "Theology_from_ReligiousRitual": {
+      "target": "Theology",
+      "penalty": -4,
+      "from": "ReligiousRitual",
+      "fromSpec": "same"
+    },
+    "Cooking_from_Housekeeping": {
+      "target": "Cooking",
+      "penalty": -5,
+      "from": "Housekeeping"
+    }
+  }
+}

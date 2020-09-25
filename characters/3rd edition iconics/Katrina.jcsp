@@ -1,0 +1,1508 @@
+{
+  "gameInfo": {
+    "ruleset": "e3",
+    "TL": 3,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5
+  },
+  "description": {
+    "name": "Katrina",
+    "ID": "kgIeObMfqBG2",
+    "createDate": 1385054626070,
+    "pointTotal": 100,
+    "height": 69,
+    "weight": 150,
+    "sizeMod": 0,
+    "age": 20,
+    "appearance": "5'9\", 100 lbs., attractive",
+    "statusText": "",
+    "repText": "",
+    "shortStory": "Mercenary archer with checkered past",
+    "story": "",
+    "goals": "",
+    "notes": "",
+    "artPath": "../characters/images/katrina.png"
+  },
+  "playerInfo": {
+    "name": ""
+  },
+  "preferences": {
+    "display": {
+      "theme": "blue",
+      "watermark": "null",
+      "grimoire": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": false,
+      "property": false,
+      "fractions": true,
+      "shortnames": false,
+      "skilltypes": false,
+      "showStartingCash": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 20,
+    "DX": 30,
+    "IQ": 20,
+    "HT": 10,
+    "HP": 0,
+    "Will": 0,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Attractive",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 5,
+      "reference": "Basic Set 3rd ed., pg 15",
+      "key": "AppearanceAttractive",
+      "group": "appearance"
+    },
+    {
+      "name": "Toughness",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 23",
+      "key": "Toughness",
+      "levels": 1,
+      "highestLevel": 2,
+      "fixedCost": -5
+    },
+    {
+      "name": "Literate",
+      "type": "A",
+      "physMntlScl": "M",
+      "cost": 10,
+      "reference": "Basic Set 3rd ed., pg 21",
+      "key": "Literacy",
+      "group": "literacy",
+      "ConstantModsArray": [
+        {
+          "text": "Illiteracy norm",
+          "value": 0
+        }
+      ],
+      "expand": false
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Skinny",
+      "type": "D",
+      "physMntlScl": "P",
+      "cost": -5,
+      "reference": "Basic Set 3rd ed., pg 29",
+      "key": "Skinny",
+      "group": "BMI"
+    },
+    {
+      "name": "Stubborn",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "reference": "Basic Set 3rd ed., pg 37",
+      "key": "Stubborn"
+    },
+    {
+      "name": "Berserk",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -15,
+      "reference": "Basic Set 3rd ed., pg 31",
+      "key": "Berserk",
+      "group": "temper"
+    },
+    {
+      "name": "Alcoholic",
+      "type": "D",
+      "physMntlScl": "P",
+      "cost": -15,
+      "reference": "Basic Set 3rd ed., pg 30",
+      "key": "Alcoholic"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Dislikes heights",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Sleeps outdoors when possible",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Picks fights for fun",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Feminist - likes demonstrating she's &ldquo;as good as any man&rdquo:",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "talks to animals and inanimate objects",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Bow",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 50",
+      "points": 8,
+      "type": "P",
+      "key": "Bow"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 50",
+      "points": 1,
+      "type": "P",
+      "key": "FastDraw",
+      "specCategName": "weapon or ammo type",
+      "specialization": "Arrow",
+      "dash": false
+    },
+    {
+      "name": "Knife",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 51",
+      "points": 1,
+      "type": "P",
+      "key": "Knife"
+    },
+    {
+      "name": "Knife Throwing",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 51",
+      "points": 1,
+      "type": "P",
+      "key": "KnifeThrowing"
+    },
+    {
+      "name": "Fencing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 50",
+      "points": 8,
+      "type": "P",
+      "key": "Fencing"
+    },
+    {
+      "name": "Brawling",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 50",
+      "points": 1,
+      "type": "P",
+      "key": "Brawling"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Armoury",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 53",
+      "points": 4,
+      "type": "M",
+      "key": "ArmouryTL5down",
+      "TL": 3
+    },
+    {
+      "name": "Cooking",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 53",
+      "points": 0.5,
+      "type": "M",
+      "key": "Cooking"
+    },
+    {
+      "name": "Gambling",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 63",
+      "points": 2,
+      "type": "M",
+      "key": "Gambling"
+    },
+    {
+      "name": "Leadership",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 63",
+      "points": 2,
+      "type": "M",
+      "key": "Leadership"
+    },
+    {
+      "name": "Savoir-Faire",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 64",
+      "points": 4,
+      "type": "M",
+      "key": "SavoirFaire"
+    },
+    {
+      "name": "Scrounging",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 67",
+      "points": 0.5,
+      "type": "M",
+      "key": "Scrounging"
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 67",
+      "points": 2,
+      "type": "P",
+      "key": "Stealth",
+      "dash": false
+    },
+    {
+      "name": "Tactics",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 64",
+      "points": 4,
+      "type": "M",
+      "key": "Tactics"
+    },
+    {
+      "name": "Tracking",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 57",
+      "points": 1,
+      "type": "M",
+      "key": "Tracking"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Quiver",
+      "weight": 0.5,
+      "cost": 10,
+      "TL": 1,
+      "LC": 0,
+      "number": 1
+    },
+    {
+      "name": "Arrow",
+      "weight": 0.125,
+      "cost": 2,
+      "TL": 1,
+      "LC": 0,
+      "number": 10
+    },
+    {
+      "name": "light leather armor",
+      "weight": 10,
+      "cost": 210,
+      "TL": 1,
+      "LC": 5,
+      "number": 1,
+      "DR": 1,
+      "PD": 1,
+      "location": [
+        "suit",
+        "neck",
+        "torso",
+        "waist",
+        "groin",
+        "domArm",
+        "offArm",
+        "domLeg",
+        "offLeg",
+        "domHand",
+        "offHand",
+        "domFoot",
+        "offFoot"
+      ]
+    },
+    {
+      "name": "Gold and Silver Coins",
+      "weight": 0,
+      "cost": 60,
+      "TL": 1,
+      "LC": 6,
+      "number": 1
+    },
+    {
+      "name": "Jewelry",
+      "weight": 0,
+      "cost": 120,
+      "TL": 1,
+      "LC": 6,
+      "number": 1
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Longbow",
+      "weight": 3,
+      "cost": 200,
+      "TL": 0,
+      "LC": 4,
+      "number": 1,
+      "bulk": -8,
+      "qualityEffectGroup": "bow",
+      "quality": 1,
+      "armorDivisor": 1,
+      "weaponST": 12,
+      "wieldOptions": {
+        "Bow": [
+          {
+            "title": "",
+            "hands": "both",
+            "strength": 11,
+            "damage": {
+              "base": "thr",
+              "mods": 2,
+              "type": "imp"
+            },
+            "halfDamageRange": 15,
+            "maximumRange": 20,
+            "snapShot": 15,
+            "accuracy": 3,
+            "rangeBasedOnST": true,
+            "maxDamage": "1d+4",
+            "note": [
+              "Max. dam. ld+4."
+            ]
+          }
+        ]
+      },
+      "shots": 1
+    },
+    {
+      "name": "Saber",
+      "weight": 2,
+      "cost": 700,
+      "TL": 4,
+      "LC": 4,
+      "number": 1,
+      "bulk": -4,
+      "qualityEffectGroup": "edged",
+      "quality": 0,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Fencing": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 7,
+            "damage": {
+              "base": "sw",
+              "mods": 0,
+              "type": "cut"
+            }
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 7,
+            "damage": {
+              "base": "thr",
+              "mods": 1,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Thrust: maximum damage ld+2."
+            ]
+          }
+        ]
+      },
+      "addedCost": 0,
+      "shots": 0
+    },
+    {
+      "name": "Throwing Knife",
+      "weight": 0.5,
+      "cost": 30,
+      "TL": 0,
+      "LC": 4,
+      "number": 2,
+      "bulk": -1,
+      "qualityEffectGroup": "edged",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 5,
+            "damage": {
+              "base": "sw",
+              "mods": -3,
+              "type": "cut"
+            },
+            "maxDamage": "1d+1",
+            "reach": "C,1",
+            "parryBonus": -1,
+            "note": [
+              "Maximum damage ld+1."
+            ]
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 5,
+            "damage": {
+              "base": "thr",
+              "mods": -1,
+              "type": "imp"
+            },
+            "maxDamage": "1d+1",
+            "reach": "C",
+            "parryBonus": -1,
+            "note": [
+              "Throwable; Maximum damage ld+1."
+            ]
+          }
+        ],
+        "MaineGauche": [
+          {
+            "title": "swing",
+            "hands": "off",
+            "strength": 5,
+            "damage": {
+              "base": "sw",
+              "mods": -3,
+              "type": "cut"
+            },
+            "maxDamage": "1d+1",
+            "reach": "C,1",
+            "note": [
+              "Parry is 2/3 Maine-Gauche skill."
+            ]
+          },
+          {
+            "title": "thrust",
+            "hands": "off",
+            "strength": 5,
+            "damage": {
+              "base": "thr",
+              "mods": -1,
+              "type": "imp"
+            },
+            "maxDamage": "1d+1",
+            "reach": "C",
+            "note": [
+              "Parry is 2/3 Maine-Gauche skill."
+            ]
+          }
+        ],
+        "KnifeThrowing": [
+          {
+            "title": "throw",
+            "hands": "dom",
+            "strength": 5,
+            "damage": {
+              "base": "thr",
+              "mods": -1,
+              "type": "imp"
+            },
+            "maxDamage": "1d+1",
+            "halfDamageRange": -5,
+            "maximumRange": 0,
+            "snapShot": 11,
+            "rangeBasedOnST": "add"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Large Knife",
+      "weight": 1,
+      "cost": 40,
+      "TL": 0,
+      "LC": 4,
+      "number": 1,
+      "bulk": -2,
+      "qualityEffectGroup": "edged",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "parryBonus": -1,
+            "note": [
+              "Maximum damage ld+2."
+            ]
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "parryBonus": -1,
+            "note": [
+              "Throwable; Maximum damage ld+2."
+            ]
+          }
+        ],
+        "MaineGauche": [
+          {
+            "title": "swing",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "note": [
+              "Parry is 2/3 Maine-Gauche skill."
+            ]
+          },
+          {
+            "title": "thrust",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "note": [
+              "Parry is 2/3 Maine-Gauche skill."
+            ]
+          }
+        ],
+        "KnifeThrowing": [
+          {
+            "title": "throw",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "halfDamageRange": -2,
+            "maximumRange": 5,
+            "snapShot": 12,
+            "rangeBasedOnST": "add",
+            "note": [
+              "Maximum damage ld+2."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "collections": {
+    "equipped": "adventuring",
+    "default": [
+      "default collection",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:equipment.0",
+      "JSONcircRef:equipment.1",
+      "JSONcircRef:weapons.1",
+      "JSONcircRef:weapons.2",
+      "JSONcircRef:weapons.3",
+      "JSONcircRef:equipment.2",
+      "JSONcircRef:equipment.3",
+      "JSONcircRef:equipment.4"
+    ],
+    "Quiver": [
+      "quiver",
+      "JSONcircRef:equipment.0",
+      "JSONcircRef:equipment.1"
+    ],
+    "adventuring": [
+      "adventuring",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:collections.Quiver",
+      "wield",
+      "Fencing",
+      "JSONcircRef:weapons.1",
+      "JSONcircRef:weapons.2",
+      "JSONcircRef:weapons.3",
+      {
+        "line": false
+      },
+      "wear",
+      "JSONcircRef:equipment.2",
+      {
+        "line": false
+      },
+      "JSONcircRef:equipment.3",
+      "JSONcircRef:equipment.4"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling"
+    ],
+    "HandWeaponSkills": [
+      "AxeMace",
+      "Blackjack",
+      "Broadsword",
+      "Fencing",
+      "Flail",
+      "ForceSword",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "MainGauche",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Spear",
+      "StaffSkill",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "CraftSkills": [
+      "AppreciateBeauty",
+      "ArmouryTL5down",
+      "ArmouryTL6plus",
+      "BeverageMaking",
+      "Blacksmith",
+      "Carpentry",
+      "Cooking",
+      "Cooperage",
+      "Distilling",
+      "Dyeing",
+      "Fireworks",
+      "GlassBlowing",
+      "Jeweler",
+      "Leatherworking",
+      "Masonry",
+      "Mechanic",
+      "Needlecraft",
+      "Netmaking",
+      "Pottery",
+      "Shipbuilding",
+      "ShipbuildingStarship",
+      "StoneKnapping",
+      "Tanning",
+      "Tattooing",
+      "Weaving",
+      "Woodworking"
+    ],
+    "Craft": "JSONcircRef:groups.CraftSkills",
+    "SoftCraftSkills": [
+      "AppreciateBeauty",
+      "BeverageMaking",
+      "Carpentry",
+      "Cooking",
+      "Cooperage",
+      "Distilling",
+      "Dyeing",
+      "Fireworks",
+      "GlassBlowing",
+      "Leatherworking",
+      "Needlecraft",
+      "Netmaking",
+      "Pottery",
+      "StoneKnapping",
+      "Tanning",
+      "Tattooing",
+      "Weaving",
+      "Woodworking"
+    ],
+    "SocialSkills": [
+      "Acting",
+      "Administration",
+      "AreaKnowledge",
+      "Bard",
+      "Diplomacy",
+      "FastTalk",
+      "Gambling",
+      "Leadership",
+      "Merchant",
+      "Performance",
+      "Politics",
+      "SavoirFaire",
+      "SexAppeal",
+      "Strategy",
+      "Tactics",
+      "Teaching",
+      "AppreciateBeauty",
+      "EroticArt",
+      "Intimidation",
+      "PerformanceRitual",
+      "SavoirFaireDojo",
+      "SavoirFaireServant",
+      "TeaCeremony"
+    ],
+    "ThiefSpySkills": [
+      "Acting",
+      "Climbing",
+      "Camouflage",
+      "Demolition",
+      "DetectLies",
+      "Disguise",
+      "Escape",
+      "FastTalk",
+      "Forgery",
+      "Holdout",
+      "IntelligenceAnalysis",
+      "Interrogation",
+      "LipReading",
+      "Lockpicking",
+      "Pickpocket",
+      "Poisons",
+      "Scrounging",
+      "Shadowing",
+      "SleightofHand",
+      "Stealth",
+      "Streetwise",
+      "Tracking",
+      "Traps",
+      "UnderwaterDemolition",
+      "Ventriloquism",
+      "BrainHacking",
+      "ComputerHacking",
+      "Filch",
+      "Starglazing",
+      "UtteringofBaseCoin"
+    ],
+    "AnimalSkills": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Tracking",
+      "Veterinary",
+      "Bulldancing",
+      "Bullfighting",
+      "EquestrianAcrobatics",
+      "SnakeCharming"
+    ],
+    "OutdoorSkills": [
+      "AreaKnowledge",
+      "Boating",
+      "Climbing",
+      "Fishing",
+      "Naturalist",
+      "Navigation",
+      "Seamanship",
+      "Survival",
+      "Tracking",
+      "AnimalGuise",
+      "BowandPalette",
+      "Cartography",
+      "FlintSparking",
+      "HardHatDiving",
+      "Hiking",
+      "Mimicry",
+      "OpenDressDiving",
+      "Orienteering",
+      "Skating",
+      "Surveying"
+    ],
+    "KnownLanguages": [],
+    "WeaponsSkills": [
+      "AxeMace",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "Fencing",
+      "FireSiphon",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shield",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "ThrowingStick",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "bows": [
+      "Bow",
+      "ShortBow",
+      "Longbow",
+      "CompositeBow"
+    ],
+    "WeaponsGURPSLite": [
+      "Axe",
+      "Baton",
+      "Blackjack",
+      "Bow",
+      "Broadsword",
+      "Colt45",
+      "CompositeBow",
+      "Crossbow",
+      "Dagger",
+      "Flail",
+      "Glaive",
+      "Glock17",
+      "GreatAxe",
+      "Greatsword",
+      "Halberd",
+      "Javelin",
+      "KnifeLarge",
+      "KnifeSmall",
+      "LightClub",
+      "Longbow",
+      "Mace",
+      "Maul",
+      "Morningstar",
+      "MsrLuger",
+      "Poleaxe",
+      "Prodd",
+      "Quarterstaff",
+      "Rapier",
+      "RemingtonM870_12G",
+      "Revolver38",
+      "Revolver44M",
+      "Saber",
+      "Shortsword",
+      "ShortBow",
+      "Sling",
+      "Smallsword",
+      "Spear",
+      "StaffSling",
+      "ThrowingAxe",
+      "WltrPPK",
+      "BrassKnuckles",
+      "BroadswordThr",
+      "GreatswordThr",
+      "PumpShotgun12G",
+      "Derringer41",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "Revolver357M",
+      "AutoPistol44M",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "SniperRifle338"
+    ],
+    "WeaponSkills": [
+      "AxeMace",
+      "BeamWeapons",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Crossbow",
+      "Flail",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "JitteSai",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "Throwing",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "Weapons": [
+      "fist",
+      "bluntclawedhand",
+      "sharpclawedhand",
+      "talonedhand",
+      "longtalonedhand",
+      "foot",
+      "hoof",
+      "bluntclawedfoot",
+      "sharpclawedfoot",
+      "talonedfoot",
+      "longtalonedfoot",
+      "teeth",
+      "sharpteeth",
+      "fangs",
+      "sharpbeak",
+      "crushingstriker",
+      "piercingstriker",
+      "lgpiercingstriker",
+      "cuttingstriker",
+      "impalingstriker",
+      "CattleProd",
+      "Chainsaw",
+      "Whip",
+      "WhipMonowire",
+      "BrassKnuckles",
+      "Axe",
+      "Hatchet",
+      "ThrowingAxe",
+      "Pick",
+      "GreatAxe",
+      "Scythe",
+      "Warhammer",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Rapier",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "ForceSword",
+      "Glaive",
+      "Naginata",
+      "Halberd",
+      "Poleaxe",
+      "Javelin",
+      "Spear",
+      "LongSpear",
+      "Quarterstaff",
+      "Lance",
+      "Baton",
+      "ShortStaff",
+      "BillieClub",
+      "LightClub",
+      "SmallMace",
+      "Mace",
+      "Morningstar",
+      "Kusari",
+      "Nunchaku",
+      "Maul",
+      "Flail",
+      "Blowpipe",
+      "Bow",
+      "ShortBow",
+      "Longbow",
+      "CompositeBow",
+      "Crossbow",
+      "PistolCrossbow",
+      "Prodd",
+      "Shuriken",
+      "Bolas",
+      "Sling",
+      "StaffSling",
+      "Atlatl",
+      "SpearThrower",
+      "FlintlockPistol51",
+      "Derringer41",
+      "Revolver36",
+      "Revolver38",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "AutoPistol44M",
+      "BoltActionRifle",
+      "FlintlockMusket75",
+      "grenadeBP",
+      "grenadeConcussionTL6",
+      "grenadeFragmentationTL6",
+      "MolotovCocktail",
+      "grenadeChemical",
+      "grenadeConcussionTL7",
+      "grenadeFragmentationTL7",
+      "grenadeStun",
+      "grenadePlasma",
+      "WheelLockPistol60",
+      "AutoPistol45",
+      "SnubRevolver38",
+      "HoldoutPistol380",
+      "Revolver357M",
+      "Revolver44M",
+      "AutoPistol40",
+      "GyrocPistol15mm",
+      "SMG45",
+      "SMG9mmTL6",
+      "MachinePistol9mm",
+      "SMG9mmTL7",
+      "PDW46mm",
+      "GaussPDW4mm",
+      "Handgonne90",
+      "MatchlockMusket80",
+      "RifleMusket577",
+      "CartridgeRifle45",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "AssaultRifle556mm",
+      "AssaultRifle762mmS",
+      "BattleRifle762mm",
+      "AssaultCarbine556mm",
+      "DartRifle11mm",
+      "SniperRifle338",
+      "ICW68mm",
+      "GaussRifle4mm",
+      "Blunderbuss8G",
+      "DoubleShotgun10G",
+      "PumpShotgun12G",
+      "AutoShotgun12G",
+      "ElectrolaserPistol",
+      "LaserPistol",
+      "BlasterPistol",
+      "ElectrolaserCarbine",
+      "LaserSniperRifle",
+      "LaserRifle",
+      "BlasterRifle",
+      "HeavyBlaster",
+      "ATGM115mm",
+      "SAM70mm",
+      "Scorpion",
+      "HMG50",
+      "UnderBarrel40mmGL",
+      "Integral25mmGL",
+      "Bazooka60mm",
+      "RPG85mm",
+      "LAW84mm",
+      "AutoRifle762mm",
+      "LMG762mm",
+      "SAW556mm",
+      "Flamethrower"
+    ],
+    "CombatSkills": [
+      "Battlesuit",
+      "BodyLanguage",
+      "Boxing",
+      "Brawling",
+      "Cloak",
+      "FastDraw",
+      "Judo",
+      "Karate",
+      "ParryMissileWeapons",
+      "Shield",
+      "SumoWrestling",
+      "Wrestling"
+    ],
+    "SwordSkills": [
+      "Broadsword",
+      "ForceSword",
+      "JitteSai",
+      "Knife",
+      "Shortsword",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "MainGauche",
+      "Rapier",
+      "Saber",
+      "Smallsword",
+      "Flail",
+      "TwoHandedFlail",
+      "AxeMace",
+      "TwoHandedAxeMace",
+      "Polearm",
+      "Spear",
+      "StaffSkill",
+      "Broadsword",
+      "ForceSword",
+      "JitteSai",
+      "Knife",
+      "Shortsword",
+      "TwoHandedSword",
+      "ForceWhip",
+      "Kusari",
+      "MonowireWhip",
+      "Whip"
+    ],
+    "Social": [
+      "Acting",
+      "Administration",
+      "AreaKnowledge",
+      "Bard",
+      "Diplomacy",
+      "FastTalk",
+      "Gambling",
+      "Leadership",
+      "Merchant",
+      "Performance",
+      "Politics",
+      "SavoirFaire",
+      "SexAppeal",
+      "Strategy",
+      "Tactics",
+      "Teaching",
+      "AppreciateBeauty",
+      "EroticArt",
+      "Intimidation",
+      "PerformanceRitual",
+      "SavoirFaireDojo",
+      "SavoirFaireServant",
+      "TeaCeremony"
+    ],
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "Appearance_from_AppearanceAttractive": {
+      "from": "AppearanceAttractive",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "GR",
+      "target": "Appearance"
+    },
+    "DR_from_Toughness": {
+      "from": "Toughness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "target": "DR"
+    },
+    "Disguise_from_Skinny": {
+      "from": "Skinny",
+      "fromCategory": "DI",
+      "amount": -3,
+      "target": "Disguise"
+    },
+    "FastDraw_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_EnhancedTimeSense": {
+      "from": "EnhancedTimeSense",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "Leadership_from_Charisma": {
+      "from": "Charisma",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "Leadership_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "Leadership_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "SavoirFaire_from_Clueless": {
+      "from": "Clueless",
+      "fromCategory": "DI",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Voice": {
+      "from": "Voice",
+      "fromCategory": "AD",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "fromCategory": "AD",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Encumbrance": {
+      "from": "Encumbrance",
+      "fromCategory": "enc",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Tracking_from_ColorBlind": {
+      "from": "ColorBlind",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "Tracking_from_DiscriminatorySmell": {
+      "from": "DiscriminatorySmell",
+      "fromCategory": "AD",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "FastDraw_from_HamFisted": {
+      "from": "HamFisted",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    }
+  },
+  "prerequisites": {},
+  "defaults": {
+    "FastDraw_from_stat": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Brawling_from_stat": {
+      "target": "Brawling",
+      "penalty": false,
+      "category": "stat"
+    },
+    "ArmouryTL5down_from_Blacksmith": {
+      "target": "ArmouryTL5down",
+      "penalty": -3,
+      "category": "SK",
+      "from": "Blacksmith"
+    },
+    "ArmouryTL5down_from_Weapon": {
+      "target": "ArmouryTL5down",
+      "penalty": -6,
+      "category": "GR",
+      "from": "Weapon"
+    },
+    "Gambling_from_Mathematics": {
+      "target": "Gambling",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Mathematics"
+    },
+    "Leadership_from_ST": {
+      "target": "Leadership",
+      "penalty": -5,
+      "from": "ST"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ"
+    },
+    "Stealth_from_DX": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "DX"
+    },
+    "Tactics_from_Strategy": {
+      "target": "Tactics",
+      "penalty": -6,
+      "category": "SK",
+      "from": "Strategy"
+    },
+    "Tracking_from_Naturalist": {
+      "target": "Tracking",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Naturalist"
+    },
+    "FastDraw_no_stat_default": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Brawling_no_stat_default": {
+      "target": "Brawling",
+      "penalty": false,
+      "category": "stat"
+    }
+  }
+}

@@ -1,0 +1,2908 @@
+{
+  "gameInfo": {
+    "ruleset": "e3",
+    "TL": 3,
+    "startingWealth": 1000,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5
+  },
+  "description": {
+    "name": "Raphael Holyoak",
+    "ID": "PhaHfKT3xI6o",
+    "createDate": 1453147894893,
+    "pointTotal": 100,
+    "height": 70,
+    "weight": 160,
+    "sizeMod": 0,
+    "gender": "male",
+    "age": 20,
+    "appearance": "Medium height, stocky, blond, shaggy beard, 40",
+    "statusText": "",
+    "repText": "",
+    "shortStory": "Mercenary \"ranger\" wizard, sometimes accompanies ranger troop, sometimes has other missions",
+    "story": "",
+    "goals": "",
+    "notes": "",
+    "artPath": "../characters/images/RHolyoak.png"
+  },
+  "playerInfo": {
+    "name": "iconic (Magic, 3rd ed.)"
+  },
+  "preferences": {
+    "display": {
+      "theme": "brown",
+      "watermark": "null",
+      "grimoire": true,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": true,
+      "skillsSupp": false,
+      "stuffScroll": true,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "traitsSuppAll": false,
+      "skillsSuppAll": false,
+      "stuffSuppAll": false,
+      "TLinfo": false,
+      "property": false,
+      "fractions": true,
+      "shortnames": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": -10,
+    "DX": 10,
+    "IQ": 45,
+    "HT": 0,
+    "HP": 0,
+    "Will": 0,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Magical Aptitude",
+      "type": "A",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 21",
+      "key": "Magery",
+      "group": "magery",
+      "exoticSprntl": "Su",
+      "levels": 3,
+      "lowestLevel": 1,
+      "highestLevel": 3,
+      "fixedCost": 5,
+      "description": ""
+    },
+    {
+      "name": "Animal Empathy",
+      "type": "A",
+      "physMntlScl": "M",
+      "cost": 5,
+      "reference": "Basic Set 3rd ed., pg 19",
+      "key": "AnimalEmpathy",
+      "exoticSprntl": "Su"
+    },
+    {
+      "name": "Literacy",
+      "type": "A",
+      "physMntlScl": "M",
+      "cost": 10,
+      "reference": "Basic Set 3rd ed., pg 21",
+      "key": "Literacy",
+      "group": "literacy",
+      "ConstantModsArray": [
+        {
+          "text": "Illiteracy norm",
+          "value": 0
+        }
+      ],
+      "expand": false
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Bad Sight",
+      "type": "D",
+      "physMntlScl": "P",
+      "cost": -25,
+      "reference": "Basic Set 3rd ed., pg 27",
+      "key": "BadSight",
+      "group": "vision",
+      "description": "nearsighted",
+      "expand": true
+    },
+    {
+      "name": "Pacifism",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -15,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 35",
+      "key": "Pacifism",
+      "levels": 1,
+      "highestLevel": 2
+    },
+    {
+      "name": "Sense of Duty",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 39",
+      "key": "SenseOfDuty",
+      "multiple": 1,
+      "levels": 2,
+      "highestLevel": 4,
+      "description": "to employer",
+      "expand": true
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Talks to animals",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Loves to fish and tell fish stories",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Keeps snacks in his hat",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Conceals armor under his robe",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Loves wine; has been known to drink to excess",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Staff",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 52",
+      "points": 4,
+      "type": "P",
+      "key": "StaffSkill"
+    },
+    {
+      "name": "Knife",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 51",
+      "points": 0.5,
+      "type": "P",
+      "key": "Knife",
+      "dash": false
+    },
+    {
+      "name": "Riding",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 46; Compendium I, pg 128",
+      "points": 2,
+      "type": "P",
+      "key": "Riding",
+      "specialization": "Horse"
+    },
+    {
+      "name": "Animal Handling",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 46",
+      "points": 2,
+      "type": "M",
+      "key": "AnimalHandling"
+    },
+    {
+      "name": "Fishing",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 57",
+      "points": 1,
+      "type": "M",
+      "key": "Fishing"
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 67",
+      "points": 1.5,
+      "type": "P",
+      "key": "Stealth",
+      "dash": false
+    },
+    {
+      "name": "Survival",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 57",
+      "points": 1,
+      "type": "M",
+      "key": "Survival",
+      "specialization": "Woodlands"
+    },
+    {
+      "name": "First Aid",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 56",
+      "points": 1,
+      "type": "M",
+      "key": "FirstAid",
+      "TL": 3
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Sense Life",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 155",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true,
+        "area": true
+      },
+      "stats": {
+        "castcost": 0.5,
+        "time": 1,
+        "duration": null,
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "SenseLife"
+    },
+    {
+      "name": "Sense Foes",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 155",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true,
+        "area": true
+      },
+      "stats": {
+        "castcost": 1,
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "SenseFoes"
+    },
+    {
+      "name": "Seek Earth",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 156",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true
+      },
+      "stats": {
+        "castcost": 3,
+        "time": 10,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "SeekEarth"
+    },
+    {
+      "name": "Sense Danger",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "SenseDanger",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "castcost": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Shield",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "ShieldSpell",
+      "stats": {
+        "time": 1,
+        "duration": "1 min",
+        "castcost": "2/PD+",
+        "maintaincost": "1/PD+",
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Missile Shield",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "MissileShield",
+      "stats": {
+        "time": 1,
+        "duration": "1 min",
+        "castcost": 5,
+        "maintaincost": 2,
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Purify Air",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Magic 3rd ed., pg 30",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "area": true
+      },
+      "stats": {
+        "castcost": 1,
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "PurifyAir"
+    },
+    {
+      "name": "Lend Strength",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1/FP restored",
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "LendStrength"
+    },
+    {
+      "name": "Lend Health",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "1 hr",
+        "castcost": "1/HT loaned",
+        "time": 1,
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "LendHealth"
+    },
+    {
+      "name": "Recover Strength",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "spcl": true
+      },
+      "stats": {
+        "castcost": "JSONcircRef:skills.9.stats.duration",
+        "duration": "&mdash;",
+        "notes": "speeds Fatigue recovery; see B162",
+        "time": 1,
+        "maintaincost": "JSONcircRef:skills.9.stats.duration"
+      },
+      "spell": true,
+      "key": "RecoverStrength"
+    },
+    {
+      "name": "Sterilize",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Sterilize",
+      "stats": {
+        "castcost": "3, or 2 for fist-size object or flat area &le; 30 in&sup2;",
+        "time": 2
+      },
+      "classes": {
+        "area": true
+      }
+    },
+    {
+      "name": "Minor Healing",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1-3",
+        "notes": "restores 1 HT/pt spent",
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration"
+      },
+      "spell": true,
+      "key": "MinorHealing"
+    },
+    {
+      "name": "Major Healing",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set 3rd ed., pg 162",
+      "points": 2,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1-4",
+        "notes": "restores 2 HT/pt spent",
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration"
+      },
+      "spell": true,
+      "key": "MajorHealing"
+    },
+    {
+      "name": "Cure Disease",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "CureDisease",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "castcost": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Restoration",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "Restoration",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "castcost": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Beast-Soother",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 155",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1 to 3",
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "BeastSoother"
+    },
+    {
+      "name": "Beast Summoning",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 155",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "1 min",
+        "castcost": 3,
+        "maintaincost": 2,
+        "time": 1,
+        "notes": ""
+      },
+      "spell": true,
+      "key": "BeastSummoning"
+    },
+    {
+      "name": "Beast Speech",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "1 min",
+        "castcost": 4,
+        "maintaincost": 2,
+        "time": 1,
+        "notes": ""
+      },
+      "spell": true,
+      "key": "BeastSpeech"
+    },
+    {
+      "name": "Bird Control",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 155",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true,
+        "riq": true
+      },
+      "stats": {
+        "duration": "1 min",
+        "castcost": 3,
+        "maintaincost": 2,
+        "time": 1,
+        "notes": ""
+      },
+      "spell": true,
+      "key": "BirdControl"
+    },
+    {
+      "name": "Mammal Control",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 155",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true,
+        "riq": true
+      },
+      "stats": {
+        "duration": "1 min",
+        "castcost": 3,
+        "maintaincost": 2,
+        "time": 1,
+        "notes": ""
+      },
+      "spell": true,
+      "key": "MammalControl"
+    },
+    {
+      "name": "Insect Control",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true,
+        "riq": true
+      },
+      "stats": {
+        "duration": "1 min",
+        "castcost": 3,
+        "maintaincost": 2,
+        "time": 1,
+        "notes": ""
+      },
+      "spell": true,
+      "key": "InsectControl"
+    },
+    {
+      "name": "Rider",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "duration": "5 min",
+        "castcost": 2,
+        "maintaincost": 1,
+        "time": 1,
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Rider"
+    },
+    {
+      "name": "Shapeshifting",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Compendium, pg. 144",
+      "points": 1,
+      "type": "M",
+      "key": "Shapeshifting",
+      "classes": {
+        "spcl": true
+      },
+      "stats": {
+        "duration": "1 hr",
+        "castcost": 6,
+        "maintaincost": 2,
+        "time": 3,
+        "notes": "Bear form has ST 18, DX 13, IQ 14, HT 12."
+      },
+      "spell": true,
+      "specialization": "Bear"
+    },
+    {
+      "name": "Ignite Fire",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Magic 3rd ed., pg 32",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1-4",
+        "maintaincost": "same",
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "IgniteFire"
+    },
+    {
+      "name": "Test Food",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "TestFood",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "castcost": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Preserve Food",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "PreserveFood",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "castcost": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Purify Food",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "PurifyFood",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "castcost": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Seek Water",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 159",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true
+      },
+      "stats": {
+        "castcost": 2,
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "SeekWater"
+    },
+    {
+      "name": "Purify Water",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 159",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "spcl": true
+      },
+      "stats": {
+        "time": "see notes",
+        "castcost": "1/gal",
+        "duration": "Purified water stays pure unless re-contaminated.",
+        "notes": "Usually 5 to 10 seconds per gallon, unless a large container and ring are used.",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration"
+      },
+      "spell": true,
+      "key": "PurifyWater"
+    },
+    {
+      "name": "Find Direction",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "spell": true,
+      "key": "FindDirection",
+      "stats": {
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "castcost": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "classes": {
+        "reg": true
+      }
+    },
+    {
+      "name": "Seeker",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 163",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true
+      },
+      "stats": {
+        "castcost": 3,
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Seeker"
+    },
+    {
+      "name": "Trace",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 163",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": 3,
+        "maintaincost": 1,
+        "duration": "1 hr",
+        "time": "1 min",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Trace"
+    },
+    {
+      "name": "Find Weakness",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 164",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "info": true
+      },
+      "stats": {
+        "castcost": 1,
+        "time": 2,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "FindWeakness"
+    },
+    {
+      "name": "Weaken",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 164",
+      "points": 1,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": 2,
+        "duration": "permanent",
+        "time": 5,
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Weaken"
+    },
+    {
+      "name": "Shatter",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set 3rd ed., pg 164",
+      "points": 12,
+      "type": "M",
+      "classes": {
+        "reg": true
+      },
+      "stats": {
+        "castcost": "1/d damage, max 3d",
+        "time": 1,
+        "duration": "JSONcircRef:skills.9.stats.duration",
+        "maintaincost": "JSONcircRef:skills.9.stats.duration",
+        "notes": ""
+      },
+      "spell": true,
+      "key": "Shatter"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Lt. Leather Armor (Deflect+1, Fortify+1)",
+      "weight": 10,
+      "cost": 210,
+      "TL": 1,
+      "LC": 5,
+      "number": 1,
+      "PD": 2,
+      "DR": 2,
+      "location": [
+        "neck",
+        "torso",
+        "waist",
+        "groin",
+        "domArm",
+        "offArm",
+        "domLeg",
+        "offLeg",
+        "domHand",
+        "offHand",
+        "domFoot",
+        "offFoot"
+      ],
+      "addedCost": 200
+    },
+    {
+      "name": "personal basics",
+      "weight": 0,
+      "cost": 5,
+      "TL": 1,
+      "LC": 6,
+      "number": 1
+    },
+    {
+      "name": "4-point Powerstone",
+      "weight": 0,
+      "cost": 450,
+      "TL": 0,
+      "LC": 6,
+      "number": 1
+    },
+    {
+      "name": "Silver Coins",
+      "weight": 0,
+      "cost": 55,
+      "TL": 0,
+      "LC": 6,
+      "number": 1
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff (with Staff-15 enchantment)",
+      "weight": 4,
+      "cost": 10,
+      "TL": 0,
+      "LC": 4,
+      "number": 1,
+      "bulk": -8,
+      "qualityEffectGroup": "mace/cr",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "StaffSkill": [
+          {
+            "title": "swing",
+            "hands": "both",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": 2,
+              "type": "cr"
+            },
+            "note": [
+              "Parry is 2/3 Staff skill."
+            ],
+            "reach": "1,2"
+          },
+          {
+            "title": "thrust",
+            "hands": "both",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 2,
+              "type": "cr"
+            },
+            "note": [
+              "Parry is 2/3 Staff skill."
+            ],
+            "reach": "1,2"
+          }
+        ],
+        "TwoHandedSword": [
+          {
+            "title": "swing",
+            "hands": "both",
+            "strength": 9,
+            "damage": {
+              "base": "sw",
+              "mods": 2,
+              "type": "cr"
+            },
+            "note": [
+              "Using sword technique with staff."
+            ],
+            "reach": "1,2"
+          },
+          {
+            "title": "thrust",
+            "hands": "both",
+            "strength": 9,
+            "damage": {
+              "base": "thr",
+              "mods": 1,
+              "type": "cr"
+            },
+            "note": [
+              "Using sword technique with staff."
+            ],
+            "reach": "2"
+          }
+        ]
+      },
+      "addedCost": 30,
+      "shots": 0
+    },
+    {
+      "name": "Large Knife",
+      "weight": 1,
+      "cost": 40,
+      "TL": 0,
+      "LC": 4,
+      "number": 1,
+      "bulk": -2,
+      "qualityEffectGroup": "edged",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Maximum damage ld+2."
+            ],
+            "reach": "C,1",
+            "parryBonus": "-1"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Throwable; Maximum damage ld+2."
+            ],
+            "reach": "C",
+            "parryBonus": "-1"
+          }
+        ],
+        "MainGauche": [
+          {
+            "title": "swing",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Parry is 2/3 Main-Gauche skill."
+            ],
+            "reach": "C,1"
+          },
+          {
+            "title": "thrust",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Parry is 2/3 Main-Gauche skill."
+            ],
+            "reach": "C"
+          }
+        ],
+        "KnifeThrowing": [
+          {
+            "title": "throw",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Maximum damage ld+2."
+            ],
+            "rangeBasedOnST": "add",
+            "halfDamageRange": -2,
+            "maximumRange": 5,
+            "snapShot": 12
+          }
+        ]
+      },
+      "addedCost": 0,
+      "shots": 0
+    }
+  ],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection",
+      "wield",
+      "StaffSkill",
+      "JSONcircRef:weapons.0",
+      "wear",
+      "JSONcircRef:equipment.0",
+      "JSONcircRef:weapons.1",
+      "JSONcircRef:equipment.1",
+      "JSONcircRef:equipment.2",
+      "JSONcircRef:equipment.3"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "HandWeaponSkills": [
+      "AxeMace",
+      "Blackjack",
+      "Broadsword",
+      "Fencing",
+      "Flail",
+      "ForceSword",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "MainGauche",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Spear",
+      "StaffSkill",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling"
+    ],
+    "AnimalSkills": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Tracking",
+      "Veterinary",
+      "Bulldancing",
+      "Bullfighting",
+      "EquestrianAcrobatics",
+      "SnakeCharming"
+    ],
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "Bulldancing",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw"
+    ],
+    "OutdoorSkills": [
+      "AreaKnowledge",
+      "Boating",
+      "Climbing",
+      "Fishing",
+      "Naturalist",
+      "Navigation",
+      "Seamanship",
+      "Survival",
+      "Tracking",
+      "AnimalGuise",
+      "BowandPalette",
+      "Cartography",
+      "FlintSparking",
+      "HardHatDiving",
+      "Hiking",
+      "Mimicry",
+      "OpenDressDiving",
+      "Orienteering",
+      "Skating",
+      "Surveying"
+    ],
+    "ThiefSpySkills": [
+      "Acting",
+      "Climbing",
+      "Camouflage",
+      "Demolition",
+      "DetectLies",
+      "Disguise",
+      "Escape",
+      "FastTalk",
+      "Forgery",
+      "Holdout",
+      "IntelligenceAnalysis",
+      "Interrogation",
+      "LipReading",
+      "Lockpicking",
+      "Pickpocket",
+      "Poisons",
+      "Scrounging",
+      "Shadowing",
+      "SleightofHand",
+      "Stealth",
+      "Streetwise",
+      "Tracking",
+      "Traps",
+      "UnderwaterDemolition",
+      "Ventriloquism",
+      "BrainHacking",
+      "ComputerHacking",
+      "Filch",
+      "Starglazing",
+      "UtteringofBaseCoin"
+    ],
+    "MedicalSkills": [
+      "Diagnosis",
+      "FirstAid",
+      "Hypnotism",
+      "Physician",
+      "Surgery",
+      "ChiTreatment",
+      "Herbalist",
+      "Herbary",
+      "Pharmacy",
+      "Veterinary",
+      "YinYangHealing"
+    ],
+    "CommunicationEmpathySpells": [
+      "MindReading",
+      "Persuasion",
+      "SenseEmotion",
+      "SenseFoes",
+      "SenseLife",
+      "Truthsayer",
+      "BorrowLanguage",
+      "BorrowSkill",
+      "CompelTruth",
+      "ControlPerson",
+      "ExchangeBodies",
+      "Exorcism",
+      "GiftofLetters",
+      "GiftofTongues",
+      "HideThoughts",
+      "LendLanguage",
+      "LendSkill",
+      "MindSearch",
+      "MindSending",
+      "PermanentPossession",
+      "Possession",
+      "SoulRider",
+      "Telepathy",
+      "MindReadingSpell"
+    ],
+    "CE": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "CESpells": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "Communication": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "CommunicationEmpathy": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "CommunicationEmpathyCESpells": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "Spells": [
+      "BeastSummoning",
+      "BeastSoother",
+      "BirdControl",
+      "MammalControl",
+      "ReptileControl",
+      "MindReading",
+      "Persuasion",
+      "SenseEmotion",
+      "SenseFoes",
+      "SenseLife",
+      "Truthsayer",
+      "ControlEarthElemental",
+      "CreateEarth",
+      "CreateEarthElemental",
+      "EarthtoAir",
+      "EarthtoStone",
+      "EarthVision",
+      "SeekEarth",
+      "ShapeEarth",
+      "StoneMissile",
+      "StonetoEarth",
+      "SummonEarthElemental",
+      "BreatheWater",
+      "Clouds",
+      "ControlAirElemental",
+      "CreateAir",
+      "CreateAirElemental",
+      "Lightning",
+      "PredictWeather",
+      "PurifyAir",
+      "Rain",
+      "ShapeAir",
+      "SummonAirElemental",
+      "WalkonAir",
+      "Cold",
+      "ControlFireElemental",
+      "CreateFire",
+      "CreateFireElemental",
+      "ExtinguishFire",
+      "Fireball",
+      "Heat",
+      "IgniteFire",
+      "ResistFire",
+      "ShapeFire",
+      "SummonFireElemental",
+      "ControlWaterElemental",
+      "CreateWater",
+      "CreateWaterElemental",
+      "DestroyWater",
+      "Fog",
+      "IceSphere",
+      "PurifyWater",
+      "SeekWater",
+      "ShapeWater",
+      "SummonWaterElemental",
+      "WalkonWater",
+      "Accuracy",
+      "Deflect",
+      "Enchant",
+      "Fortify",
+      "Lighten",
+      "Power",
+      "Powerstone",
+      "Puissance",
+      "RemoveEnchantment",
+      "Scroll",
+      "StaffSpell",
+      "Awaken",
+      "LendHealth",
+      "LendStrength",
+      "MajorHealing",
+      "MinorHealing",
+      "RecoverStrength",
+      "AnalyzeMagic",
+      "Aura",
+      "DetectMagic",
+      "IdentifySpell",
+      "Seeker",
+      "Trace",
+      "Blur",
+      "ContinualLight",
+      "Darkness",
+      "Flash",
+      "Light",
+      "FindWeakness",
+      "Rejoin",
+      "Repair",
+      "Restore",
+      "Shatter",
+      "Weaken",
+      "Bravery",
+      "Daze",
+      "Fear",
+      "Foolishness",
+      "MassDaze",
+      "MassSleep",
+      "Sleep",
+      "AirJet",
+      "BodyofAir",
+      "DestroyAir",
+      "NoSmell",
+      "Odor",
+      "Stench",
+      "Whirlwind",
+      "Windstorm",
+      "BodyofStone",
+      "Earthquake",
+      "Entombment",
+      "FleshtoStone",
+      "SandJet",
+      "ShapeStone",
+      "StonetoFlesh",
+      "Volcano",
+      "WalkThroughEarth",
+      "BreatheFire",
+      "EssentialFlame",
+      "ExplosiveFireball",
+      "Fireproof",
+      "FlameJet",
+      "FlamingMissiles",
+      "FlamingWeapon",
+      "PhantomFlame",
+      "ResistCold",
+      "BodyofWater",
+      "BreatheAir",
+      "Dehydrate",
+      "EssentialWater",
+      "Freeze",
+      "Frost",
+      "Frostbite",
+      "Geyser",
+      "Hail",
+      "IceSlick",
+      "IceVision",
+      "IceDagger",
+      "IcyWeapon",
+      "MeltIce",
+      "Snow",
+      "SnowShoes",
+      "Swim",
+      "Umbrella",
+      "WaterVision",
+      "WaterJet",
+      "BeastLink",
+      "BeastPossession",
+      "BeastSeeker",
+      "BeastSpeech",
+      "FishControl",
+      "InsectControl",
+      "Master",
+      "MolluskControl",
+      "Rider",
+      "RiderWithin",
+      "Shapeshifting",
+      "ShapeshiftOthers",
+      "AlterVisage",
+      "AlterBody",
+      "Climbing",
+      "Clumsiness",
+      "CurseMissile",
+      "Deathtouch",
+      "Dexterity",
+      "Fatigue",
+      "Hinder",
+      "Itch",
+      "Might",
+      "Pain",
+      "ParalyzeLimb",
+      "ResistPain",
+      "RootedFeet",
+      "Roundabout",
+      "Sickness",
+      "Spasm",
+      "StrikeBlind",
+      "StrikeDeaf",
+      "StrikeDumb",
+      "Stun",
+      "Tanglefoot",
+      "TotalParalysis",
+      "Vigor",
+      "WitherLimb",
+      "BorrowLanguage",
+      "BorrowSkill",
+      "CompelTruth",
+      "ControlPerson",
+      "ExchangeBodies",
+      "Exorcism",
+      "GiftofLetters",
+      "GiftofTongues",
+      "HideThoughts",
+      "LendLanguage",
+      "LendSkill",
+      "MindSearch",
+      "MindSending",
+      "PermanentPossession",
+      "Possession",
+      "SoulRider",
+      "Telepathy",
+      "Bane",
+      "Cornucopia",
+      "CrystalBall",
+      "DancingWeapon",
+      "Golem",
+      "GreatWish",
+      "Hex",
+      "Hideaway",
+      "LesserWish",
+      "Limit",
+      "Link",
+      "LoyalSword",
+      "Name",
+      "Password",
+      "QuickDraw",
+      "Speed",
+      "SuspendEnchantment",
+      "Wish",
+      "Banquet",
+      "Cook",
+      "CreateFood",
+      "Decay",
+      "Distill",
+      "Ferment",
+      "MonksBanquet",
+      "PoisonFood",
+      "PreserveFood",
+      "PurifyFood",
+      "SeekFood",
+      "TestFood",
+      "WatertoWine",
+      "CureDisease",
+      "HaltAging",
+      "InstantRegeneration",
+      "InstantRestoration",
+      "NeutralizePoison",
+      "Regeneration",
+      "Restoration",
+      "Resurrection",
+      "ShareStrength",
+      "Sterilize",
+      "SuspendedAnimation",
+      "Youth",
+      "ComplexIllusion",
+      "ControlCreation",
+      "ControlIllusion",
+      "CreateAnimal",
+      "CreateObject",
+      "CreateServant",
+      "CreateWarrior",
+      "DispelCreation",
+      "DispelIllusion",
+      "IllusionDisguise",
+      "IllusionShell",
+      "Independence",
+      "KnowIllusion",
+      "PerfectIllusion",
+      "SimpleIllusion",
+      "Alarm",
+      "AncientHistory",
+      "Divination",
+      "FarHearing",
+      "FindDirection",
+      "GlassWall",
+      "History",
+      "InvisibleWizardEye",
+      "MageSense",
+      "MageSight",
+      "Measurement",
+      "Pathfinder",
+      "SeeSecrets",
+      "TellTime",
+      "WizardEye",
+      "Colors",
+      "DarkVision",
+      "HawkVision",
+      "Hide",
+      "Infravision",
+      "Invisibility",
+      "LightJet",
+      "NightVision",
+      "SeeInvisible",
+      "ShapeDarkness",
+      "Clean",
+      "Copy",
+      "Disintegrate",
+      "Dye",
+      "Knot",
+      "RepairArrow",
+      "Reshape",
+      "Ruin",
+      "Sharpen",
+      "Shatterproof",
+      "Stiffen",
+      "ActivateRunes",
+      "Bless",
+      "ConcealMagic",
+      "Curse",
+      "Counterspell",
+      "Delay",
+      "DispelMagic",
+      "DrainMana",
+      "GreatWard",
+      "Pentagram",
+      "MagicResistance",
+      "Reflect",
+      "Reflex",
+      "RemoveCurse",
+      "RestoreMana",
+      "Scryguard",
+      "Scrywall",
+      "SpellShield",
+      "Ward",
+      "Alertness",
+      "Avoid",
+      "Berserker",
+      "Charm",
+      "Drunkenness",
+      "EmotionControl",
+      "Enslave",
+      "FalseMemory",
+      "Forgetfulness",
+      "GreatGeas",
+      "KeenEars",
+      "KeenEyes",
+      "KeenNose",
+      "LesserGeas",
+      "Loyalty",
+      "MassSuggestion",
+      "MentalStun",
+      "Mindlessness",
+      "PeacefulSleep",
+      "PermanentForgetfulness",
+      "Madness",
+      "Nightmare",
+      "Panic",
+      "PermanentMadness",
+      "RearVision",
+      "Suggestion",
+      "Terror",
+      "Wisdom",
+      "AirGolem",
+      "Apportation",
+      "Blink",
+      "EtherealBody",
+      "Flight",
+      "Glue",
+      "GreatHaste",
+      "Haste",
+      "HawkFlight",
+      "Levitation",
+      "LightenBurden",
+      "Lockmaster",
+      "Locksmith",
+      "Manipulate",
+      "Poltergeist",
+      "QuickMarch",
+      "SlowFall",
+      "Teleport",
+      "TeleportOther",
+      "Undo",
+      "Wallwalker",
+      "WingedKnife",
+      "Age",
+      "Animation",
+      "Banish",
+      "ControlZombie",
+      "DeathVision",
+      "Pestilence",
+      "PlanarSummons",
+      "SenseSpirit",
+      "SkullSpirit",
+      "SoulJar",
+      "StealHealth",
+      "StealStrength",
+      "StealYouth",
+      "SummonDemon",
+      "SummonShade",
+      "SummonSpirit",
+      "TurnZombie",
+      "Zombie",
+      "AnimatePlant",
+      "BlessPlants",
+      "CreatePlant",
+      "ForestWarning",
+      "HealPlant",
+      "HidePath",
+      "IdentifyPlant",
+      "PlantForm",
+      "PlantGrowth",
+      "PlantSense",
+      "SeekPlant",
+      "ShapePlant",
+      "TangleGrowth",
+      "WitherPlant",
+      "Armor",
+      "ForceDome",
+      "IronArm",
+      "Nightingale",
+      "Magelock",
+      "MissileShield",
+      "MysticMist",
+      "ReverseMissiles",
+      "SenseDanger",
+      "ShieldSpell",
+      "TeleportShield",
+      "UtterDome",
+      "Watchdog",
+      "WeatherDome",
+      "DelayedMessage",
+      "GreatVoice",
+      "Hush",
+      "InvisibleWizardEar",
+      "MageStealth",
+      "Noise",
+      "Scribe",
+      "Silence",
+      "Sound",
+      "SoundJet",
+      "SoundVision",
+      "Thunderclap",
+      "Voices",
+      "WallofSilence",
+      "WizardEar",
+      "MindReadingSpell"
+    ],
+    "EarthSpells": [
+      "ControlEarthElemental",
+      "CreateEarth",
+      "CreateEarthElemental",
+      "EarthtoAir",
+      "EarthtoStone",
+      "EarthVision",
+      "SeekEarth",
+      "ShapeEarth",
+      "StoneMissile",
+      "StonetoEarth",
+      "SummonEarthElemental",
+      "BodyofStone",
+      "Earthquake",
+      "Entombment",
+      "FleshtoStone",
+      "SandJet",
+      "ShapeStone",
+      "StonetoFlesh",
+      "Volcano",
+      "WalkThroughEarth"
+    ],
+    "SeekSpells": [
+      "SeekEarth",
+      "SeekWater",
+      "SeekFood",
+      "SeekPlant"
+    ],
+    "Earth": "JSONcircRef:groups.EarthSpells",
+    "AirSpells": [
+      "BreatheWater",
+      "Clouds",
+      "ControlAirElemental",
+      "CreateAir",
+      "CreateAirElemental",
+      "EarthtoAir",
+      "Lightning",
+      "PredictWeather",
+      "PurifyAir",
+      "Rain",
+      "ShapeAir",
+      "SummonAirElemental",
+      "WalkonAir",
+      "AirJet",
+      "BodyofAir",
+      "DestroyAir",
+      "NoSmell",
+      "Odor",
+      "Stench",
+      "Whirlwind",
+      "Windstorm"
+    ],
+    "Air": "JSONcircRef:groups.AirSpells",
+    "HealingSpells": [
+      "Awaken",
+      "LendHealth",
+      "LendStrength",
+      "MajorHealing",
+      "MinorHealing",
+      "RecoverStrength",
+      "CureDisease",
+      "HaltAging",
+      "InstantRegeneration",
+      "InstantRestoration",
+      "NeutralizePoison",
+      "Regeneration",
+      "Restoration",
+      "Resurrection",
+      "ShareStrength",
+      "Sterilize",
+      "SuspendedAnimation",
+      "Youth"
+    ],
+    "Healing": "JSONcircRef:groups.HealingSpells",
+    "AnimalSpells": [
+      "BeastSummoning",
+      "BeastSoother",
+      "BirdControl",
+      "MammalControl",
+      "ReptileControl",
+      "BeastLink",
+      "BeastPossession",
+      "BeastSeeker",
+      "BeastSpeech",
+      "FishControl",
+      "InsectControl",
+      "Master",
+      "MolluskControl",
+      "Rider",
+      "RiderWithin",
+      "Shapeshifting",
+      "ShapeshiftOthers"
+    ],
+    "Animal": "JSONcircRef:groups.AnimalSpells",
+    "AnimalControlSpells": [
+      "BirdControl",
+      "MammalControl",
+      "ReptileControl"
+    ],
+    "AnimalControl": "JSONcircRef:groups.AnimalControlSpells",
+    "EsotericSkills": [
+      "Augury",
+      "Autohypnosis",
+      "BlindFighting",
+      "BlindingTouch",
+      "BodyControl",
+      "BreakingBlow",
+      "ChangeControl",
+      "ChiTreatment",
+      "Dislocating",
+      "Dreaming",
+      "DrunkenFighting",
+      "Persuade",
+      "SwayEmotions",
+      "Suggest",
+      "Captivate",
+      "FireWalking",
+      "FlyingFists",
+      "FlyingLeap",
+      "HandofDeath",
+      "HypnoticHands",
+      "ImmovableStance",
+      "InvisibilityArt",
+      "Kiai",
+      "LightWalk",
+      "LucidDreaming",
+      "Meditation",
+      "MentalStrength",
+      "MountainHeart",
+      "MuscleReading",
+      "PowerBlow",
+      "PrecognitiveParry",
+      "PressurePoints",
+      "PressureSecrets",
+      "Push",
+      "RitualMagic",
+      "Shapeshifting",
+      "SonarImaging",
+      "ThrowingArt",
+      "YinYangHealing",
+      "ZenArchery"
+    ],
+    "FireSpells": [
+      "Cold",
+      "ControlFireElemental",
+      "CreateFire",
+      "CreateFireElemental",
+      "ExtinguishFire",
+      "Fireball",
+      "Heat",
+      "IgniteFire",
+      "ResistFire",
+      "ShapeFire",
+      "SummonFireElemental",
+      "BreatheFire",
+      "EssentialFlame",
+      "ExplosiveFireball",
+      "Fireproof",
+      "FlameJet",
+      "FlamingMissiles",
+      "FlamingWeapon",
+      "PhantomFlame",
+      "ResistCold"
+    ],
+    "Fire": "JSONcircRef:groups.FireSpells",
+    "WaterSpells": [
+      "BreatheWater",
+      "ControlWaterElemental",
+      "CreateWater",
+      "CreateWaterElemental",
+      "DestroyWater",
+      "Fog",
+      "IceSphere",
+      "PurifyWater",
+      "Rain",
+      "SeekWater",
+      "ShapeWater",
+      "SummonWaterElemental",
+      "WalkonWater",
+      "BodyofWater",
+      "BreatheAir",
+      "Dehydrate",
+      "EssentialWater",
+      "Freeze",
+      "Frost",
+      "Frostbite",
+      "Geyser",
+      "Hail",
+      "IceSlick",
+      "IceVision",
+      "IceDagger",
+      "IcyWeapon",
+      "MeltIce",
+      "Snow",
+      "SnowShoes",
+      "Swim",
+      "Umbrella",
+      "WaterVision",
+      "WaterJet"
+    ],
+    "Water": "JSONcircRef:groups.WaterSpells",
+    "KnowledgeSpells": [
+      "AnalyzeMagic",
+      "Aura",
+      "DetectMagic",
+      "IdentifySpell",
+      "Seeker",
+      "Trace",
+      "Alarm",
+      "AncientHistory",
+      "Divination",
+      "EarthVision",
+      "FarHearing",
+      "FindDirection",
+      "GlassWall",
+      "History",
+      "IceVision",
+      "InvisibleWizardEye",
+      "MageSense",
+      "MageSight",
+      "Measurement",
+      "Pathfinder",
+      "SeeSecrets",
+      "TellTime",
+      "WaterVision",
+      "WizardEye"
+    ],
+    "Knowledge": "JSONcircRef:groups.KnowledgeSpells",
+    "MakingBreakingSpells": [
+      "FindWeakness",
+      "Rejoin",
+      "Repair",
+      "Restore",
+      "Shatter",
+      "Weaken",
+      "Clean",
+      "Copy",
+      "Disintegrate",
+      "Dye",
+      "Knot",
+      "RepairArrow",
+      "Reshape",
+      "Ruin",
+      "Sharpen",
+      "Shatterproof",
+      "Stiffen"
+    ],
+    "MB": "JSONcircRef:groups.MakingBreakingSpells",
+    "MakingBreaking": "JSONcircRef:groups.MakingBreakingSpells",
+    "MakingBreakingMBSpells": "JSONcircRef:groups.MakingBreakingSpells",
+    "BodyControlSpells": [
+      "AlterVisage",
+      "AlterBody",
+      "Climbing",
+      "Clumsiness",
+      "CurseMissile",
+      "Deathtouch",
+      "Dexterity",
+      "Fatigue",
+      "Hinder",
+      "Itch",
+      "Might",
+      "Pain",
+      "ParalyzeLimb",
+      "ResistPain",
+      "RootedFeet",
+      "Roundabout",
+      "Sickness",
+      "Spasm",
+      "StrikeBlind",
+      "StrikeDeaf",
+      "StrikeDumb",
+      "Stun",
+      "Tanglefoot",
+      "TotalParalysis",
+      "Vigor",
+      "WitherLimb"
+    ],
+    "EnchantmentSpells": [
+      "Accuracy",
+      "Bane",
+      "Cornucopia",
+      "CrystalBall",
+      "DancingWeapon",
+      "Deflect",
+      "Enchant",
+      "Fortify",
+      "Golem",
+      "GreatWish",
+      "Hex",
+      "Hideaway",
+      "LesserWish",
+      "Lighten",
+      "Limit",
+      "Link",
+      "LoyalSword",
+      "Name",
+      "Password",
+      "Power",
+      "Powerstone",
+      "Puissance",
+      "QuickDraw",
+      "RemoveEnchantment",
+      "Scroll",
+      "Speed",
+      "StaffSpell",
+      "SuspendEnchantment",
+      "Wish"
+    ],
+    "FoodSpells": [
+      "Banquet",
+      "Cook",
+      "CreateFood",
+      "Decay",
+      "Distill",
+      "Ferment",
+      "MonksBanquet",
+      "PoisonFood",
+      "PreserveFood",
+      "PurifyFood",
+      "SeekFood",
+      "TestFood",
+      "WatertoWine"
+    ],
+    "IllusionCreationSpells": [
+      "ComplexIllusion",
+      "ControlCreation",
+      "ControlIllusion",
+      "CreateAnimal",
+      "CreateObject",
+      "CreateServant",
+      "CreateWarrior",
+      "DispelCreation",
+      "DispelIllusion",
+      "IllusionDisguise",
+      "IllusionShell",
+      "Independence",
+      "KnowIllusion",
+      "PerfectIllusion",
+      "SimpleIllusion"
+    ],
+    "LightDarknessSpells": [
+      "Blur",
+      "Colors",
+      "ContinualLight",
+      "DarkVision",
+      "Darkness",
+      "Flash",
+      "HawkVision",
+      "Hide",
+      "Infravision",
+      "Invisibility",
+      "Light",
+      "LightJet",
+      "NightVision",
+      "SeeInvisible",
+      "ShapeDarkness"
+    ],
+    "MetaSpells": [
+      "ActivateRunes",
+      "Bless",
+      "ConcealMagic",
+      "Curse",
+      "Counterspell",
+      "Delay",
+      "DispelMagic",
+      "DrainMana",
+      "GreatWard",
+      "Pentagram",
+      "Link",
+      "MagicResistance",
+      "Reflect",
+      "Reflex",
+      "RemoveCurse",
+      "RestoreMana",
+      "Scryguard",
+      "Scrywall",
+      "SpellShield",
+      "Ward"
+    ],
+    "MindControlSpells": [
+      "Alertness",
+      "Avoid",
+      "Berserker",
+      "Bravery",
+      "Charm",
+      "Daze",
+      "Drunkenness",
+      "EmotionControl",
+      "Enslave",
+      "FalseMemory",
+      "Fear",
+      "Foolishness",
+      "Forgetfulness",
+      "GreatGeas",
+      "KeenEars",
+      "KeenEyes",
+      "KeenNose",
+      "LesserGeas",
+      "Loyalty",
+      "MassDaze",
+      "MassSleep",
+      "MassSuggestion",
+      "MentalStun",
+      "Mindlessness",
+      "PeacefulSleep",
+      "PermanentForgetfulness",
+      "Madness",
+      "Nightmare",
+      "Panic",
+      "PermanentMadness",
+      "RearVision",
+      "Sickness",
+      "Sleep",
+      "Suggestion",
+      "Terror",
+      "Wisdom"
+    ],
+    "MovementSpells": [
+      "AirGolem",
+      "Apportation",
+      "Blink",
+      "EtherealBody",
+      "Flight",
+      "Glue",
+      "GreatHaste",
+      "Haste",
+      "HawkFlight",
+      "Levitation",
+      "LightenBurden",
+      "Lockmaster",
+      "Locksmith",
+      "Manipulate",
+      "Poltergeist",
+      "QuickMarch",
+      "SlowFall",
+      "Swim",
+      "Teleport",
+      "TeleportOther",
+      "Undo",
+      "Wallwalker",
+      "WingedKnife"
+    ],
+    "NecromanticSpells": [
+      "Age",
+      "Animation",
+      "Banish",
+      "ControlZombie",
+      "DeathVision",
+      "Pestilence",
+      "PlanarSummons",
+      "Resurrection",
+      "SenseSpirit",
+      "SkullSpirit",
+      "SoulJar",
+      "StealHealth",
+      "StealStrength",
+      "StealYouth",
+      "SummonDemon",
+      "SummonShade",
+      "SummonSpirit",
+      "TurnZombie",
+      "Zombie"
+    ],
+    "PlantSpells": [
+      "AnimatePlant",
+      "BlessPlants",
+      "CreatePlant",
+      "ForestWarning",
+      "HealPlant",
+      "HidePath",
+      "IdentifyPlant",
+      "PlantForm",
+      "PlantGrowth",
+      "PlantSense",
+      "SeekPlant",
+      "ShapePlant",
+      "TangleGrowth",
+      "WitherPlant"
+    ],
+    "ProtectionWarningSpells": [
+      "Armor",
+      "ForceDome",
+      "IronArm",
+      "Nightingale",
+      "Magelock",
+      "MissileShield",
+      "MysticMist",
+      "ReverseMissiles",
+      "SenseDanger",
+      "ShieldSpell",
+      "TeleportShield",
+      "Umbrella",
+      "UtterDome",
+      "Watchdog",
+      "WeatherDome"
+    ],
+    "SoundSpells": [
+      "DelayedMessage",
+      "FarHearing",
+      "GreatVoice",
+      "Hush",
+      "InvisibleWizardEar",
+      "KeenEars",
+      "MageStealth",
+      "Noise",
+      "Scribe",
+      "Silence",
+      "Sound",
+      "SoundJet",
+      "SoundVision",
+      "Thunderclap",
+      "Voices",
+      "WallofSilence",
+      "WizardEar"
+    ],
+    "ProtectionWarning": [
+      "Armor",
+      "ForceDome",
+      "IronArm",
+      "Nightingale",
+      "Magelock",
+      "MissileShield",
+      "MysticMist",
+      "ReverseMissiles",
+      "SenseDanger",
+      "ShieldSpell",
+      "TeleportShield",
+      "Umbrella",
+      "UtterDome",
+      "Watchdog",
+      "WeatherDome"
+    ],
+    "Food": [
+      "Banquet",
+      "Cook",
+      "CreateFood",
+      "Decay",
+      "Distill",
+      "Ferment",
+      "MonksBanquet",
+      "PoisonFood",
+      "PreserveFood",
+      "PurifyFood",
+      "SeekFood",
+      "TestFood",
+      "WatertoWine"
+    ],
+    "KnownLanguages": [],
+    "WeaponsSkills": [
+      "AxeMace",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "Fencing",
+      "FireSiphon",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shield",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "ThrowingStick",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "WeaponSkills": [
+      "AxeMace",
+      "BeamWeapons",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Crossbow",
+      "Flail",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "JitteSai",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "Throwing",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "MeleeWeaponSkills": [
+      "MainGauche",
+      "Rapier",
+      "Saber",
+      "Smallsword",
+      "Flail",
+      "TwoHandedFlail",
+      "AxeMace",
+      "TwoHandedAxeMace",
+      "Polearm",
+      "Spear",
+      "StaffSkill",
+      "Broadsword",
+      "ForceSword",
+      "JitteSai",
+      "Knife",
+      "Shortsword",
+      "TwoHandedSword",
+      "ForceWhip",
+      "Kusari",
+      "MonowireWhip",
+      "Whip"
+    ],
+    "SwordSkills": [
+      "Broadsword",
+      "ForceSword",
+      "JitteSai",
+      "Knife",
+      "Shortsword",
+      "TwoHandedSword"
+    ],
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "Spells_from_Magery": {
+      "from": "Magery",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "group",
+      "target": "Spells"
+    },
+    "Animal_from_AnimalEmpathy": {
+      "from": "AnimalEmpathy",
+      "fromCategory": "AD",
+      "amount": 4,
+      "targetCategory": "CL",
+      "target": "AnimalSkills"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "fromCategory": "AD",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Encumbrance": {
+      "from": "Encumbrance",
+      "fromCategory": "enc",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "HandWeaponSkills_from_BadSight": {
+      "from": "BadSight",
+      "amount": -2,
+      "targetCategory": "GR",
+      "target": "HandWeaponSkills"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    }
+  },
+  "prerequisites": {
+    "SenseDanger_requires_SenseFoes_pgroup1": {
+      "target": "SenseDanger",
+      "prereq": "SenseFoes",
+      "pgroup": 1
+    },
+    "SenseDanger_requires_DangerSense_pgroup1": {
+      "target": "SenseDanger",
+      "prereq": "DangerSense",
+      "pgroup": 1,
+      "category": "AD"
+    },
+    "ShieldSpell_requires_Magery2": {
+      "target": "ShieldSpell",
+      "prereq": "override"
+    },
+    "MissileShield_requires_Apportation_pgroup1": {
+      "target": "MissileShield",
+      "prereq": "override",
+      "pgroup": 1
+    },
+    "MissileShield_requires_ShieldSpell_pgroup1": {
+      "target": "MissileShield",
+      "prereq": "override",
+      "pgroup": 1
+    },
+    "LendStrength_requires_Magery_pgroup1": {
+      "target": "LendStrength",
+      "category": "ADS",
+      "prereq": "Magery",
+      "pgroup": 1
+    },
+    "LendStrength_requires_Empathy_pgroup1": {
+      "target": "LendStrength",
+      "category": "ADS",
+      "prereq": "Empathy",
+      "pgroup": 1
+    },
+    "LendHealth_requires_LendStrength": {
+      "target": "LendHealth",
+      "prereq": "LendStrength"
+    },
+    "RecoverStrength_requires_Magery": {
+      "target": "RecoverStrength",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "RecoverStrength_requires_LendStrength": {
+      "target": "RecoverStrength",
+      "prereq": "LendStrength"
+    },
+    "Sterilize_requires_Decay_pgroup1": {
+      "target": "Sterilize",
+      "prereq": "override",
+      "pgroup": 1
+    },
+    "Sterilize_requires_InsectControl_pgroup1": {
+      "target": "Sterilize",
+      "prereq": "override",
+      "pgroup": 1
+    },
+    "MinorHealing_requires_LendHealth": {
+      "target": "MinorHealing",
+      "prereq": "LendHealth"
+    },
+    "MajorHealing_requires_Magery": {
+      "target": "MajorHealing",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "MajorHealing_requires_MinorHealing": {
+      "target": "MajorHealing",
+      "prereq": "MinorHealing"
+    },
+    "CureDisease_requires_Sterilize": {
+      "target": "CureDisease",
+      "prereq": "Sterilize"
+    },
+    "CureDisease_requires_MajorHealing": {
+      "target": "CureDisease",
+      "prereq": "MajorHealing"
+    },
+    "Restoration_requires_MajorHealing": {
+      "target": "Restoration",
+      "prereq": "MajorHealing"
+    },
+    "BeastSoother_requires_Persuasion_pgroup1": {
+      "target": "BeastSoother",
+      "prereq": "Persuasion",
+      "pgroup": 1
+    },
+    "BeastSoother_requires_AnimalEmpathy_pgroup1": {
+      "target": "BeastSoother",
+      "prereq": "AnimalEmpathy",
+      "pgroup": 1,
+      "category": "ADS"
+    },
+    "BeastSummoning_requires_BeastSoother": {
+      "target": "BeastSummoning",
+      "prereq": "BeastSoother"
+    },
+    "BeastSpeech_requires_BeastSummoning": {
+      "target": "BeastSpeech",
+      "prereq": "BeastSummoning"
+    },
+    "BirdControl_requires_BeastSoother": {
+      "target": "BirdControl",
+      "prereq": "BeastSoother"
+    },
+    "MammalControl_requires_BeastSoother_pgroup1": {
+      "target": "MammalControl",
+      "prereq": "BeastSoother",
+      "pgroup": 1
+    },
+    "MammalControl_requires_Charm_pgroup1": {
+      "target": "MammalControl",
+      "prereq": "Charm",
+      "pgroup": 1
+    },
+    "InsectControl_requires_BeastSoother": {
+      "target": "InsectControl",
+      "prereq": "BeastSoother"
+    },
+    "Rider_requires_1AnimalControl": {
+      "target": "Rider",
+      "prereq": "AnimalControl",
+      "number": 1
+    },
+    "Shapeshifting_requires_Magery": {
+      "target": "Shapeshifting",
+      "prereq": "override"
+    },
+    "Shapeshifting_requires_6Spells": {
+      "target": "Shapeshifting",
+      "prereq": "override"
+    },
+    "PreserveFood_requires_Sterilize": {
+      "target": "PreserveFood",
+      "prereq": "Sterilize"
+    },
+    "PreserveFood_requires_TestFood": {
+      "target": "PreserveFood",
+      "prereq": "TestFood"
+    },
+    "PurifyFood_requires_PreserveFood_pgroup1": {
+      "target": "PurifyFood",
+      "prereq": "PreserveFood",
+      "pgroup": 1
+    },
+    "PurifyFood_requires_Decay_pgroup1": {
+      "target": "PurifyFood",
+      "prereq": "Decay",
+      "pgroup": 1
+    },
+    "PurifyWater_requires_SeekWater": {
+      "target": "PurifyWater",
+      "prereq": "SeekWater"
+    },
+    "FindDirection_requires_Magery": {
+      "target": "FindDirection",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Seeker_requires_Magery": {
+      "target": "Seeker",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Seeker_requires_IQ": {
+      "target": "Seeker",
+      "category": "stat",
+      "level": 12,
+      "prereq": "IQ"
+    },
+    "Seeker_requires_SeekSpells": {
+      "target": "Seeker",
+      "number": 2,
+      "prereq": "SeekSpells"
+    },
+    "Trace_requires_Seeker": {
+      "target": "Trace",
+      "prereq": "Seeker"
+    },
+    "FindWeakness_requires_Earth": {
+      "target": "FindWeakness",
+      "number": 1,
+      "prereq": "Earth"
+    },
+    "FindWeakness_requires_Air": {
+      "target": "FindWeakness",
+      "number": 1,
+      "prereq": "Air"
+    },
+    "FindWeakness_requires_Fire": {
+      "target": "FindWeakness",
+      "number": 1,
+      "prereq": "Fire"
+    },
+    "FindWeakness_requires_Water": {
+      "target": "FindWeakness",
+      "number": 1,
+      "prereq": "Water"
+    },
+    "Weaken_requires_FindWeakness": {
+      "target": "Weaken",
+      "prereq": "FindWeakness"
+    },
+    "Shatter_requires_Magery": {
+      "target": "Shatter",
+      "category": "ADS",
+      "prereq": "Magery"
+    },
+    "Shatter_requires_Weaken": {
+      "target": "Shatter",
+      "prereq": "Weaken"
+    },
+    "LendStrength_requires_Magery1_pgroup1": {
+      "target": "LendStrength",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1,
+      "pgroup": 1
+    },
+    "RecoverStrength_requires_Magery1": {
+      "target": "RecoverStrength",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1
+    },
+    "MajorHealing_requires_Magery1": {
+      "target": "MajorHealing",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1
+    },
+    "Seeker_requires_Magery1": {
+      "target": "Seeker",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1
+    },
+    "Shatter_requires_Magery1": {
+      "target": "Shatter",
+      "category": "ADS",
+      "prereq": "Magery",
+      "level": 1
+    }
+  },
+  "defaults": {
+    "StaffSkill_from_DX": {
+      "target": "StaffSkill",
+      "penalty": -5,
+      "from": "DX"
+    },
+    "StaffSkill_from_Spear": {
+      "target": "StaffSkill",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Spear"
+    },
+    "Riding_from_AnimalHandling": {
+      "target": "Riding",
+      "penalty": -3,
+      "category": "SK",
+      "from": "AnimalHandling"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ"
+    },
+    "Stealth_from_DX": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "DX"
+    },
+    "Survival_from_Naturalist": {
+      "target": "Survival",
+      "penalty": -3,
+      "category": "SK",
+      "from": "Naturalist"
+    },
+    "Survival_from_Survival": {
+      "target": "Survival",
+      "penalty": -3,
+      "category": "SK",
+      "from": "Survival"
+    },
+    "FirstAid_from_IQ": {
+      "target": "FirstAid",
+      "penalty": -5,
+      "from": "IQ"
+    },
+    "FirstAid_from_Physician": {
+      "target": "FirstAid",
+      "penalty": 0,
+      "category": "SK",
+      "from": "Physician"
+    },
+    "FirstAid_from_Physiology": {
+      "target": "FirstAid",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Physiology"
+    },
+    "FirstAid_from_Veterinary": {
+      "target": "FirstAid",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Veterinary"
+    }
+  }
+}

@@ -1,0 +1,1445 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": 8,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "campaign": "SJ Games"
+  },
+  "description": {
+    "name": "Louis d'Antares",
+    "ID": "y89EBTQqvGTk",
+    "createDate": 1385441692665,
+    "pointTotal": 250,
+    "height": "72",
+    "weight": "145",
+    "sizeMod": 0,
+    "age": "29",
+    "appearance": "Dashingly handsome and very well-dressed",
+    "statusText": "",
+    "repText": "+2 at all times for Charisma! , +1 when dressed up (Fashion Sense), +2 from con artists, politicians, etc. (Smooth Operator), +2/-2 from naive/inexperienced people (Overconfidence)",
+    "shortStory": "",
+    "story": "When the armies of the Han war-lords conquered Europe a century ago, the court of France (and the other, lesser, courts of Christendom) removed to the new worlds: Mars, Venus, and the Americas. King Louis XXV reigns from Haut-Paris, on the banks of the Martian Grand Canal; his cousins and relations rule the other provinces across the three worlds. This far-flung Realm is knit together by the Jansenist Order, founded by disciples of Cornelius Jansen, the Bishop of Ypres who discovered &ldquo;the methods of Necessary Grace&rdquo; - psychic healing and psychokinesis - and published them posthumously in 1638. The Order helps guide and develop inventions, from the steamcar to the crystalwave communicator to the Pascal Drive that propels space frigates between the three planets. It also trains the royal guards - the only ones permitted to wield the deadly force sword - in the disciplines of Necessary Grace while attempting (with some occasional success) to instill in them morality and respect for righteousness.<br /><br />One such occasional success, Haut-Cornet Louis d&lsquo;Antares of Her Majesty&lsquo;s Martian Guards, while on patrol in the Tharsis Mountains, uncovered a ring of slave traders protected by a powerful count. As he investigated further, he discovered that the count was the tool of a hidden figure of vast power, known only as the Voice of the Phantom, with dark plans of conquest.<br /><br />With a few picked men, d&lsquo;Antares tracked the Voice to a hidden fastness in the Gobi Desert, in the center of the Han domains. They managed to infiltrate the fortress - but inside, they were discovered, and Louis was separated from his men in a running battle.<br /><br />After some time, Louis heard a familiar voice call his name. He looked over a balcony to see an amazing sight. Three of his men had just greeted . . . Louis himself? The other Louis, clad in the uniform of an enemy guard, looked at them in obvious surprise but made no hostile move . . . yet one of the guardsmen stepped behind him, laughed, and ran the other Louis through the back with his force sword. And what the guardsmen said to his dying double, as Louis watched in amazement, turned his blood first cold with shock and then hot with rage.<br /><br />Louis sprang over the balcony to confront the three traitors. They stared slack-jawed at the man they had meant to murder, and then proved their cowardice by engaging him three on one. From their boasts as the battle began, and then their dying defiance, Louis learned the truth. He had been cast aside by the King himself; the intrigues of the court, combined with the power offered by the otherworldly Voice, had destroyed the France he knew. To the new order, a man of honor was a threat to be crushed.<br /><br />None of which explained the slain double! Louis, despairing, donned the double&lsquo;s uniform and set out to sell his life dearly against the foes of France that was. It was clear that some third force was also attacking the citadel, and Louis did no little damage in the confusion . . . but eventually, one man against a fortress, he fell.<br /><br />He awakened in a hospital bed, under the care of doctors who called him &ldquo;Louis&rdquo; . . . but everything else was strange. Eventually much became clear. Through fate or strange coincidence, Louis had had a double in the crossworld guardsmen called the &ldquo;I- Cops.&rdquo; They had sacked the citadel of the Voice and then brought him back to their base, thinking he was their comrade. Louis was a willing font of information about his world and the Voice . . . but he also knew far too much to be allowed back to his home.<br /><br />But it transpired that Louis had no desire to return to his world, which his rescuers called &ldquo;Cyrano.&rdquo; His King&lsquo;s betrayal had released him from his oaths. Louis was no threat to the Secret . . . he was deeply convinced that contact with other worlds was, for now, the worst thing that could happen to what remained of his own land. Instead, he begged to be allowed to put his considerable talents at the disposal of ISWAT. Some day, wiser and with strong allies, he may be able to free his beloved France. For now, with a thin smile and a steely eye, he fights crosstime evil wherever it appears.",
+    "goals": "",
+    "notes": "GURPS (4th Edition) Basic Set: Characters, pg 312\n",
+    "artPath": "../characters/images/Louis.png",
+    "race": "human"
+  },
+  "playerInfo": {
+    "name": "iconic"
+  },
+  "preferences": {
+    "display": {
+      "theme": "blue",
+      "watermark": "1",
+      "grimoire": false,
+      "adjTraitRows": true,
+      "traitsScroll": true,
+      "traitsSupp": false,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 0,
+    "DX": 80,
+    "IQ": 20,
+    "HT": 20,
+    "HP": 4,
+    "Will": 5,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 5
+  },
+  "traits": [
+    {
+      "name": "Alcohol Tolerance",
+      "physMntlScl": "P",
+      "cost": 1,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 100",
+      "key": "AlcoholTolerance"
+    },
+    {
+      "name": "Handsome",
+      "physMntlScl": "P",
+      "cost": 12,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 21",
+      "key": "Handsome",
+      "group": "appearance",
+      "description": true
+    },
+    {
+      "name": "Charisma",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 41",
+      "key": "Charisma",
+      "levels": 2
+    },
+    {
+      "name": "Combat Reflexes",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 43",
+      "key": "CombatReflexes",
+      "group": "reflexes"
+    },
+    {
+      "name": "Danger Sense",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 47",
+      "key": "DangerSense",
+      "group": "precog"
+    },
+    {
+      "name": "Daredevil",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 47",
+      "key": "Daredevil"
+    },
+    {
+      "name": "Fashion Sense",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 21",
+      "key": "FashionSense"
+    },
+    {
+      "name": "Fit",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 55",
+      "key": "Fit",
+      "group": "fitness"
+    },
+    {
+      "name": "Legal Enforcement Powers",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 65",
+      "key": "LegalEnforcementPowers",
+      "levels": 3,
+      "highestLevel": 3
+    },
+    {
+      "name": "Metabolism Control",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 68",
+      "key": "MetabolismControl",
+      "exoticSprntl": "Ex",
+      "levels": 1
+    },
+    {
+      "name": "Psychokinesis Talent",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 256",
+      "key": "PKTalent",
+      "exoticSprntl": "Ex",
+      "levels": 1
+    },
+    {
+      "name": "Smooth Operator Talent",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 89-90",
+      "key": "SmoothOperatorTalent",
+      "levels": 2,
+      "highestLevel": 4
+    },
+    {
+      "name": "Telekinesis",
+      "physMntlScl": "MP",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 92",
+      "key": "Telekinesis",
+      "exoticSprntl": "Ex",
+      "levels": 2,
+      "EnhLimsArray": [
+        {
+          "text": "Psychokinetic",
+          "value": -10
+        }
+      ]
+    },
+    {
+      "name": "French",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "French",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Latin",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Latin",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Homeline",
+      "physMntlScl": "M",
+      "cost": 1,
+      "key": "CulturalFamiliarity"
+    },
+    {
+      "name": "France Outremonde",
+      "physMntlScl": "M",
+      "cost": 0,
+      "key": "CulturalFamiliarity",
+      "description": "native"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Code of Honor",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 127",
+      "key": "CodeofHonor",
+      "multiple": 1,
+      "levels": 2,
+      "highestLevel": 3,
+      "description": "Gentleman's"
+    },
+    {
+      "name": "Compulsive Behavior",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 128",
+      "key": "CompulsiveBehavior",
+      "multiple": 1,
+      "levels": 1,
+      "highestLevel": 3,
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite often (roll of 12 or less)",
+          "value": "1"
+        }
+      ],
+      "description": "Gambling"
+    },
+    {
+      "name": "Duty",
+      "physMntlScl": "So",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 133",
+      "key": "Duty",
+      "multiple": 1,
+      "ConstantModsArray": [
+        {
+          "text": "Frequency: Almost All the Time (15 or less)",
+          "value": -15
+        },
+        {
+          "text": "Extremely Hazardous",
+          "value": -5
+        }
+      ],
+      "description": "to ISWAT"
+    },
+    {
+      "name": "Extra Sleep",
+      "physMntlScl": "P",
+      "cost": -2,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 136",
+      "key": "ExtraSleep",
+      "levels": 3,
+      "highestLevel": 4,
+      "levelsName": "extra hour"
+    },
+    {
+      "name": "Gregarious",
+      "physMntlScl": "M",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 126",
+      "key": "Gregarious"
+    },
+    {
+      "name": "Insomniac - mild",
+      "physMntlScl": "P",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 140",
+      "key": "InsomniacMild"
+    },
+    {
+      "name": "Overconfidence",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 148",
+      "key": "Overconfidence",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist fairly often (roll of 9 or less)",
+          "value": "1.5"
+        }
+      ]
+    },
+    {
+      "name": "Phobia",
+      "physMntlScl": "M",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 148",
+      "key": "Phobia",
+      "multiple": 1,
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite rarely (roll of 6 or less)",
+          "value": 2
+        }
+      ],
+      "ConstantModsArray": [
+        {
+          "text": "Cats (Ailurophobia)",
+          "value": -5
+        }
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Always drinks the best wine available",
+      "cost": -1
+    },
+    {
+      "name": "Considers psionics ungentlemanly",
+      "cost": -1
+    },
+    {
+      "name": "Devoutly believes in monarchy",
+      "cost": -1
+    },
+    {
+      "name": "Flashy dresser (-1 to Disguise and Shadowing, +1 to attempts to identify or follow him)",
+      "cost": -1
+    },
+    {
+      "name": "Wears his old guard uniform, or a duplicate, whenever it's not obviously stupid to do so!",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobatics",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 174",
+      "points": 1,
+      "type": "P",
+      "key": "Acrobatics"
+    },
+    {
+      "name": "Autohypnosis",
+      "attribute": "Will",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 179",
+      "points": 1,
+      "type": "P",
+      "key": "Autohypnosis"
+    },
+    {
+      "name": "Beam Weapons",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 179",
+      "points": 1,
+      "type": "P",
+      "minTL": 8,
+      "specCategName": "weapon type",
+      "key": "BeamWeapons",
+      "TL": 9,
+      "specialization": "Pistol"
+    },
+    {
+      "name": "Conniosseur",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 185",
+      "points": 2,
+      "type": "M",
+      "key": "Conniosseur",
+      "specialization": "Fashon",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Conniosseur",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 185",
+      "points": 4,
+      "type": "M",
+      "key": "Conniosseur",
+      "specialization": "Wine",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Current Affairs",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 186",
+      "points": 2,
+      "type": "M",
+      "specCategName": "area",
+      "key": "CurrentAffairs",
+      "TL": 9,
+      "specialization": "High Culture"
+    },
+    {
+      "name": "Current Affairs",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 186",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "key": "CurrentAffairs",
+      "TL": 9,
+      "specialization": "People"
+    },
+    {
+      "name": "Dancing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 1,
+      "type": "P",
+      "key": "Dancing"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 2,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Force Sword"
+    },
+    {
+      "name": "Force Sword",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 12,
+      "type": "P",
+      "key": "ForceSword"
+    },
+    {
+      "name": "Gambling",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 197",
+      "points": 1,
+      "type": "M",
+      "key": "Gambling"
+    },
+    {
+      "name": "Guns",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 198",
+      "points": 1,
+      "type": "P",
+      "minTL": 4,
+      "specCategName": "weapon type",
+      "key": "Guns",
+      "TL": 9,
+      "specialization": "Pistol"
+    },
+    {
+      "name": "Hobby Skill",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 200",
+      "points": 1,
+      "type": "M",
+      "key": "HobbyIQbased",
+      "specialization": "Martian Orchids"
+    },
+    {
+      "name": "Leadership",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 204",
+      "points": 2,
+      "type": "M",
+      "key": "Leadership"
+    },
+    {
+      "name": "Musical Instrument",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 211",
+      "points": 1,
+      "type": "M",
+      "specCategName": "instrument",
+      "key": "MusicalInstrument",
+      "specialization": "Harpsichord"
+    },
+    {
+      "name": "Rapier",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 2,
+      "type": "P",
+      "key": "Rapier"
+    },
+    {
+      "name": "Riding",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 217",
+      "points": 1,
+      "type": "P",
+      "specCategName": "riding beast",
+      "key": "Riding",
+      "specialization": "Hadrosaur"
+    },
+    {
+      "name": "Savoir-Faire",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 4,
+      "type": "M",
+      "key": "SavoirFaire",
+      "specialization": "High Society"
+    },
+    {
+      "name": "Sex Appeal",
+      "attribute": "HT",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 219",
+      "points": 1,
+      "type": "P",
+      "key": "SexAppeal"
+    },
+    {
+      "name": "Survival",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 2,
+      "type": "P",
+      "key": "Survival",
+      "specialization": "Desert"
+    },
+    {
+      "name": "Tactics",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 224",
+      "points": 2,
+      "type": "M",
+      "key": "Tactics"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Techniques"
+    },
+    {
+      "name": "Feint",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 3,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Force Sword",
+        "attribute": "DX",
+        "difficulty": 1,
+        "reference": "Basic Set - Characters, pg 208",
+        "points": 12,
+        "key": "ForceSword"
+      },
+      "techniqueDefaultPenalty": 0,
+      "specialization": "Force Sword",
+      "maxRelLevel": 3
+    }
+  ],
+  "equipment": [],
+  "weapons": [
+    {
+      "name": "Force Sword",
+      "weight": 2,
+      "cost": 10000,
+      "TL": 9,
+      "LC": 2,
+      "number": 1,
+      "bulk": -4,
+      "qualityEffectGroup": "",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "ForceSword": [
+          {
+            "title": "",
+            "hands": "dom",
+            "strength": 3,
+            "damage": {
+              "base": 8,
+              "mods": 0,
+              "type": "burn"
+            },
+            "reach": "1,2",
+            "note": [
+              "This is an energy blade. Take a Ready maneuver to activate/deactivate. The blade cannot break, and damages any weapon or body part it parries <i>or which parries or blocks it</i>. Extra energy cells cost $100, weigh 0.5 lb., and last 300 seconds."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection",
+      "wield",
+      "ForceSword",
+      "JSONcircRef:weapons.0"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "BullDancing",
+      "CombatWeaponSport",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw",
+      "Aerobatics",
+      "Aquabatics"
+    ],
+    "AthleticSkillsGURPSLite": [
+      "Acrobatics",
+      "Jumping",
+      "Riding",
+      "Swimming",
+      "Throwing",
+      "Hiking",
+      "Bicycling"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "KnifeThrowing",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "StaffSkill",
+      "Throwing",
+      "ThrowingStick",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "ArtisticSkills": [
+      "Artist",
+      "Bard",
+      "Calligraphy",
+      "Dancing",
+      "MusicalInstrument",
+      "Photography",
+      "Poetry",
+      "Sculpting",
+      "Singing",
+      "Writing",
+      "AppreciateBeauty",
+      "Bulldancing",
+      "Choreography",
+      "Conducting",
+      "Cyberaxe",
+      "Directing",
+      "Featherworking",
+      "FightChoreography",
+      "FireEating",
+      "FlowerArranging",
+      "Gardening",
+      "Illumination",
+      "IllusionArt",
+      "Juggling",
+      "LucidDreaming",
+      "MakeUp",
+      "MusicalComposition",
+      "Neurophon",
+      "Origami",
+      "PictureWriting",
+      "Punning",
+      "SceneDesign",
+      "SensieInterface",
+      "StageCombat",
+      "SymbolDrawing",
+      "VideoProduction",
+      "Weaving"
+    ],
+    "BusinessAcumenTalent": [
+      "Accounting",
+      "Administration",
+      "Economics",
+      "Finance",
+      "Gambling",
+      "MarketAnalysis",
+      "Merchant",
+      "Propaganda"
+    ],
+    "BusinessAcumen": "JSONcircRef:groups.BusinessAcumenTalent",
+    "EmotionSkills": [
+      "Acting",
+      "Carousing",
+      "Criminology",
+      "DetectLies",
+      "Diplomacy",
+      "Enthrallment",
+      "FastTalk",
+      "Interrogation",
+      "Leadership",
+      "Merchant",
+      "Politics",
+      "Psychology",
+      "SavoirFaire",
+      "SexAppeal",
+      "Sociology",
+      "Streetwise"
+    ],
+    "PeopleSkills": [
+      "Acting",
+      "Carousing",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Merchant",
+      "Panhandling",
+      "Performance",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise",
+      "Teaching"
+    ],
+    "MusicalAbilityTalent": [
+      "GroupPerformanceConducting",
+      "MusicalComposition",
+      "MusicalInfluence",
+      "MusicalInstrument",
+      "Singing",
+      "GroupPerformance_Conducting"
+    ],
+    "WeaponsGURPSLite": [
+      "Axe",
+      "Mace",
+      "BrassKnuckles",
+      "Broadsword",
+      "BroadswordThr",
+      "KnifeLarge",
+      "Poleaxe",
+      "Rapier",
+      "Shortsword",
+      "Spear",
+      "Quarterstaff",
+      "GreatswordThr",
+      "Longbow",
+      "ShortBow",
+      "Crossbow",
+      "ThrowingAxe",
+      "PumpShotgun12G",
+      "Derringer41",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "Revolver357M",
+      "AutoPistol44M",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "SniperRifle338"
+    ],
+    "AnimalSkills": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary",
+      "Bulldancing",
+      "Bullfighting",
+      "EquestrianAcrobatics",
+      "SnakeCharming"
+    ],
+    "AnimalSkillsGURPSLite": [
+      "AnimalHandling",
+      "Riding"
+    ],
+    "AnimalFriendTalent": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary"
+    ],
+    "AnimalFriend": "JSONcircRef:groups.AnimalFriendTalent",
+    "SmoothOperatorTalent": [
+      "Acting",
+      "Carousing",
+      "DetectLies",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Panhandling",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise"
+    ],
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "Appearance_from_AppearanceHandsome": {
+      "from": "Handsome",
+      "amount": 3,
+      "targetCategory": "GR",
+      "target": "Appearance"
+    },
+    "SexAppeal_from_Handsome": {
+      "from": "Handsome",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "FortuneTelling_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FortuneTelling"
+    },
+    "Leadership_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "Panhandling_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Panhandling"
+    },
+    "PublicSpeaking_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "Reaction_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "GR",
+      "target": "Reaction"
+    },
+    "ActiveDefense_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "ActiveDefense"
+    },
+    "Block_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Block"
+    },
+    "Dodge_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Dodge"
+    },
+    "FastDraw_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FrightCheck_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 2,
+      "target": "FrightCheck"
+    },
+    "Parry_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Parry"
+    },
+    "Acting_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Acting"
+    },
+    "Carousing_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Carousing"
+    },
+    "DetectLies_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "Diplomacy_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "FastTalk_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Intimidation_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Intimidation"
+    },
+    "Leadership_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "Panhandling_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Panhandling"
+    },
+    "Politics_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Politics"
+    },
+    "PublicSpeaking_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "SavoirFaire_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SexAppeal_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "Streetwise_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Acrobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Acrobatics"
+    },
+    "Conniosseur_from_Killjoy": {
+      "from": "Killjoy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Conniosseur"
+    },
+    "FastDraw_from_EnhancedTimeSense": {
+      "from": "EnhancedTimeSense",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_HamFisted": {
+      "from": "HamFisted",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "Gambling_from_Killjoy": {
+      "from": "Killjoy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Gambling"
+    },
+    "Gambling_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Gambling"
+    },
+    "Leadership_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "MusicalInstrument_from_MusicalAbilityTalent": {
+      "from": "MusicalAbilityTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "MusicalInstrument"
+    },
+    "Riding_from_AnimalFriendTalent": {
+      "from": "AnimalFriendTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Riding"
+    },
+    "SavoirFaire_from_Clueless": {
+      "from": "Clueless",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SexAppeal_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "Survival_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Survival"
+    },
+    "SmoothOperatorTalentGroup_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "GR",
+      "target": "SmoothOperatorTalent"
+    }
+  },
+  "prerequisites": {},
+  "defaults": {
+    "Autohypnosis_from_stat": {
+      "target": "Autohypnosis",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Autohypnosis_from_Meditation": {
+      "target": "Autohypnosis",
+      "penalty": -4,
+      "from": "Meditation"
+    },
+    "Bioengineering_from_stat": {
+      "target": "Autohypnosis",
+      "penalty": false,
+      "category": "stat"
+    },
+    "FastDraw_from_stat": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "ForceSword_from_Broadsword": {
+      "target": "ForceSword",
+      "penalty": -3,
+      "from": "Broadsword"
+    },
+    "ForceSword_from_JitteSai": {
+      "target": "ForceSword",
+      "penalty": -3,
+      "from": "JitteSai"
+    },
+    "ForceSword_from_Knife": {
+      "target": "ForceSword",
+      "penalty": -3,
+      "from": "Knife"
+    },
+    "ForceSword_from_Shortsword": {
+      "target": "ForceSword",
+      "penalty": -3,
+      "from": "Shortsword"
+    },
+    "ForceSword_from_TwoHandedSword": {
+      "target": "ForceSword",
+      "penalty": -3,
+      "from": "TwoHandedSword"
+    },
+    "Gambling_from_MathematicsStatistics": {
+      "target": "Gambling",
+      "penalty": -5,
+      "from": "Mathematics",
+      "fromSpec": "Statistics"
+    },
+    "Guns_from_Guns": {
+      "target": "Guns",
+      "penalty": -2,
+      "from": "Guns"
+    },
+    "Rapier_from_Broadsword": {
+      "target": "Rapier",
+      "penalty": -4,
+      "from": "Broadsword"
+    },
+    "Rapier_from_MainGauche": {
+      "target": "Rapier",
+      "penalty": -3,
+      "from": "MainGauche"
+    },
+    "Rapier_from_Saber": {
+      "target": "Rapier",
+      "penalty": -3,
+      "from": "Saber"
+    },
+    "Rapier_from_Smallsword": {
+      "target": "Rapier",
+      "penalty": -3,
+      "from": "Smallsword"
+    },
+    "Riding_from_AnimalHandling": {
+      "target": "Riding",
+      "penalty": -3,
+      "from": "AnimalHandling",
+      "fromSpec": "same"
+    },
+    "SavoirFaireHiSoc_from_SavoirFaireServant": {
+      "target": "SavoirFaire",
+      "targetSpec": "High Society",
+      "penalty": -2,
+      "from": "SavoirFaire",
+      "fromSpec": "Servant"
+    },
+    "SexAppeal_from_HT": {
+      "target": "SexAppeal",
+      "penalty": -3,
+      "from": "HT",
+      "category": "stat"
+    },
+    "Survival_from_Naturalist": {
+      "target": "Survival",
+      "penalty": -3,
+      "from": "Naturalist"
+    },
+    "Tactics_from_Strategy": {
+      "target": "Tactics",
+      "penalty": -6,
+      "from": "Strategy"
+    }
+  }
+}

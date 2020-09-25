@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <title>JCSP Template Tutorial</title>
+  <style>
+    body {font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:15px;line-height:1.5; color:#444;}
+    code {background-color:#dde; padding: 0 2px; white-space: nowrap;}
+    h4 {margin:0}
+  </style>
+</head>
+
+<body>
+  <h2>GURPS JCSP Template/Meta-Trait Tutorial</h2>
+  <p>
+    In this tutorial you will create a Vampire template.
+    We will follow the template found in Basic Set: Characters, pg. 262.
+  </p>
+  <div style="border: 1px solid black; background-color:#eee; width:400px; float:left">
+    <p style="text-align:center">Contents</p>
+    <ol>
+      <a href="#Overview"><li>Overview</li></a>
+      <a href="#Attributes"><li>Attributes and Secondary Characteristics in a template</li></a>
+      <a href="#Traits"><li>Advantages and Disadvantages</li></a>
+      <a href="#Other"><li>Other Template Features</li></a>
+      <a href="#Saving"><li>Saving and Using the Template</li></a>
+    </ol>
+  </div>
+  <div style="clear:both"></div>
+  <a name="Overview"></a>
+  <h3>Overview</h3>
+  <p>
+    The technique used by JCSP for creating templates is to make a character sheet with all of the
+    attributes, traits, skills, <i>etc.</i> found in the template and then save it in a special way.
+    There are three ways to save a template, depending on how you want to use it.
+  </p>
+  <a name="Attributes"></a>
+  <h3>Attributes and Secondary Characteristics in a template</h3>
+  <p>
+    Attribute Modifiers and Secondary Characteristic Modifiers in the template
+    can be put into the template character sheet in the natural way,
+    as if they are character attributes and secondary characteristics.
+    For the Vampire template, this means that we can just put 60 points in the ST attribute,
+    8 points in the HP (Hit Points) secondary characteristic, and 15 points in the Perception
+    secondary characteristic.
+  </p>
+<!--
+  <p>
+    There is an alternative, if you prefer, which is to use the template traits directly.
+    Go to <code>Build &rarr; Ads/Disads</code> and scroll to <i>Increased Strength</i>.
+    This advantage only offers 5 levels in the Traits form,
+    so we will have to edit this after taking the trait.
+    Take it with any number of levels now.
+    While we are here, take 4 levels of <i>Increased Hit Points</i>
+    and 3 levels of <i>Increased Perception</i>.
+    Notice that these advantages affect the attributes of the character.
+  </p>
+  <p>
+    Now let's deal with the levels of <i>Increased Strength</i>.
+    Click on the <i>Increased Strength</i> advantage on the character sheet;
+    the <b>Edit Advantage or Disadvantage</b> dialog box should appear.
+    Make sure the <i>Increased Strength</i> advantage is selected in the list,
+    then tick the &ldquo;edit <i>Increased Strength</i> trait&rdquo; radio button.
+    Here we can change several things about this trait if we want to,
+    but we are here to increase the levels to 6.
+    There should be a select box for this at the bottom of the form, with a list of options
+    that is only limited by the points our character has available.
+    Choose '6' and click on the &ldquo;edit <i>Increased Strength</i> trait&rdquo; button.
+    The advantage should now have 6 levels, and the character ST should now show 16.
+  </p>
+-->
+  <a name="Traits"></a>
+  <h3>Advantages and Disadvantages</h3>
+  <p>
+    Vampires have two Alternate Forms, Bat and Wolf, which are 15 point advantages.
+    Still in the Ads/Disads dialog, scroll to <i>Alternate Form</i> and type 'Bat'
+    in the description and take the trait, then type 'Wolf' in the description and take it again.
+    Take <i>Doesn't Breathe</i> with no modifiers.
+    Take <i>Dominance</i> with the description of 'Vampiric Bite'.
+    The <i>Immunity to Metabolic Hazards</i> advantage is really a version of
+    the <i>Resistant</i> trait; scroll there, type 'Metabolic Hazards'
+    in the Description box, tick the 'Very Common' modifier radio button,
+    and also tick the 'Immunity' multiplier radio button.  Take <i>Resistant</i>.
+  </p>
+  <p>
+    The other Vampiric advantages and disadvantages should be similar.
+  </p>
+  <a name="Other"></a>
+  <h3>Other Template Features</h3>
+  <p>
+    The Vampire template consists only of Attributes, Secondary Characteristics,
+    and Traits, along with one Feature (Sterile).
+    A template can have many other kinds of components.
+    Skills are packaged by the JCSP template machinery, but not every character component is.
+    In general, check to see if there is a Trait you can use to add a characteristic
+    that is normally not a Trait when creating a template;
+    Traits are guaranteed to get packaged when you create a template.
+    For instance, there is a Size Modifier Trait; if you use this instead of indicating
+    the SM directly on the character sheet, it will get packaged into the template.
+    The safest way to make sure the Vampiric feature Sterile gets included
+    is to add it as a zero-point custom Trait.
+  </p>
+  <a name="Saving"></a>
+  <h3>Saving and Using the Template</h3>
+  <p>
+    Before you save or use the template, you should type 'Vampire'
+    in the character information area Name field.
+    This name will be used to name the template when it is saved.
+    Go to <code>File &rarr; Save As Template</code>.
+    This dialog gives you two options as to how you can save
+    or use the template you've made.
+  </p>
+  <p>
+    If this template is a one-off, and you're building it so you can use it for a new character
+    that you are ready to create next, choose the <b>apply to a new character</b> option.
+    With this option chosen, when you click on the Save button, the sheet will 'reset', with a new
+    character loaded, except that this character will have the new template as a trait.
+  </p>
+  <p>
+    If you plan to create several characters immediately using this template, but then you will not
+    need it again, you should choose the <b>load into the 'Use a Template' menu (temporary)</b> option.
+    After you click Save, you will find that the new template appears in the dialog menu you get
+    when you go to <code>Build &rarr; Use a Template</code>.
+    You can now create a new character, select this template, build and save, and repeat.
+    As long as you keep this window/tab open, the template will be available when building characters.
+    When you close (or refresh) the window/tab, the new template will be discarded.
+  </p>
+  <p>
+    If you want the new template to be available for use indefinitely,
+    choose the last option, <b>export as a template file</b>.
+    A 'template file' is really just a JCSP character file, like any other.
+    Saving a template this way doesn't pack the traits and stuff into a template yet.
+    When you want to use a saved 'template', you just open the template file like it was a character
+    (you will see all the traits, skills <i>etc.</i> that are part of this template),
+    and then go to <code>Build &rarr; Save As Template</code> and choose the first option
+    (<b>apply to a new character</b>) or second option
+    (<b>load into the 'Use a Template' menu (temporary)</b>) to pack it up for your new character(s).
+  </p>
+</body>
+</html>

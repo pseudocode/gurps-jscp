@@ -1,0 +1,412 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <title>JCSP Tutorial</title>
+  <style>
+    body {font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:15px;line-height:1.5; color:#444;}
+    code {background-color:#dde; padding: 0 2px; white-space: nowrap;}
+    h4 {margin:0}
+    .editable:hover { background-color: #EEE9BF; }
+  </style>
+</head>
+
+<body>
+  <h2>GURPS Javascript Character Sheet Package (JCSP) Tutorial</h2>
+  <p>
+    In this tutorial you will create a character sheet for Baron Janos Telkozep, one of the
+    <a href="http://www.sjgames.com/gurps/">GURPS<sup>&reg;</sup></a>
+    4<sup>th</sup> Edition iconic characters, from scratch using the JCSP package.
+    Open a separate browser window or tab and follow the directions.
+  </p>
+  <div style="border: 1px solid black; background-color:#eee; width:400px; float:left">
+    <p style="text-align:center">Contents</p>
+    <ol>
+      <a href="#OpenSheet"><li>Open a character sheet</li></a>
+      <a href="#CreateCharacter"><li>Create a new Character</li></a>
+      <a href="#EditInfo"><li>Edit Character and Game Information, Basic Attributes, and Secondary Characteristics</li></a>
+      <a href="#Languages"><li>Languages and Cultural Familiarities</li></a>
+      <a href="#Traits"><li>Traits</li></a>
+      <a href="#Skills"><li>Skills</li></a>
+      <a href="#Equipment"><li>Equipment</li></a>
+      <a href="#Display"><li>Display Preferences</li></a>
+      <a href="#Saving"><li>Saving and Opening Character Files</li></a>
+    </ol>
+  </div>
+  <img src="../characters/images/telkozep.png" style="float:right; height:300px; " />
+  <div style="clear:both"></div>
+  <a name="OpenSheet"></a>
+  <h3>Open a character sheet</h3>
+  <p>
+    To use a sheet that is on a website such as
+    <a href="http://www.cox-thurmond.net/jim/jcsp/">this one</a>,
+    simply click on one of the character sheet links.
+    To use a locally saved JCSP sheet (not a saved character; we&rsquo;ll discuss this later),
+    open the sheet you want as a local file.  (In Chrome or Firefox, for instance, go to
+    <code>File &rarr; Open File&hellip;</code> and browse to one of the character sheet files.
+    They look like &ldquo;[csheet]4e2pg.html&rdquo; or similar.)
+    Your page should now look like a GURPS character sheet.
+  </p>
+  <a name="CreateCharacter"></a>
+  <h3>Create a new Character</h3>
+  <p>
+    Strictly speaking, this step isn&rsquo;t necessary; most likely<sup>*</sup> a new Character
+    has instantiated in the page when you opened it.
+    But we&rsquo;ll do this anyway, so that we can set a few parameters.
+    (All of these parameters can be edited later, if you prefer.)
+  </p>
+  <p>
+    In the blue menubar above the character sheet, go to <code>File &rarr; New Character</code>.
+    A dialog box will appear, with a short form.  Here you should enter Telkozep&rsquo;s name, point value,
+    and gender, and you can also elect to use the built-in Vampire template<sup>&dagger;</sup>.
+    Telkozep&rsquo;s Ruleset is GURPS 4<sup>th</sup> Edition, and his Tech Level is 8.
+    When the form is filled out, click on the &ldquo;Create <i>Baron Janos Telkozep</i>&rdquo; button.
+  </p>
+  <p>
+    Dialog boxes can be dragged around, so that you can see what&rsquo;s happening to the sheet behind them.
+    Grab them by their title bar.
+  </p>
+  <small>*
+    If you are using a window or tab where another JCSP Character file was viewed previously,
+    this Character may appear first.  Save (if you want) and then create a new Character.
+  </small>
+  <br />
+  <small>&dagger;
+    If you want to build the Vampire template yourself instead, go <a href="template_tutorial.html">here</a>.
+  </small>
+  <a name="EditInfo"></a>
+  <h3>Edit Character and Game Information, Basic Attributes, and Secondary Characteristics</h3>
+  <p>
+    Note that loading the Vampire template has already altered several of Telkozep&rsquo;s Basic Attributes.
+    His Strength should be 16, his Hit Points should be 20, and his Perception should be 13.
+    The sheet has also calculated his Unspent Points by subtracting the value of the Vampire template
+    from Telkozep&rsquo;s Point Total.
+  </p>
+  <p>
+    Notice that there are two different types of fill-in (colored) text on the sheet.
+    The more typeset-looking text is non-editable;
+    these values are calculated by the sheet.
+    There are many fields with text that should look more hand-written,
+    and that <span class="editable">light up when you mouse over them</span>;
+    these fields can be edited.
+    All of the Character information fields (Name, Appearance, <i>etc.</i>) are editable.
+    At this point you can change Telkozep&rsquo;s name, his point total,
+    add text for appearance, <i>etc.</i>
+    Let&rsquo;s set Telkozep&rsquo;s height and weight (if you have chosen a 4<sup>th</sup> Edition sheet).
+    The Height field should already be filled, but with a generic value.
+    You can edit this with a new height either in feet and inches
+    (5&lsquo;8&rdquo; for Telkozep) or just inches (68).
+    Values in inches will get converted to feet and inches for display.
+    Weight is similar; if you type &lsquo;197&rsquo;,
+    the &lsquo;lb&rsquo; unit will be added.
+    You can type anything here, though, and it will be used;
+    a few trivial things won&rsquo;t work if these values aren&rsquo;t numeric.
+    (Telkozep turned 445 years old in 2016&hellip;)
+  </p>
+  <p>
+    Now for Basic Attributes.
+    The values are non-editable; you change them by changing the points put into each attribute.
+    Put 40 points in ST, 20 in DX, and 100 in IQ; those stats should now read ST 20, DX 11, IQ 15.
+    4<sup>th</sup> Edition sheets will have a field for points in Will; put 5 there for Will 16.
+  </p>
+  <p>
+    Telkozep is much faster than his stats would suggest; he has 55 points in Basic Speed.
+    If you edit that points field, his Basic Speed should go up to 8.
+    Note that Basic Lift, Damage, and Basic Move have all been calculated for you.
+  </p>
+  <a name="Languages"></a>
+  <h3>Languages and Cultural Familiarities</h3>
+  <p>
+    Select the <code>Build &rarr; Languages</code> menu option.
+    This dialog box has a menu of choices which will probably be empty; most Languages and Cultures
+    will be loaded as part of a supplemental library.  We will add Telkozep&rsquo;s languages manually.
+    Open the Language Options part of the form, if it is not already open.
+    To add English, type &lsquo;English&rsquo; in the Language name field, select the &lsquo;advantage&rsquo; option
+    (3<sup>rd</sup> Edition languages are skills, not traits),
+    and set the Language comprehension levels at Spoken: accented and Written: &lsquo;native&rsquo;.
+    Make sure the checkbox just below the menu area is unchecked;
+    English is NOT Telkozep&rsquo;s native language.
+    Click on the &lsquo;Take <i>English</i>&rsquo; button.
+  </p>
+  <p>
+    <b>English</b> should appear in the Languages area of the character sheet, with a cost of 5 points.
+    The dialog box should remain open; we can now just edit fields and add several languages.
+    French should be very much like English, except both comprehension levels are &lsquo;native&rsquo;.
+    When you add Hungarian, tick the &lsquo;native language&rsquo; checkbox and then type the name.
+    (Select then type; clickingthe checkbox clears theform.)
+    The comprehension levels should set to &lsquo;native&rsquo; for you; if you select values below this for
+    a native language, you gain points instead of spending them, because that would be a disadvantage.
+    Un-tick the &lsquo;native&rsquo; checkbox before continuing - the Language selection process is still
+    a bit buggy; you shouldn&rsquo;t be able to select more than one native language, but you can.
+    Continue by adding Latin (Broken, Native) and Russian (Broken, Semi-literate).
+    Close the Languages dialog.
+  </p>
+  <p>
+    Now select the <code>Build &rarr; Cultural Familiarities</code> menu option.
+    Again there is a menu, most likely empty, and a very simple form.
+    Enter &lsquo;18th-Century Europe&rsquo; and tick the native culture checkbox, then click &lsquo;Take&rsquo;.
+    The form should change slightly to reflect that Telkozep already has a native culture at this point.
+    Enter &ldquo;Homeline&rdquo; and select the &lsquo;foreign&rsquo; option, then click &lsquo;Take&rsquo;.
+    The point values should be zero (Europe) and 1 (Homeline).
+  </p>
+  <a name="Traits"></a>
+  <h3>Traits</h3>
+  <p>
+    To add Traits, select the <code>Build &rarr; Ads/Disads</code> menu option.
+    The dialog box has a select box of Traits; green for Advantages, red for Disadvantages.
+    You can type the first few letters of the item you want, in most browsers, to scroll to it.
+    You may need to click on an option in the list first.
+    Scroll and select the &ldquo;Charisma&rdquo; advantage.
+    Notice that a small menu labeled &lsquo;levels&rsquo; appears.
+    Telkozep has 3 levels of Charisma, so select option 3.  The total cost changes to reflect your choice.
+    Click on &lsquo;Take&nbsp;<i>Charisma</i>&rsquo;.
+    The Trait should appear on the sheet, and the dialog box should remain open, ready for more choices.
+  </p>
+  <p>
+    Telkozep&rsquo;s next several Traits are quite similar to Charisma.
+    Independent Income, 10 levels; Legal Enforcement Powers, level 3; Mind Control (no levels);
+    Striking Strength, 5 levels.
+  </p>
+  <p>
+    The next Trait, Temperature Control 3, has some Limitations.
+    Choose Temperature Control in the select list, and notice that the Enhancements/Limitations
+    part of the form gets a few items put in it.
+    The first two are &lsquo;Cold&nbsp;Only&rsquo; and &lsquo;Heat&nbsp;Only&rsquo;.
+    We want &lsquo;Cold&nbsp;Only&rsquo;; to get it, we must tick the checkbox to their left,
+    and then select the correct radio button.
+  </p>
+  <p>
+    How do we attach the &lsquo;Uncontrollable&rsquo; Limitation?
+    It isn&rsquo;t in the list, so we will add it as a custom Limitation.
+    Click on the &ldquo;&plus;&nbsp;Enhancements/Limitations&rdquo; heading;
+    a new text-box row will appear.
+    Enter &lsquo;Uncontrollable&rsquo; in the long text box,
+    and &lsquo;-10&rsquo; in the small one.  Select 3 levels.
+    Make sure the checkboxes to the left of 'Cold Only' and 'Uncontrollable' are ticked,
+    (note that the effective cost is now '6 points')
+    then click on the 'Take <i>Temperature Control</i>' button.
+  </p>
+  <p>
+    The Wealth (Filthy Rich) advantage should be easy to add.
+  </p>
+  <p>
+    Continue by adding Telkozep&rsquo;s Disadvantages.
+    Telkozep has three Disads with self-control rolls: Berserk, Bloodlust, and Greed.
+    All of these Disads, when selected, call up a list of Multipliers
+    with the various self-control levels.
+    Note that you must select a self-control level with these Disads.
+    These modifiers are printed in a special way,
+    due to the abbreviated notation GURPS uses to show these on character sheets.
+    Instead of a complete modifier note, like &ldquo;(Self-control: 9 or less)&rdquo;,
+    these Disads are shown with just the self-control number: &ldquo;(9)&rdquo;.
+  </p>
+  <p>
+    A few Quirks are listed in the Traits menu, but most are unique.
+    To add a new Quirk, select the <code>Build &rarr; Perks/Quirks</code> menu option.
+    Type the text for the Quirk in the text area on the dialog box,
+    and click the &lsquo;add&rsquo; button.
+    The dialog box will remain open so you can add several Quirks at a go.
+  </p>
+  <h4>Ordering Traits</h4>
+  <p>
+    Telkozep should have all of his Traits now, but they are not in the order that they appear
+    on the character sheet in <b>Basic Set: Characters</b>.  We can fix that.
+    Click on the heading for the Traits area in the sheet.
+    (This may say &ldquo;ADS, DISADS, PERKS & QUIRKS&rdquo;, or it may say
+    &ldquo;ADVANTAGES AND PERKS&rdquo;, or something else depending on which sheet you are using.)
+    A dialog box titled &ldquo;Edit Traits List&rdquo; will appear, with a long list of
+    Telkozep&rsquo;s Traits in it.  Note that there are a number of things shown here that do not
+    actually appear in his Traits list, <i>per se</i>.
+    The <b>Vampire</b> meta-trait is shown with all of its sub-Traits, for instance.
+    There are also two entries for each of Telkozep&rsquo;s Languages, and one for each Culture.
+    Languages and Cultures do not appear in the Traits area,
+    so moving them around here will have no effect that you can see.
+    But you can re-order the other Traits here by dragging the rows in this table.
+  </p>
+  <p>
+    <b>N.B.  This feature is still a bit buggy.</b>
+    For best results, make several changes and click &ldquo;Apply list edits&rdquo;,
+    then close the dialog and re-open it to continue.
+  </p>
+  <p>
+    You can also insert spacer rows and headings in the &ldquo;Edit Traits List&rdquo; dialog.
+    These will display as expected in a &lsquo;combined&rsquo; Traits display where Ads and Disads
+    are shown together; in a &lsquo;partitioned&rsquo; Traits sheet (like the official one)
+    these formatting rows may behave unpredictably.
+  </p>
+  <a name="Skills"></a>
+  <h3>Skills</h3>
+  <p>
+    The dialog for attaching Skills to a character is at <code>Build &rarr; Skills/Spells</code>.
+    Skill and Spell lists are toggled here using the control in the title bar of the dialog box.
+    The list is sorted alphabetically by default, but can be sorted various other ways using the
+    control at top right.
+    Scroll to the Administration Skill and select it.
+    Information about this Skill (<i>IQ/Average</i>) appears under the list box.
+    Since any IQ-based skill that is harder than Easy can be specialized,
+    an Optional Specialization tickbox also appears.
+    Telkozep did not choose to specialize his Administration Skill, so leave this alone for now.
+    JCSP will put a few points into each Skill you take; this may save you some time later -
+    choose 1, 2, or 4 points in the menu at the bottom right of the list box.
+    Click the &lsquo;Take&nbsp;<i>Administration</i> skill&rsquo; button.
+  </p>
+  <p>
+    Notice that the Baron&rsquo;s skill level with Administration is 17 when he has 1 point in it.
+    This is higher than his IQ would normally give.  A dagger should appear beside the skill level.
+    If you mouse over the skill level, a pop-up will inform you that the unusual value is due to
+    Telkozep&rsquo;s Business Acumen Talent.
+  </p>
+  <p>
+    Area Knowledge (Hungary) is next.  When you scroll to and select Area Knowledge in the list box,
+    a text entry with title 'Choose an area:' appears below the box.  This is because Area Knowledge
+    requires a specialization.  Enter 'Hungary' in the box and take the skill.
+  </p>
+  <p>
+    Enter Telkozep&rsquo;s other skills.  If you forget to set the points correctly for some of them,
+    no worries; these can be easily edited later.  The required Tech Level for Current Affairs
+    should automatically be set to Telkozep&rsquo;s TL of 8; you can always change this if you want.
+    You will want to do so when you take the Guns skill, for instance (Telkozep has Guns/TL5).
+  </p>
+  <p>
+    You may have noticed that some Skills disappear from the menu list when you take them,
+    and others get an asterisk instead.
+    This is because some skills can be taken multiple times, usually because of specializations.
+  </p>
+  <p>
+    After you close the dialog box, you will need to edit the points for at least two skills,
+    since Telkozep has more than 4 points in each of Intimidation and Occultism,
+    and zero points in Merchant.
+    Telkozep&rsquo;s Occultism Skill requires special treatment,
+    since he has a (required) specialization in a skill that normally only takes optional specializations.
+    Click on the Occultism Skill in Telkozep&rsquo;s Skill list.
+    The &lsquo;Edit <i>Occultism</i> Skill&rsquo; dialog will open.
+    Choose the &lsquo;Edit <i>Occultism</i> Skill&rsquo; option.
+    Type &lsquo;Vampirism&rsquo; in the Specialization text box and click the Edit button.
+  </p>
+  <p>
+    Check Telkozep&rsquo;s points; when the Skills are finished he should have used all of them.
+  </p>
+  <a name="Equipment"></a>
+  <h3>Equipment and Belongings</h3>
+  <p>
+    Telkozep doesn't have any stuff in the Basic Set version, but let's give him some so we can
+    see how this part of JCSP works.
+  </p>
+  <p>
+    First, a gun.  Go to <code>Equip &rarr; Weapons</code>.
+    Let's sort this list by TL, so we can take a TL 5 pistol.
+    A Derringer seems like it might match Telkozep&rsquo;s style; we'll take one.
+    The pistol may show up in several places on the character sheet, depending on which one you are using.
+    Even if its weight and cost are listed multiple times, it only counts once towards the totals.
+  </p>
+  <p>
+    Something else Telkozep must have is a coffin, filled with Hungarian soil.
+    This won't appear in the list under <code>Equip &rarr; Basic Equipment</code>,
+    so we will need to use the Custom Equipment form in that dialog box.
+    A coffin filled with dirt will be very heavy, let's say 800 lbs.  Add this to his stuff.
+  </p>
+  <p>
+    You may notice that Telkozep&rsquo;s encumbrance has suffered.  The box no longer highlights
+    one row indicating his current encumbrance; instead it says he is carrying too much to move.
+    (Though you may notice that if he drops the Derringer, he can get around.  Vampires are strong!)
+    Of course, Telkozep won't carry the coffin around anyway, it will be well-hidden somewhere safe.
+    So, let's define some collections, so he can carry some of his belongings around on his person.
+  </p>
+  <p>
+    Go to <code>Equip &rarr; Manage Collections</code>.  We want to define a new Collection or two.
+    Most of the way down this dialog, there is a button labeled "Create a new empty collection".
+    Type a collection name (carried?) in the text box to the right and then click on the button.
+    The Collection menu at top right now has your new collection selected.
+    If you click on items in the Default collection at left, they will be duplicated in the new collection.
+    Click on the Derringer to put it in this collection.  Now close the dialog.
+  </p>
+  <p>
+    Now if you mouse over the Equip menu heading and mouse down to Equip with Collection,
+    a flyout menu shows the Default collection and the new 'carried' collection.
+    Click on the 'carried' collection there.
+    The immediate effect is that the coffin seems to have disappeared; the character has it stored,
+    but it is not being carried right now.  Telkozep&rsquo;s encumbrance goes back to None.
+  </p>
+  <p>
+    If we want Telkozep to ready his Derringer, we can show this too.  Mouse over the Derringer
+    on the character sheet; in at least one of the places where it is listed a pop-up will say
+    "shift-click to wield Derringer".  Do what it says, and the Derringer gets highlighted
+    (and on some sheets, gains a location of 'wielded').
+    Telkozep&rsquo;s Parry goes from 9 (his bare-hand parry from Brawling) to '-'; because he
+    cannot use a gun to parry with.
+    If this were a sword, or a shield, his parry and/or block would adjust according to what he
+    has readied.
+  </p>
+  <a name="Display"></a>
+  <h3>Display Preferences</h3>
+  <p>
+    You can customize how you want to see your character sheet in a number of ways.
+    Go to <code>Edit &rarr; Preferences</code>.
+    The &lsquo;Preferences&rsquo; dialog is active, so any changes you make here are immediately applied.
+    Play around with color themes, watermarking, and showing various supplemental sheet pages.
+  </p>
+  <p>
+  </p>
+  <h4>Character Art</h4>
+  <p>
+    Some sheets have a space for character art.
+    All sheets can have character art displayed as a
+    &lsquo;watermark&rsquo; (a lightened background image).
+    Go to <code>File &rarr; Add Character Art</code>; a simple dialog opens.
+    This one can be a little confusing, as a result of the limitations
+    imposed on web pages for opening local files.
+    You can browse to find the image file you want,
+    but (in most browsers) only the file name will get put in the text box.
+    You will need to figure out the path information to add,
+    either by noting it when you were browsing,
+    or by using an absolute path.
+    Relative paths are based on the location of the character sheet HTML file.
+  </p>
+  <p>
+    If you have a local set of JCSP files, and you have placed the image you want to use in the
+    &lsquo;characters/images/&rsquo; directory (this is where the images for the Iconic Characters are),
+    try writing &lsquo;../characters/images/[filename]&rsquo; in the textbox.
+    If you want to use the Telkozep image from my website, the URL is
+    <a href="http://www.cox-thurmond.net/jim/jcsp/JCSP_1.5/characters/images/telkozep.png">http://www.cox-thurmond.net/jim/jcsp/JCSP_1.5/characters/images/telkozep.png</a>.
+  </p>
+  <a name="Saving"></a>
+  <h3>Saving and Opening Character Files</h3>
+  <p>
+    You can save character files just like you would if JCSP was software installed on your computer.
+    Go to <code>File &rarr; Save As File</code>.
+    In most up-to-date browsers, a file download dialog will open;
+    most of these ask if you if you want to open the file or save it.
+    (The Save function works oddly, or not at all, in old versions of most browsers.)
+    The file name will usually be something like &lsquo;Telkozep.gurps&rsquo;, or similar;
+    JCSP tries to figure out the character&rsquo;s &lsquo;surname&rsquo; and uses that.
+    Save the file the way you normally would.
+  </p>
+  <p>
+    To open this file later, just go to <code>File &rarr; Open Character File</code>.
+    A file browse window will open; find your file and select it.
+    JCSP will load your character from the local file and show it in the sheet.
+    You can then edit the file and save it again, if you like.
+    Due to the fact that JCSP is browser-based and not local software,
+    there may be some quirks to this process
+    (file names may need to be changed, locations may get forgotten, <i>etc.</i>).
+  </p>
+  <p>
+    For those who are interested, the format of the saved Character file is plain ol&rsquo; JSON.
+    If you are familiar with JSON, feel free to mess around with your saved files directly;
+    most of the organization and keys are sensible (I think) and pretty easy to understand.
+    You can view what will be saved by going to <code>File &rarr; View JSON File</code>.
+  </p>
+  <a name=""></a>
+  <h3></h3>
+  <p>
+  </p>
+  <a name=""></a>
+  <h3></h3>
+  <p>
+  </p>
+  <a name=""></a>
+  <h3></h3>
+  <p>
+  </p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+#basicLift_dmg_speed_move div {
+  text-align: center;
+}
+.skills_table input {
+  padding: 0;
+  height: 12px;
+}
+.skills_table td div {
+  height: 12px;
+  position: relative;
+}
+
+.layoutCell {
+  border: 1px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}

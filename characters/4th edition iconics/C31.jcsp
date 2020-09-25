@@ -1,0 +1,1868 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": 8,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "GM": "SJ Games",
+    "campaign": "ISWAT"
+  },
+  "description": {
+    "name": "C31R07 (\"C-31\")",
+    "ID": "cY5J8OVnsJ3W",
+    "createDate": 1384812114589,
+    "pointTotal": 1665,
+    "height": "92",
+    "weight": "1.21 tons",
+    "sizeMod": "0",
+    "age": "3",
+    "appearance": "Gleaming centauroid robot bristling with weapons and sensors.",
+    "statusText": "",
+    "repText": "-2 for Clueless, most of the time",
+    "shortStory": "",
+    "story": "In the 16 centuries since the death of Alexander the Great, the Hegemony he founded has only had one true rival - the Chinese Kingdom of Heaven. Their world is highly advanced, but hardly peaceful. The empires clash in the fractured states of the New World (which the Hegemony calls the Hesperides, and China names Penglai). By mutual agreement they leave their common Asian border alone to grind along as it has for most of the last 1,600 years. Sometimes, under the rare coincidence of simultaneous peaceable rulers in Nanjing and Alexandria, rich trade routes spring up between the two domains. Always, technical innovations travel from one to the other and back again - neither empire will allow its rival to keep any technological edge, and what the scholars of Babylon or Londinium can invent, the mandarins of Guangzhou or Edo can perfect, or vice versa.<br /><br />Hence, only the most painstaking historians can say precisely which side invented combat robots, or in which battle they were first deployed. But for the last century or so, they have become the core of both powers&lsquo; defenses.<br /><br />C31R07 (&ldquo;C-31&rdquo;) was a fully conventional Dexamenos-class centauroid combat robot when it rolled off the production lines in Sarmatopolis. Programmed for complex, original thought and tactical initiative, it served well during a &ldquo;live fire&rdquo; exercise, putting down a rebel tribe in Assam. However, its programming was apparently a little too complex and original - C-31 deserted after the battle and crossed the Himalayas into the neutral buffer state of Tibet, where it joined a Buddhist lamasery.<br /><br />Through study and meditation, C-31 attempted to eradicate the urge to violence from its spirit, but it could not completely counter its basic programming. The steel warrior did make itself useful to the monks, subduing bandits and thieves, protecting pilgrims, and rescuing lost or stranded travelers from avalanches and yeti attacks. But these actions, though meritorious, lacked challenge - C-31 was still Hellenist enough to believe that its true destiny required it to exceed itself and fulfill a greater potential.<br /><br />One night in the lamasery, while contemplating a mandala, C-31 thought it detected yet another band of robbers creeping across the snows toward its sanctuary. Engaging its tactical mode, the robot stealthily ambushed the thieves a mile or so from the temple. To C-31&lsquo;s amazement, its initial subduing attacks were brushed aside. To the attackers&lsquo; amazement, the robot evaded their countermeasures . . . Very soon each party realized that the other would not be the first to launch a killing attack. And they began to talk.<br /><br />The intruders, it transpired, were from a different world entirely, though they did not wish to say just where that world lay. They needed a certain incantation from a Buddhist text in C-31&lsquo;s temple, to defeat a vile demon summoned by a wizard emperor. On C-31&lsquo;s world, which they called Iskander-2, the incantation was mere mysticism. Elsewhere, it was a powerful weapon against forces of darkness. C-31, more flexible than most humans, realized that there was little to lose by providing a holographic copy of the ancient text - if they were truly virtuous warriors, it was right action, and if they were merely clever and powerful bandits, perhaps they would go away and leave his monks alone.<br /><br />A month later, after the intruders had returned to their Homeline, a single shadowed figure appeared and called to C-31 in a way no other could detect. They talked long into the night . . . and again the next night, and the next. On the third morning the steel warrior was gone, to seek learning and merit in other worlds.",
+    "goals": "",
+    "notes": "GURPS (4th Edition) Basic Set: Characters, pg 307",
+    "artPath": "../characters/images/C31R07.png",
+    "race": "robot"
+  },
+  "playerInfo": {
+    "name": "iconic"
+  },
+  "preferences": {
+    "display": {
+      "theme": "metal",
+      "watermark": "null",
+      "grimoire": false,
+      "adjTraitRows": true,
+      "traitsScroll": false,
+      "traitsSupp": true,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true,
+      "property": false,
+      "fractions": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 0,
+    "DX": 40,
+    "IQ": 120,
+    "HT": 50,
+    "HP": 28,
+    "Will": 0,
+    "Per": 10,
+    "FP": 0,
+    "Speed": 10,
+    "Move": 0,
+    "TL": 5
+  },
+  "traits": [
+    {
+      "name": "AI",
+      "physMntlScl": "P",
+      "cost": 32,
+      "key": "AI",
+      "templateTrait": true
+    },
+    {
+      "name": "Absolute Timing",
+      "physMntlScl": "M",
+      "cost": 2,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 35",
+      "key": "AbsoluteTiming",
+      "cinematic": true,
+      "inTemplate": "AI"
+    },
+    {
+      "name": "Digital Mind",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 48",
+      "key": "DigitalMind",
+      "inTemplate": "AI"
+    },
+    {
+      "name": "Doesn't Sleep",
+      "physMntlScl": "P",
+      "cost": 20,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 50",
+      "key": "DoesntSleep",
+      "exoticSprntl": "Ex",
+      "inTemplate": "AI"
+    },
+    {
+      "name": "Intuitive Mathematician",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 66",
+      "key": "IntuitiveMathematician",
+      "inTemplate": "AI"
+    },
+    {
+      "name": "Photographic Memory",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 51",
+      "key": "PhotographicMemory",
+      "inTemplate": "AI"
+    },
+    {
+      "name": "Alternate Form",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 83",
+      "key": "ShapeshiftingAlternateForm",
+      "multiple": 1,
+      "exoticSprntl": "Ex",
+      "description": "Hexapod robot"
+    },
+    {
+      "name": "Centauroid Robot",
+      "physMntlScl": "P",
+      "cost": 247,
+      "key": "CentauroidRobot",
+      "templateTrait": true
+    },
+    {
+      "name": "Increased Strength",
+      "physMntlScl": "P",
+      "cost": 10,
+      "hasLevels": true,
+      "key": "IncreasedST",
+      "levels": 18,
+      "EnhLimsArray": [
+        {
+          "text": "size",
+          "value": -10
+        }
+      ],
+      "inTemplate": "CentauroidRobot"
+    },
+    {
+      "name": "Increased Dexterity",
+      "physMntlScl": "P",
+      "cost": 20,
+      "hasLevels": true,
+      "key": "IncreasedDX",
+      "levels": 3,
+      "inTemplate": "CentauroidRobot"
+    },
+    {
+      "name": "Size Modifier",
+      "physMntlScl": "P",
+      "cost": 0,
+      "hasLevels": true,
+      "key": "SizeModifier",
+      "levels": 1,
+      "posNegLevels": true,
+      "inTemplate": "CentauroidRobot"
+    },
+    {
+      "name": "Enhanced Move in half-levels",
+      "physMntlScl": "P",
+      "cost": 10,
+      "hasLevels": true,
+      "key": "EnhancedMoveHalf",
+      "multiple": 1,
+      "levels": 2,
+      "description": "ground speed 16",
+      "inTemplate": "CentauroidRobot"
+    },
+    {
+      "name": "Extra Legs",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "ExtraLegs",
+      "exoticSprntl": "Ex",
+      "levels": 1,
+      "highestLevel": 3,
+      "description": "four legs",
+      "inTemplate": "CentauroidRobot"
+    },
+    {
+      "name": "Combat Reflexes",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 43",
+      "key": "CombatReflexes",
+      "group": "reflexes"
+    },
+    {
+      "name": "Damage Resistance",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 46",
+      "key": "DamageResistance",
+      "multiple": 1,
+      "exoticSprntl": "Ex",
+      "levels": 53,
+      "EnhLimsArray": [
+        {
+          "text": "Hardened",
+          "value": 20
+        },
+        {
+          "text": "Can't Wear Armor",
+          "value": -40
+        }
+      ],
+      "description": "metal skin"
+    },
+    {
+      "name": "Detect",
+      "physMntlScl": "MP",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 48",
+      "key": "Detect",
+      "multiple": 1,
+      "exoticSprntl": "Ex",
+      "EnhLimsArray": [
+        {
+          "text": "Signal Detection",
+          "value": 0
+        }
+      ],
+      "ConstantModsArray": [
+        {
+          "text": "Common",
+          "value": 15
+        }
+      ],
+      "description": "Electromagnetic Emissions"
+    },
+    {
+      "name": "Doesn't Breathe",
+      "physMntlScl": "P",
+      "cost": 20,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 49",
+      "key": "DoesntBreathe"
+    },
+    {
+      "name": "Enhanced Tracking",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 53",
+      "key": "EnhancedTracking",
+      "exoticSprntl": "Ex",
+      "levels": 1
+    },
+    {
+      "name": "Extra Attack",
+      "physMntlScl": "P",
+      "cost": 25,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 53",
+      "key": "ExtraAttack",
+      "levels": 1
+    },
+    {
+      "name": "Hooves",
+      "physMntlScl": "P",
+      "cost": 3,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 42",
+      "key": "Hooves",
+      "group": "claws",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "Hyperspectral Vision",
+      "physMntlScl": "P",
+      "cost": 25,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 60",
+      "key": "HyperspectralVision",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "Machine",
+      "physMntlScl": "P",
+      "cost": 25,
+      "key": "Machine",
+      "templateTrait": true
+    },
+    {
+      "name": "Immunity",
+      "physMntlScl": "P",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 80",
+      "key": "Resistant",
+      "multiple": 1,
+      "ConstantModsArray": [
+        {
+          "text": "Very Common",
+          "value": 30
+        }
+      ],
+      "description": "metabolic hazards",
+      "inTemplate": "Machine"
+    },
+    {
+      "name": "Injury Tolerance",
+      "physMntlScl": "P",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 60",
+      "key": "InjuryTolerance",
+      "exoticSprntl": "Ex",
+      "ConstantModsArray": [
+        {
+          "text": "Unliving",
+          "value": 20
+        },
+        {
+          "text": "No Blood",
+          "value": 5
+        }
+      ],
+      "inTemplate": "Machine"
+    },
+    {
+      "name": "8-hr 'Battery'",
+      "physMntlScl": "P",
+      "cost": 0,
+      "inTemplate": "Machine"
+    },
+    {
+      "name": "No Fatigue Points",
+      "physMntlScl": "P",
+      "cost": 0,
+      "inTemplate": "Machine"
+    },
+    {
+      "name": "Unaging - Wear Instead",
+      "physMntlScl": "P",
+      "cost": 0,
+      "inTemplate": "Machine"
+    },
+    {
+      "name": "Obscure",
+      "physMntlScl": "P",
+      "cost": 2,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 72",
+      "key": "Obscure",
+      "levels": 5,
+      "EnhLimsArray": [
+        {
+          "text": "Defensive",
+          "value": 50
+        },
+        {
+          "text": "Extended, Para-Radar",
+          "value": 20
+        },
+        {
+          "text": "Area Effect 6",
+          "value": 300
+        }
+      ],
+      "description": "Radar"
+    },
+    {
+      "name": "Para-Radar",
+      "physMntlScl": "P",
+      "cost": 40,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 81",
+      "key": "ScanningSenseParaRadar",
+      "exoticSprntl": "Ex",
+      "EnhLimsArray": [
+        {
+          "text": "Extended Arc: 360&deg;",
+          "value": 125
+        },
+        {
+          "text": "Penetrating",
+          "value": 50
+        },
+        {
+          "text": "Targeting",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Payload",
+      "physMntlScl": "P",
+      "cost": 1,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 74",
+      "key": "Payload",
+      "multiple": 1,
+      "exoticSprntl": "Ex",
+      "levels": 14,
+      "levelsName": "10&times;BL",
+      "EnhLimsArray": [
+        {
+          "text": "Exposed",
+          "value": -50
+        }
+      ]
+    },
+    {
+      "name": "Payload",
+      "physMntlScl": "P",
+      "cost": 1,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 74",
+      "key": "Payload",
+      "multiple": 2,
+      "exoticSprntl": "Ex",
+      "levels": 5,
+      "levelsName": "10&times;BL"
+    },
+    {
+      "name": "Pressure Support",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 76",
+      "key": "PressureSupport",
+      "exoticSprntl": "Ex",
+      "levels": 2,
+      "lowestLevel": 1,
+      "highestLevel": 3
+    },
+    {
+      "name": "Protected Sense",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 78",
+      "key": "ProtectedSense",
+      "multiple": 1,
+      "exoticSprntl": "Ex",
+      "description": "Para-Radar"
+    },
+    {
+      "name": "Protected Sense",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 78",
+      "key": "ProtectedSense",
+      "multiple": 2,
+      "exoticSprntl": "Ex",
+      "description": "Vision"
+    },
+    {
+      "name": "Radio",
+      "physMntlScl": "PM",
+      "cost": 10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 91",
+      "key": "TelecommunicationRadio",
+      "EnhLimsArray": [
+        {
+          "text": "Short Wave",
+          "value": 50
+        },
+        {
+          "text": "Video",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Sealed",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 82",
+      "key": "Sealed",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "Talons",
+      "physMntlScl": "P",
+      "cost": 8,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 43",
+      "key": "Talons",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "True Faith",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 94",
+      "key": "TrueFaith",
+      "exoticSprntl": "Su"
+    },
+    {
+      "name": "Weapon Pod",
+      "physMntlScl": "P",
+      "cost": 297,
+      "key": "WeaponPod",
+      "templateTrait": true
+    },
+    {
+      "name": "Chain Gun",
+      "physMntlScl": "P",
+      "cost": 6,
+      "hasLevels": true,
+      "key": "LargePiercingAttack",
+      "multiple": 1,
+      "levels": 15,
+      "EnhLimsArray": [
+        {
+          "text": "accuracy +6",
+          "value": 30
+        },
+        {
+          "text": "armor divisor 2",
+          "value": 50
+        },
+        {
+          "text": "extra recoil +3",
+          "value": -30
+        },
+        {
+          "text": "increased range x20",
+          "value": 40
+        },
+        {
+          "text": "rapid fire RoF 15",
+          "value": 100
+        }
+      ],
+      "description": "Large Piercing Attack",
+      "inTemplate": "WeaponPod"
+    },
+    {
+      "name": "Plasma Cannon",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "BurningAttack",
+      "multiple": 1,
+      "levels": 6,
+      "EnhLimsArray": [
+        {
+          "text": "cone 4 yds",
+          "value": 90
+        },
+        {
+          "text": "cyclic 1 sec, 5 cycles",
+          "value": 400
+        }
+      ],
+      "MultipliersArray": [
+        {
+          "text": "alternative attack",
+          "value": 0.2
+        }
+      ],
+      "description": "Burning Attack",
+      "inTemplate": "WeaponPod"
+    },
+    {
+      "name": "Weapon Pod",
+      "physMntlScl": "P",
+      "cost": 297,
+      "key": "WeaponPod",
+      "templateTrait": true
+    },
+    {
+      "name": "Chain Gun",
+      "physMntlScl": "P",
+      "cost": 6,
+      "hasLevels": true,
+      "key": "LargePiercingAttack",
+      "multiple": 2,
+      "levels": 15,
+      "EnhLimsArray": [
+        {
+          "text": "accuracy +6",
+          "value": 30
+        },
+        {
+          "text": "armor divisor 2",
+          "value": 50
+        },
+        {
+          "text": "extra recoil +3",
+          "value": -30
+        },
+        {
+          "text": "increased range x20",
+          "value": 40
+        },
+        {
+          "text": "rapid fire RoF 15",
+          "value": 100
+        }
+      ],
+      "description": "Large Piercing Attack",
+      "inTemplate": "WeaponPod"
+    },
+    {
+      "name": "Plasma Cannon",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "BurningAttack",
+      "multiple": 2,
+      "levels": 6,
+      "EnhLimsArray": [
+        {
+          "text": "cone 4 yds",
+          "value": 90
+        },
+        {
+          "text": "cyclic 1 sec, 5 cycles",
+          "value": 400
+        }
+      ],
+      "MultipliersArray": [
+        {
+          "text": "alternative attack",
+          "value": 0.2
+        }
+      ],
+      "description": "Burning Attack",
+      "inTemplate": "WeaponPod"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Koine Greek",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 3,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Koine Greek",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 3,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Machine Language",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Machine Language",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Tibetan",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 3,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Tibetan",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 3,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Hegemony",
+      "physMntlScl": "M",
+      "cost": 0,
+      "key": "CulturalFamiliarity",
+      "description": "native"
+    },
+    {
+      "name": "Homeline",
+      "physMntlScl": "M",
+      "cost": 1,
+      "key": "CulturalFamiliarity"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Clueless",
+      "physMntlScl": "M",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 126",
+      "key": "Clueless"
+    },
+    {
+      "name": "Unhealing",
+      "physMntlScl": "P",
+      "cost": -10,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 160",
+      "key": "Unhealing",
+      "group": "healing",
+      "exoticSprntl": "Ex",
+      "levels": 2,
+      "lowestLevel": 1,
+      "levelNames": [
+        "Partial",
+        "Total"
+      ],
+      "fixedCost": -10,
+      "inTemplate": "Machine"
+    },
+    {
+      "name": "Discipline Of Faith",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 132",
+      "key": "DisciplineOfFaith",
+      "levels": 3,
+      "highestLevel": 3,
+      "description": "Asceticism"
+    },
+    {
+      "name": "Electrical",
+      "physMntlScl": "P",
+      "cost": -20,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 134",
+      "key": "Electrical",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "Fragile",
+      "physMntlScl": "P",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 136",
+      "key": "Fragile",
+      "multiple": 1,
+      "exoticSprntl": "Ex",
+      "ConstantModsArray": [
+        {
+          "text": "Explosive",
+          "value": -15
+        }
+      ]
+    },
+    {
+      "name": "Low Empathy",
+      "physMntlScl": "M",
+      "cost": -20,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 142",
+      "key": "LowEmpathy",
+      "group": "empathy"
+    },
+    {
+      "name": "Numb",
+      "physMntlScl": "P",
+      "cost": -20,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 146",
+      "key": "Numb"
+    },
+    {
+      "name": "Pacifism",
+      "physMntlScl": "M",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 148",
+      "key": "Pacifism",
+      "ConstantModsArray": [
+        {
+          "text": "Cannot Harm Innocents",
+          "value": -10
+        }
+      ]
+    },
+    {
+      "name": "Restricted Diet",
+      "physMntlScl": "P",
+      "cost": -10,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 151",
+      "key": "RestrictedDiet",
+      "levels": 3,
+      "lowestLevel": 1,
+      "highestLevel": 4,
+      "levelNames": [
+        "very common",
+        "common",
+        "occasional",
+        "rare"
+      ],
+      "description": "Fissionables"
+    },
+    {
+      "name": "Truthfulness",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 159",
+      "key": "Truthfulness",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite rarely (roll of 6 or less)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Poverty: Dead Broke",
+      "physMntlScl": "So",
+      "cost": -25,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 25",
+      "key": "PovertyDeadBrokex0",
+      "group": "wealth"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Always takes time to search out new sutras",
+      "cost": -1
+    },
+    {
+      "name": "Broad-Minded",
+      "cost": -1
+    },
+    {
+      "name": "Cannot Float",
+      "cost": -1
+    },
+    {
+      "name": "Constantly looking for challenges",
+      "cost": -1
+    },
+    {
+      "name": "Humble",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Armoury",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 178",
+      "points": 2,
+      "type": "M",
+      "key": "Armoury",
+      "TL": 9,
+      "specialization": "Heavy Weapons"
+    },
+    {
+      "name": "Brawling",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 182",
+      "points": 1,
+      "type": "P",
+      "key": "Brawling"
+    },
+    {
+      "name": "Computer Operation",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 184",
+      "points": 1,
+      "type": "M",
+      "minTL": 7,
+      "key": "ComputerOperation",
+      "TL": 9
+    },
+    {
+      "name": "Electronics Repair",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 190",
+      "points": 8,
+      "type": "M",
+      "minTL": 7,
+      "key": "ElectronicsRepair",
+      "TL": 9,
+      "specialization": "Computers"
+    },
+    {
+      "name": "Expert Skill",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 193",
+      "points": 2,
+      "type": "M",
+      "specCategName": "theme",
+      "key": "ExpertSkill",
+      "specialization": "Military Science"
+    },
+    {
+      "name": "Forward Observer",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 196",
+      "points": 1,
+      "type": "M",
+      "minTL": 6,
+      "key": "ForwardObserver",
+      "TL": 9
+    },
+    {
+      "name": "Innate Attack",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 201",
+      "points": 1,
+      "type": "P",
+      "key": "InnateAttack",
+      "specialization": "Beam"
+    },
+    {
+      "name": "Innate Attack",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 201",
+      "points": 1,
+      "type": "P",
+      "key": "InnateAttack",
+      "specialization": "Projectile"
+    },
+    {
+      "name": "Mechanic",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 207",
+      "points": 8,
+      "type": "M",
+      "minTL": 2,
+      "key": "Mechanic",
+      "TL": 9,
+      "specialization": "Robotics"
+    },
+    {
+      "name": "Meditation",
+      "attribute": "Will",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 207",
+      "points": 1,
+      "type": "P",
+      "key": "Meditation"
+    },
+    {
+      "name": "Mount",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 210",
+      "points": 2,
+      "type": "P",
+      "key": "Mount"
+    },
+    {
+      "name": "Navigation",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 211",
+      "points": 1,
+      "type": "M",
+      "key": "Navigation",
+      "TL": 9,
+      "specialization": "Land"
+    },
+    {
+      "name": "Parachuting",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 212",
+      "points": 1,
+      "type": "P",
+      "minTL": 6,
+      "key": "Parachuting",
+      "TL": 9
+    },
+    {
+      "name": "Strategy",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 222",
+      "points": 11,
+      "type": "M",
+      "key": "Strategy",
+      "specialization": "Land"
+    },
+    {
+      "name": "Tactics",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 224",
+      "points": 20,
+      "type": "M",
+      "key": "Tactics"
+    },
+    {
+      "name": "Theology",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 2,
+      "type": "M",
+      "key": "Theology",
+      "specialization": "Buddhist"
+    }
+  ],
+  "equipment": [],
+  "weapons": [],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection"
+    ]
+  },
+  "templates": {
+    "AI": {
+      "name": "AI",
+      "value": 32,
+      "meta": true,
+      "traits": [
+        {
+          "name": "Absolute Timing",
+          "physMntlScl": "M",
+          "cost": 2,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 35",
+          "key": "AbsoluteTiming",
+          "cinematic": true
+        },
+        {
+          "name": "Digital Mind",
+          "physMntlScl": "P",
+          "cost": 5,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 48",
+          "key": "DigitalMind"
+        },
+        {
+          "name": "Doesn't Sleep",
+          "physMntlScl": "P",
+          "cost": 20,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 50",
+          "key": "DoesntSleep",
+          "exoticSprntl": "Ex"
+        },
+        {
+          "name": "Intuitive Mathematician",
+          "physMntlScl": "M",
+          "cost": 5,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 66",
+          "key": "IntuitiveMathematician"
+        },
+        {
+          "name": "Photographic Memory",
+          "physMntlScl": "M",
+          "cost": 10,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 51",
+          "key": "PhotographicMemory"
+        },
+        {
+          "name": "Reprogrammable",
+          "physMntlScl": "M",
+          "cost": -10,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 150",
+          "key": "Reprogrammable",
+          "exoticSprntl": "Ex"
+        }
+      ],
+      "key": "AI"
+    },
+    "CentauroidRobot": {
+      "name": "Centauroid Robot",
+      "traits": [
+        {
+          "name": "Increased Strength",
+          "physMntlScl": "P",
+          "cost": 10,
+          "hasLevels": true,
+          "key": "IncreasedST",
+          "levels": 18,
+          "EnhLimsArray": [
+            {
+              "text": "size",
+              "value": -10
+            }
+          ]
+        },
+        {
+          "name": "Increased Dexterity",
+          "physMntlScl": "P",
+          "cost": 20,
+          "hasLevels": true,
+          "key": "IncreasedDX",
+          "levels": 3
+        },
+        {
+          "name": "Size Modifier",
+          "physMntlScl": "P",
+          "cost": 0,
+          "hasLevels": true,
+          "key": "SizeModifier",
+          "levels": 1,
+          "posNegLevels": true
+        },
+        {
+          "name": "Enhanced Move in half-levels",
+          "physMntlScl": "P",
+          "cost": 10,
+          "hasLevels": true,
+          "multiple": true,
+          "key": "EnhancedMoveHalf",
+          "levels": 2,
+          "description": "ground speed 16"
+        },
+        {
+          "name": "Extra Legs",
+          "physMntlScl": "P",
+          "cost": 5,
+          "hasLevels": true,
+          "key": "ExtraLegs",
+          "levels": 1,
+          "highestLevel": 3,
+          "description": "four legs",
+          "exoticSprntl": "Ex"
+        }
+      ],
+      "value": 247,
+      "key": "CentauroidRobot"
+    },
+    "Machine": {
+      "name": "Machine",
+      "value": 25,
+      "meta": true,
+      "traits": [
+        {
+          "name": "Immunity",
+          "physMntlScl": "P",
+          "cost": 0,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 80",
+          "key": "Resistant",
+          "multiple": true,
+          "mods": "Resistant",
+          "ConstantModsArray": [
+            {
+              "text": "Very Common",
+              "value": 30
+            }
+          ],
+          "description": "metabolic hazards"
+        },
+        {
+          "name": "Injury Tolerance",
+          "physMntlScl": "P",
+          "cost": 0,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 60",
+          "key": "InjuryTolerance",
+          "exoticSprntl": "Ex",
+          "mods": "Injury",
+          "ConstantModsArray": [
+            {
+              "text": "Unliving",
+              "value": 20
+            },
+            {
+              "text": "No Blood",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "name": "8-hr 'Battery'",
+          "physMntlScl": "P",
+          "cost": 0
+        },
+        {
+          "name": "No Fatigue Points",
+          "physMntlScl": "P",
+          "cost": 0
+        },
+        {
+          "name": "Unaging - Wear Instead",
+          "physMntlScl": "P",
+          "cost": 0
+        },
+        {
+          "name": "Unhealing",
+          "physMntlScl": "P",
+          "cost": -10,
+          "hasLevels": true,
+          "reference": "Basic Set - Characters, pg 160",
+          "key": "Unhealing",
+          "group": "healing",
+          "exoticSprntl": "Ex",
+          "levelNames": [
+            "Partial",
+            "Total"
+          ],
+          "lowestLevel": 1,
+          "fixedCost": -10,
+          "levels": 2
+        }
+      ],
+      "key": "Machine"
+    },
+    "WeaponPod": {
+      "name": "Weapon Pod",
+      "traits": [
+        {
+          "name": "Chain Gun",
+          "physMntlScl": "P",
+          "cost": 6,
+          "hasLevels": true,
+          "multiple": true,
+          "key": "LargePiercingAttack",
+          "levels": 15,
+          "EnhLimsArray": [
+            {
+              "text": "accuracy +6",
+              "value": 30
+            },
+            {
+              "text": "armor divisor 2",
+              "value": 50
+            },
+            {
+              "text": "extra recoil +3",
+              "value": -30
+            },
+            {
+              "text": "increased range x20",
+              "value": 40
+            },
+            {
+              "text": "rapid fire RoF 15",
+              "value": 100
+            }
+          ],
+          "description": "Large Piercing Attack"
+        },
+        {
+          "name": "Plasma Cannon",
+          "physMntlScl": "P",
+          "cost": 5,
+          "hasLevels": true,
+          "multiple": true,
+          "key": "BurningAttack",
+          "levels": 6,
+          "EnhLimsArray": [
+            {
+              "text": "cone 4 yds",
+              "value": 90
+            },
+            {
+              "text": "cyclic 1 sec, 5 cycles",
+              "value": 400
+            }
+          ],
+          "MultipliersArray": [
+            {
+              "text": "alternative attack",
+              "value": 0.2
+            }
+          ],
+          "description": "Burning Attack"
+        }
+      ],
+      "value": 297,
+      "key": "WeaponPod"
+    }
+  },
+  "groups": {
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "BullDancing",
+      "CombatWeaponSport",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw",
+      "Aerobatics",
+      "Aquabatics"
+    ],
+    "ArtificerTalent": [
+      "Armoury",
+      "Carpentry",
+      "Electrician",
+      "ElectronicsRepair",
+      "Engineer",
+      "Machinist",
+      "Masonry",
+      "Mechanic",
+      "Smith"
+    ],
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "Computer_from_IntuitiveMathematician": {
+      "from": "IntuitiveMathematician",
+      "amount": 3,
+      "targetCategory": "GR",
+      "target": "Computer"
+    },
+    "Engineering_from_IntuitiveMathematician": {
+      "from": "IntuitiveMathematician",
+      "amount": 2,
+      "targetCategory": "GR",
+      "target": "Engineering"
+    },
+    "Math_from_IntuitiveMathematician": {
+      "from": "IntuitiveMathematician",
+      "amount": 3,
+      "targetCategory": "GR",
+      "target": "Math"
+    },
+    "ST_from_IncreasedST": {
+      "from": "IncreasedST",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Strength"
+    },
+    "DX_from_IncreasedDX": {
+      "from": "IncreasedDX",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "DX"
+    },
+    "ActiveDefense_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "ActiveDefense"
+    },
+    "Block_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Block"
+    },
+    "Dodge_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Dodge"
+    },
+    "FastDraw_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FrightCheck_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 2,
+      "target": "FrightCheck"
+    },
+    "Parry_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Parry"
+    },
+    "DR_from_DamageResistance": {
+      "from": "DamageResistance",
+      "amount": 1,
+      "target": "DR"
+    },
+    "Exorcism_from_TrueFaith": {
+      "from": "TrueFaith",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Exorcism"
+    },
+    "SavoirFaire_from_Clueless": {
+      "from": "Clueless",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "Acting_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Acting"
+    },
+    "Captivate_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Captivate"
+    },
+    "Carousing_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Carousing"
+    },
+    "Criminology_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Criminology"
+    },
+    "DetectLies_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "Diplomacy_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "FastTalk_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Interrogation_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Interrogation"
+    },
+    "Leadership_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "Merchant_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Persuade_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Persuade"
+    },
+    "Politics_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Politics"
+    },
+    "SavoirFaire_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SexAppeal_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "Streetwise_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Suggest_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Suggest"
+    },
+    "SwayEmotions_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SwayEmotions"
+    },
+    "FastTalk_from_Truthfulness": {
+      "from": "Truthfulness",
+      "amount": -5,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Armoury_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Armoury"
+    },
+    "ElectronicsRepair_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "ElectronicsRepair"
+    },
+    "Mechanic_from_ArtificerTalent": {
+      "from": "ArtificerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Mechanic"
+    },
+    "NavigationSea_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Sea"
+    },
+    "NavigationAir_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Air"
+    },
+    "NavigationLand_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Land"
+    },
+    "NavigationSpace_from_SpatialSense3D": {
+      "from": "SpatialSense3D",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Space"
+    },
+    "NavigationHyperspace_from_SpatialSense3D": {
+      "from": "SpatialSense3D",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Hyperspace"
+    },
+    "Navigation_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Navigation"
+    }
+  },
+  "prerequisites": {},
+  "defaults": {
+    "Armoury_from_Engineer": {
+      "target": "Armoury",
+      "penalty": -4,
+      "from": "Engineer",
+      "fromSpec": "same"
+    },
+    "Brawling_from_stat": {
+      "target": "Brawling",
+      "penalty": false,
+      "category": "stat"
+    },
+    "ExpertSkill_from_stat": {
+      "target": "ExpertSkill",
+      "penalty": false,
+      "category": "stat"
+    },
+    "ForwardObserver_from_Artillery": {
+      "target": "ForwardObserver",
+      "penalty": -5,
+      "from": "Artillery"
+    },
+    "ForwardObserver_from_ElectronicsOperation": {
+      "target": "ForwardObserver",
+      "penalty": -5,
+      "from": "ElectronicsOperation"
+    },
+    "InnateAttack_from_InnateAttack": {
+      "target": "InnateAttack",
+      "penalty": -2,
+      "from": "InnateAttack"
+    },
+    "Mechanic_from_Mechanic": {
+      "target": "Mechanic",
+      "penalty": -4,
+      "from": "Mechanic"
+    },
+    "Mechanic_from_Engineer": {
+      "target": "Mechanic",
+      "penalty": -4,
+      "from": "Engineer",
+      "fromSpec": "same"
+    },
+    "Mechanic_from_Machinist": {
+      "target": "Mechanic",
+      "penalty": -5,
+      "from": "Machinist"
+    },
+    "Meditation_from_Autohypnosis": {
+      "target": "Meditation",
+      "penalty": -4,
+      "from": "Autohypnosis"
+    },
+    "NavigationLand_from_Cartography": {
+      "target": "Navigation",
+      "targetSpec": "Land",
+      "penalty": -4,
+      "from": "Cartography"
+    },
+    "NavigationLand_from_NavigationAir": {
+      "target": "Navigation",
+      "targetSpec": "Land",
+      "penalty": -2,
+      "from": "Navigation",
+      "fromSpec": "Air"
+    },
+    "NavigationLand_from_NavigationSea": {
+      "target": "Navigation",
+      "targetSpec": "Land",
+      "penalty": -2,
+      "from": "Navigation",
+      "fromSpec": "Sea"
+    },
+    "NavigationLand_from_MathematicsSurveying": {
+      "target": "Navigation",
+      "targetSpec": "Land",
+      "penalty": -4,
+      "from": "Mathematics",
+      "fromSpec": "Surveying"
+    },
+    "Strategy_from_IntelligenceAnalysis": {
+      "target": "Strategy",
+      "penalty": -6,
+      "from": "IntelligenceAnalysis"
+    },
+    "Strategy_from_Tactics": {
+      "target": "Strategy",
+      "penalty": -6,
+      "from": "Tactics"
+    },
+    "Tactics_from_Strategy": {
+      "target": "Tactics",
+      "penalty": -6,
+      "from": "Strategy"
+    },
+    "Theology_from_ReligiousRitual": {
+      "target": "Theology",
+      "penalty": -4,
+      "from": "ReligiousRitual",
+      "fromSpec": "same"
+    }
+  }
+}

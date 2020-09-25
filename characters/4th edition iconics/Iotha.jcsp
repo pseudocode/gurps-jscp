@@ -1,0 +1,1554 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": 8,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "campaign": "ISWAT"
+  },
+  "description": {
+    "name": "Iotha",
+    "ID": "WtqaqOeuK7qB",
+    "createDate": 1383325565240,
+    "pointTotal": 325,
+    "height": "73",
+    "weight": "125",
+    "sizeMod": 0,
+    "age": "453",
+    "appearance": "Tall, slender, and attractive, with ash-blonde hair with green highlights",
+    "statusText": "",
+    "repText": "+2 from those who can hear her voice (Voice), +1 from explorers and nature lovers (Outdoorsman)",
+    "shortStory": "",
+    "story": "On the world where Iotha was born, the forests were tall and old, and within them walked the elves, her people. Being elves, they knew that there were doorways between the worlds, and they taught her how to know those doorways and their uses. Although she never learned to open the doors of shadow and shift, she learned to spot the gateways and trackpaths left by those who did. On her 400th birthday, then, she packed up a good longbow of yew, and a lyre, and one or two secret things of her own, and set out upon her Time of Wandering.<br /><br />For the first few decades, she merely found doors and roads to other worlds much like her own, with their own elves and orcs and dwarves and giants. Elves she greeted, orcs she hunted, dwarves she bargained with, and giants she slew. As she journeyed farther though, she found more and more of the worlds contained men, of whom she had heard stories but had never seen. They were as fascinating as the songs her mother sang her as a girl, every one of them a Tamlin or a Thomas the Rhymer to her eager eyes. Although among the elves she was counted plain, the men seemed to delight in her as much as she did them, and once or twice she put off her travels to dally with one for the traditional year and a day.<br /><br />Even among her own folk, Iotha had been a master archer. In the worlds of men she was matchless at butt or target, on hunt or in battle; she gained a reputation on any world where she stayed for long. Legends, and a religion or two, grew up around the tall maid who never seemed to age and whose arrows never missed their mark. But always Iotha moved on, giving each world a verse in the song she would someday sing to her own people.<br /><br />In a world of concrete, glass, and steel, she came to live in a city split by a great wall. On one side was freedom, and music, and passion. On the other was none of these things, only a gray cloud that made freedom lies, and music discordant, and passion furtive. The huntsmen and warriors of this world had - as they felt - moved beyond the bow to mechanisms of subtle device that, once understood, had their own deadly beauty. So she learned the rifle, and the laser sight, and the ways of the hunt in the City of the Wall. She hunted the gray men from the other side of the wall, and gained a reputation in her new world as a deadly assassin. The greatest sniper from the other side of the wall marked her as his own, and they tracked each other through the cities and across the barbed wire borders and into fields and frozen forests. Finally, in the Black Forest, she killed him and took his weapon as her trophy, for it was made on the Moon by the gray men, and weighed even less than her bow.<br /><br />It was much later, in a world of steaming jungle and glittering plains, when Iotha found her destiny. For a decade and a half she had been journeying among the human clans, helping them defeat the winged terrors that preyed on their children. At first Iotha stood them off in desperate defenses . . . then she defeated them in pitched battles . . . and finally she took the battle to their fetid eyries and slew the last of them with her gleaming shafts.<br /><br />And at the festival of celebration, a woman who looked like any other clanmother drew her aside and said &ldquo;That was very well done. There are others who need your help now. Would you like to hear more?&rdquo;",
+    "goals": "",
+    "notes": "GURPS (4th Edition) Basic Set: Characters, pg 316\n",
+    "artPath": "../characters/images/Iotha.png",
+    "currentFP": "",
+    "race": "elf"
+  },
+  "playerInfo": {
+    "name": "iconic"
+  },
+  "preferences": {
+    "display": {
+      "theme": "green",
+      "watermark": "1",
+      "grimoire": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 0,
+    "DX": 60,
+    "IQ": 40,
+    "HT": 0,
+    "HP": 0,
+    "Will": 0,
+    "Per": 5,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 10,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Acute Vision",
+      "physMntlScl": "P",
+      "cost": 2,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 35",
+      "key": "AcuteVision",
+      "group": "vision",
+      "levels": 3
+    },
+    {
+      "name": "Detect",
+      "physMntlScl": "MP",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 48",
+      "key": "Detect",
+      "multiple": 1,
+      "exoticSprntl": "Ex",
+      "ConstantModsArray": [
+        {
+          "text": "Occasional",
+          "value": 5
+        }
+      ],
+      "description": "Extradimensional Phenomena"
+    },
+    {
+      "name": "Elf",
+      "physMntlScl": "P",
+      "cost": 70,
+      "key": "Elf",
+      "templateTrait": true
+    },
+    {
+      "name": "Increased Health",
+      "physMntlScl": "P",
+      "cost": 10,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 15 (use this trait only to build Templates)",
+      "key": "IncreasedHT",
+      "levels": 1,
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Increased Perception",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 16 (use this trait only to build Templates)",
+      "key": "IncreasedPer",
+      "levels": 1,
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Appearance: Attractive",
+      "physMntlScl": "P",
+      "cost": 4,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 21",
+      "key": "Attractive",
+      "group": "appearance",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Language Talent",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 65",
+      "key": "LanguageTalent",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Magery",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 66",
+      "key": "Magery",
+      "group": "Magery",
+      "exoticSprntl": "Su",
+      "levels": 0,
+      "fixedCost": 5,
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Perfect Balance",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 74",
+      "key": "PerfectBalance",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Telescopic Vision",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 92",
+      "key": "TelescopicVision",
+      "exoticSprntl": "Ex",
+      "levels": 1,
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Unaging",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 95",
+      "key": "Unaging",
+      "exoticSprntl": "Ex",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Voice",
+      "physMntlScl": "P",
+      "cost": 10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 97",
+      "key": "Voice",
+      "group": "voice",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Legal Enforcement Powers",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 65",
+      "key": "LegalEnforcementPowers",
+      "levels": 3,
+      "highestLevel": 3
+    },
+    {
+      "name": "Outdoorsman Talent",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 89-90",
+      "key": "OutdoorsmanTalent",
+      "levels": 1,
+      "highestLevel": 4
+    },
+    {
+      "name": "Weapon Master",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 99",
+      "key": "WeaponMaster",
+      "cinematic": true,
+      "levels": 1,
+      "lowestLevel": 1,
+      "levelNames": [
+        "1 weapon",
+        "2 weapons",
+        "small class of weapons",
+        "medium class of weapons",
+        "large class of weapons",
+        "all weapons"
+      ],
+      "fixedCost": 15,
+      "description": "Bow"
+    },
+    {
+      "name": "Elvish",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Elvish",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Russian",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Russian",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Elvish",
+      "physMntlScl": "M",
+      "cost": 0,
+      "key": "CulturalFamiliarity",
+      "description": "native"
+    },
+    {
+      "name": "Homeline",
+      "physMntlScl": "M",
+      "cost": 1,
+      "key": "CulturalFamiliarity"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Decreased Strength",
+      "physMntlScl": "P",
+      "cost": -10,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 14 (use this trait only to build Templates)",
+      "key": "DecreasedST",
+      "levels": 1,
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Duty",
+      "physMntlScl": "So",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 133",
+      "key": "Duty",
+      "multiple": 1,
+      "ConstantModsArray": [
+        {
+          "text": "15 or less",
+          "value": -15
+        },
+        {
+          "text": "Extremely Hazardous",
+          "value": -5
+        }
+      ],
+      "description": "to ISWAT"
+    },
+    {
+      "name": "Jealousy",
+      "physMntlScl": "M",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 140",
+      "key": "Jealousy"
+    },
+    {
+      "name": "Supernatural Feature",
+      "physMntlScl": "P",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 157",
+      "key": "SupernaturalFeature",
+      "multiple": 1,
+      "exoticSprntl": "Su",
+      "levels": 1,
+      "lowestLevel": 1,
+      "highestLevel": 2,
+      "levelNames": [
+        "inconspicuous",
+        "conspicuous"
+      ],
+      "description": "Hair turns dark green in strong sunlight"
+    },
+    {
+      "name": "Vow",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 160",
+      "key": "Vow",
+      "multiple": 1,
+      "cinematic": true,
+      "levels": 2,
+      "levelNames": [
+        "minor",
+        "major",
+        "great"
+      ],
+      "description": "Always keep her word, once given"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Dislikes hawthorne",
+      "physMntlScl": null,
+      "cost": -1
+    },
+    {
+      "name": "Dislikes iron",
+      "physMntlScl": "JSONcircRef:traits.30.physMntlScl",
+      "cost": -1
+    },
+    {
+      "name": "Intolerant of orcs and dwarves",
+      "physMntlScl": "JSONcircRef:traits.30.physMntlScl",
+      "cost": -1
+    },
+    {
+      "name": "Practices faerie etiquette (Minor Code of Honor)",
+      "physMntlScl": "JSONcircRef:traits.30.physMntlScl",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Conniosseur",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 185",
+      "points": 1,
+      "type": "M",
+      "key": "Conniosseur",
+      "specialization": "Nat. Envs.",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Bow",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 182",
+      "points": 32,
+      "type": "P",
+      "key": "Bow"
+    },
+    {
+      "name": "Camouflage",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 183",
+      "points": 4,
+      "type": "M",
+      "key": "Camouflage"
+    },
+    {
+      "name": "Climbing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 183",
+      "points": 1,
+      "type": "P",
+      "key": "Climbing"
+    },
+    {
+      "name": "Crossbow",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 186",
+      "points": 1,
+      "type": "P",
+      "key": "Crossbow"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 8,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Arrow"
+    },
+    {
+      "name": "Guns",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 198",
+      "points": 8,
+      "type": "P",
+      "minTL": 4,
+      "specCategName": "weapon type",
+      "key": "Guns",
+      "TL": 8,
+      "specialization": "Rifle"
+    },
+    {
+      "name": "Hiking",
+      "attribute": "HT",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 200",
+      "points": 8,
+      "type": "P",
+      "key": "Hiking"
+    },
+    {
+      "name": "Meditation",
+      "attribute": "Will",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 207",
+      "points": 4,
+      "type": "P",
+      "key": "Meditation"
+    },
+    {
+      "name": "Musical Instrument",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 211",
+      "points": 8,
+      "type": "M",
+      "specCategName": "instrument",
+      "key": "MusicalInstrument",
+      "specialization": "Lyre"
+    },
+    {
+      "name": "Naturalist",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 211",
+      "points": 8,
+      "type": "M",
+      "key": "Naturalist"
+    },
+    {
+      "name": "Poetry",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 214",
+      "points": 1,
+      "type": "M",
+      "key": "Poetry"
+    },
+    {
+      "name": "Riding",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 217",
+      "points": 2,
+      "type": "P",
+      "specCategName": "riding beast",
+      "key": "Riding",
+      "specialization": "Horse"
+    },
+    {
+      "name": "Running",
+      "attribute": "HT",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 12,
+      "type": "P",
+      "key": "Running"
+    },
+    {
+      "name": "Shadowing",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 219",
+      "points": 1,
+      "type": "M",
+      "key": "Shadowing"
+    },
+    {
+      "name": "Singing",
+      "attribute": "HT",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 220",
+      "points": 1,
+      "type": "P",
+      "key": "Singing"
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 222",
+      "points": 8,
+      "type": "P",
+      "key": "Stealth"
+    },
+    {
+      "name": "Survival",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 1,
+      "type": "P",
+      "key": "Survival",
+      "specialization": "Woodlands"
+    },
+    {
+      "name": "Throwing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 2,
+      "type": "P",
+      "key": "Throwing"
+    },
+    {
+      "name": "Tracking",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 1,
+      "type": "P",
+      "key": "Tracking"
+    },
+    {
+      "name": "Zen Archery",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set - Characters, pg 228",
+      "points": 8,
+      "type": "M",
+      "key": "ZenArchery"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Lyre",
+      "weight": 5,
+      "cost": 400,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Longbow",
+      "weight": 3,
+      "cost": 800,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -8,
+      "note": [
+        "Arrows cost $2."
+      ],
+      "qualityEffectGroup": "bow",
+      "quality": 2,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Bow": [
+          {
+            "title": "",
+            "hands": "both",
+            "strength": 11,
+            "damage": {
+              "base": "thr",
+              "mods": 2,
+              "type": "imp"
+            },
+            "maxDamage": "1d+4",
+            "rangeBasedOnST": true,
+            "halfDamageRange": 18,
+            "maximumRange": 24,
+            "snapShot": 15,
+            "accuracy": 3,
+            "rateOfFire": 1,
+            "recoil": 0
+          }
+        ]
+      },
+      "shots": 1
+    },
+    {
+      "name": "Sniper Rifle, C-Ti composite",
+      "weight": 2.5,
+      "cost": 13500,
+      "TL": 8,
+      "LC": 3,
+      "number": 1,
+      "bulk": -6,
+      "qualityEffectGroup": "gun",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Guns": [
+          {
+            "title": "",
+            "hands": "dom",
+            "strength": 9,
+            "damage": {
+              "base": 9,
+              "mods": 1,
+              "type": "pi"
+            },
+            "halfDamageRange": 1000,
+            "maximumRange": 5100,
+            "rateOfFire": 1,
+            "recoil": 4
+          }
+        ]
+      }
+    }
+  ],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection",
+      "wield",
+      "Bow",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:equipment.0",
+      "JSONcircRef:weapons.1"
+    ]
+  },
+  "templates": {
+    "Elf": {
+      "name": "Elf",
+      "value": 70,
+      "traits": [
+        {
+          "name": "Increased Health",
+          "physMntlScl": "P",
+          "cost": 10,
+          "hasLevels": true,
+          "reference": "Basic Set - Characters, pg 15 (use this trait only to build Templates)",
+          "key": "IncreasedHT",
+          "levels": 1
+        },
+        {
+          "name": "Increased Perception",
+          "physMntlScl": "M",
+          "cost": 5,
+          "hasLevels": true,
+          "reference": "Basic Set - Characters, pg 16 (use this trait only to build Templates)",
+          "key": "IncreasedPer",
+          "levels": 1
+        },
+        {
+          "name": "Appearance: Attractive",
+          "physMntlScl": "P",
+          "cost": 4,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 21",
+          "key": "Attractive",
+          "group": "appearance",
+          "description": true
+        },
+        {
+          "name": "Language Talent",
+          "physMntlScl": "M",
+          "cost": 10,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 65",
+          "key": "LanguageTalent"
+        },
+        {
+          "name": "Magery",
+          "physMntlScl": "M",
+          "cost": 10,
+          "hasLevels": true,
+          "reference": "Basic Set - Characters, pg 66",
+          "key": "Magery",
+          "group": "Magery",
+          "exoticSprntl": "Su",
+          "fixedCost": 5,
+          "mods": "Magery",
+          "levels": 0
+        },
+        {
+          "name": "Perfect Balance",
+          "physMntlScl": "P",
+          "cost": 15,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 74",
+          "key": "PerfectBalance"
+        },
+        {
+          "name": "Telescopic Vision",
+          "physMntlScl": "P",
+          "cost": 5,
+          "hasLevels": true,
+          "reference": "Basic Set - Characters, pg 92",
+          "key": "TelescopicVision",
+          "exoticSprntl": "Ex",
+          "mods": "TeleViz",
+          "levels": 1
+        },
+        {
+          "name": "Unaging",
+          "physMntlScl": "P",
+          "cost": 15,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 95",
+          "key": "Unaging",
+          "exoticSprntl": "Ex",
+          "mods": "Unaging"
+        },
+        {
+          "name": "Voice",
+          "physMntlScl": "P",
+          "cost": 10,
+          "hasLevels": false,
+          "reference": "Basic Set - Characters, pg 97",
+          "key": "Voice",
+          "group": "voice"
+        },
+        {
+          "name": "Decreased Strength",
+          "physMntlScl": "P",
+          "cost": -10,
+          "hasLevels": true,
+          "reference": "Basic Set - Characters, pg 14 (use this trait only to build Templates)",
+          "key": "DecreasedST",
+          "levels": 1
+        }
+      ],
+      "skills": [
+        {
+          "name": "Conniosseur",
+          "attribute": "IQ",
+          "difficulty": 1,
+          "reference": "Basic Set - Characters, pg 185",
+          "points": 1,
+          "key": "Conniosseur",
+          "specialization": "Natural Environments"
+        }
+      ],
+      "key": "Elf"
+    }
+  },
+  "groups": {
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "KnifeThrowing",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "StaffSkill",
+      "Throwing",
+      "ThrowingStick",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "bows": [
+      "Bow",
+      "ShortBow",
+      "Longbow",
+      "CompositeBow"
+    ],
+    "crossbows": [
+      "Crossbow",
+      "PistolCrossbow"
+    ],
+    "WeaponsGURPSLite": [
+      "Axe",
+      "Mace",
+      "BrassKnuckles",
+      "Broadsword",
+      "BroadswordThr",
+      "KnifeLarge",
+      "Poleaxe",
+      "Rapier",
+      "Shortsword",
+      "Spear",
+      "Quarterstaff",
+      "GreatswordThr",
+      "Longbow",
+      "ShortBow",
+      "Crossbow",
+      "ThrowingAxe",
+      "PumpShotgun12G",
+      "Derringer41",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "Revolver357M",
+      "AutoPistol44M",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "SniperRifle338"
+    ],
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "BullDancing",
+      "CombatWeaponSport",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw",
+      "Aerobatics",
+      "Aquabatics"
+    ],
+    "AthleticSkillsGURPSLite": [
+      "Acrobatics",
+      "Jumping",
+      "Riding",
+      "Swimming",
+      "Throwing",
+      "Hiking",
+      "Bicycling"
+    ],
+    "ArtisticSkills": [
+      "Artist",
+      "Bard",
+      "Calligraphy",
+      "Dancing",
+      "MusicalInstrument",
+      "Photography",
+      "Poetry",
+      "Sculpting",
+      "Singing",
+      "Writing",
+      "AppreciateBeauty",
+      "Bulldancing",
+      "Choreography",
+      "Conducting",
+      "Cyberaxe",
+      "Directing",
+      "Featherworking",
+      "FightChoreography",
+      "FireEating",
+      "FlowerArranging",
+      "Gardening",
+      "Illumination",
+      "IllusionArt",
+      "Juggling",
+      "LucidDreaming",
+      "MakeUp",
+      "MusicalComposition",
+      "Neurophon",
+      "Origami",
+      "PictureWriting",
+      "Punning",
+      "SceneDesign",
+      "SensieInterface",
+      "StageCombat",
+      "SymbolDrawing",
+      "VideoProduction",
+      "Weaving"
+    ],
+    "MusicalAbilityTalent": [
+      "GroupPerformanceConducting",
+      "MusicalComposition",
+      "MusicalInfluence",
+      "MusicalInstrument",
+      "Singing",
+      "GroupPerformance_Conducting"
+    ],
+    "AnimalSkills": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary",
+      "Bulldancing",
+      "Bullfighting",
+      "EquestrianAcrobatics",
+      "SnakeCharming"
+    ],
+    "AnimalSkillsGURPSLite": [
+      "AnimalHandling",
+      "Riding"
+    ],
+    "AnimalFriendTalent": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary"
+    ],
+    "AnimalFriend": "JSONcircRef:groups.AnimalFriendTalent",
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ],
+    "GreenThumbTalent": [
+      "Biology",
+      "Farming",
+      "Gardening",
+      "HerbLore",
+      "Naturalist"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "BodyLanguage_from_AcuteVision": {
+      "from": "AcuteVision",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "BodyLanguage"
+    },
+    "Vision_from_AcuteVision": {
+      "from": "AcuteVision",
+      "amount": 1,
+      "target": "Vision"
+    },
+    "HT_from_IncreasedHT": {
+      "from": "IncreasedHT",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "HT"
+    },
+    "Per_from_IncreasedPer": {
+      "from": "IncreasedPer",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Per"
+    },
+    "Appearance_from_AppearanceAttractive": {
+      "from": "Attractive",
+      "amount": 1,
+      "targetCategory": "GR",
+      "target": "Appearance"
+    },
+    "Language_from_LanguageTalent": {
+      "from": "LanguageTalent",
+      "amount": 1,
+      "targetCategory": "AD",
+      "target": "Language"
+    },
+    "Linguistics_from_LanguageTalent": {
+      "from": "LanguageTalent",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Linguistics"
+    },
+    "Spells_from_Magery": {
+      "from": "Magery",
+      "amount": 1,
+      "target": "Spells"
+    },
+    "Thaumatology_from_Magery": {
+      "from": "Magery",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Thaumatology"
+    },
+    "Acrobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Acrobatics"
+    },
+    "Aerobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Aerobatics"
+    },
+    "Aquabatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Aquabatics"
+    },
+    "Climbing_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Flight_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Flight"
+    },
+    "ImmovableStance_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "ImmovableStance"
+    },
+    "Piloting_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Piloting"
+    },
+    "Diplomacy_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "FastTalk_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Performance_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Performance"
+    },
+    "Politics_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Politics"
+    },
+    "PublicSpeaking_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "SexAppeal_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "Singing_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Singing"
+    },
+    "Camouflage_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Camouflage"
+    },
+    "Fishing_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Fishing"
+    },
+    "Mimicry_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Mimicry"
+    },
+    "Naturalist_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Naturalist"
+    },
+    "Navigation_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Navigation"
+    },
+    "Survival_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Survival"
+    },
+    "Tracking_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "ST_from_DecreasedST": {
+      "from": "DecreasedST",
+      "amount": -1,
+      "targetCategory": "stats",
+      "target": "Strength"
+    },
+    "Conniosseur_from_Killjoy": {
+      "from": "Killjoy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Conniosseur"
+    },
+    "Climbing_from_BadGrip": {
+      "from": "BadGrip",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_Brachiator": {
+      "from": "Brachiator",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_DoubleJointed": {
+      "from": "DoubleJointed",
+      "amount": 5,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_Flexibility": {
+      "from": "Flexibility",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "FastDraw_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_EnhancedTimeSense": {
+      "from": "EnhancedTimeSense",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_HamFisted": {
+      "from": "HamFisted",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "MusicalInstrument_from_MusicalAbilityTalent": {
+      "from": "MusicalAbilityTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "MusicalInstrument"
+    },
+    "Riding_from_AnimalFriendTalent": {
+      "from": "AnimalFriendTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Riding"
+    },
+    "Singing_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Singing"
+    },
+    "Singing_from_MusicalAbilityTalent": {
+      "from": "MusicalAbilityTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Singing"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Tracking_from_DiscriminatorySmell": {
+      "from": "DiscriminatorySmell",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "OutdoorsmanTalentGroup_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "GR",
+      "target": "OutdoorsmanTalent"
+    }
+  },
+  "prerequisites": {
+    "ZenArchery_requires_Bow18": {
+      "target": "ZenArchery",
+      "category": "SK",
+      "prereq": "Bow",
+      "level": 18
+    },
+    "ZenArchery_requires_TrainedbyaMaster": {
+      "target": "ZenArchery",
+      "category": "ADS",
+      "prereq": "TrainedbyaMaster",
+      "pgroup": 1
+    },
+    "ZenArchery_requires_WeaponMaster": {
+      "target": "ZenArchery",
+      "category": "ADS",
+      "prereq": "WeaponMaster",
+      "pgroup": 1
+    },
+    "ZenArchery_requires_Meditation": {
+      "target": "ZenArchery",
+      "category": "SK",
+      "prereq": "Meditation"
+    }
+  },
+  "defaults": {
+    "Camouflage_from_Survival": {
+      "target": "Camouflage",
+      "penalty": -2,
+      "from": "Survival"
+    },
+    "FastDraw_from_stat": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Guns_from_Guns": {
+      "target": "Guns",
+      "penalty": -2,
+      "from": "Guns"
+    },
+    "Meditation_from_Autohypnosis": {
+      "target": "Meditation",
+      "penalty": -4,
+      "from": "Autohypnosis"
+    },
+    "Naturalist_from_Biology": {
+      "target": "Naturalist",
+      "penalty": -3,
+      "from": "Biology"
+    },
+    "Poetry_from_Writing": {
+      "target": "Poetry",
+      "penalty": -5,
+      "from": "Writing"
+    },
+    "Riding_from_AnimalHandling": {
+      "target": "Riding",
+      "penalty": -3,
+      "from": "AnimalHandling",
+      "fromSpec": "same"
+    },
+    "Shadowing_from_Observation": {
+      "target": "Shadowing",
+      "penalty": -5,
+      "from": "Observation"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ",
+      "category": "stat"
+    },
+    "Survival_from_Naturalist": {
+      "target": "Survival",
+      "penalty": -3,
+      "from": "Naturalist"
+    },
+    "Throwing_from_DX": {
+      "target": "Throwing",
+      "penalty": -3,
+      "from": "DX",
+      "category": "stat"
+    },
+    "Throwing_from_Dropping": {
+      "target": "Throwing",
+      "penalty": -4,
+      "from": "Dropping"
+    },
+    "Tracking_from_Naturalist": {
+      "target": "Tracking",
+      "penalty": -5,
+      "from": "Naturalist"
+    },
+    "ZenArchery_from_stat": {
+      "target": "ZenArchery",
+      "penalty": false,
+      "category": "stat"
+    }
+  }
+}

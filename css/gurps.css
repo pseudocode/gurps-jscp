@@ -1,0 +1,482 @@
+/* this acts on menubar drop-downs */
+.sub li {
+  cursor: pointer;
+}
+
+div {
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis ellipsis;
+}
+div.page {
+  position: relative;
+  height: 9.5in;
+  width: 7in;
+}
+.layoutDiv {
+  border-left:   1px solid black;
+  border-top:    1px solid black;
+  border-right:  4px solid black;
+  border-bottom: 4px solid black;
+}
+td {
+  white-space: nowrap;
+}
+#edition_watermark {
+  position: absolute;
+  color: rgba(193,207,193,0.4);
+  text-align: right;
+  z-index: 1;
+  visibility: hidden;
+}
+#description input {
+  padding: 0 2px 0;
+  height: 16px;
+  text-align: left;
+  line-height: 18px;
+}
+#defenseStatsOverlay {
+  position: relative;
+  overflow: visible;
+  background-color: white;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#defenseStatsOverlay div {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  width: 100%;
+}
+
+/* dialog box formatting */
+.titlebar {
+  padding: 2px;
+  background-color: #ccc;
+  text-align: center;
+  font: 16px bold "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.dialog {
+  position: fixed;
+  min-width: 360px;
+  max-width: 420px;
+  border: 1px solid black;
+  border-radius: 9px;
+  box-shadow: 6px 8px 5px rgba(100, 100, 100, .5);
+  background-color: white;
+  top: 8em;
+  left: 8em;
+  z-index: 10;
+  display: none;
+}
+.dialog div {
+  position:relative;
+  overflow:visible;
+}
+.dialog select, .dialog input, .dialog textarea {
+  font-size: 10px;
+  padding: 2px;
+  margin: 2px;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+.dialog select option:hover { background-color: #EEE9BF; }
+.dialog td { text-align: left; }
+.dialog input {
+  text-align: left;
+  width: 150px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+.dialog button {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+.dialog input[type=button] { width: 90%; width: -moz-available; }
+.dialog table input { width: 90%; width: -moz-available; }
+.dialog table input[type=radio] { width: auto; }
+.dialog a { text-decoration: none; }
+.dialog .optionWrapper {
+  clear: both;
+  margin: 4px;
+}
+/*
+.dialog .label {
+  width: 8em;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  margin: 4px 4px 0 0;
+}
+*/
+.dialog .controlbutton {
+  width: 10%;
+  margin: 1em;
+  text-align: center;
+}
+.dialogWindow {
+  position: fixed;
+  width: 360px;
+  border: 3px ridge black;
+  background-color: white;
+  top: 7.5em;
+  left: 10em;
+  z-index: 10;
+  display: none;
+}
+input {
+  background-color: rgba(255,255,255,0.4)
+}
+input.slimButton, .dialog a.slimButton {
+  height:           15px;
+  padding:          0 4px;
+  background-color: lightgrey;
+  border:           1px solid grey;
+  border-radius:    5px
+}
+.dialog a.slimButton:hover {
+	color: aliceblue;
+  background-color: darkgrey;
+}
+.inline-select {
+  padding: 0 4px;
+}
+.SkillSpellInfo {
+  font: italic bold 14px Times, "Times New Roman", serif;
+  height: 20px;
+  padding-top: 4px;
+}
+/* select { background-color: #DDEEFF; } */
+button {
+	font-size: 10px;
+	margin: 1em;
+}
+.textarea input {
+  height: 15px;
+  font-size: 11px;
+  padding: 0px;
+}
+.dialogSubTable {
+  padding: 0 1em;
+  font-size: 12px;
+}
+.noticeBox {
+  font-size: 8pt;
+  text-align: left;
+}
+.dialogSortWrapper {
+  float: right;
+  padding-left: 1em;
+  text-align: left;
+}
+.dialogBody {
+  padding: 0 1em;
+  text-align: center;
+  font-size: 12px;
+}
+.dialogBody legend {
+  cursor: pointer;
+}
+.mainSelect {
+  clear: both;
+  width: 100%;
+  font-size: 12px !important;
+}
+.prefsTable {
+  clear: both;
+  table-layout: auto;
+/*  width: 96%;  */
+/*  padding: 0 1em 0 0;  */
+  line-height: 20px;
+}
+.prefsTable th {
+  text-align: right;
+}
+.fieldsetWrapper {
+/*  padding: 0 0 1em;  */
+   padding: 0;
+/*  text-align: -moz-center;  */
+}
+/* fieldset legend:hover, fieldset label:hover { color: blue; } */
+.fieldsetNote {
+  font-size: 10px;
+  text-align: center;
+  padding: 0 2em;
+}
+.fieldsetWrapper fieldset {
+  padding: 4px;
+  margin-top: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: rgba(247,247,247,0.4);
+}
+.fieldsetWrapper fieldset legend {
+  background-color: rgba(247,247,247,0.4);
+}
+.fieldsetWrapper fieldset fieldset {
+  margin: 0.5em;
+  border-radius: 5px;
+}
+.OptionList {
+  display: none;
+  margin: 0.5em 0 1em;
+}
+.OptionList td {
+  border: 1px solid silver;
+}
+.modOptionsTable div div {
+  float: left;
+}
+.modOptionsTable input {
+  width: 75%;
+}
+.modOptionsTable input[type=checkbox] {
+  width: auto;
+}
+.customOptionsTable {
+  display: table;
+  table-layout: fixed;
+  line-height: 20px;
+}
+.customOptionsTable th {
+  text-align: right;
+}
+.customOptionsTable input {
+  width: 100%;
+}
+.customOptionsTable td input {
+  width: 95%;
+}
+.customOptionsTable td select {
+  width: 90%;
+}
+.customOptionsTable input[type=checkbox] {
+  width: auto;
+  visibility: visible;
+}
+.label {
+/*
+  clear: both;
+  float: left;
+  width: 120px;
+  text-align: right;
+  line-height: 18px;
+*/
+  cursor: pointer;
+}
+.label:hover {
+  color: #555;
+}
+#customEquipmentTable input,  #customWeaponTable input {
+  font-size: 8pt;
+}
+#popupListDiv {
+  /*padding-right:4px;*/
+}
+#popupListTable td {
+  white-space: normal;
+  padding-left:10px;
+  text-indent: -8px;
+}
+#editArmorCoverageTable input {
+  height: 13px;
+}
+@keyframes goldfade { from { background: gold; } to { background: transparent; } }
+.chev { width: 6px; margin-left: 4px; transition: .3s transform ease-in-out; }
+.chev.closed { transform: rotate(-90deg); }
+
+
+/**/
+form {
+  margin: 0;
+}
+form .disabled {
+  color: darkslategray;
+}
+form .required {
+  background-color: mistyrose;
+}
+form .required input {
+  border-color: salmon;
+}
+p {
+  margin: 0.3em;
+}
+table {
+  width: 100%;
+  font-size: inherit;
+  border-collapse: collapse;
+/*  table-layout: fixed;  */
+}
+td {
+  text-align: center;
+}
+
+/* utility divs */
+.wrapper {
+  margin-top: 40px;
+  font: 12px 'Times New Roman', Times, serif;
+/*  font: 11px Palatino Linotype, serif; */
+}
+.wrapper input {
+  border: none;
+  width: 2em;
+  text-align: center;
+}
+.wrapper textarea {
+  border: none;
+  resize: none;
+}
+.resetDiv {
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+.clear {
+  clear: both;
+  width: 100%;
+}
+.inline-block {
+  display: -moz-inline-box;
+  display: inline-block;
+}
+.skills_table {
+	table-layout: fixed;
+}
+.skills_table tr {
+	height: 12px;
+}
+.skills_table td {
+	overflow: hidden;
+}
+.ability_table td input {
+  height: 14px;
+}
+.grimoire_table {
+  border-bottom: 0.5px solid black;
+}
+.grimoire_table tr {
+  height: 20px;
+  line-height: 12px;
+  border-right: 0.5px solid black;
+}
+.grimoire_table td {
+  text-align: center;
+  border-top:  0.5px solid black;
+  border-left: 0.5px solid black;
+  padding: 0 4px;
+}
+.centered-cells-row td {
+  text-align: center;
+}
+
+/* interactivity - in general, not csheet-specific */
+.fill-in { color: #455; }   /* pewter */
+.editable {
+  color: #898;              /* slate */
+  height: 15px;
+/*font-family: 'Purisa', 'Comic Sans', 'Comic Sans MS', cursive;
+  font-size: 12px;*/
+/*font-family: 'Covered By Your Grace', 'Comic Sans', 'Comic Sans MS', cursive;
+  font-size: 16px;*/
+/*font-family: 'Covered By Your Grace', Papyrus, fantasy; */
+  font-family: 'Covered By Your Grace', cursive;
+/* Google fonts
+  Covered By Your Grace
+  Shadows Into Light [Two]
+  Annie Use Your Telescope
+  Nothing You Could Do
+  Gloria Hallelujah
+  Architects Daughter          (not bad)
+  Schoolbell                   (like this one)
+  Waiting for the Sunrise
+  Sue Ellen Francisco
+  Permanent Marker             (takes up lots of space, but it's nice - VERY bold)
+*/
+  font-size: 14px;
+}
+.editable:hover {
+  background-color: #EEE9BF;
+}
+/* hover background doesn't work on .scribed elements, as the background-image overrides the background-color */
+.ready {
+  font-weight: bold;
+  background-color: rgba(200,200,200,0.4); /* transparent */
+}
+.scribed {
+  background-image:url('../images/scribeBG.png');
+  background-position: left bottom;
+}
+.warn {
+  background-color: #FDD;   /* ruddy pink */
+}
+.wear_wield_able:hover {
+  background-color: #EEE9BF;
+}
+.clickable:hover {
+  background-color: #EEE9BF;
+  cursor: pointer;
+}
+.scribed-15 {
+  line-height:15px;
+  background: url('../images/scribe15.png') local left top;
+}
+.scribed-15 p {  /* Necessary for Opera, which handles line-feeds in a contenteditable element by inserting <p> tags instead of <br> tags.  <p> gets a non-zero margin elsewhere. */
+  margin:0;
+}
+.scribed-box15 {
+  line-height:15px;
+  background: url('../images/scribe15blue.png') local left top;
+}
+.scribed-box15 p {  /* Necessary for Opera, which handles line-feeds in a contenteditable element by inserting <p> tags instead of <br> tags.  <p> gets a non-zero margin elsewhere. */
+  margin:0;
+}
+.scribed-box16 {
+  line-height:16px;
+  background: url('../images/scribe16blue.png') local left top;
+}
+.scribed-box16 p {  /* Necessary for Opera, which handles line-feeds in a contenteditable element by inserting <p> tags instead of <br> tags.  <p> gets a non-zero margin elsewhere. */
+  margin:0;
+}
+.scribed-box17 {
+  line-height:17px;
+  background: url('../images/scribe17blue.png') local left 1px;
+}
+.scribed-box17 p {  /* Necessary for Opera, which handles line-feeds in a contenteditable element by inserting <p> tags instead of <br> tags.  <p> gets a non-zero margin elsewhere. */
+  margin:0;
+}
+
+.zrow {
+  background-color: rgba(175,175,175,0.4);
+}
+.millenial.ability_table tr:nth-child(even) { background-color: rgba(175,175,175,0.4); }
+
+#reportFrame li {
+	list-style-type: none;
+	display: inline;
+}
+
+/* basic formatting */
+.centered {
+  text-align: center;
+}
+.underlined {
+  border-bottom: 1px solid silver;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.small {
+  font-size: 8pt;
+}
+.big {
+  font-size: 24pt;
+}

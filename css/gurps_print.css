@@ -1,0 +1,15 @@
+#navWrapper {
+  display: none;
+}
+#menuSpacer {
+  display: none;
+}
+/* .wrapper divs have 40-px margins on top when rendered on-screen, leaving space for the menu.
+    This hides the menu and removes those margins, replacing them with page breaks (cross-browser). */
+.wrapper {
+  margin-top: 0px;
+  page-break-after: always;
+}
+.chev { visibility: hidden; }
+#overlayswitch { visibility: hidden; }
+/*#skills_table*/.skills_table tr { height: 10px; line-height: 10px; }     .skills_table td input { height: 10px; margin-top: 0; }   /* compensates for odd magnification during printing */

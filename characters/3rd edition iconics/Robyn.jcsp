@@ -1,0 +1,1113 @@
+{
+  "gameInfo": {
+    "ruleset": "e3",
+    "TL": 2,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5
+  },
+  "description": {
+    "name": "Robyn of the Meadows",
+    "ID": "y5aN9mtimQOO",
+    "createDate": 1383930177303,
+    "pointTotal": 100,
+    "height": 66,
+    "weight": 130,
+    "sizeMod": 0,
+    "age": 20,
+    "appearance": "5'6\", 130 lbs., fair skin, red hair",
+    "statusText": "",
+    "repText": "",
+    "shortStory": "Country kid looking for wealth in the big city.",
+    "story": "",
+    "goals": "",
+    "notes": "",
+    "artPath": "../characters/images/Robyn1.png"
+  },
+  "playerInfo": {
+    "name": ""
+  },
+  "preferences": {
+    "display": {
+      "theme": "brown",
+      "watermark": "null",
+      "grimoire": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true,
+      "property": false,
+      "fractions": true,
+      "shortnames": false,
+      "skilltypes": false,
+      "showStartingCash": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 10,
+    "DX": 45,
+    "IQ": 30,
+    "HT": 10,
+    "HP": 0,
+    "Will": 0,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Alertness",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 19",
+      "key": "Alertness",
+      "levels": 2
+    },
+    {
+      "name": "Night Vision",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 10,
+      "reference": "Basic Set 3rd ed., pg 22",
+      "key": "NightVision",
+      "group": "Dark Vision"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Phobia",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 35",
+      "key": "Phobia",
+      "multiple": 1,
+      "levels": 1,
+      "levelNames": [
+        "",
+        "severe"
+      ],
+      "MultipliersArray": [
+        {
+          "text": "hard to avoid",
+          "value": 2
+        }
+      ],
+      "description": "Insects",
+      "expand": true
+    },
+    {
+      "name": "Struggling",
+      "type": "D",
+      "physMntlScl": "So",
+      "cost": -10,
+      "reference": "Basic Set 3rd ed., pg 16",
+      "key": "PovertyStrugglingx12",
+      "group": "wealth",
+      "description": "1/2 starting wealth"
+    },
+    {
+      "name": "Greedy",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -15,
+      "reference": "Basic Set 3rd ed., pg 33",
+      "key": "Greed"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Loves gems and jewels",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Claims to be part elf",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Dislikes authority",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Likes cats",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Dislikes city but finds it fascinating",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Illiterate",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": 0,
+      "reference": "Basic Set 3rd ed., pg 33",
+      "key": "Illiteracy",
+      "group": "literacy",
+      "ConstantModsArray": [
+        {
+          "text": "Illiteracy norm",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Knife",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 51",
+      "points": 4,
+      "type": "P",
+      "key": "Knife"
+    },
+    {
+      "name": "Knife Throwing",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 51",
+      "points": 1,
+      "type": "P",
+      "key": "KnifeThrowing"
+    },
+    {
+      "name": "Acrobatics",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 48",
+      "points": 2,
+      "type": "P",
+      "key": "Acrobatics"
+    },
+    {
+      "name": "Fast-Talk",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 63",
+      "points": 2,
+      "type": "M",
+      "key": "FastTalk"
+    },
+    {
+      "name": "Lockpicking",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 67",
+      "points": 2,
+      "type": "M",
+      "minTL": 2,
+      "key": "Lockpicking",
+      "TL": 2
+    },
+    {
+      "name": "Pickpocket",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 67",
+      "points": 2,
+      "type": "P",
+      "key": "Pickpocket"
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 67",
+      "points": 4,
+      "type": "P",
+      "key": "Stealth",
+      "dash": false
+    },
+    {
+      "name": "Streetwise",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 68",
+      "points": 4,
+      "type": "M",
+      "key": "Streetwise"
+    },
+    {
+      "name": "Jeweler",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 53",
+      "points": 2,
+      "type": "M",
+      "key": "Jeweler",
+      "TL": 2
+    },
+    {
+      "name": "Merchant",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 64",
+      "points": 2,
+      "type": "M",
+      "key": "Merchant"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Jewelled rings",
+      "weight": 0,
+      "cost": 200,
+      "TL": 1,
+      "LC": 6,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "buried silver",
+      "weight": 0,
+      "cost": 60,
+      "TL": 1,
+      "LC": 6,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "cats",
+      "weight": 0,
+      "cost": 0,
+      "TL": 0,
+      "LC": 6,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "shoes",
+      "weight": 2,
+      "cost": 40,
+      "TL": 1,
+      "LC": 6,
+      "reference": "B210",
+      "number": 1,
+      "PD": 1,
+      "DR": 1,
+      "location": [
+        "domFoot",
+        "offFoot"
+      ],
+      "key": "Shoes"
+    },
+    {
+      "name": "clothes",
+      "weight": 1,
+      "cost": 40,
+      "TL": 0,
+      "LC": 6,
+      "reference": "B210",
+      "number": 3,
+      "PD": 0,
+      "DR": 0,
+      "location": [
+        "neck",
+        "torso",
+        "waist",
+        "groin",
+        "domArm",
+        "offArm",
+        "domLeg",
+        "offLeg"
+      ],
+      "detail": "middle-class",
+      "key": "MidClassClothes",
+      "unit": "outfit",
+      "description": "status 0-1"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Large Knife",
+      "weight": 1,
+      "cost": 40,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -2,
+      "note": "[1]",
+      "qualityEffectGroup": "edged",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "parryBonus": -1
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "parryBonus": -1
+          }
+        ],
+        "MainGauche": [
+          {
+            "title": "swing",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "parryBonus": 0
+          },
+          {
+            "title": "thrust",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "parryBonus": 0
+          }
+        ],
+        "KnifeThrowing": [
+          {
+            "title": "throw",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "rangeBasedOnST": "add",
+            "halfDamageRange": -2,
+            "maximumRange": 5,
+            "snapShot": 12,
+            "accuracy": 0,
+            "rateOfFire": 1,
+            "recoil": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dagger",
+      "weight": 0.25,
+      "cost": 20,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 2,
+      "bulk": -1,
+      "note": "[1]",
+      "qualityEffectGroup": "edged",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 5,
+            "damage": {
+              "base": "thr",
+              "mods": -1,
+              "type": "imp"
+            },
+            "maxDamage": "1d+1",
+            "reach": "C",
+            "parryBonus": -1
+          }
+        ],
+        "KnifeThrowing": [
+          {
+            "title": "throw",
+            "hands": "dom",
+            "strength": 5,
+            "damage": {
+              "base": "thr",
+              "mods": -1,
+              "type": "imp"
+            },
+            "maxDamage": "1d",
+            "rangeBasedOnST": "add",
+            "halfDamageRange": -5,
+            "maximumRange": 0,
+            "snapShot": 12,
+            "accuracy": 0,
+            "rateOfFire": 1,
+            "recoil": 0
+          }
+        ]
+      }
+    }
+  ],
+  "collections": {
+    "equipped": "adventuring",
+    "default": [
+      "default collection",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1",
+      "JSONcircRef:equipment.4",
+      "JSONcircRef:equipment.3",
+      "JSONcircRef:equipment.0",
+      "JSONcircRef:equipment.1",
+      "JSONcircRef:equipment.2"
+    ],
+    "adventuring": [
+      "adventuring",
+      "wield",
+      "Knife",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1",
+      {
+        "line": false
+      },
+      "wear",
+      {
+        "name": "clothes",
+        "weight": 1,
+        "cost": 40,
+        "TL": 0,
+        "LC": 6,
+        "reference": "B210",
+        "number": 1,
+        "PD": 0,
+        "DR": 0,
+        "location": "JSONcircRef:equipment.4.location",
+        "detail": "middle-class",
+        "key": "MidClassClothes",
+        "unit": "outfit",
+        "description": "status 0-1"
+      },
+      "wear",
+      "JSONcircRef:equipment.3",
+      {
+        "line": false
+      },
+      "JSONcircRef:equipment.0"
+    ],
+    "home": [
+      "home",
+      "JSONcircRef:equipment.1",
+      "JSONcircRef:equipment.2"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "HandWeaponSkills": [
+      "AxeMace",
+      "Blackjack",
+      "Broadsword",
+      "Fencing",
+      "Flail",
+      "ForceSword",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "MainGauche",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Spear",
+      "StaffSkill",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling"
+    ],
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "Bulldancing",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw"
+    ],
+    "SocialSkills": [
+      "Acting",
+      "Administration",
+      "AreaKnowledge",
+      "Bard",
+      "Diplomacy",
+      "FastTalk",
+      "Gambling",
+      "Leadership",
+      "Merchant",
+      "Performance",
+      "Politics",
+      "SavoirFaire",
+      "SexAppeal",
+      "Strategy",
+      "Tactics",
+      "Teaching",
+      "AppreciateBeauty",
+      "EroticArt",
+      "Intimidation",
+      "PerformanceRitual",
+      "SavoirFaireDojo",
+      "SavoirFaireServant",
+      "TeaCeremony"
+    ],
+    "ThiefSpySkills": [
+      "Acting",
+      "Climbing",
+      "Camouflage",
+      "Demolition",
+      "DetectLies",
+      "Disguise",
+      "Escape",
+      "FastTalk",
+      "Forgery",
+      "Holdout",
+      "IntelligenceAnalysis",
+      "Interrogation",
+      "LipReading",
+      "Lockpicking",
+      "Pickpocket",
+      "Poisons",
+      "Scrounging",
+      "Shadowing",
+      "SleightofHand",
+      "Stealth",
+      "Streetwise",
+      "Tracking",
+      "Traps",
+      "UnderwaterDemolition",
+      "Ventriloquism",
+      "BrainHacking",
+      "ComputerHacking",
+      "Filch",
+      "Starglazing",
+      "UtteringofBaseCoin"
+    ],
+    "CraftSkills": [
+      "AppreciateBeauty",
+      "ArmouryTL5down",
+      "ArmouryTL6plus",
+      "BeverageMaking",
+      "Blacksmith",
+      "Carpentry",
+      "Cooking",
+      "Cooperage",
+      "Distilling",
+      "Dyeing",
+      "Fireworks",
+      "GlassBlowing",
+      "Jeweler",
+      "Leatherworking",
+      "Masonry",
+      "Mechanic",
+      "Needlecraft",
+      "Netmaking",
+      "Pottery",
+      "Shipbuilding",
+      "ShipbuildingStarship",
+      "StoneKnapping",
+      "Tanning",
+      "Tattooing",
+      "Weaving",
+      "Woodworking"
+    ],
+    "Craft": "JSONcircRef:groups.CraftSkills",
+    "KnownLanguages": [],
+    "WeaponsSkills": [
+      "AxeMace",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "Fencing",
+      "FireSiphon",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shield",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "ThrowingStick",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "WeaponSkills": [
+      "AxeMace",
+      "BeamWeapons",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Crossbow",
+      "Flail",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "JitteSai",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "Throwing",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "SwordSkills": [
+      "Broadsword",
+      "ForceSword",
+      "JitteSai",
+      "Knife",
+      "Shortsword",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "MainGauche",
+      "Rapier",
+      "Saber",
+      "Smallsword",
+      "Flail",
+      "TwoHandedFlail",
+      "AxeMace",
+      "TwoHandedAxeMace",
+      "Polearm",
+      "Spear",
+      "StaffSkill",
+      "Broadsword",
+      "ForceSword",
+      "JitteSai",
+      "Knife",
+      "Shortsword",
+      "TwoHandedSword",
+      "ForceWhip",
+      "Kusari",
+      "MonowireWhip",
+      "Whip"
+    ],
+    "Social": [
+      "Acting",
+      "Administration",
+      "AreaKnowledge",
+      "Bard",
+      "Diplomacy",
+      "FastTalk",
+      "Gambling",
+      "Leadership",
+      "Merchant",
+      "Performance",
+      "Politics",
+      "SavoirFaire",
+      "SexAppeal",
+      "Strategy",
+      "Tactics",
+      "Teaching",
+      "AppreciateBeauty",
+      "EroticArt",
+      "Intimidation",
+      "PerformanceRitual",
+      "SavoirFaireDojo",
+      "SavoirFaireServant",
+      "TeaCeremony"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "BlindFighting_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "BlindFighting"
+    },
+    "Hearing_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Hearing"
+    },
+    "TasteSmell_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "TasteSmell"
+    },
+    "Vision_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Vision"
+    },
+    "Acrobatics_from_BadGrip": {
+      "from": "BadGrip",
+      "fromCategory": "DI",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "Acrobatics"
+    },
+    "Acrobatics_from_Brachiator": {
+      "from": "Brachiator",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Acrobatics",
+      "type": "points"
+    },
+    "Acrobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Acrobatics"
+    },
+    "Acrobatics_from_PoorGrip": {
+      "from": "PoorGrip",
+      "fromCategory": "DI",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Acrobatics"
+    },
+    "FastTalk_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_SubsonicSpeech": {
+      "from": "SubsonicSpeech",
+      "fromCategory": "AD",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "fromCategory": "AD",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Encumbrance": {
+      "from": "Encumbrance",
+      "fromCategory": "enc",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Streetwise_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Merchant_from_ColorBlind": {
+      "from": "ColorBlind",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_CompulsiveSpendthrift": {
+      "from": "CompulsiveSpendthrift",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_CompulsiveSpending": {
+      "from": "CompulsiveSpending",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_Gullibility": {
+      "from": "Gullibility",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "fromCategory": "DI",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_Shyness": {
+      "from": "Shyness",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Faz_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "sense",
+      "target": "Faz"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    }
+  },
+  "prerequisites": {},
+  "defaults": {
+    "FastTalk_from_Acting": {
+      "target": "FastTalk",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Acting"
+    },
+    "Pickpocket_from_SleightofHand": {
+      "target": "Pickpocket",
+      "penalty": -4,
+      "category": "SK",
+      "from": "SleightofHand"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ"
+    },
+    "Stealth_from_DX": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "DX"
+    },
+    "Jeweler_from_Blacksmith": {
+      "target": "Jeweler",
+      "penalty": -4,
+      "category": "SK",
+      "from": "Blacksmith"
+    }
+  }
+}

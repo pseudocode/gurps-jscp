@@ -1,0 +1,16 @@
+.fill-in { color: #a0a; }
+.editable { color: #094; }
+.ready { background-color: rgba(150,200,255,0.4); }
+
+.titlebar { background-color: #cbd; }
+.dialog, .dialogWindow { border-color: #edf; }
+.dialog input, .dialog select, .dialog textarea, .dialog button { background-color: #edf; }
+
+.editable:hover, .wear_wield_able:hover, .clickable:hover { background-color: #fcd; }
+.dialog select option:hover { background-color:  #fcd; }
+
+fieldset legend:hover, label:hover, .label:hover { color: #a0a; }  /* same as fill-in color */
+#edition_watermark { color: rgba(150,200,255,0.4); }
+
+.zrow { background-color: rgba(180,140,240,0.4); } /* a good lavender: rgba(240,160,220,0.4) */
+.millenial.ability_table tr:nth-child(even) { background-color: rgba(180,140,240,0.4); }

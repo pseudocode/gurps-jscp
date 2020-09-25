@@ -1,0 +1,1251 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": 8,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "campaign": "ISWAT"
+  },
+  "description": {
+    "name": "Dai Blackthorn",
+    "ID": "4UC1ZUY9G3VR",
+    "createDate": 1383167996105,
+    "pointTotal": 250,
+    "height": 66,
+    "weight": 115,
+    "sizeMod": 0,
+    "age": 32,
+    "appearance": "Very average with an honest face",
+    "statusText": "",
+    "repText": "+2/-2 from naive/inexperienced people (Overconfidence) +2 in dangerous situations, if Sense of Duty is known",
+    "shortStory": "",
+    "story": "Dai&lsquo;s career started on Yrth, a medieval fantasy world populated by descendants of Crusades-era folk pulled from Earth by a dimensional rift. He remembers nothing of his birth or early childhood; he was a street kid. When he was about seven, he was taken in by an old thief who taught him to be a pickpocket and second-story man, and Dai learned well. But the Thieves&lsquo; Guild didn&lsquo;t like the competition, and when Dai was 15, the Guild set fire to the old man&lsquo;s house, and picked off the fleeing occupants with crossbows. Only Dai escaped.<br><br>At the time, he thought that he had made a terror-fueled leap from the burning building&lsquo;s roof to the next one. Later he realized that that jump had been impossible. Something else had happened. In fact, the fear of death had unlocked his psionic gift of teleportation, though it took time before he realized the truth and gained control of his abilities. When he did, he became a master thief indeed, living in quiet comfort and reveling in the marketplace talk of &ldquo;impossible robberies&rdquo; that no lock and no wizard could stop.<br><br>Then Dai crossed paths, and swords, with an equally formidable rival . . . a world-jumping criminal using stolen technology to loot Yrth&lsquo;s treasures. Matters were complicated further by the arrival of an ISWAT team pursuing the world-jumper. When the dust had settled, two of the agents owed their lives to the little thief . . . but he knew too much. They couldn&lsquo;t just let him go.<br><br>So they recruited him. After all, a good teleport is hard to find. As for Dai, he was ready for new challenges . . .",
+    "goals": "",
+    "notes": "GURPS (4th Edition) Basic Set: Characters, pg 310\nWeapons list from NPC card example. (GURPS 4th edition Basic Set: Campaigns, pg 569)",
+    "artPath": "../characters/images/dai_color.png",
+    "race": "human"
+  },
+  "playerInfo": {
+    "name": "iconic"
+  },
+  "preferences": {
+    "display": {
+      "theme": "blue",
+      "watermark": 1,
+      "grimoire": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": -20,
+    "DX": 100,
+    "IQ": 40,
+    "HT": 20,
+    "HP": 4,
+    "Will": 0,
+    "Per": 15,
+    "FP": -6,
+    "Speed": 5,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Anglish",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Anglish",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Homeline",
+      "physMntlScl": "M",
+      "cost": 1,
+      "key": "CulturalFamiliarity"
+    },
+    {
+      "name": "Yrth",
+      "physMntlScl": "M",
+      "cost": 0,
+      "key": "CulturalFamiliarity",
+      "description": "native"
+    },
+    {
+      "name": "Absolute Direction",
+      "physMntlScl": "MP",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 34",
+      "key": "AbsoluteDirection"
+    },
+    {
+      "name": "Danger Sense",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 47",
+      "key": "DangerSense",
+      "group": "precog",
+      "EnhLimsArray": [
+        {
+          "text": "ESP",
+          "value": -10
+        }
+      ]
+    },
+    {
+      "name": "Flexibility",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 56",
+      "key": "Flexibility"
+    },
+    {
+      "name": "Honest Face",
+      "physMntlScl": "P",
+      "cost": 1,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 101",
+      "key": "HonestFace"
+    },
+    {
+      "name": "Legal Enforcement Powers",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 65",
+      "key": "LegalEnforcementPowers",
+      "levels": 3,
+      "highestLevel": 3
+    },
+    {
+      "name": "Perfect Balance",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 74",
+      "key": "PerfectBalance"
+    },
+    {
+      "name": "Warp",
+      "physMntlScl": "M",
+      "cost": 100,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 97",
+      "key": "Warp",
+      "exoticSprntl": "Su",
+      "EnhLimsArray": [
+        {
+          "text": "Range Limit: 10 yds",
+          "value": -50
+        },
+        {
+          "text": "Psionic",
+          "value": -10
+        }
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Duty",
+      "physMntlScl": "So",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 133",
+      "key": "Duty",
+      "multiple": 1,
+      "ConstantModsArray": [
+        {
+          "text": "15 or less",
+          "value": -15
+        },
+        {
+          "text": "Extremely Hazardous",
+          "value": -5
+        }
+      ],
+      "description": "to ISWAT"
+    },
+    {
+      "name": "Light Sleeper",
+      "physMntlScl": "P",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 142",
+      "key": "LightSleeper"
+    },
+    {
+      "name": "Overconfidence",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 148",
+      "key": "Overconfidence",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite often (roll of 12 or less)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Sense of Duty",
+      "physMntlScl": "M",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 153",
+      "key": "SenseOfDuty",
+      "multiple": 1,
+      "ConstantModsArray": [
+        {
+          "text": "Small Group",
+          "value": -5
+        }
+      ],
+      "description": "To his squad"
+    },
+    {
+      "name": "Poverty: Poor (x1/5)",
+      "physMntlScl": "So",
+      "cost": -15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 25",
+      "key": "PovertyPoorx15",
+      "group": "wealth",
+      "description": "1/5 starting wealth"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Dislikes deep water",
+      "cost": -1
+    },
+    {
+      "name": "Loves high places",
+      "cost": -1
+    },
+    {
+      "name": "No drugs or alcohol",
+      "cost": -1
+    },
+    {
+      "name": "Sensitive about his height",
+      "cost": -1
+    },
+    {
+      "name": "Showoff",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobatics",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 174",
+      "points": 2,
+      "type": "P",
+      "key": "Acrobatics"
+    },
+    {
+      "name": "Body Sense",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 181",
+      "points": 1,
+      "type": "P",
+      "key": "BodySense"
+    },
+    {
+      "name": "Climbing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 183",
+      "points": 1,
+      "type": "P",
+      "key": "Climbing"
+    },
+    {
+      "name": "Escape",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 192",
+      "points": 1,
+      "type": "P",
+      "key": "Escape"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Knife"
+    },
+    {
+      "name": "Fast-Talk",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 2,
+      "type": "M",
+      "key": "FastTalk"
+    },
+    {
+      "name": "Filch",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 1,
+      "type": "P",
+      "key": "Filch"
+    },
+    {
+      "name": "Guns",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 198",
+      "points": 1,
+      "type": "P",
+      "minTL": 4,
+      "specCategName": "weapon type",
+      "key": "Guns",
+      "TL": 8,
+      "specialization": "Pistol"
+    },
+    {
+      "name": "Holdout",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 200",
+      "points": 2,
+      "type": "M",
+      "key": "Holdout"
+    },
+    {
+      "name": "Knife",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 4,
+      "type": "P",
+      "key": "Knife"
+    },
+    {
+      "name": "Lockpicking",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 206",
+      "points": 12,
+      "type": "M",
+      "minTL": 2,
+      "key": "Lockpicking",
+      "TL": 8
+    },
+    {
+      "name": "Observation",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 211",
+      "points": 2,
+      "type": "P",
+      "key": "Observation"
+    },
+    {
+      "name": "Pickpocket",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 213",
+      "points": 4,
+      "type": "P",
+      "key": "Pickpocket"
+    },
+    {
+      "name": "Shortsword",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 209",
+      "points": 2,
+      "type": "P",
+      "key": "Shortsword"
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 222",
+      "points": 4,
+      "type": "P",
+      "key": "Stealth"
+    },
+    {
+      "name": "Streetwise",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 2,
+      "type": "M",
+      "key": "Streetwise"
+    },
+    {
+      "name": "Thrown Weapon",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 4,
+      "type": "P",
+      "specCategName": "weapon type",
+      "key": "ThrownWeapon",
+      "specialization": "Knife"
+    },
+    {
+      "name": "Urban Survival",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 228",
+      "points": 1,
+      "type": "P",
+      "key": "UrbanSurvival"
+    }
+  ],
+  "equipment": [],
+  "weapons": [
+    {
+      "name": "Knife, large",
+      "weight": 1,
+      "cost": 40,
+      "TL": 0,
+      "LC": 4,
+      "number": 1,
+      "bulk": -2,
+      "qualityEffectGroup": "blade",
+      "quality": 2,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swung",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "parryBonus": -1,
+            "note": [
+              "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+            ]
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "parryBonus": -1,
+            "note": [
+              "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+            ]
+          }
+        ],
+        "ThrownWeapon_Knife": [
+          {
+            "title": "thrown",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "rangeBasedOnST": true,
+            "halfDamageRange": 0.8,
+            "maximumRange": 1.5
+          }
+        ]
+      },
+      "description": "fine quality"
+    },
+    {
+      "name": "Holdout Pistol, .380",
+      "weight": 1.3,
+      "cost": 300,
+      "TL": 7,
+      "LC": 3,
+      "number": 1,
+      "bulk": -1,
+      "qualityEffectGroup": "gun",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Guns7_Pistol": [
+          {
+            "strength": 8,
+            "damage": {
+              "base": 2,
+              "mods": 0,
+              "type": "pi"
+            },
+            "halfDamageRange": 125,
+            "maximumRange": 1500,
+            "accuracy": 1,
+            "rateOfFire": 3,
+            "recoil": 3
+          }
+        ]
+      },
+      "shots": "5+1",
+      "reload": 3
+    }
+  ],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "BullDancing",
+      "CombatWeaponSport",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw",
+      "Aerobatics",
+      "Aquabatics"
+    ],
+    "MagicalSkills": [
+      "Alchemy",
+      "BodySense",
+      "MagicBreath",
+      "MagicJet",
+      "SpellThrowing",
+      "RuneLore"
+    ],
+    "Magic": "JSONcircRef:groups.MagicalSkills",
+    "Magical": "JSONcircRef:groups.MagicalSkills",
+    "MagicSkills": "JSONcircRef:groups.MagicalSkills",
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "EmotionSkills": [
+      "Acting",
+      "Carousing",
+      "Criminology",
+      "DetectLies",
+      "Diplomacy",
+      "Enthrallment",
+      "FastTalk",
+      "Interrogation",
+      "Leadership",
+      "Merchant",
+      "Politics",
+      "Psychology",
+      "SavoirFaire",
+      "SexAppeal",
+      "Sociology",
+      "Streetwise"
+    ],
+    "PeopleSkills": [
+      "Acting",
+      "Carousing",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Merchant",
+      "Panhandling",
+      "Performance",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise",
+      "Teaching"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "KnifeThrowing",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "StaffSkill",
+      "Throwing",
+      "ThrowingStick",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "ManualDexteritySkills": [
+      "Artist",
+      "Jeweler",
+      "KnotTying",
+      "Leatherworking",
+      "Lockpicking",
+      "Pickpocket",
+      "Sewing",
+      "SleightofHand",
+      "Surgery"
+    ],
+    "AthleticSkillsGURPSLite": [
+      "Acrobatics",
+      "Jumping",
+      "Riding",
+      "Swimming",
+      "Throwing",
+      "Hiking",
+      "Bicycling"
+    ],
+    "WeaponsGURPSLite": [
+      "Axe",
+      "Mace",
+      "BrassKnuckles",
+      "Broadsword",
+      "BroadswordThr",
+      "KnifeLarge",
+      "Poleaxe",
+      "Rapier",
+      "Shortsword",
+      "Spear",
+      "Quarterstaff",
+      "GreatswordThr",
+      "Longbow",
+      "ShortBow",
+      "Crossbow",
+      "ThrowingAxe",
+      "PumpShotgun12G",
+      "Derringer41",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "Revolver357M",
+      "AutoPistol44M",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "SniperRifle338"
+    ],
+    "SmoothOperatorTalent": [
+      "Acting",
+      "Carousing",
+      "DetectLies",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Panhandling",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise"
+    ],
+    "swords": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr"
+    ],
+    "blades": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge"
+    ],
+    "edged": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Axe",
+      "Hatchet",
+      "ThrowingAxe",
+      "GreatAxe",
+      "Scythe",
+      "Glaive",
+      "Naginata",
+      "Halberd",
+      "Poleaxe",
+      "ironplow",
+      "saw",
+      "shovel"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "BodySense_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "BodySense"
+    },
+    "NavigationSea_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Sea"
+    },
+    "NavigationAir_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Air"
+    },
+    "NavigationLand_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Navigation",
+      "targetSpec": "Land"
+    },
+    "Climbing_from_Flexibility": {
+      "from": "Flexibility",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "EroticArt_from_Flexibility": {
+      "from": "Flexibility",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "EroticArt"
+    },
+    "Escape_from_Flexibility": {
+      "from": "Flexibility",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Escape"
+    },
+    "Acrobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Acrobatics"
+    },
+    "Aerobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Aerobatics"
+    },
+    "Aquabatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Aquabatics"
+    },
+    "Climbing_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Flight_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Flight"
+    },
+    "ImmovableStance_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "ImmovableStance"
+    },
+    "Piloting_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Piloting"
+    },
+    "BodySense_from_SpatialSense3D": {
+      "from": "SpatialSense3D",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "BodySense"
+    },
+    "Climbing_from_BadGrip": {
+      "from": "BadGrip",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_Brachiator": {
+      "from": "Brachiator",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_DoubleJointed": {
+      "from": "DoubleJointed",
+      "amount": 5,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Escape_from_DoubleJointed": {
+      "from": "DoubleJointed",
+      "amount": 5,
+      "targetCategory": "SK",
+      "target": "Escape"
+    },
+    "Escape_from_Slippery": {
+      "from": "Slippery",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Escape"
+    },
+    "FastDraw_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_EnhancedTimeSense": {
+      "from": "EnhancedTimeSense",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_HamFisted": {
+      "from": "HamFisted",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastTalk_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Truthfulness": {
+      "from": "Truthfulness",
+      "amount": -5,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_SubsonicSpeech": {
+      "from": "SubsonicSpeech",
+      "amount": -2,
+      "targetCategory": "\"SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Streetwise_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Streetwise_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Streetwise_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    }
+  },
+  "prerequisites": {},
+  "defaults": {
+    "BodySense_from_Acrobatics": {
+      "target": "BodySense",
+      "penalty": -3,
+      "from": "Acrobatics"
+    },
+    "FastDraw_from_stat": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "FastTalk_from_Acting": {
+      "target": "FastTalk",
+      "penalty": -5,
+      "from": "Acting"
+    },
+    "Filch_from_Pickpocket": {
+      "target": "Filch",
+      "penalty": -4,
+      "from": "Pickpocket"
+    },
+    "Filch_from_SleightofHand": {
+      "target": "Filch",
+      "penalty": -4,
+      "from": "SleightofHand"
+    },
+    "Guns_from_Guns": {
+      "target": "Guns",
+      "penalty": -2,
+      "from": "Guns"
+    },
+    "Holdout_from_SleightofHand": {
+      "target": "Holdout",
+      "penalty": -3,
+      "from": "SleightofHand"
+    },
+    "Knife_from_ForceSword": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "ForceSword"
+    },
+    "Knife_from_MainGauche": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "MainGauche"
+    },
+    "Knife_from_Shortsword": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "Shortsword"
+    },
+    "Observation_from_Shadowing": {
+      "target": "Observation",
+      "penalty": -5,
+      "from": "Shadowing"
+    },
+    "Pickpocket_from_Filch": {
+      "target": "Pickpocket",
+      "penalty": -5,
+      "from": "Filch"
+    },
+    "Pickpocket_from_SleightofHand": {
+      "target": "Pickpocket",
+      "penalty": -4,
+      "from": "SleightofHand"
+    },
+    "Shortsword_from_Broadsword": {
+      "target": "Shortsword",
+      "penalty": -2,
+      "from": "Broadsword"
+    },
+    "Shortsword_from_ForceSword": {
+      "target": "Shortsword",
+      "penalty": -4,
+      "from": "ForceSword"
+    },
+    "Shortsword_from_JitteSai": {
+      "target": "Shortsword",
+      "penalty": -3,
+      "from": "JitteSai"
+    },
+    "Shortsword_from_Knife": {
+      "target": "Shortsword",
+      "penalty": -4,
+      "from": "Knife"
+    },
+    "Shortsword_from_Saber": {
+      "target": "Shortsword",
+      "penalty": -4,
+      "from": "Saber"
+    },
+    "Shortsword_from_Smallsword": {
+      "target": "Shortsword",
+      "penalty": -4,
+      "from": "Smallsword"
+    },
+    "Shortsword_from_Tonfa": {
+      "target": "Shortsword",
+      "penalty": -3,
+      "from": "Tonfa"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ",
+      "category": "stat"
+    }
+  }
+}

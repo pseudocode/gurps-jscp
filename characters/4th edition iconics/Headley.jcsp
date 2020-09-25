@@ -1,0 +1,1836 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": 8,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "campaign": "ISWAT",
+    "GM": "SJGames"
+  },
+  "description": {
+    "name": "Professor William Headley",
+    "ID": "4M1NZJnkOQ9W",
+    "createDate": 1354913373014,
+    "pointTotal": 200,
+    "height": "5'8\"",
+    "weight": "165 lbs",
+    "sizeMod": "",
+    "age": "43",
+    "appearance": "Bespectacled and academic-looking, with a magical walking stick",
+    "statusText": "",
+    "repText": "+1 from patients, past and present (Healer), -2 from those who realize he is a Weirdness Magnet, -1 reaction from especially touchy Germans (quirk)",
+    "shortStory": "",
+    "story": "Dr. William Headley was a prominent parapsychologist at Columbia University. He labored to separate the myths and lore of primitive man from the rational truth being uncovered by modern experimentation. But, in 1933, he discovered that his beloved scientific truths pointed to beings from primordial eras and unholy stars, beings that existed to ravage and kill not just mankind but the Earth itself. He dedicated himself to an unceasing war against these horrors, these Things Man Was Not Meant To Know. Slowly, he accumulated knowledge from the outer places of the world, from Spitsbergen to the Belgian Congo to the mean streets of Brooklyn&lsquo;s Red Hook district. He obtained tomes bound in mysterious leathers, and written in nonhuman scripts; in dreams and sorceries he gradually deciphered their secrets. He mastered many of the conventional magical arts, from Tarot divination to crystal-gazing, and collected artifacts of subtle and terrifying nature.<br /><br />His slow mastery of forbidden lore allowed him to defeat the Things&lsquo; minions here and there, and incidentally to clear up a number of other unpleasant supernatural occurrences. He began to get a reputation for solving seemingly motiveless crimes with his &ldquo;unique insights into abnormal psychology.&rdquo; The New York Police Department came to rely on him for assistance with &ldquo;the weird stuff&rdquo; and the FBI called him in once or twice to help out - unofficially, you understand. Every so often the crimes he investigated fit a pattern, one Headley had begun to associate with a vile German cult, tied to the Nazi SS, who worshiped the Ancient Ones. With the occasional &ldquo;off-duty&rdquo; FBI agent, one or two students, and a few trusted professional colleagues, Headley built a team of investigators who peeled back the skin of the onion, exposing layer after layer of the cult&lsquo;s activities and burning them out where they could. In 1941, he joined the OSS, working to stop Hitler - and the Cosmic Entities his minions served - from conquering the world.<br><br>After V-E Day, Headley managed to obtain much of the SS library from their cult center at Wewelsburg. These books told him of another world, a parallel Earth where the Ancient Ones had reigned and departed, leaving vital clues to their nature and weakness. Using spells from these grimoires, Headley opened a gateway to this devastated Earth, and stepped through to investigate the spoor of his hated foes. Much to his surprise, he discovered a team of explorers from yet another Earth (one they called &ldquo;Homeline&rdquo;), attempting to determine what had destroyed this one (which they called &ldquo;Taft-7&rdquo;). They were as surprised to see him as he was to see them, but foolishly disregarded his warnings about the Ancient Ones&lsquo; cities, and the danger that still remained from their abandoned servitors. When the Things attacked that night, most of the explorers died horribly - and the two survivors fled back to their own world raving in madness. Only Headley realized that their flight had opened a path to their own world for the Things that had been trapped on this hellish Earth. He had to follow the explorers and warn their comrades that unimaginable terror would soon descend upon them. Once more, he constructed a gateway to cross the worlds, hoping against hope that his warning would be believed and acted on before &ldquo;Homeline&rdquo; went the way of Taft-7.",
+    "goals": "",
+    "notes": "GURPS (4th Edition) Basic Set: Characters, pg 314\n",
+    "artPath": "../characters/images/headley.png",
+    "race": "human"
+  },
+  "playerInfo": {
+    "name": "iconic"
+  },
+  "preferences": {
+    "display": {
+      "theme": "brown",
+      "watermark": "1",
+      "grimoire": false,
+      "adjTraitRows": true,
+      "traitsScroll": true,
+      "traitsSupp": false,
+      "skillsScroll": true,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": -10,
+    "DX": 0,
+    "IQ": 120,
+    "HT": 10,
+    "HP": 0,
+    "FP": 9,
+    "Will": 5,
+    "Per": -5,
+    "Speed": -5,
+    "Move": 0,
+    "TL": -5
+  },
+  "traits": [
+    {
+      "name": "Ancient Egyptian",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Ancient Egyptian",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Language Talent",
+      "physMntlScl": "M",
+      "cost": 10,
+      "key": "LanguageTalent"
+    },
+    {
+      "name": "Legal Enforcement Powers",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "LegalEnforcementPowers",
+      "levels": 3
+    },
+    {
+      "name": "Ritual Magery",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": true,
+      "key": "MageryRitual",
+      "group": "Magery",
+      "exoticSprntl": "Su",
+      "levels": 1,
+      "fixedCost": 5
+    },
+    {
+      "name": "Signature Gear",
+      "physMntlScl": "P",
+      "cost": 1
+    },
+    {
+      "name": "Arabic",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Arabic",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "German",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "German",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Latin",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Latin",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Healer Talent",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": true,
+      "key": "HealerTalent",
+      "levels": 1
+    },
+    {
+      "name": "Unfazeable",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": false,
+      "key": "Unfazeable"
+    },
+    {
+      "name": "Wealth: Comfortable (x2)",
+      "physMntlScl": "So",
+      "cost": 10,
+      "hasLevels": false,
+      "key": "WealthComfortablex2",
+      "group": "wealth",
+      "description": "double starting wealth"
+    },
+    {
+      "name": "Western",
+      "physMntlScl": "M",
+      "cost": 0,
+      "key": "CulturalFamiliarity",
+      "description": "native"
+    },
+    {
+      "name": "Homeline",
+      "physMntlScl": "M",
+      "cost": 1,
+      "key": "CulturalFamiliarity"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Bad Sight",
+      "physMntlScl": "P",
+      "cost": -25,
+      "key": "BadSight",
+      "group": "vision",
+      "EnhLimsArray": [
+        {
+          "text": "Mitigator: Eyeglasses",
+          "value": -60
+        }
+      ],
+      "description": "nearsighted"
+    },
+    {
+      "name": "Duty",
+      "physMntlScl": "So",
+      "cost": 0,
+      "key": "Duty",
+      "ConstantModsArray": [
+        {
+          "text": "Frequency: Almost All the Time (15 or less)",
+          "value": -15
+        },
+        {
+          "text": "Extremely Hazardous",
+          "value": -5
+        }
+      ],
+      "description": "to ISWAT"
+    },
+    {
+      "name": "Fanaticism",
+      "physMntlScl": "M",
+      "cost": -15,
+      "hasLevels": false,
+      "key": "Fanaticism",
+      "description": "Destroy all Things Man Was Not Meant To Know; Extreme"
+    },
+    {
+      "name": "Guilt Complex",
+      "physMntlScl": "M",
+      "cost": -5,
+      "key": "GuiltComplex"
+    },
+    {
+      "name": "Insomniac - severe",
+      "physMntlScl": "P",
+      "cost": -15,
+      "key": "InsomniacSevere"
+    },
+    {
+      "name": "Nightmares",
+      "physMntlScl": "M",
+      "cost": -5,
+      "key": "Nightmares",
+      "MultipliersArray": [
+        {
+          "text": "You resist quite often (roll of 12 or less)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Weirdness Magnet",
+      "physMntlScl": "M",
+      "cost": -15,
+      "hasLevels": false,
+      "key": "WeirdnessMagnet",
+      "exoticSprntl": "Su"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Bad Knee",
+      "cost": -1
+    },
+    {
+      "name": "Bibliophile",
+      "cost": -1
+    },
+    {
+      "name": "Distrusts Germans (-1 reaction from especially touchy Germans)",
+      "cost": -1
+    },
+    {
+      "name": "Makes decisions by consulting the Tarot (compulsion)",
+      "cost": -1
+    },
+    {
+      "name": "Pipe smoker (0-point Addiction to tobacco)",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Anthropology",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 175",
+      "points": 1,
+      "type": "M",
+      "specializations": [
+        "species"
+      ],
+      "specCategName": "species",
+      "key": "Anthropology"
+    },
+    {
+      "name": "Biology",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set - Characters, pg 180",
+      "points": 1,
+      "type": "M",
+      "specCategName": "planet type",
+      "key": "Biology",
+      "TL": 7,
+      "specialization": "Earth-like",
+      "optSpecsArray": [
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Criminology",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 186",
+      "points": 2,
+      "type": "M",
+      "key": "Criminology",
+      "useDefaultFrom": "Psychology"
+    },
+    {
+      "name": "Detect Lies",
+      "attribute": "Per",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 2,
+      "type": "P",
+      "key": "DetectLies",
+      "useDefaultFrom": "Psychology"
+    },
+    {
+      "name": "Diagnosis",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 1,
+      "type": "M",
+      "key": "Diagnosis",
+      "TL": 7,
+      "useDefaultFrom": "Physician"
+    },
+    {
+      "name": "Dreaming",
+      "attribute": "Will",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 188",
+      "points": 4,
+      "type": "P",
+      "key": "Dreaming"
+    },
+    {
+      "name": "Exorcism",
+      "attribute": "Will",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 193",
+      "points": 1,
+      "type": "P",
+      "key": "Exorcism",
+      "useDefaultFrom": "Theology"
+    },
+    {
+      "name": "Expert Skill",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 193",
+      "points": 1,
+      "type": "M",
+      "specCategName": "theme",
+      "key": "ExpertSkill",
+      "specialization": "Psionics"
+    },
+    {
+      "name": "First Aid",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 0,
+      "type": "M",
+      "key": "FirstAid",
+      "TL": 7,
+      "useDefaultFrom": "Physician"
+    },
+    {
+      "name": "Forensics",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 196",
+      "points": 1,
+      "type": "M",
+      "minTL": 4,
+      "key": "Forensics",
+      "useDefaultFrom": "Criminology"
+    },
+    {
+      "name": "Guns",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 198",
+      "points": 4,
+      "type": "P",
+      "minTL": 4,
+      "specCategName": "weapon type",
+      "key": "Guns",
+      "TL": 7,
+      "specialization": "Pistol",
+      "useDefaultFrom": "Guns"
+    },
+    {
+      "name": "Hidden Lore",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 199",
+      "points": 1,
+      "type": "M",
+      "specCategName": "body of secret knowledge",
+      "key": "HiddenLore",
+      "specialization": "Things Man Was Not Meant To Know"
+    },
+    {
+      "name": "Hypnotism",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 201",
+      "points": 1,
+      "type": "M",
+      "key": "Hypnotism"
+    },
+    {
+      "name": "Literature",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 205",
+      "points": 1,
+      "type": "M",
+      "key": "Literature"
+    },
+    {
+      "name": "Mental Strength",
+      "attribute": "Will",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 209",
+      "points": 1,
+      "type": "P",
+      "key": "MentalStrength"
+    },
+    {
+      "name": "Occultism",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 212",
+      "points": 4,
+      "type": "M",
+      "key": "Occultism"
+    },
+    {
+      "name": "Pharmacy",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 213",
+      "points": 1,
+      "type": "M",
+      "key": "Pharmacy",
+      "TL": 7,
+      "specialization": "Synthetic"
+    },
+    {
+      "name": "Physician",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 213",
+      "points": 1,
+      "type": "M",
+      "key": "Physician",
+      "TL": 7
+    },
+    {
+      "name": "Psychology",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 216",
+      "points": 1,
+      "type": "M",
+      "key": "Psychology"
+    },
+    {
+      "name": "Public Speaking",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 216",
+      "points": 1,
+      "type": "M",
+      "key": "PublicSpeaking"
+    },
+    {
+      "name": "Research",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 217",
+      "points": 4,
+      "type": "M",
+      "minTL": 2,
+      "key": "Research",
+      "TL": 7,
+      "useDefaultFrom": "Writing"
+    },
+    {
+      "name": "Ritual Magic",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 8,
+      "type": "M",
+      "key": "RitualMagic",
+      "specialization": "Hermetic"
+    },
+    {
+      "name": "Savoir-Faire",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 1,
+      "type": "M",
+      "key": "SavoirFaire",
+      "specialization": "Police"
+    },
+    {
+      "name": "Symbol Drawing",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 224",
+      "points": 1,
+      "type": "M",
+      "specCategName": "magical tradition",
+      "key": "SymbolDrawing",
+      "specialization": "Hermetic",
+      "useDefaultFrom": "RitualMagic"
+    },
+    {
+      "name": "Teaching",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 224",
+      "points": 1,
+      "type": "M",
+      "key": "Teaching"
+    },
+    {
+      "name": "Thaumatology",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set - Characters, pg 225",
+      "points": 1,
+      "type": "M",
+      "key": "Thaumatology"
+    },
+    {
+      "name": "Theology",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 1,
+      "type": "M",
+      "key": "Theology",
+      "specialization": "Satanism"
+    },
+    {
+      "name": "Writing",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 228",
+      "points": 1,
+      "type": "M",
+      "key": "Writing"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Ritual Paths"
+    },
+    {
+      "name": "Path of Communication & Empathy",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set - Characters, pg 242",
+      "points": 4,
+      "type": "M",
+      "key": "PathofCommunicationEmpathy",
+      "useDefaultFrom": "RitualMagic"
+    },
+    {
+      "name": "Path of Gate",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set - Characters, pg 242",
+      "points": 8,
+      "type": "M",
+      "key": "PathofGate",
+      "useDefaultFrom": "RitualMagic"
+    },
+    {
+      "name": "Path of Necromancy",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "points": 1,
+      "type": "M",
+      "key": "PathofNecromantic",
+      "useDefaultFrom": "RitualMagic"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Ritual Spells"
+    },
+    {
+      "name": "Banish",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 6,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Path of Necromancy",
+        "attribute": "IQ",
+        "difficulty": 3,
+        "points": 1,
+        "type": "M",
+        "key": "PathofNecromantic",
+        "useDefaultFrom": "RitualMagic"
+      },
+      "techniqueDefaultPenalty": -10,
+      "maxRelLevel": 0,
+      "key": "Banish"
+    },
+    {
+      "name": "Planar Summons",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 5,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Path of Gate",
+        "attribute": "IQ",
+        "difficulty": 3,
+        "points": 8,
+        "type": "M",
+        "key": "PathofGate",
+        "useDefaultFrom": "RitualMagic"
+      },
+      "techniqueDefaultPenalty": -10,
+      "maxRelLevel": 0,
+      "key": "PlanarSummons"
+    },
+    {
+      "name": "Plane Shift",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 6,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Path of Gate",
+        "attribute": "IQ",
+        "difficulty": 3,
+        "points": 8,
+        "type": "M",
+        "key": "PathofGate",
+        "useDefaultFrom": "RitualMagic"
+      },
+      "techniqueDefaultPenalty": -11,
+      "maxRelLevel": 0,
+      "key": "PlaneShift"
+    },
+    {
+      "name": "Sense Emotions",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 2,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Path of Communication & Empathy",
+        "attribute": "IQ",
+        "difficulty": 3,
+        "points": 4,
+        "type": "M",
+        "key": "PathofCommunicationEmpathy",
+        "useDefaultFrom": "RitualMagic"
+      },
+      "techniqueDefaultPenalty": 0,
+      "maxRelLevel": 0,
+      "key": "SenseEmotions"
+    },
+    {
+      "name": "Sense Spirit",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 2,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Path of Necromancy",
+        "attribute": "IQ",
+        "difficulty": 3,
+        "points": 1,
+        "type": "M",
+        "key": "PathofNecromantic",
+        "useDefaultFrom": "RitualMagic"
+      },
+      "techniqueDefaultPenalty": -1,
+      "maxRelLevel": 0,
+      "key": "SenseSpirit"
+    },
+    {
+      "name": "Truthsayer",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 2,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Path of Communication & Empathy",
+        "attribute": "IQ",
+        "difficulty": 3,
+        "points": 4,
+        "type": "M",
+        "key": "PathofCommunicationEmpathy",
+        "useDefaultFrom": "RitualMagic"
+      },
+      "techniqueDefaultPenalty": -2,
+      "maxRelLevel": 0,
+      "key": "Truthsayer"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "walking stick",
+      "weight": 2,
+      "cost": 0,
+      "TL": 0,
+      "LC": 4,
+      "number": 1,
+      "detail": "",
+      "description": "",
+      "addedCost": 5000
+    }
+  ],
+  "weapons": [],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection",
+      "JSONcircRef:equipment.0"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "EmotionSkills": [
+      "Acting",
+      "Carousing",
+      "Criminology",
+      "DetectLies",
+      "Diplomacy",
+      "Enthrallment",
+      "FastTalk",
+      "Interrogation",
+      "Leadership",
+      "Merchant",
+      "Politics",
+      "Psychology",
+      "SavoirFaire",
+      "SexAppeal",
+      "Sociology",
+      "Streetwise"
+    ],
+    "PhysiologicalSkills": [
+      "Body Language",
+      "Diagnosis",
+      "First Aid",
+      "Physician",
+      "Pressure Points",
+      "Pressure Secrets",
+      "Surgery",
+      "BodyLanguage",
+      "FirstAid",
+      "PressurePoints",
+      "PressureSecrets"
+    ],
+    "HealerTalent": [
+      "Diagnosis",
+      "EsotericMedicine",
+      "FirstAid",
+      "Pharmacy",
+      "Physician",
+      "Physiology",
+      "Psychology",
+      "Surgery",
+      "Veterinary"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "KnifeThrowing",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "StaffSkill",
+      "Throwing",
+      "ThrowingStick",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "PeopleSkills": [
+      "Acting",
+      "Carousing",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Merchant",
+      "Panhandling",
+      "Performance",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise",
+      "Teaching"
+    ],
+    "ArtisticSkills": [
+      "Artist",
+      "Bard",
+      "Calligraphy",
+      "Dancing",
+      "MusicalInstrument",
+      "Photography",
+      "Poetry",
+      "Sculpting",
+      "Singing",
+      "Writing",
+      "AppreciateBeauty",
+      "Bulldancing",
+      "Choreography",
+      "Conducting",
+      "Cyberaxe",
+      "Directing",
+      "Featherworking",
+      "FightChoreography",
+      "FireEating",
+      "FlowerArranging",
+      "Gardening",
+      "Illumination",
+      "IllusionArt",
+      "Juggling",
+      "LucidDreaming",
+      "MakeUp",
+      "MusicalComposition",
+      "Neurophon",
+      "Origami",
+      "PictureWriting",
+      "Punning",
+      "SceneDesign",
+      "SensieInterface",
+      "StageCombat",
+      "SymbolDrawing",
+      "VideoProduction",
+      "Weaving"
+    ],
+    "NecromanticSpells": [
+      "DeathVision",
+      "SenseSpirit",
+      "SummonSpirit",
+      "Zombie",
+      "TurnZombie",
+      "SummonDemon",
+      "Banish",
+      "PathofNecromancy"
+    ],
+    "Necromantic": "JSONcircRef:groups.NecromanticSpells",
+    "Spells": [
+      "LendEnergy",
+      "Clumsiness",
+      "Deathtouch",
+      "Hinder",
+      "Itch",
+      "Pain",
+      "ParalyzeLimb",
+      "RootedFeet",
+      "Spasm",
+      "WitherLimb",
+      "HideThoughts",
+      "MindReading",
+      "SenseEmotion",
+      "SenseFoes",
+      "Truthsayer",
+      "CreateEarth",
+      "EarthtoAir",
+      "EarthtoStone",
+      "Entombment",
+      "FleshtoStone",
+      "SeekEarth",
+      "ShapeEarth",
+      "StonetoFlesh",
+      "StonetoEarth",
+      "BreatheWater",
+      "CreateAir",
+      "Lightning",
+      "NoSmell",
+      "PredictWeather",
+      "PurifyAir",
+      "ShapeAir",
+      "Stench",
+      "WalkonAir",
+      "IgniteFire",
+      "CreateFire",
+      "ShapeFire",
+      "DeflectEnergy",
+      "ExtinguishFire",
+      "Heat",
+      "Cold",
+      "ResistCold",
+      "ResistFire",
+      "Fireball",
+      "ExplosiveFireball",
+      "SeekWater",
+      "PurifyWater",
+      "CreateWater",
+      "DestroyWater",
+      "ShapeWater",
+      "Fog",
+      "IcyWeapon",
+      "Accuracy",
+      "Deflect",
+      "Enchant",
+      "Fortify",
+      "Power",
+      "Puissance",
+      "StaffSpell",
+      "PlanarSummons",
+      "PlaneShift",
+      "LendVitality",
+      "RecoverEnergy",
+      "Awaken",
+      "MinorHealing",
+      "MajorHealing",
+      "GreatHealing",
+      "DetectMagic",
+      "Aura",
+      "Seeker",
+      "Trace",
+      "IdentifySpell",
+      "AnalyzeMagic",
+      "Light",
+      "ContinualLight",
+      "Darkness",
+      "Blur",
+      "Counterspell",
+      "DispelMagic",
+      "Foolishness",
+      "Forgetfulness",
+      "Daze",
+      "MassDaze",
+      "Sleep",
+      "MassSleep",
+      "Command",
+      "Haste",
+      "GreatHaste",
+      "Apportation",
+      "Lockmaster",
+      "DeflectMissile",
+      "DeathVision",
+      "SenseSpirit",
+      "SummonSpirit",
+      "Zombie",
+      "TurnZombie",
+      "SummonDemon",
+      "Banish",
+      "ShieldSpell",
+      "Armor",
+      "Magelock",
+      "PathofAnimal",
+      "PathofBodyControl",
+      "PathofCommunicationEmpathy",
+      "PathofEarth",
+      "PathofAir",
+      "PathofFire",
+      "PathofWater",
+      "PathofEnchantment",
+      "PathofFood",
+      "PathofGate",
+      "PathofHealing",
+      "PathofIllusionCreation",
+      "PathofKnowledge",
+      "PathofLightDarkness",
+      "PathofMakingBreaking",
+      "PathofMetaSpells",
+      "PathofMindControl",
+      "PathofMovement",
+      "PathofNecromancy",
+      "PathofPlant",
+      "PathofProtectionWarning",
+      "PathofSound"
+    ],
+    "GateSpells": [
+      "PlanarSummons",
+      "PlaneShift",
+      "PathofGate"
+    ],
+    "Gate": "JSONcircRef:groups.GateSpells",
+    "CommunicationEmpathySpells": [
+      "SenseEmotion",
+      "SenseFoes",
+      "Truthsayer",
+      "HideThoughts",
+      "MindReading",
+      "PathofCommunicationEmpathy"
+    ],
+    "CE": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "CESpells": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "Communication": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "CommunicationSpells": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "CommunicationEmpathy": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "CommunicationEmpathyCESpells": "JSONcircRef:groups.CommunicationEmpathySpells",
+    "GreenThumbTalent": [
+      "Biology",
+      "Farming",
+      "Gardening",
+      "HerbLore",
+      "Naturalist"
+    ],
+    "SmoothOperatorTalent": [
+      "Acting",
+      "Carousing",
+      "DetectLies",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Panhandling",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "Exorcism_baseline_penalty": {
+      "from": "always",
+      "fromCategory": "stats",
+      "amount": 0,
+      "targetCategory": "SK",
+      "target": "Exorcism"
+    },
+    "Language_from_LanguageTalent": {
+      "from": "LanguageTalent",
+      "amount": 1,
+      "targetCategory": "AD",
+      "target": "Language"
+    },
+    "Linguistics_from_LanguageTalent": {
+      "from": "LanguageTalent",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Linguistics"
+    },
+    "PathofAnimal_from_MageryRitual": {
+      "target": "PathofAnimal",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofBodyControl_from_MageryRitual": {
+      "target": "PathofBodyControl",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofCommunicationEmpathy_from_MageryRitual": {
+      "target": "PathofCommunicationEmpathy",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofEarth_from_MageryRitual": {
+      "target": "PathofEarth",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofAir_from_MageryRitual": {
+      "target": "PathofAir",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofFire_from_MageryRitual": {
+      "target": "PathofFire",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofWater_from_MageryRitual": {
+      "target": "PathofWater",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofEnchantment_from_MageryRitual": {
+      "target": "PathofEnchantment",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofFood_from_MageryRitual": {
+      "target": "PathofFood",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofGate_from_MageryRitual": {
+      "target": "PathofGate",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofHealing_from_MageryRitual": {
+      "target": "PathofHealing",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofIllusionCreation_from_MageryRitual": {
+      "target": "PathofIllusionCreation",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofKnowledge_from_MageryRitual": {
+      "target": "PathofKnowledge",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofLightDarkness_from_MageryRitual": {
+      "target": "PathofLightDarkness",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofMakingBreaking_from_MageryRitual": {
+      "target": "PathofMakingBreaking",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofMetaSpells_from_MageryRitual": {
+      "target": "PathofMetaSpells",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofMindControl_from_MageryRitual": {
+      "target": "PathofMindControl",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofMovement_from_MageryRitual": {
+      "target": "PathofMovement",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofNecromantic_from_MageryRitual": {
+      "target": "PathofNecromantic",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofPlant_from_MageryRitual": {
+      "target": "PathofPlant",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofSound_from_MageryRitual": {
+      "target": "PathofSound",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "RitualMagic_from_MageryRitual": {
+      "from": "MageryRitual",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "RitualMagic"
+    },
+    "Thaumatology_from_MageryRitual": {
+      "from": "MageryRitual",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Thaumatology"
+    },
+    "Criminology_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Criminology"
+    },
+    "DetectLies_from_Sensitive": {
+      "from": "Sensitive",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_Empathy": {
+      "from": "Empathy",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "Exorcism_from_BlessedHeroicFeats": {
+      "from": "BlessedHeroicFeats",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Exorcism"
+    },
+    "Exorcism_from_BlessedDivination": {
+      "from": "BlessedDivination",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Exorcism",
+      "per": false
+    },
+    "Exorcism_from_PowerInvestiture": {
+      "from": "PowerInvestiture",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Exorcism",
+      "per": false
+    },
+    "Exorcism_from_TrueFaith": {
+      "from": "TrueFaith",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Exorcism"
+    },
+    "MentalStrength_from_StrongWill": {
+      "from": "StrongWill",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "MentalStrength"
+    },
+    "MentalStrength_from_WeakWill": {
+      "from": "WeakWill",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "MentalStrength"
+    },
+    "PublicSpeaking_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "PublicSpeaking_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "PublicSpeaking_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "PublicSpeaking_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "SavoirFaire_from_Clueless": {
+      "from": "Clueless",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "Teaching_from_Callous": {
+      "from": "Callous",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Teaching"
+    },
+    "Thaumatology_from_Magery": {
+      "from": "Magery",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Thaumatology"
+    },
+    "PathofNecromancy_from_MageryRitual": {
+      "target": "PathofNecromancy",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "PathofProtectionWarning_from_MageryRitual": {
+      "target": "PathofProtectionWarning",
+      "targetCategory": "SK",
+      "amount": 1,
+      "from": "MageryRitual"
+    },
+    "HealerTalentGroup_from_HealerTalent": {
+      "from": "HealerTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "GR",
+      "target": "HealerTalent"
+    }
+  },
+  "prerequisites": {
+    "": {},
+    "MentalStrength_requires_TrainedbyaMaster_pgroup1": {
+      "target": "MentalStrength",
+      "prereq": "override",
+      "pgroup": 1
+    },
+    "MentalStrength_requires_WeaponMaster_pgroup1": {
+      "target": "MentalStrength",
+      "category": "ADS",
+      "prereq": "WeaponMaster",
+      "pgroup": 1
+    },
+    "PharmacyHerbal_requires_Naturalist": {
+      "target": "Pharmacy",
+      "targetSpec": "Herbal",
+      "category": "SK",
+      "prereq": "Naturalist"
+    },
+    "PathofCommunicationEmpathy_requires_RitualMagic_pgroup1": {
+      "target": "PathofCommunicationEmpathy",
+      "category": "SK",
+      "prereq": "RitualMagic",
+      "pgroup": 1
+    },
+    "PathofCommunicationEmpathy_requires_Thaumatology_pgroup1": {
+      "target": "PathofCommunicationEmpathy",
+      "category": "SK",
+      "prereq": "Thaumatology",
+      "pgroup": 1
+    },
+    "PathofGate_requires_RitualMagic_pgroup1": {
+      "target": "PathofGate",
+      "category": "SK",
+      "prereq": "RitualMagic",
+      "pgroup": 1
+    },
+    "PathofGate_requires_Thaumatology_pgroup1": {
+      "target": "PathofGate",
+      "category": "SK",
+      "prereq": "Thaumatology",
+      "pgroup": 1
+    },
+    "PathofNecromantic_requires_RitualMagic_pgroup1": {
+      "target": "PathofNecromantic",
+      "category": "SK",
+      "prereq": "RitualMagic",
+      "pgroup": 1
+    },
+    "PathofNecromantic_requires_Thaumatology_pgroup1": {
+      "target": "PathofNecromantic",
+      "category": "SK",
+      "prereq": "Thaumatology",
+      "pgroup": 1
+    }
+  },
+  "defaults": {
+    "Anthropology_from_Paleontology": {
+      "target": "Anthropology",
+      "penalty": -2,
+      "from": "Paleontology",
+      "fromSpec": "Paleoanthropology"
+    },
+    "Anthropology_from_Sociology": {
+      "target": "Anthropology",
+      "penalty": -3,
+      "from": "Sociology"
+    },
+    "Biology_from_Naturalist": {
+      "target": "Biology",
+      "penalty": -6,
+      "from": "Naturalist"
+    },
+    "Criminology_from_Psychology": {
+      "target": "Criminology",
+      "penalty": -4,
+      "from": "Psychology"
+    },
+    "DetectLies_from_stat": {
+      "target": "DetectLies",
+      "penalty": false,
+      "category": "stat"
+    },
+    "DetectLies_from_BodyLanguage": {
+      "target": "DetectLies",
+      "penalty": -4,
+      "from": "BodyLanguage"
+    },
+    "DetectLies_from_Psychology": {
+      "target": "DetectLies",
+      "penalty": -4,
+      "from": "Psychology"
+    },
+    "Diagnosis_from_FirstAid": {
+      "target": "Diagnosis",
+      "penalty": -8,
+      "from": "FirstAid"
+    },
+    "Diagnosis_from_Physician": {
+      "target": "Diagnosis",
+      "penalty": -4,
+      "from": "Physician"
+    },
+    "Diagnosis_from_Veterinary": {
+      "target": "Diagnosis",
+      "penalty": -5,
+      "from": "Veterinary"
+    },
+    "Exorcism_from_ReligiousRitual": {
+      "target": "Exorcism",
+      "penalty": -3,
+      "from": "ReligiousRitual"
+    },
+    "Exorcism_from_RitualMagic": {
+      "target": "Exorcism",
+      "penalty": -3,
+      "from": "RitualMagic"
+    },
+    "Exorcism_from_Theology": {
+      "target": "Exorcism",
+      "penalty": -3,
+      "from": "Theology"
+    },
+    "ExpertSkill_from_stat": {
+      "target": "ExpertSkill",
+      "penalty": false,
+      "category": "stat"
+    },
+    "FirstAid_from_EsotericMedicine": {
+      "target": "FirstAid",
+      "penalty": 0,
+      "from": "EsotericMedicine"
+    },
+    "FirstAid_from_Physician": {
+      "target": "FirstAid",
+      "penalty": 0,
+      "from": "Physician"
+    },
+    "FirstAid_from_Veterinary": {
+      "target": "FirstAid",
+      "penalty": -4,
+      "from": "Veterinary"
+    },
+    "Forensics_from_Criminology": {
+      "target": "Forensics",
+      "penalty": -4,
+      "from": "Criminology"
+    },
+    "Guns_from_Guns": {
+      "target": "Guns",
+      "penalty": -2,
+      "from": "Guns"
+    },
+    "HiddenLore_from_stat": {
+      "target": "HiddenLore",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Hypnotism_from_stat": {
+      "target": "Hypnotism",
+      "penalty": false,
+      "category": "stat"
+    },
+    "MentalStrength_from_stat": {
+      "target": "MentalStrength",
+      "penalty": false,
+      "category": "stat"
+    },
+    "PharmacySynthetic_from_Chemistry": {
+      "target": "Pharmacy",
+      "targetSpec": "Synthetic",
+      "penalty": -5,
+      "from": "Chemistry"
+    },
+    "PharmacySynthetic_from_Physician": {
+      "target": "Pharmacy",
+      "targetSpec": "Synthetic",
+      "penalty": -5,
+      "from": "Physician"
+    },
+    "Physician_from_IQ": {
+      "target": "Physician",
+      "penalty": -7,
+      "from": "IQ",
+      "category": "stat"
+    },
+    "Physician_from_FirstAid": {
+      "target": "Physician",
+      "penalty": -11,
+      "from": "FirstAid"
+    },
+    "Physician_from_Veterinary": {
+      "target": "Physician",
+      "penalty": -5,
+      "from": "Veterinary"
+    },
+    "Psychology_from_Sociology": {
+      "target": "Psychology",
+      "penalty": -4,
+      "from": "Sociology"
+    },
+    "PublicSpeaking_from_Acting": {
+      "target": "PublicSpeaking",
+      "penalty": -5,
+      "from": "Acting"
+    },
+    "PublicSpeaking_from_Performance": {
+      "target": "PublicSpeaking",
+      "penalty": -2,
+      "from": "Performance"
+    },
+    "PublicSpeaking_from_Politics": {
+      "target": "PublicSpeaking",
+      "penalty": -5,
+      "from": "Politics"
+    },
+    "Research_from_Writing": {
+      "target": "Research",
+      "penalty": -3,
+      "from": "Writing"
+    },
+    "RitualMagic_from_stat": {
+      "target": "RitualMagic",
+      "penalty": false,
+      "category": "stat"
+    },
+    "RitualMagic_from_ReligiousRitual": {
+      "target": "RitualMagic",
+      "penalty": -6,
+      "from": "ReligiousRitual",
+      "fromSpec": "same"
+    },
+    "SymbolDrawing_from_RitualMagic": {
+      "target": "SymbolDrawing",
+      "penalty": -4,
+      "from": "RitualMagic",
+      "fromSpec": "same"
+    },
+    "Theology_from_ReligiousRitual": {
+      "target": "Theology",
+      "penalty": -4,
+      "from": "ReligiousRitual",
+      "fromSpec": "same"
+    },
+    "PathofCommunicationEmpathy_from_RitualMagic": {
+      "target": "PathofCommunicationEmpathy",
+      "penalty": -6,
+      "from": "RitualMagic"
+    },
+    "PathofCommunicationEmpathy_from_Thaumatology": {
+      "target": "PathofCommunicationEmpathy",
+      "penalty": -6,
+      "from": "Thaumatology"
+    },
+    "PathofGate_from_RitualMagic": {
+      "target": "PathofGate",
+      "penalty": -6,
+      "from": "RitualMagic"
+    },
+    "PathofGate_from_Thaumatology": {
+      "target": "PathofGate",
+      "penalty": -6,
+      "from": "Thaumatology"
+    },
+    "PathofNecromantic_from_RitualMagic": {
+      "target": "PathofNecromantic",
+      "penalty": -6,
+      "from": "RitualMagic"
+    },
+    "PathofNecromantic_from_Thaumatology": {
+      "target": "PathofNecromantic",
+      "penalty": -6,
+      "from": "Thaumatology"
+    }
+  }
+}

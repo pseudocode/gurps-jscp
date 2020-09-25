@@ -1,0 +1,18 @@
+.fill-in { color: maroon; }
+.editable { color: tomato; }
+/*.ready { background-color: #fca; } not transparent */
+.ready { background-color: rgba(255,135,55,0.4); }
+
+.titlebar { background-color: #CB9; }
+.dialog, .dialogWindow { border-color: #EDB; }  /* same as ready color */
+.dialog input, .dialog select, .dialog textarea, .dialog button { background-color: #FEC; }
+
+.editable:hover, .wear_wield_able:hover, .clickable:hover { background-color: #fce0b0; }
+.dialog select option:hover { background-color:  #fce0b0; }
+
+fieldset legend:hover, label:hover, .label:hover { color: #731; }  /* same as fill-in color */
+#edition_watermark { color: rgba(240,215,155,0.4); }
+
+/*.zrow { background-color: #faf0d8; }*/
+.zrow { background-color: rgba(240,215,155,0.4); }
+.millenial.ability_table tr:nth-child(even) { background-color: rgba(240,215,155,0.4); }

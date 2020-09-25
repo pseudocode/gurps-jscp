@@ -1,0 +1,1661 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": 8,
+    "startingWealth": 15000,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "campaign": "ISWAT",
+    "GM": "SJGames"
+  },
+  "description": {
+    "name": "Sora",
+    "ID": "yVzC0aKSlDuu",
+    "createDate": 1383588323590,
+    "pointTotal": 335,
+    "height": "62",
+    "weight": "130",
+    "sizeMod": 0,
+    "gender": "female",
+    "age": "23",
+    "appearance": "Compact and athletic Filipina",
+    "statusText": "",
+    "repText": "-1 from those who notice her Delusion",
+    "shortStory": "",
+    "story": "Manila exists in many worlds. In some worlds, its masters speak Japanese; in others Russian; in others Spanish or English. But in every Manila, the real bosses hide in the stark tropical shadows. They are the Triads, interlocking networks of criminal gangs with a finger in everything from traditional thuggery and kidnapping to high-tech organlegging and holopiracy.<br /><br />In one Manila, the local Triads needed a powerful computer system to use as an illegal data haven - and a relatively innocuous place to store it. They chose a local circus, setting their comp up, seemingly, for holographic set projections. Anyone who asked too many questions . . . well, they just disappeared into those tropical shadows.<br /><br />Two of those who disappeared were the circus&lsquo; headlining acrobats, the husband-and-wife team who anchored the Esclamado Family troupe. Their bodies turned up in the city dump, dinner for rats and gulls. Sora, their daughter, and a rising star of the show, vanished as well . . . hiding in Manila&lsquo;s urban maze, avoiding every eye, living by petty theft and trickery. Somehow - she doesn&lsquo;t speak of it - she came to the attention of the legendary Guro Dan Inosanto, master of the deadly Filipino martial arts of escrima and kali. He recognized her potential, and took her in as pupil and ward. He kept her from the sight of the Triads, and taught her to combine her rage, her alertness, and her acrobatics into a fluid system of death and life.<br /><br />Sora could not stay under his wing forever, though. She had to hunt down and kill the Triad bosses who had murdered her parents. She worked in the meantime for other gangs, zaibatsu, the underground, or whoever else could pay her increasing fees. Though she was no computer whiz, she also managed a surprising number of successful hacks through &ldquo;social engineering,&rdquo; dumpster diving, and good oldfashioned breaking and entering. As a Triad-hunting vigilante, she slowly earned the trust of Manila&lsquo;s small shopkeepers and churches; as a corporate agent, she gained contacts among the wealthy and powerful.<br /><br />One trail led to a suspiciously lucrative warehouse operation in the Quiapo district. Sora set up a surveillance pattern, rigorously tracking who entered and who left - and discovered that some people entered the warehouse and did not leave for days, or even weeks! But some of those who entered and left were Triad kingpins.<br /><br />Clearly, though, this was the front for a very secret smuggling operation. It was time for direct action. She broke in, slew more than a dozen mooks and three Very Important Crooks, and was taken from behind by a dart. Still conscious, she was bundled into a machine that looked on the inside like a bus . . . and then out again, without going anywhere. She was thrown into a crude cell. It would have held most people, but not the daughter of the Esclamados, not a student of Inosanto. She fled the warehouse . . . but found herself in another Manila, where everything was the same yet different . . . in this one, America had won the Pacific War! But here, too, the Triads were the bosses.<br /><br />Sora made a place for herself in this strange Manila&lsquo;s underworld and resumed her watching. Soon she realized that the Triads of her world and this one were cooperating, and that the warehouse was the gateway. Well, fine . . . if that was their scheme, she&lsquo;d destroy it. And them.<br /><br />A mid-level Triad was strangled from behind in a gambling den. Sora now had a warehouse key. Soon she knew the place better than its masters.\nSora learned that the &ldquo;bus&rdquo; she had ridden in was a &ldquo;conveyor,&rdquo; a shuttle between the worlds, and the only one the Triads had. One night she broke a guard&lsquo;s neck, walked into the conveyor, ripped the improvised cover off the red Panic button, and hit it.<br /><br />Ten seconds later, on yet another world, she was telling her story in broken English. A month after that, she was in the first wave of the ICops team that visited her original world to take out &ldquo;her&rdquo; Triads for good.<br /><br />And when the operation was over, Infinity had a choice: either send her to Coventry or offer her a job. And Sora was too good to waste.",
+    "goals": "",
+    "notes": "GURPS (4th Edition) Basic Set: Characters, pg 318\n",
+    "artPath": "../characters/images/sora_top.png",
+    "race": "human"
+  },
+  "playerInfo": {
+    "name": "iconic"
+  },
+  "preferences": {
+    "display": {
+      "theme": "purple",
+      "watermark": "1",
+      "grimoire": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": true,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 20,
+    "DX": 120,
+    "IQ": 60,
+    "HT": 10,
+    "HP": 0,
+    "Will": 0,
+    "Per": -5,
+    "FP": 0,
+    "Speed": 5,
+    "Move": 5,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Chinese",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Chinese",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Japanese",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Japanese",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Tagalog",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Tagalog",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "East Asian",
+      "physMntlScl": "M",
+      "cost": 0,
+      "key": "CulturalFamiliarity",
+      "description": "native"
+    },
+    {
+      "name": "Homeline",
+      "physMntlScl": "M",
+      "cost": 1,
+      "key": "CulturalFamiliarity"
+    },
+    {
+      "name": "Catfall",
+      "physMntlScl": "P",
+      "cost": 10,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 41",
+      "key": "Catfall",
+      "exoticSprntl": "Ex"
+    },
+    {
+      "name": "Combat Reflexes",
+      "physMntlScl": "M",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 43",
+      "key": "CombatReflexes",
+      "group": "reflexes"
+    },
+    {
+      "name": "Fit",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 55",
+      "key": "Fit",
+      "group": "fitness"
+    },
+    {
+      "name": "Legal Enforcement Powers",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 65",
+      "key": "LegalEnforcementPowers",
+      "levels": 3,
+      "highestLevel": 3
+    },
+    {
+      "name": "Perfect Balance",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 74",
+      "key": "PerfectBalance"
+    },
+    {
+      "name": "Trained by a Master",
+      "physMntlScl": "M",
+      "cost": 30,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 93",
+      "key": "TrainedbyaMaster",
+      "cinematic": true
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Code of Honor",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 127",
+      "key": "CodeofHonor",
+      "multiple": 1,
+      "levels": 1,
+      "highestLevel": 3,
+      "description": "Professional"
+    },
+    {
+      "name": "Delusion",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 130",
+      "key": "Delusion",
+      "multiple": 1,
+      "levels": 1,
+      "levelNames": [
+        "Minor",
+        "Major",
+        "Severe"
+      ],
+      "levelsName": "severity level",
+      "description": "&ldquo;My mother is an angel in heaven watching over me&rdquo;"
+    },
+    {
+      "name": "Duty",
+      "physMntlScl": "So",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 133",
+      "key": "Duty",
+      "multiple": 1,
+      "ConstantModsArray": [
+        {
+          "text": "15 or less",
+          "value": -15
+        },
+        {
+          "text": "Extremely Hazardous",
+          "value": -5
+        }
+      ],
+      "description": "to ISWAT"
+    },
+    {
+      "name": "Enemy",
+      "physMntlScl": "So",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 135",
+      "key": "Enemy",
+      "multiple": 1,
+      "levels": 6,
+      "levelsName": "power level",
+      "MultipliersArray": [
+        {
+          "text": "Intent: Hunter",
+          "value": 1
+        },
+        {
+          "text": "6 or less",
+          "value": 0.5
+        }
+      ],
+      "description": "Manila Triads"
+    },
+    {
+      "name": "Light Sleeper",
+      "physMntlScl": "P",
+      "cost": -5,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 142",
+      "key": "LightSleeper"
+    },
+    {
+      "name": "Pacifism",
+      "physMntlScl": "M",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 148",
+      "key": "Pacifism",
+      "ConstantModsArray": [
+        {
+          "text": "Cannot Harm Innocents",
+          "value": -10
+        }
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Careful",
+      "cost": -1
+    },
+    {
+      "name": "Devout Roman Catholic (reacts at +1 to\nCatholic clergy, tithes, attends church regularly)",
+      "cost": -1
+    },
+    {
+      "name": "Dislikes wide-open spaces",
+      "cost": -1
+    },
+    {
+      "name": "Uncongenial",
+      "cost": -1
+    },
+    {
+      "name": "Vow (&ldquo;Never reject a challenge to single combat&rdquo;)",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobatics",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 174",
+      "points": 4,
+      "type": "P",
+      "key": "Acrobatics"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 2,
+      "type": "M",
+      "specCategName": "area",
+      "key": "AreaKnowledge",
+      "specialization": "Manila"
+    },
+    {
+      "name": "Broadsword",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 1,
+      "type": "P",
+      "key": "Broadsword"
+    },
+    {
+      "name": "Climbing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 183",
+      "points": 2,
+      "type": "P",
+      "key": "Climbing"
+    },
+    {
+      "name": "Computer Hacking",
+      "attribute": "IQ",
+      "difficulty": 3,
+      "reference": "Basic Set - Characters, pg 184",
+      "points": 2,
+      "type": "M",
+      "minTL": 7,
+      "cinematic": true,
+      "key": "ComputerHacking",
+      "TL": 8
+    },
+    {
+      "name": "Computer Programming",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 184",
+      "points": 1,
+      "type": "M",
+      "minTL": 7,
+      "key": "ComputerProgramming",
+      "TL": 8
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Knife"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Small Thrown Weapon"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Tonfa"
+    },
+    {
+      "name": "Fast-Talk",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 2,
+      "type": "M",
+      "key": "FastTalk"
+    },
+    {
+      "name": "Filch",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 1,
+      "type": "P",
+      "key": "Filch"
+    },
+    {
+      "name": "Garrote",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 197",
+      "points": 1,
+      "type": "P",
+      "key": "Garrote"
+    },
+    {
+      "name": "Holdout",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 200",
+      "points": 1,
+      "type": "M",
+      "key": "Holdout"
+    },
+    {
+      "name": "Judo",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 203",
+      "points": 4,
+      "type": "P",
+      "key": "Judo"
+    },
+    {
+      "name": "Jumping",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 203",
+      "points": 1,
+      "type": "P",
+      "key": "Jumping"
+    },
+    {
+      "name": "Karate",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 203",
+      "points": 4,
+      "type": "P",
+      "key": "Karate"
+    },
+    {
+      "name": "Knife",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 1,
+      "type": "P",
+      "key": "Knife"
+    },
+    {
+      "name": "Lockpicking",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 206",
+      "points": 8,
+      "type": "M",
+      "minTL": 2,
+      "key": "Lockpicking",
+      "TL": 8
+    },
+    {
+      "name": "Make-Up",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 206",
+      "points": 1,
+      "type": "M",
+      "key": "Makeup",
+      "TL": 8
+    },
+    {
+      "name": "Main-Gauche",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 2,
+      "type": "P",
+      "key": "MainGauche"
+    },
+    {
+      "name": "Observation",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 211",
+      "points": 1,
+      "type": "P",
+      "key": "Observation"
+    },
+    {
+      "name": "Performance",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 212",
+      "points": 1,
+      "type": "M",
+      "key": "Performance"
+    },
+    {
+      "name": "Photography",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 213",
+      "points": 1,
+      "type": "M",
+      "minTL": 5,
+      "key": "Photography",
+      "TL": 8
+    },
+    {
+      "name": "Pickpocket",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 213",
+      "points": 1,
+      "type": "P",
+      "key": "Pickpocket"
+    },
+    {
+      "name": "Search",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 219",
+      "points": 1,
+      "type": "P",
+      "key": "Search"
+    },
+    {
+      "name": "Shadowing",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 219",
+      "points": 2,
+      "type": "M",
+      "key": "Shadowing"
+    },
+    {
+      "name": "Smallsword",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 4,
+      "type": "P",
+      "key": "Smallsword"
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 222",
+      "points": 1,
+      "type": "P",
+      "key": "Stealth"
+    },
+    {
+      "name": "Streetwise",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 2,
+      "type": "M",
+      "key": "Streetwise"
+    },
+    {
+      "name": "Throwing Art",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 2,
+      "type": "P",
+      "key": "ThrowingArt"
+    },
+    {
+      "name": "Tonfa",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 209",
+      "points": 1,
+      "type": "P",
+      "key": "Tonfa"
+    },
+    {
+      "name": "Traps",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 1,
+      "type": "M",
+      "key": "Traps",
+      "TL": 8
+    },
+    {
+      "name": "Urban Survival",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 228",
+      "points": 1,
+      "type": "P",
+      "key": "UrbanSurvival"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": "Techniques"
+    },
+    {
+      "name": "Arm Lock",
+      "attribute": "T",
+      "difficulty": 1,
+      "points": 1,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Judo",
+        "attribute": "DX",
+        "difficulty": 2,
+        "reference": "Basic Set - Characters, pg 203",
+        "points": 4,
+        "key": "Judo"
+      },
+      "techniqueDefaultPenalty": 0,
+      "maxRelLevel": 4,
+      "key": "ArmLock"
+    },
+    {
+      "name": "Back Kick",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 2,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Karate",
+        "attribute": "DX",
+        "difficulty": 2,
+        "reference": "Basic Set - Characters, pg 203",
+        "points": 4,
+        "key": "Karate"
+      },
+      "techniqueDefaultPenalty": -4,
+      "specialization": "Force Sword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Choke Hold",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 2,
+      "type": "P",
+      "useDefaultFrom": "JSONcircRef:skills.35.useDefaultFrom",
+      "techniqueDefaultPenalty": -2,
+      "specialization": "Force Sword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Disarming",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 2,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Smallsword",
+        "attribute": "DX",
+        "difficulty": 1,
+        "reference": "Basic Set - Characters, pg 208",
+        "points": 4,
+        "key": "Smallsword"
+      },
+      "techniqueDefaultPenalty": 0,
+      "specialization": "Smallsword",
+      "maxRelLevel": 5
+    },
+    {
+      "name": "Dual-Weapon Attack",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 3,
+      "type": "P",
+      "useDefaultFrom": "JSONcircRef:skills.38.useDefaultFrom",
+      "techniqueDefaultPenalty": -4,
+      "specialization": "Smallsword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Elbow Strike",
+      "attribute": "T",
+      "difficulty": 1,
+      "points": 1,
+      "type": "P",
+      "useDefaultFrom": "JSONcircRef:skills.36.useDefaultFrom",
+      "techniqueDefaultPenalty": -2,
+      "specialization": "Force Sword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Jump Kick",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 3,
+      "type": "P",
+      "useDefaultFrom": "JSONcircRef:skills.36.useDefaultFrom",
+      "techniqueDefaultPenalty": -4,
+      "specialization": "Force Sword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Knee Strike",
+      "attribute": "T",
+      "difficulty": 1,
+      "points": 1,
+      "type": "P",
+      "useDefaultFrom": "JSONcircRef:skills.36.useDefaultFrom",
+      "techniqueDefaultPenalty": -1,
+      "specialization": "Force Sword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Off-Hand Weapon Training",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 4,
+      "type": "P",
+      "useDefaultFrom": "JSONcircRef:skills.38.useDefaultFrom",
+      "techniqueDefaultPenalty": -4,
+      "specialization": "Smallsword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Rope Up",
+      "attribute": "T",
+      "difficulty": 1,
+      "points": 2,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Climbing",
+        "attribute": "DX",
+        "difficulty": 1,
+        "reference": "Basic Set - Characters, pg 183",
+        "points": 2,
+        "key": "Climbing"
+      },
+      "techniqueDefaultPenalty": -2,
+      "specialization": "Force Sword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Scaling",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 2,
+      "type": "P",
+      "useDefaultFrom": "JSONcircRef:skills.44.useDefaultFrom",
+      "techniqueDefaultPenalty": -3,
+      "specialization": "Force Sword",
+      "maxRelLevel": 0
+    },
+    {
+      "name": "Sweeping Kick",
+      "attribute": "T",
+      "difficulty": 2,
+      "points": 3,
+      "type": "P",
+      "useDefaultFrom": "JSONcircRef:skills.36.useDefaultFrom",
+      "techniqueDefaultPenalty": -3,
+      "specialization": "Force Sword",
+      "maxRelLevel": 0
+    }
+  ],
+  "equipment": [],
+  "weapons": [],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "BullDancing",
+      "CombatWeaponSport",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw",
+      "Aerobatics",
+      "Aquabatics"
+    ],
+    "AthleticSkillsGURPSLite": [
+      "Acrobatics",
+      "Jumping",
+      "Riding",
+      "Swimming",
+      "Throwing",
+      "Hiking",
+      "Bicycling"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "KnifeThrowing",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "StaffSkill",
+      "Throwing",
+      "ThrowingStick",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "WeaponsGURPSLite": [
+      "Axe",
+      "Mace",
+      "BrassKnuckles",
+      "Broadsword",
+      "BroadswordThr",
+      "KnifeLarge",
+      "Poleaxe",
+      "Rapier",
+      "Shortsword",
+      "Spear",
+      "Quarterstaff",
+      "GreatswordThr",
+      "Longbow",
+      "ShortBow",
+      "Crossbow",
+      "ThrowingAxe",
+      "PumpShotgun12G",
+      "Derringer41",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "Revolver357M",
+      "AutoPistol44M",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "SniperRifle338"
+    ],
+    "EmotionSkills": [
+      "Acting",
+      "Carousing",
+      "Criminology",
+      "DetectLies",
+      "Diplomacy",
+      "Enthrallment",
+      "FastTalk",
+      "Interrogation",
+      "Leadership",
+      "Merchant",
+      "Politics",
+      "Psychology",
+      "SavoirFaire",
+      "SexAppeal",
+      "Sociology",
+      "Streetwise"
+    ],
+    "PeopleSkills": [
+      "Acting",
+      "Carousing",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Merchant",
+      "Panhandling",
+      "Performance",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise",
+      "Teaching"
+    ],
+    "ManualDexteritySkills": [
+      "Artist",
+      "Jeweler",
+      "KnotTying",
+      "Leatherworking",
+      "Lockpicking",
+      "Pickpocket",
+      "Sewing",
+      "SleightofHand",
+      "Surgery"
+    ],
+    "ArtisticSkills": [
+      "Artist",
+      "Bard",
+      "Calligraphy",
+      "Dancing",
+      "MusicalInstrument",
+      "Photography",
+      "Poetry",
+      "Sculpting",
+      "Singing",
+      "Writing",
+      "AppreciateBeauty",
+      "Bulldancing",
+      "Choreography",
+      "Conducting",
+      "Cyberaxe",
+      "Directing",
+      "Featherworking",
+      "FightChoreography",
+      "FireEating",
+      "FlowerArranging",
+      "Gardening",
+      "Illumination",
+      "IllusionArt",
+      "Juggling",
+      "LucidDreaming",
+      "MakeUp",
+      "MusicalComposition",
+      "Neurophon",
+      "Origami",
+      "PictureWriting",
+      "Punning",
+      "SceneDesign",
+      "SensieInterface",
+      "StageCombat",
+      "SymbolDrawing",
+      "VideoProduction",
+      "Weaving"
+    ],
+    "swords": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr"
+    ],
+    "blades": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge"
+    ],
+    "edged": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Axe",
+      "Hatchet",
+      "ThrowingAxe",
+      "GreatAxe",
+      "Scythe",
+      "Glaive",
+      "Naginata",
+      "Halberd",
+      "Poleaxe",
+      "ironplow",
+      "saw",
+      "shovel"
+    ],
+    "SmoothOperatorTalent": [
+      "Acting",
+      "Carousing",
+      "DetectLies",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Panhandling",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise"
+    ],
+    "GiftedArtistTalent": [
+      "Artist",
+      "Jeweler",
+      "Leatherworking",
+      "Photography",
+      "Sewing"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "ActiveDefense_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "ActiveDefense"
+    },
+    "Block_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Block"
+    },
+    "Dodge_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Dodge"
+    },
+    "FastDraw_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FrightCheck_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 2,
+      "target": "FrightCheck"
+    },
+    "Parry_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "target": "Parry"
+    },
+    "Acrobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Acrobatics"
+    },
+    "Aerobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Aerobatics"
+    },
+    "Aquabatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Aquabatics"
+    },
+    "Climbing_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Flight_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Flight"
+    },
+    "ImmovableStance_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "ImmovableStance"
+    },
+    "Piloting_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Piloting"
+    },
+    "Climbing_from_BadGrip": {
+      "from": "BadGrip",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_Brachiator": {
+      "from": "Brachiator",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_DoubleJointed": {
+      "from": "DoubleJointed",
+      "amount": 5,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_Flexibility": {
+      "from": "Flexibility",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "FastDraw_from_EnhancedTimeSense": {
+      "from": "EnhancedTimeSense",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_HamFisted": {
+      "from": "HamFisted",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastTalk_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Truthfulness": {
+      "from": "Truthfulness",
+      "amount": -5,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_SubsonicSpeech": {
+      "from": "SubsonicSpeech",
+      "amount": -2,
+      "targetCategory": "\"SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Performance_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Performance"
+    },
+    "Performance_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Performance"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Streetwise_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Streetwise_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Streetwise_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    }
+  },
+  "prerequisites": {
+    "ComputerHacking_requires_ComputerProgramming": {
+      "target": "ComputerHacking",
+      "category": "SK",
+      "prereq": "ComputerProgramming"
+    },
+    "ThrowingArt_requires_TrainedbyaMaster_pgroup1": {
+      "target": "ThrowingArt",
+      "category": "ADS",
+      "prereq": "TrainedbyaMaster",
+      "pgroup": 1
+    },
+    "ThrowingArt_requires_WeaponMaster_pgroup1": {
+      "target": "ThrowingArt",
+      "category": "ADS",
+      "prereq": "WeaponMaster",
+      "pgroup": 1
+    }
+  },
+  "defaults": {
+    "Broadsword_from_ForceSword": {
+      "target": "Broadsword",
+      "penalty": -4,
+      "from": "ForceSword"
+    },
+    "Broadsword_from_Rapier": {
+      "target": "Broadsword",
+      "penalty": -4,
+      "from": "Rapier"
+    },
+    "Broadsword_from_Saber": {
+      "target": "Broadsword",
+      "penalty": -4,
+      "from": "Saber"
+    },
+    "Broadsword_from_Shortsword": {
+      "target": "Broadsword",
+      "penalty": -2,
+      "from": "Shortsword"
+    },
+    "Broadsword_from_TwoHandedSword": {
+      "target": "Broadsword",
+      "penalty": -4,
+      "from": "TwoHandedSword"
+    },
+    "ComputerHacking_from_stat": {
+      "target": "ComputerHacking",
+      "penalty": false,
+      "category": "stat"
+    },
+    "ComputerProgramming_from_stat": {
+      "target": "ComputerProgramming",
+      "penalty": false,
+      "category": "stat"
+    },
+    "FastDraw_from_stat": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "FastTalk_from_Acting": {
+      "target": "FastTalk",
+      "penalty": -5,
+      "from": "Acting"
+    },
+    "Filch_from_Pickpocket": {
+      "target": "Filch",
+      "penalty": -4,
+      "from": "Pickpocket"
+    },
+    "Filch_from_SleightofHand": {
+      "target": "Filch",
+      "penalty": -4,
+      "from": "SleightofHand"
+    },
+    "Holdout_from_SleightofHand": {
+      "target": "Holdout",
+      "penalty": -3,
+      "from": "SleightofHand"
+    },
+    "Judo_from_stat": {
+      "target": "Judo",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Jumping_from_stat": {
+      "target": "Jumping",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Karate_from_stat": {
+      "target": "Karate",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Knife_from_ForceSword": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "ForceSword"
+    },
+    "Knife_from_MainGauche": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "MainGauche"
+    },
+    "Knife_from_Shortsword": {
+      "target": "Knife",
+      "penalty": -3,
+      "from": "Shortsword"
+    },
+    "Makeup_from_Disguise": {
+      "target": "Makeup",
+      "penalty": -2,
+      "from": "Disguise"
+    },
+    "MainGauche_from_JitteSai": {
+      "target": "MainGauche",
+      "penalty": -4,
+      "from": "JitteSai"
+    },
+    "MainGauche_from_Knife": {
+      "target": "MainGauche",
+      "penalty": -4,
+      "from": "Knife"
+    },
+    "MainGauche_from_Rapier": {
+      "target": "MainGauche",
+      "penalty": -3,
+      "from": "Rapier"
+    },
+    "MainGauche_from_Saber": {
+      "target": "MainGauche",
+      "penalty": -3,
+      "from": "Saber"
+    },
+    "MainGauche_from_Smallsword": {
+      "target": "MainGauche",
+      "penalty": -3,
+      "from": "Smallsword"
+    },
+    "Observation_from_Shadowing": {
+      "target": "Observation",
+      "penalty": -5,
+      "from": "Shadowing"
+    },
+    "Performance_from_Acting": {
+      "target": "Performance",
+      "penalty": -2,
+      "from": "Acting"
+    },
+    "Performance_from_PublicSpeaking": {
+      "target": "Performance",
+      "penalty": -2,
+      "from": "PublicSpeaking"
+    },
+    "Photography_from_ElectronicsOpMedia": {
+      "target": "Photography",
+      "penalty": -5,
+      "from": "ElectronicsOperation",
+      "fromSpec": "Media"
+    },
+    "Pickpocket_from_Filch": {
+      "target": "Pickpocket",
+      "penalty": -5,
+      "from": "Filch"
+    },
+    "Pickpocket_from_SleightofHand": {
+      "target": "Pickpocket",
+      "penalty": -4,
+      "from": "SleightofHand"
+    },
+    "Search_from_Criminology": {
+      "target": "Search",
+      "penalty": -5,
+      "from": "Criminology"
+    },
+    "Shadowing_from_Observation": {
+      "target": "Shadowing",
+      "penalty": -5,
+      "from": "Observation"
+    },
+    "Smallsword_from_MainGauche": {
+      "target": "Smallsword",
+      "penalty": -3,
+      "from": "MainGauche"
+    },
+    "Smallsword_from_Rapier": {
+      "target": "Smallsword",
+      "penalty": -3,
+      "from": "Rapier"
+    },
+    "Smallsword_from_Saber": {
+      "target": "Smallsword",
+      "penalty": -3,
+      "from": "Saber"
+    },
+    "Smallsword_from_Shortsword": {
+      "target": "Smallsword",
+      "penalty": -4,
+      "from": "Shortsword"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ",
+      "category": "stat"
+    },
+    "ThrowingArt_from_stat": {
+      "target": "ThrowingArt",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Tonfa_from_Shortsword": {
+      "target": "Tonfa",
+      "penalty": -3,
+      "from": "Shortsword"
+    },
+    "Traps_from_Lockpicking": {
+      "target": "Traps",
+      "penalty": -3,
+      "from": "Lockpicking"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/* metal
+peru looks a bit like copper
+*/
+
+.fill-in { color: #654; font-weight: bold; } 	/* 765 */
+.editable { color: #b90; }
+
+.ready { background-color: rgba(200,185,170,0.4); }
+.zrow  { background-color: rgba(200,185,170,0.4); }
+.millenial.ability_table tr:nth-child(even) { background-color: rgba(200,185,170,0.4); }
+
+.titlebar { background-image: url("../images/brushedcopper.jpg"); }
+.dialog, .dialogWindow { color: #432; background-image: url("../images/diamondplate1.jpg"); border-color: peru; }
+.dialog input, .dialog select, .dialog textarea, .dialog button { background-image: url("../images/silverbrushed.jpg"); } /* #dcd2c8 */
+
+.wrapper { background-image: url("../images/gel.png"),url("../images/diamondplate1.jpg") }
+
+.editable:hover, .wear_wield_able:hover, .clickable:hover { background-color: #dcd2c8; }
+.dialog select option:hover { background-color:  #dcd2c8; }
+#edition_watermark { color: rgba(223,207,191,0.4); }
+
+fieldset legend:hover, label:hover, .label:hover { color: #731; }  /* same as fill-in color */

@@ -1,0 +1,1962 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": 8,
+    "disadPointsLimit": 100,
+    "quirkPointsLimit": 5,
+    "campaign": "ISWAT"
+  },
+  "description": {
+    "name": "Baron Janos Telkozep",
+    "ID": "tz7WdvUFm8Jp",
+    "createDate": 1359577083622,
+    "pointTotal": "535",
+    "height": "5'8\"",
+    "weight": "197 lbs",
+    "sizeMod": "",
+    "age": "442",
+    "appearance": "Strongly built and charismatic . . . yet strangely menacing",
+    "statusText": "",
+    "repText": "+3 at all times for Charisma!\n+3 from those he does business with (Business Acumen), -5 from those who notice his Supernatural Features, -4 from animals (Frightens Animals), -1 from past victims and those with Empathy (Callous), -1 reaction from patriotic Turks and Romanians (quirk)",
+    "shortStory": "",
+    "story": "Born in Castle Telkozep, Hungary in 1571, the year of the great victory at Lepanto, Janos Telkozep succeeded to the barony when his father died fighting the Turks in 1589. At a glittering Twelfth Night feast at Castle Bathori a few years later, the young Baron retired to the chambers of the beautiful, widowed Countess Bathori. To his shock (though not entirely, it must be admitted, to his surprise) he discovered the next morning that she had transformed him into a vampire. Telkozep&lsquo;s family connections kept him out of trouble when the King of Hungary eventually tried the Countess for murder and imprisoned her in a distant castle without food or light, but he learned from her example. She had allowed her vampiric appetites to corrupt her judgement, and that, Telkozep vowed, would never be his fate.<br /><br />Over the next two centuries, the Baron repeatedly &ldquo;died&rdquo; and took over the Castle as his own heir, continuing to ally himself to kings and archbishops, maneuvering ever more gracefully through the byzantine paths of European politics. Recognizing earlier than most nobles that the wave of the future would be in banks and trading-houses, rather than acres of barley or ransomed Turkish generals, the Baron taught himself the new intricacies of ducats and marks, pounds and roubles. By the 19th century, he had steadily enriched himself through six or seven wars, three changes of dynasty, and two vampire panics. During the latter, he often acquired the estates of the condemned at knock-down prices, feeling no guilt at profiting from the deaths of vampires more foolish and rash than himself. Slowly, he began to accumulate vampiric foes - the great Pavane des Vampires in Paris declared him anathema, and others tried to stalk or betray him in their turn.<br /><br />He studied the occult, seeking new weapons against his fellows, and learned that his ancient lover, the Countess Bathori, had somehow escaped her prison through sorcerous means. She had become a Grand Master of the Cabal, a secret society of monsters and magi descended from ancient Egypt, and she offered him sanctuary. Telkozep accepted . . . but she had learned little from her long life. During the disasters of the 1940s, her rashness nearly destroyed the vampire brotherhood in the Cabal - and the war she helped spark did destroy Telkozep&lsquo;s beloved Hungary. In 1956, he left Bathori and the Cabal behind, beginning 30 years of shadow warfare in boardrooms and blasted heaths across Europe and America.<br /><br />Although his vampiric powers kept him alive, and his fortune kept him hidden, the Cabal (and his vengeful ex-lover the Countess) came ever closer to destroying him. Telkozep could see the inevitable future; just like the pathetic vampires of the 17th century, he was alone and friendless, with every hand against him. A stake in the night, or the Final Dawn, awaited him - unless he could change the game. Where once he had researched money, and then magic, he now sought allies. He discovered that the Cabal had their own enemies - and one of them dwelt on another Earth, where the Countess&lsquo; reach could not so easily extend. Telkozep put all his liquid wealth into portable assets and waited for an opening. In 1989, he walked through a megalithic barrow under a full moon, and into another Earth. He flitted from timeline to timeline, through gateways marked in an ancient codex he had purchased from the bankrupt National Museum of Budapest, until he was sure he had eluded the Cabal. He then set out to attract the attention of outtimers like himself, with clever advertisements in the papers and subtle manipulations of key stocks. When the Infinity Patrol knocked on his office door, he was able to present them (and eventually ISWAT, who took over once they realized what they had) with an attractive offer - employment as their star vampire (and financial expert) in exchange for protection from the Cabal.",
+    "goals": "",
+    "notes": "GURPS (4th Edition) Basic Set: Characters, pg 320\n",
+    "artPath": "../characters/images/telkozep.png",
+    "race": "vampire"
+  },
+  "playerInfo": {
+    "name": "iconic"
+  },
+  "preferences": {
+    "display": {
+      "theme": "blood",
+      "watermark": "1",
+      "grimoire": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true,
+      "property": false,
+      "fractions": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 40,
+    "DX": 20,
+    "IQ": 100,
+    "HT": 0,
+    "HP": 0,
+    "Will": 5,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 55,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "English",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 3,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "French",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 3,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "French",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 3,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Hungarian",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Hungarian",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Latin",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Latin",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 3,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Russian",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Russian",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "18th-Century Europe",
+      "physMntlScl": "M",
+      "cost": 0,
+      "key": "CulturalFamiliarity",
+      "description": "native"
+    },
+    {
+      "name": "Homeline",
+      "physMntlScl": "M",
+      "cost": 1,
+      "key": "CulturalFamiliarity"
+    },
+    {
+      "name": "Charisma",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "Charisma",
+      "levels": 3
+    },
+    {
+      "name": "Independent Income",
+      "physMntlScl": "So",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "IndependentIncome",
+      "levels": 10,
+      "highestLevel": 20
+    },
+    {
+      "name": "Legal Enforcement Powers",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "LegalEnforcementPowers",
+      "levels": 3,
+      "highestLevel": 3
+    },
+    {
+      "name": "Mind Control",
+      "physMntlScl": "M",
+      "cost": 50,
+      "key": "MindControl"
+    },
+    {
+      "name": "Striking ST",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "StrikingST",
+      "levels": 5
+    },
+    {
+      "name": "Business Acumen Talent",
+      "physMntlScl": "M",
+      "cost": 10,
+      "hasLevels": true,
+      "key": "BusinessAcumenTalent",
+      "levels": "3",
+      "highestLevel": 4
+    },
+    {
+      "name": "Temperature Control",
+      "physMntlScl": "P",
+      "cost": "5",
+      "hasLevels": true,
+      "key": "TemperatureControl",
+      "exoticSprntl": "Ex",
+      "levels": 3,
+      "EnhLimsArray": [
+        {
+          "text": "cold",
+          "value": "-50"
+        },
+        {
+          "text": "uncontrollable",
+          "value": "-10"
+        }
+      ]
+    },
+    {
+      "name": "Vampire",
+      "physMntlScl": "P",
+      "cost": 150,
+      "key": "Vampire",
+      "templateTrait": true
+    },
+    {
+      "name": "Increased Strength",
+      "physMntlScl": "P",
+      "cost": 10,
+      "hasLevels": true,
+      "key": "IncreasedST",
+      "levels": 6,
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Increased Hit Points",
+      "physMntlScl": "P",
+      "cost": 2,
+      "hasLevels": true,
+      "key": "IncreasedHP",
+      "levels": 4,
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Increased Perception",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "IncreasedPer",
+      "levels": 3,
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Alternate Form",
+      "physMntlScl": "P",
+      "cost": 15,
+      "key": "ShapeshiftingAlternateForm",
+      "multiple": 1,
+      "exoticSprntl": "Ex",
+      "description": "bat",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Alternate Form",
+      "physMntlScl": "P",
+      "cost": 15,
+      "key": "ShapeshiftingAlternateForm",
+      "multiple": 2,
+      "exoticSprntl": "Ex",
+      "description": "wolf",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Doesn't Breathe",
+      "physMntlScl": "P",
+      "cost": 20,
+      "key": "DoesntBreathe",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Dominance",
+      "physMntlScl": "M",
+      "cost": 20,
+      "key": "Dominance",
+      "exoticSprntl": "Su",
+      "description": "Vampiric Bite",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Resistant",
+      "physMntlScl": "P",
+      "cost": 0,
+      "key": "Resistant",
+      "MultipliersArray": [
+        {
+          "text": "immunity",
+          "value": 1
+        }
+      ],
+      "ConstantModsArray": [
+        {
+          "text": "metabolic hazards",
+          "value": 30
+        }
+      ],
+      "description": "unliving",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Injury Tolerance",
+      "physMntlScl": "P",
+      "cost": 0,
+      "key": "InjuryTolerance",
+      "exoticSprntl": "Ex",
+      "ConstantModsArray": [
+        {
+          "text": "unliving",
+          "value": 20
+        }
+      ],
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Insubstantiality",
+      "physMntlScl": "P",
+      "cost": 80,
+      "hasLevels": false,
+      "key": "Insubstantiality",
+      "exoticSprntl": "Su",
+      "EnhLimsArray": [
+        {
+          "text": "Costs Fatigue, 2 FP",
+          "value": -10
+        }
+      ],
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Night Vision",
+      "physMntlScl": "P",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "NightVision",
+      "levels": 5,
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Speak With Animals",
+      "physMntlScl": "M",
+      "cost": 25,
+      "key": "SpeakWithAnimals",
+      "exoticSprntl": "Ex",
+      "EnhLimsArray": [
+        {
+          "text": "Wolves and Bats",
+          "value": -60
+        }
+      ],
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Unaging",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": false,
+      "key": "Unaging",
+      "exoticSprntl": "Ex",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Unkillable",
+      "physMntlScl": "P",
+      "cost": 50,
+      "hasLevels": true,
+      "key": "Unkillable",
+      "levels": 2,
+      "highestLevel": 3,
+      "EnhLimsArray": [
+        {
+          "text": "Achilles' Heel: Wood",
+          "value": -50
+        }
+      ],
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Vampiric Bite",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "key": "VampiricBite",
+      "exoticSprntl": "Ex",
+      "levels": 1,
+      "lowestLevel": 1,
+      "levelsName": "HT/turn",
+      "fixedCost": 25,
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Wealth: Filthy Rich (x100)",
+      "physMntlScl": "So",
+      "cost": 50,
+      "hasLevels": false,
+      "key": "WealthFilthyRichx100",
+      "group": "wealth",
+      "description": "100 x starting wealth"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Dependency",
+      "physMntlScl": "P",
+      "cost": 0,
+      "key": "Dependency",
+      "MultipliersArray": [
+        {
+          "text": "Daily (1 HT per hour)",
+          "value": 3
+        }
+      ],
+      "ConstantModsArray": [
+        {
+          "text": "Coffin with soil of homeland",
+          "value": -20
+        }
+      ],
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Divine Curse",
+      "physMntlScl": "M",
+      "cost": -10,
+      "key": "DivineCurse",
+      "description": "Cannot enter dwelling for first time unless invited",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Draining",
+      "physMntlScl": "P",
+      "cost": -5,
+      "reference": "Basic Set - Characters, pg 132",
+      "key": "Draining",
+      "levels": 1,
+      "levelNames": [
+        "Common",
+        "Occasional",
+        "Rare"
+      ],
+      "levelsName": "substance availability",
+      "ConstantModsArray": [
+        {
+          "text": "Illegal",
+          "value": -5
+        }
+      ],
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Dread",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Dread",
+      "multiple": 1,
+      "exoticSprntl": "Su",
+      "levels": 0,
+      "highestLevel": 10,
+      "levelNames": [
+        "1 yard",
+        "2 yards",
+        "3 yards",
+        "4 yards",
+        "5 yards",
+        "6 yards",
+        "7 yards",
+        "8 yards",
+        "9 yards",
+        "10 yards",
+        "11 yards"
+      ],
+      "fixedCost": -10,
+      "description": "garlic",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Dread",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Dread",
+      "multiple": 2,
+      "exoticSprntl": "Su",
+      "levels": 4,
+      "highestLevel": 10,
+      "levelNames": [
+        "1 yard",
+        "2 yards",
+        "3 yards",
+        "4 yards",
+        "5 yards",
+        "6 yards",
+        "7 yards",
+        "8 yards",
+        "9 yards",
+        "10 yards",
+        "11 yards"
+      ],
+      "fixedCost": -10,
+      "description": "religeous symbols",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Dread",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Dread",
+      "multiple": 3,
+      "exoticSprntl": "Su",
+      "levels": 0,
+      "highestLevel": 10,
+      "levelNames": [
+        "1 yard",
+        "2 yards",
+        "3 yards",
+        "4 yards",
+        "5 yards",
+        "6 yards",
+        "7 yards",
+        "8 yards",
+        "9 yards",
+        "10 yards",
+        "11 yards"
+      ],
+      "fixedCost": -10,
+      "MultipliersArray": [
+        {
+          "text": "Common",
+          "value": 2
+        }
+      ],
+      "description": "running water",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Supernatural Feature",
+      "physMntlScl": "P",
+      "cost": -5,
+      "hasLevels": true,
+      "key": "SupernaturalFeature",
+      "multiple": 1,
+      "exoticSprntl": "Su",
+      "levels": 1,
+      "highestLevel": 2,
+      "levelNames": [
+        "",
+        ""
+      ],
+      "EnhLimsArray": [
+        {
+          "text": "except after feeding",
+          "value": -80
+        }
+      ],
+      "description": "no body heat",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Supernatural Feature",
+      "physMntlScl": "P",
+      "cost": -5,
+      "hasLevels": true,
+      "key": "SupernaturalFeature",
+      "multiple": 2,
+      "exoticSprntl": "Su",
+      "levels": 2,
+      "highestLevel": 2,
+      "levelNames": [
+        "",
+        "",
+        ""
+      ],
+      "description": "no reflection",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Supernatural Feature",
+      "physMntlScl": "P",
+      "cost": -5,
+      "hasLevels": true,
+      "key": "SupernaturalFeature",
+      "multiple": 3,
+      "exoticSprntl": "Su",
+      "levels": 2,
+      "highestLevel": 2,
+      "levelNames": [
+        "",
+        ""
+      ],
+      "EnhLimsArray": [
+        {
+          "text": "except after feeding",
+          "value": -50
+        }
+      ],
+      "description": "pallor",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Uncontrollable Appetite",
+      "physMntlScl": "M",
+      "cost": -15,
+      "key": "UncontrollableAppetite",
+      "multiple": true,
+      "MultipliersArray": [
+        {
+          "text": "12",
+          "value": 1
+        }
+      ],
+      "description": "human blood",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Unhealing",
+      "physMntlScl": "P",
+      "cost": -10,
+      "hasLevels": true,
+      "key": "Unhealing",
+      "exoticSprntl": "Ex",
+      "levels": 1,
+      "lowestLevel": 1,
+      "highestLevel": 2,
+      "levelNames": [
+        "Partial",
+        "Total"
+      ],
+      "fixedCost": -10,
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Weakness",
+      "physMntlScl": "P",
+      "cost": 0,
+      "hasLevels": false,
+      "key": "Weakness",
+      "multiple": true,
+      "exoticSprntl": "Ex",
+      "MultipliersArray": [
+        {
+          "text": "Very Common",
+          "value": 3
+        }
+      ],
+      "ConstantModsArray": [
+        {
+          "text": "1d per minute",
+          "value": -20
+        }
+      ],
+      "description": "sunlight",
+      "inTemplate": "Vampire"
+    },
+    {
+      "name": "Berserk",
+      "physMntlScl": "M",
+      "cost": -10,
+      "key": "Berserk",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist fairly often (roll of 9 or less)",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Bloodlust",
+      "physMntlScl": "M",
+      "cost": -10,
+      "key": "Bloodlust",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist fairly often (roll of 9 or less)",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Callous",
+      "physMntlScl": "M",
+      "cost": -5,
+      "key": "Callous"
+    },
+    {
+      "name": "Duty",
+      "physMntlScl": "So",
+      "cost": 0,
+      "key": "Duty",
+      "ConstantModsArray": [
+        {
+          "text": "Frequency: Almost All the Time (15 or less)",
+          "value": -15
+        },
+        {
+          "text": "Extremely Hazardous",
+          "value": -5
+        }
+      ],
+      "description": "to ISWAT"
+    },
+    {
+      "name": "Enemy",
+      "physMntlScl": "So",
+      "cost": 0,
+      "hasLevels": false,
+      "reference": "Basic Set - Characters, pg 135",
+      "key": "Enemy",
+      "multiple": 1,
+      "MultipliersArray": [
+        {
+          "text": "Intent: Hunter",
+          "value": 1
+        },
+        {
+          "text": "Frequency: Rarely (6 or less)",
+          "value": 0.5
+        }
+      ],
+      "ConstantModsArray": [
+        {
+          "text": "Power: Formidable Group",
+          "value": -40
+        }
+      ],
+      "description": "The Cabal"
+    },
+    {
+      "name": "Frightens Animals",
+      "physMntlScl": "P",
+      "cost": -10,
+      "key": "FrightensAnimals",
+      "exoticSprntl": "Su"
+    },
+    {
+      "name": "Greed",
+      "physMntlScl": "M",
+      "cost": -15,
+      "key": "Greed",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite rarely (roll of 6 or less)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Code of Honor (aristocratic manners)",
+      "physMntlScl": null,
+      "cost": -1
+    },
+    {
+      "name": "Dislikes mirrors",
+      "physMntlScl": "JSONcircRef:traits.57.physMntlScl",
+      "cost": -1
+    },
+    {
+      "name": "Old-fashioned language and idioms (-1 to some uses of Fast-Talk, Propaganda, etc.; GM's option)",
+      "physMntlScl": "JSONcircRef:traits.57.physMntlScl",
+      "cost": -1
+    },
+    {
+      "name": "Patriot (Hungary; minor Fanaticism; -1 reaction from patriotic Turks and Romanians)",
+      "physMntlScl": "JSONcircRef:traits.57.physMntlScl",
+      "cost": -1
+    },
+    {
+      "name": "Vow (\"Never let vampiric appetites corrupt my judgement\")",
+      "physMntlScl": "JSONcircRef:traits.57.physMntlScl",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Administration",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 174",
+      "points": 1,
+      "type": "M",
+      "key": "Administration",
+      "useDefaultFrom": "Merchant"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "key": "AreaKnowledge",
+      "specialization": "Hungary"
+    },
+    {
+      "name": "Body Language",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 181",
+      "points": 1,
+      "type": "P",
+      "key": "BodyLanguage"
+    },
+    {
+      "name": "Brawling",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 182",
+      "points": 2,
+      "type": "P",
+      "key": "Brawling"
+    },
+    {
+      "name": "Conniosseur",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 185",
+      "points": 2,
+      "type": "M",
+      "key": "Conniosseur",
+      "specialization": "Visual Arts",
+      "inTemplate": "Elf"
+    },
+    {
+      "name": "Current Affairs",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 186",
+      "points": 2,
+      "type": "M",
+      "specCategName": "area",
+      "key": "CurrentAffairs",
+      "TL": 8,
+      "specialization": "Business"
+    },
+    {
+      "name": "Detect Lies",
+      "attribute": "Per",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 2,
+      "type": "P",
+      "key": "DetectLies"
+    },
+    {
+      "name": "Diplomacy",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 2,
+      "type": "M",
+      "key": "Diplomacy"
+    },
+    {
+      "name": "Economics",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 189",
+      "points": 1,
+      "type": "M",
+      "key": "Economics",
+      "useDefaultFrom": "Finance"
+    },
+    {
+      "name": "Finance",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 1,
+      "type": "M",
+      "key": "Finance",
+      "useDefaultFrom": "Economics"
+    },
+    {
+      "name": "Guns",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 198",
+      "points": 2,
+      "type": "P",
+      "minTL": 4,
+      "specCategName": "weapon type",
+      "key": "Guns",
+      "TL": 5,
+      "specialization": "pistol"
+    },
+    {
+      "name": "History",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 200",
+      "points": 4,
+      "type": "M",
+      "specCategName": "region, era, culture, <em>etc.</em>",
+      "key": "History",
+      "specialization": "Hungary"
+    },
+    {
+      "name": "Intimidation",
+      "attribute": "Will",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 202",
+      "points": 16,
+      "type": "P",
+      "key": "Intimidation"
+    },
+    {
+      "name": "Market Analysis",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 207",
+      "points": 2,
+      "type": "M",
+      "key": "MarketAnalysis",
+      "useDefaultFrom": "Merchant"
+    },
+    {
+      "name": "Merchant",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 209",
+      "points": 0,
+      "type": "M",
+      "key": "Merchant"
+    },
+    {
+      "name": "Mimicry",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 210",
+      "points": 2,
+      "type": "M",
+      "key": "Mimicry",
+      "specialization": "Animal Sounds"
+    },
+    {
+      "name": "Occultism",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 212",
+      "points": 12,
+      "type": "M",
+      "key": "Occultism",
+      "specialization": "Vampirism"
+    },
+    {
+      "name": "Propaganda",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 216",
+      "points": 1,
+      "type": "M",
+      "key": "Propaganda",
+      "TL": 8
+    },
+    {
+      "name": "Saber",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 4,
+      "type": "P",
+      "key": "Saber"
+    },
+    {
+      "name": "Savoir-Faire",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 1,
+      "type": "M",
+      "key": "SavoirFaire",
+      "specialization": "High Society"
+    },
+    {
+      "name": "Sex Appeal",
+      "attribute": "HT",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 219",
+      "points": 4,
+      "type": "P",
+      "key": "SexAppeal"
+    },
+    {
+      "name": "Teamster",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 225",
+      "points": 1,
+      "type": "M",
+      "key": "Teamster",
+      "specialization": "equines"
+    },
+    {
+      "name": "Tracking",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 2,
+      "type": "P",
+      "key": "Tracking"
+    }
+  ],
+  "equipment": [],
+  "weapons": [],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "BusinessAcumenTalent": [
+      "Accounting",
+      "Administration",
+      "Economics",
+      "Finance",
+      "Gambling",
+      "MarketAnalysis",
+      "Merchant",
+      "Propaganda"
+    ],
+    "BusinessAcumen": "JSONcircRef:groups.BusinessAcumenTalent",
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "EmotionSkills": [
+      "Acting",
+      "Carousing",
+      "Criminology",
+      "DetectLies",
+      "Diplomacy",
+      "Enthrallment",
+      "FastTalk",
+      "Interrogation",
+      "Leadership",
+      "Merchant",
+      "Politics",
+      "Psychology",
+      "SavoirFaire",
+      "SexAppeal",
+      "Sociology",
+      "Streetwise"
+    ],
+    "PeopleSkills": [
+      "Acting",
+      "Carousing",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Merchant",
+      "Panhandling",
+      "Performance",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise",
+      "Teaching"
+    ],
+    "MathematicalAbilityTalent": [
+      "Accounting",
+      "Astronomy",
+      "Cryptography",
+      "Engineer",
+      "Finance",
+      "MarketAnalysis",
+      "Mathematics",
+      "Physics"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "KnifeThrowing",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "StaffSkill",
+      "Throwing",
+      "ThrowingStick",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "AnimalSkills": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary",
+      "Bulldancing",
+      "Bullfighting",
+      "EquestrianAcrobatics",
+      "SnakeCharming"
+    ],
+    "AnimalFriendTalent": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary"
+    ],
+    "AnimalFriend": "JSONcircRef:groups.AnimalFriendTalent",
+    "PhysiologicalSkills": [
+      "BodyLanguage",
+      "Diagnosis",
+      "FirstAid",
+      "Physician",
+      "PressurePoints",
+      "PressureSecrets",
+      "Surgery",
+      "Body Language",
+      "First Aid",
+      "Pressure Points",
+      "Pressure Secrets"
+    ],
+    "SmoothOperatorTalent": [
+      "Acting",
+      "Carousing",
+      "DetectLies",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Panhandling",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise"
+    ],
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ],
+    "swords": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr"
+    ],
+    "blades": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge"
+    ],
+    "edged": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Axe",
+      "Hatchet",
+      "ThrowingAxe",
+      "GreatAxe",
+      "Scythe",
+      "Glaive",
+      "Naginata",
+      "Halberd",
+      "Poleaxe",
+      "ironplow",
+      "saw",
+      "shovel"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "Accounting_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Accounting"
+    },
+    "Administration_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Administration"
+    },
+    "Economics_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Economics"
+    },
+    "Finance_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Finance"
+    },
+    "Gambling_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Gambling"
+    },
+    "MarketAnalysis_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "MarketAnalysis"
+    },
+    "Merchant_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Propaganda_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Propaganda"
+    },
+    "FortuneTelling_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FortuneTelling"
+    },
+    "Leadership_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "Panhandling_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Panhandling"
+    },
+    "PublicSpeaking_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "Reaction_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "GR",
+      "target": "Reaction"
+    },
+    "SwingDamage_from_StrikingST": {
+      "from": "StrikingST",
+      "amount": 1,
+      "targetCategory": "swing",
+      "target": "swST"
+    },
+    "ThrustDamage_from_StrikingST": {
+      "from": "StrikingST",
+      "amount": 1,
+      "targetCategory": "",
+      "target": "thrST"
+    },
+    "ST_from_IncreasedST": {
+      "from": "IncreasedST",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Strength"
+    },
+    "HitPoints_from_IncreasedHP": {
+      "from": "IncreasedHP",
+      "amount": 1,
+      "target": "HP",
+      "targetCategory": "stats"
+    },
+    "Per_from_IncreasedPer": {
+      "from": "IncreasedPer",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Per"
+    },
+    "Status_from_WealthFilthyRichx100": {
+      "from": "WealthFilthyRichx100",
+      "amount": 1,
+      "targetCategory": "AD",
+      "target": "Status"
+    },
+    "Teaching_from_Callous": {
+      "from": "Callous",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Teaching"
+    },
+    "BodyLanguage_from_AcuteVision": {
+      "from": "AcuteVision",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "BodyLanguage"
+    },
+    "BodyLanguage_from_Alertness": {
+      "from": "Alertness",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "BodyLanguage"
+    },
+    "Conniosseur_from_Killjoy": {
+      "from": "Killjoy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Conniosseur"
+    },
+    "DetectLies_from_Sensitive": {
+      "from": "Sensitive",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_Empathy": {
+      "from": "Empathy",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "Diplomacy_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Finance_from_MathematicalAbilityTalent": {
+      "from": "MathematicalAbilityTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Finance"
+    },
+    "Intimidation_from_Hideous": {
+      "from": "Hideous",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Intimidation"
+    },
+    "Intimidation_from_Monstrous": {
+      "from": "Monstrous",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Intimidation"
+    },
+    "Intimidation_from_Horrific": {
+      "from": "Horrific",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Intimidation"
+    },
+    "Intimidation_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Intimidation"
+    },
+    "Intimidation_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Intimidation"
+    },
+    "MarketAnalysis_from_MathematicalAbilityTalent": {
+      "from": "MathematicalAbilityTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "MarketAnalysis"
+    },
+    "Merchant_from_Gullibility": {
+      "from": "Gullibility",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Mimicry_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Mimicry"
+    },
+    "SavoirFaire_from_Clueless": {
+      "from": "Clueless",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SexAppeal_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Handsome": {
+      "from": "Handsome",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "Teamster_from_AnimalFriendTalent": {
+      "from": "AnimalFriendTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Teamster"
+    },
+    "Tracking_from_DiscriminatorySmell": {
+      "from": "DiscriminatorySmell",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "Tracking_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "BusinessAcumenTalentGroup_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "GR",
+      "target": "BusinessAcumenTalent"
+    }
+  },
+  "prerequisites": {},
+  "defaults": {
+    "Administration_from_Merchant": {
+      "target": "Administration",
+      "penalty": -3,
+      "from": "Merchant"
+    },
+    "BodyLanguage_from_stat": {
+      "target": "BodyLanguage",
+      "penalty": false,
+      "category": "stat"
+    },
+    "BodyLanguage_from_DetectLies": {
+      "target": "BodyLanguage",
+      "penalty": -4,
+      "from": "DetectLies"
+    },
+    "BodyLanguage_from_Psychology": {
+      "target": "BodyLanguage",
+      "penalty": -4,
+      "from": "Psychology"
+    },
+    "Brawling_from_stat": {
+      "target": "Brawling",
+      "penalty": false,
+      "category": "stat"
+    },
+    "DetectLies_from_stat": {
+      "target": "DetectLies",
+      "penalty": false,
+      "category": "stat"
+    },
+    "DetectLies_from_BodyLanguage": {
+      "target": "DetectLies",
+      "penalty": -4,
+      "from": "BodyLanguage"
+    },
+    "DetectLies_from_Psychology": {
+      "target": "DetectLies",
+      "penalty": -4,
+      "from": "Psychology"
+    },
+    "Diplomacy_from_Politics": {
+      "target": "Diplomacy",
+      "penalty": -6,
+      "from": "Politics"
+    },
+    "Economics_from_Finance": {
+      "target": "Economics",
+      "penalty": -3,
+      "from": "Finance"
+    },
+    "Economics_from_MarketAnalysis": {
+      "target": "Economics",
+      "penalty": -5,
+      "from": "MarketAnalysis"
+    },
+    "Economics_from_Merchant": {
+      "target": "Economics",
+      "penalty": -6,
+      "from": "Merchant"
+    },
+    "Finance_from_stat": {
+      "target": "Finance",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Finance_from_Accounting": {
+      "target": "Finance",
+      "penalty": -4,
+      "from": "Accounting"
+    },
+    "Finance_from_Economics": {
+      "target": "Finance",
+      "penalty": -3,
+      "from": "Economics"
+    },
+    "Finance_from_Merchant": {
+      "target": "Finance",
+      "penalty": -6,
+      "from": "Merchant"
+    },
+    "Guns_from_Guns": {
+      "target": "Guns",
+      "penalty": -2,
+      "from": "Guns"
+    },
+    "Intimidation_from_Acting": {
+      "target": "Intimidation",
+      "penalty": -3,
+      "from": "Acting"
+    },
+    "MarketAnalysis_from_Economics": {
+      "target": "MarketAnalysis",
+      "penalty": -5,
+      "from": "Economics"
+    },
+    "MarketAnalysis_from_Merchant": {
+      "target": "MarketAnalysis",
+      "penalty": -4,
+      "from": "Merchant"
+    },
+    "Merchant_from_Finance": {
+      "target": "Merchant",
+      "penalty": -6,
+      "from": "Finance"
+    },
+    "Merchant_from_MarketAnalysis": {
+      "target": "Merchant",
+      "penalty": -4,
+      "from": "MarketAnalysis"
+    },
+    "MimicryAnimalSounds_from_Naturalist": {
+      "target": "Mimicry",
+      "targetSpec": "Animal Sounds",
+      "penalty": -6,
+      "from": "Naturalist"
+    },
+    "MimicryAnimalSounds_from_MimicryBirdCalls": {
+      "target": "Mimicry",
+      "targetSpec": "Animal Sounds",
+      "penalty": -6,
+      "from": "Mimicry",
+      "fromSpec": "BirdCalls"
+    },
+    "Propaganda_from_Merchant": {
+      "target": "Propaganda",
+      "penalty": -5,
+      "from": "Merchant"
+    },
+    "Propaganda_from_Psychology": {
+      "target": "Propaganda",
+      "penalty": -4,
+      "from": "Psychology"
+    },
+    "Saber_from_Broadsword": {
+      "target": "Saber",
+      "penalty": -4,
+      "from": "Broadsword"
+    },
+    "Saber_from_MainGauche": {
+      "target": "Saber",
+      "penalty": -3,
+      "from": "MainGauche"
+    },
+    "Saber_from_Rapier": {
+      "target": "Saber",
+      "penalty": -3,
+      "from": "Rapier"
+    },
+    "Saber_from_Shortsword": {
+      "target": "Saber",
+      "penalty": -4,
+      "from": "Shortsword"
+    },
+    "Saber_from_Smallsword": {
+      "target": "Saber",
+      "penalty": -3,
+      "from": "Smallsword"
+    },
+    "SavoirFaireHiSoc_from_SavoirFaireServant": {
+      "target": "SavoirFaire",
+      "targetSpec": "High Society",
+      "penalty": -2,
+      "from": "SavoirFaire",
+      "fromSpec": "Servant"
+    },
+    "SexAppeal_from_HT": {
+      "target": "SexAppeal",
+      "penalty": -3,
+      "from": "HT",
+      "category": "stat"
+    },
+    "Teamster_from_AnimalHandling": {
+      "target": "Teamster",
+      "penalty": -4,
+      "from": "AnimalHandling",
+      "fromSpec": "same"
+    },
+    "Teamster_from_Riding": {
+      "target": "Teamster",
+      "penalty": -2,
+      "from": "Riding",
+      "fromSpec": "same"
+    },
+    "Tracking_from_Naturalist": {
+      "target": "Tracking",
+      "penalty": -5,
+      "from": "Naturalist"
+    }
+  }
+}

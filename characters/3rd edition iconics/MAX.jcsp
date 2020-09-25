@@ -1,0 +1,558 @@
+{
+  "gameInfo": {
+    "ruleset": "e3",
+    "TL": 3,
+    "startingWealth": 1000,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5
+  },
+  "description": {
+    "name": "MAX the guard",
+    "ID": "XuWSGN7j1vB8",
+    "createDate": 1477611819096,
+    "pointTotal": 75,
+    "height": 71,
+    "weight": 160,
+    "sizeMod": 0,
+    "gender": "male",
+    "age": 20,
+    "appearance": "incredibly threatening",
+    "statusText": "",
+    "repText": "",
+    "shortStory": "",
+    "story": "",
+    "goals": "",
+    "notes": "",
+    "artPath": "../characters/images/MAX.png"
+  },
+  "playerInfo": {
+    "name": ""
+  },
+  "preferences": {
+    "display": {
+      "theme": "blue",
+      "watermark": 0,
+      "grimoire": false,
+      "property": false,
+      "TLinfo": true,
+      "fractions": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": true,
+      "skillsSupp": false,
+      "stuffScroll": true,
+      "stuffSupp": false,
+      "suppCombo": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": true
+  },
+  "attributePoints": {
+    "ST": 20,
+    "DX": 20,
+    "IQ": 0,
+    "HT": 10,
+    "HP": 0,
+    "Will": 0,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Sense of Duty",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 39",
+      "key": "SenseOfDuty",
+      "multiple": 1,
+      "exoticSprntl": " Mundane",
+      "levels": 1,
+      "highestLevel": 4,
+      "description": "to Fatso"
+    },
+    {
+      "name": "Gigantism",
+      "physMntlScl": "P",
+      "cost": -10,
+      "hasLevels": false,
+      "reference": "Basic Set 3rd ed., pg 28",
+      "key": "Gigantism",
+      "exoticSprntl": " Mundane"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Broadsword",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 50",
+      "points": 24,
+      "type": "P",
+      "key": "Broadsword",
+      "dash": false
+    },
+    {
+      "name": "Knife",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 51",
+      "points": 16,
+      "type": "P",
+      "key": "Knife",
+      "dash": false
+    }
+  ],
+  "equipment": [],
+  "weapons": [
+    {
+      "name": "scimitar",
+      "weight": 5,
+      "cost": 650,
+      "TL": 2,
+      "LC": 4,
+      "number": 1,
+      "bulk": -6,
+      "qualityEffectGroup": "edged",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Broadsword": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 11,
+            "damage": {
+              "base": "sw",
+              "mods": 1,
+              "type": "cut"
+            },
+            "note": [
+              "1 turn to ready after swing.,Becomes unready if used to parry.,Standard Bastardsword has <i>blunt</i> point."
+            ],
+            "reach": "1,2"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 11,
+            "damage": {
+              "base": "thr",
+              "mods": 1,
+              "type": "cr"
+            },
+            "note": [
+              "Becomes unready if used to parry.,Standard Bastardsword has <i>blunt</i> point."
+            ],
+            "reach": "2"
+          }
+        ],
+        "TwoHandedSword": [
+          {
+            "title": "swing",
+            "hands": "both",
+            "strength": 10,
+            "damage": {
+              "base": "sw",
+              "mods": 2,
+              "type": "cut"
+            },
+            "note": [
+              "Standard Bastardsword has <i>blunt</i> point."
+            ],
+            "reach": "1,2"
+          },
+          {
+            "title": "thrust",
+            "hands": "both",
+            "strength": 10,
+            "damage": {
+              "base": "thr",
+              "mods": 2,
+              "type": "cr"
+            },
+            "note": [
+              "Standard Bastardsword has <i>blunt</i> point."
+            ],
+            "reach": "2"
+          }
+        ]
+      },
+      "description": "bastard sword",
+      "shots": 0
+    },
+    {
+      "name": "knife",
+      "weight": 1,
+      "cost": 40,
+      "TL": 0,
+      "LC": 4,
+      "number": 1,
+      "bulk": -2,
+      "qualityEffectGroup": "edged",
+      "quality": 1,
+      "armorDivisor": 1,
+      "detail": "large",
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Maximum damage ld+2."
+            ],
+            "reach": "C,1",
+            "parryBonus": "-1"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Throwable; Maximum damage ld+2."
+            ],
+            "reach": "C",
+            "parryBonus": "-1"
+          }
+        ],
+        "MainGauche": [
+          {
+            "title": "swing",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Parry is 2/3 Main-Gauche skill."
+            ],
+            "reach": "C,1"
+          },
+          {
+            "title": "thrust",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Parry is 2/3 Main-Gauche skill."
+            ],
+            "reach": "C"
+          }
+        ],
+        "KnifeThrowing": [
+          {
+            "title": "throw",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Maximum damage ld+2."
+            ],
+            "rangeBasedOnST": true,
+            "halfDamageRange": -2,
+            "maximumRange": 5,
+            "snapShot": 12
+          }
+        ]
+      },
+      "shots": 0
+    }
+  ],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "HandWeaponSkills": [
+      "AxeMace",
+      "Blackjack",
+      "Broadsword",
+      "Fencing",
+      "Flail",
+      "ForceSword",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "MainGauche",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Spear",
+      "StaffSkill",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling"
+    ],
+    "WeaponsGURPSLite": [
+      "Axe",
+      "Baton",
+      "Blackjack",
+      "Bow",
+      "Broadsword",
+      "Colt45",
+      "CompositeBow",
+      "Crossbow",
+      "Dagger",
+      "Flail",
+      "Glaive",
+      "Glock17",
+      "GreatAxe",
+      "Greatsword",
+      "Halberd",
+      "Javelin",
+      "KnifeLarge",
+      "KnifeSmall",
+      "LightClub",
+      "Longbow",
+      "Mace",
+      "Maul",
+      "Morningstar",
+      "MsrLuger",
+      "Poleaxe",
+      "Prodd",
+      "Quarterstaff",
+      "Rapier",
+      "RemingtonM870_12G",
+      "Revolver38",
+      "Revolver44M",
+      "Saber",
+      "Shortsword",
+      "ShortBow",
+      "Sling",
+      "Smallsword",
+      "Spear",
+      "StaffSling",
+      "ThrowingAxe",
+      "WltrPPK"
+    ],
+    "swords": [
+      "Broadsword",
+      "BroadswordThr",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Shortsword",
+      "Smallsword",
+      "Saber"
+    ],
+    "blades": [
+      "Broadsword",
+      "BroadswordThr",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Shortsword",
+      "Smallsword",
+      "Saber",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge"
+    ],
+    "edged": [
+      "Broadsword",
+      "BroadswordThr",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Shortsword",
+      "Smallsword",
+      "Saber",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Hatchet",
+      "Axe",
+      "ThrowingAxe",
+      "GreatAxe",
+      "Scythe",
+      "Glaive",
+      "Halberd",
+      "Poleaxe",
+      "Axe",
+      "Hatchet",
+      "Shovel",
+      "SwissArmyKnife",
+      "SurvivalKnife"
+    ],
+    "KnownLanguages": [],
+    "WeaponsSkills": [
+      "AxeMace",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "Fencing",
+      "FireSiphon",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shield",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "ThrowingStick",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "Skills": []
+  },
+  "modifiers": {},
+  "adjustments": {},
+  "prerequisites": {},
+  "defaults": {
+    "Broadsword_from_ForceSword": {
+      "target": "Broadsword",
+      "penalty": -3,
+      "category": "SK",
+      "from": "ForceSword"
+    },
+    "Broadsword_from_Shortsword": {
+      "target": "Broadsword",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Shortsword"
+    }
+  }
+}

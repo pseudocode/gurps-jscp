@@ -1,0 +1,84 @@
+#description input {
+//  padding: 0 2px 0;
+  height: 16px;
+  border-bottom: 1px solid silver;
+  text-align: left;
+}
+
+.table_box {
+  margin: 2px;
+  border: 1px solid black;
+}
+.item_table_box {
+  margin: 2px;
+  border: 1px solid black;
+  padding-bottom: 4px;
+}
+.right_side_table_box {
+  border-left: none;
+}
+#basicLift_dmg_speed_move div {
+  text-align: center;
+}
+
+.attribute_table {
+  font-size:   26px;
+  line-height: 40px;
+}
+.attribute_table td {
+  border-top:  1px solid black;
+  border-left: 1px solid black;
+  font-variant: small-caps;
+}
+.EMD_table {
+  font-size: inherit;
+  font-weight: bold;
+  line-height: 14px;
+  margin: 0 4px 4px 1px;
+}
+.EMD_table td {
+  text-align: left;
+}
+.EMD_table div {
+  text-align: center;
+}
+#skills_table input {
+  padding: 0;
+  height: 16px;
+}
+.ability_table {
+  line-height: 14px;
+  margin: 0 4px 4px 2px;
+}
+.ability_table th {
+  font-weight: bold;
+}
+.ability_table td {
+  text-align: left;
+}
+.item_table {
+  line-height: 14px;
+  margin-left: 2px;
+}
+.item_table th {
+  font-weight: bold;
+}
+.item_table tr {
+  border-bottom: 1px solid silver;
+}
+
+tr.wear_wield_able:hover {
+  background-color: #EEE9BF;
+}
+.page2leftcolumn {
+  width: 80%;
+}
+
+.zebra_table {
+  line-height: 12px;
+}
+.zebra_table td {
+  text-align: right;
+}
+
+

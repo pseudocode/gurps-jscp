@@ -1,0 +1,18 @@
+.fill-in { color: #C00; }
+.editable { color: #A04; }  /* scab */
+
+.ready { background-color: rgba(255,180,160,0.4); }
+.zrow  { background-color: rgba(255,180,160,0.4); }
+.millenial.ability_table tr:nth-child(even) { background-color: rgba(255,180,160,0.4); }
+.editable:hover, .wear_wield_able:hover, .clickable:hover { background-color: rgba(255,180,160,0.4); }
+.dialog select option:hover { background-color:  rgba(255,180,160,0.4); }
+
+.titlebar { background-image: url("../images/bloodstain.jpg"); }
+.dialog { color: darkred; background-color: #fff0e8; }
+.dialog, .dialogWindow { border-color: #800; background-image: url("../images/bloodspot.png"); }
+.dialog input, .dialog select, .dialog textarea, .dialog button { background-image: url("../images/bloodsplat.jpg"); }
+
+
+fieldset legend:hover, label:hover, .label:hover { color: #C00; }
+#edition_watermark { color: rgba(255,180,160,0.4); }
+

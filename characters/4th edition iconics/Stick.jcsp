@@ -1,0 +1,5424 @@
+{
+  "gameInfo": {
+    "ruleset": "e4",
+    "TL": "9",
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5,
+    "GM": "Tom McManus"
+  },
+  "description": {
+    "name": "Stick4e",
+    "ID": "IuNuNFeJKfWk",
+    "createDate": 1384180257112,
+    "pointTotal": 526,
+    "height": "65",
+    "weight": "125",
+    "sizeMod": 0,
+    "age": "32",
+    "appearance": "Good-looking, energetic, small, dark hair, blue eyes",
+    "statusText": "",
+    "repText": "",
+    "shortStory": "",
+    "story": "Born Roderick in 1007 in Columbo; orphaned. Now Thain of Bainbridge, Knight of the Rising Star, and a member of the Order of the Golden Halberd. Named \"Elf-friend\" by the elves of the Great Forest.\n\nRags-to-riches classic. Poor kid with a quick wit and even quicker fingers, Stick was getting by as a woodworker with a substantial sideline as a second-story man. He took up with a band of adventurers in need of his talents. Their adventures were quite successful, and Stick is now very wealthy, and has joined the peerage with a landed title.\n",
+    "goals": "",
+    "notes": "This version of Stick is as close as I can come to a 4th-edition copy of 435-point 3rd-edition Stick. This ruleset required 75 more points to be spent on attributes, and 16 more points in skills. If I were REALLY doing Stick in this edition, there are several other places I would certainly put a few points, such as using 5 to raise his Basic Speed to 8.",
+    "artPath": "../../charactersJCSP/images/EliMonpress-RachelAaron_crop.jpg",
+    "race": "human"
+  },
+  "playerInfo": {
+    "name": "Jim"
+  },
+  "preferences": {
+    "display": {
+      "theme": "green",
+      "watermark": "1",
+      "grimoire": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": true,
+      "skillsSupp": true,
+      "stuffScroll": true,
+      "stuffSupp": true,
+      "suppCombo": true,
+      "TLinfo": true,
+      "property": true,
+      "fractions": true,
+      "shortnames": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 10,
+    "DX": 180,
+    "IQ": 60,
+    "HT": 20,
+    "HP": 0,
+    "Will": 15,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Luck",
+      "type": "A",
+      "physMntlScl": "M",
+      "cost": 15,
+      "reference": "Basic Set - Characters, pg 66",
+      "key": "Luck",
+      "group": "luck"
+    },
+    {
+      "name": "Acute Vision",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 2,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 35",
+      "key": "AcuteVision",
+      "group": "vision",
+      "levels": 5
+    },
+    {
+      "name": "Attractive",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 4,
+      "reference": "Basic Set - Characters, pg 21",
+      "key": "Attractive",
+      "group": "appearance"
+    },
+    {
+      "name": "Charisma",
+      "type": "A",
+      "physMntlScl": "M",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 41",
+      "key": "Charisma",
+      "levels": 1
+    },
+    {
+      "name": "Flexibility",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 5,
+      "reference": "Basic Set - Characters, pg 56",
+      "key": "Flexibility"
+    },
+    {
+      "name": "Night Vision",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 1,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 71",
+      "key": "NightVision",
+      "group": "Dark Vision",
+      "levels": 9,
+      "highestLevel": 9
+    },
+    {
+      "name": "Status",
+      "type": "A",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 28",
+      "key": "Status",
+      "multiple": 1,
+      "levels": 2,
+      "lowestLevel": -4,
+      "highestLevel": 8,
+      "posNegLevels": true,
+      "description": "Thain of Bainbridge; Knight of the Rising Star"
+    },
+    {
+      "name": "Filthy Rich",
+      "type": "A",
+      "physMntlScl": "So",
+      "cost": 50,
+      "reference": "Basic Set - Characters, pg 25",
+      "key": "WealthFilthyRichx100",
+      "group": "wealth",
+      "description": "100&times; starting wealth"
+    },
+    {
+      "name": "Anglic",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Accented",
+        "Broken",
+        "[None]"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Anglic",
+      "physMntlScl": "M",
+      "cost": -1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 0,
+      "highestLevel": 3,
+      "levelNames": [
+        "Native",
+        "Literate",
+        "Semi-Literate",
+        "[Illiterate]"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Patois",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Patois",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Westernese",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Westernese",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "High Tongue",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "High Tongue",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 1,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "name": "Celtic",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[None]",
+        "Broken",
+        "Accented",
+        "Native"
+      ],
+      "description": "Spoken"
+    },
+    {
+      "name": "Celtic",
+      "physMntlScl": "M",
+      "cost": 1,
+      "hasLevels": true,
+      "key": "Language",
+      "levels": 2,
+      "highestLevel": 3,
+      "levelNames": [
+        "[Illiterate]",
+        "Semi-Literate",
+        "Literate",
+        "Native"
+      ],
+      "description": "Written"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Impulsiveness",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -10,
+      "reference": "Basic Set - Characters, pg 139",
+      "key": "Impulsiveness",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite often (roll of 12 or less)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Phobia",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": 0,
+      "reference": "Basic Set - Characters, pg 148",
+      "key": "Phobia",
+      "multiple": 1,
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite often (roll of 12 or less)",
+          "value": 1
+        }
+      ],
+      "ConstantModsArray": [
+        {
+          "text": "Number 13 (Triskaidekaphobia)",
+          "value": -5
+        }
+      ]
+    },
+    {
+      "name": "Kleptomania",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -15,
+      "key": "Kleptomania",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite often (roll of 12 or less)",
+          "value": 1
+        }
+      ],
+      "ConstantModsArray": [
+        {
+          "text": "Can return items",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Code of Honor",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 127",
+      "key": "CodeofHonor",
+      "multiple": 1,
+      "levels": 1,
+      "highestLevel": 3
+    },
+    {
+      "name": "Overconfidence",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "reference": "Basic Set - Characters, pg 148",
+      "key": "Overconfidence",
+      "MultipliersArray": [
+        {
+          "text": "Self-control: Resist quite often (roll of 12 or less)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Reputation",
+      "type": "D",
+      "physMntlScl": "So",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set - Characters, pg 26",
+      "key": "Reputation",
+      "multiple": 1,
+      "levels": -4,
+      "lowestLevel": -4,
+      "highestLevel": 4,
+      "posNegLevels": true,
+      "MultipliersArray": [
+        {
+          "text": "People in Ur and Pelinor",
+          "value": "1/2"
+        },
+        {
+          "text": "Frequency: Occasionally (7 or less)",
+          "value": "1/3"
+        }
+      ],
+      "description": "troublemaker"
+    },
+    {
+      "name": "Duty",
+      "type": "D",
+      "physMntlScl": "So",
+      "cost": 0,
+      "reference": "Basic Set - Characters, pg 133",
+      "key": "Duty",
+      "multiple": 1,
+      "ConstantModsArray": [
+        {
+          "text": "Frequency: Fairly Often (9 or less)",
+          "value": -5
+        }
+      ],
+      "description": "to Bainbridge"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "LOVES challenging thefts",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Pyromania",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Can't resist risky &ldquo;dares&rdquo;",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Always helps friends in trouble",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Often returns booty!",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "points": 0,
+      "line": "Animal"
+    },
+    {
+      "name": "Animal Handling",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 175",
+      "points": 1,
+      "type": "M",
+      "specCategName": "order/family",
+      "key": "AnimalHandling",
+      "specializations": [
+        "Canines",
+        "Equines",
+        "Felines",
+        "Raptors"
+      ]
+    },
+    {
+      "name": "Riding",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 217",
+      "points": 2,
+      "type": "P",
+      "specCategName": "riding beast",
+      "key": "Riding",
+      "specialization": "horse"
+    },
+    {
+      "name": "Teamster",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 225",
+      "points": 2,
+      "type": "M",
+      "key": "Teamster",
+      "specialization": "equines"
+    },
+    {
+      "line": false
+    },
+    {
+      "points": 0,
+      "line": "Athletic"
+    },
+    {
+      "name": "Acrobatics",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 174",
+      "points": 4,
+      "type": "P",
+      "key": "Acrobatics"
+    },
+    {
+      "name": "Body Sense",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 181",
+      "points": 1,
+      "type": "P",
+      "key": "BodySense"
+    },
+    {
+      "name": "Climbing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 183",
+      "points": 4,
+      "type": "P",
+      "key": "Climbing"
+    },
+    {
+      "name": "Dancing",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 1,
+      "type": "P",
+      "key": "Dancing"
+    },
+    {
+      "name": "Jumping",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 203",
+      "points": 1,
+      "type": "P",
+      "key": "Jumping"
+    },
+    {
+      "line": false
+    },
+    {
+      "points": 0,
+      "line": "Combat/Weapon"
+    },
+    {
+      "name": "Bow",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 182",
+      "points": 2,
+      "type": "P",
+      "key": "Bow"
+    },
+    {
+      "name": "Shield",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 220",
+      "points": 4,
+      "type": "P",
+      "TLspecs": {
+        "Shield": [],
+        "Buckler": [],
+        "Force": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "key": "Shield",
+      "specialization": "Buckler"
+    },
+    {
+      "name": "Cloak",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 184",
+      "points": 2,
+      "type": "P",
+      "key": "Cloak"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Arrow"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Main-Gauche"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Saber"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 194",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon or ammo type",
+      "key": "FastDraw",
+      "specialization": "Staff"
+    },
+    {
+      "name": "Saber",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 8,
+      "type": "P",
+      "key": "Saber"
+    },
+    {
+      "name": "Guns",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 198",
+      "points": 2,
+      "type": "P",
+      "minTL": 4,
+      "TLspecs": {
+        "Grenade Launcher": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Gyroc": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Light Anti-Armor Weapon": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Light Machine Gun": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Musket": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "pistol": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Rifle": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Shotgun": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Submachine Gun": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "specCategName": "weapon type",
+      "key": "Guns",
+      "TL": 8,
+      "specialization": "Pistol"
+    },
+    {
+      "name": "Thrown Weapon",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 1,
+      "type": "P",
+      "specCategName": "weapon type",
+      "key": "ThrownWeapon",
+      "specialization": "Knife"
+    },
+    {
+      "name": "Main-Gauche",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 1,
+      "type": "P",
+      "key": "MainGauche"
+    },
+    {
+      "name": "Sling",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 221",
+      "points": 2,
+      "type": "P",
+      "key": "Sling"
+    },
+    {
+      "name": "Staff",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 208",
+      "points": 8,
+      "type": "P",
+      "key": "StaffSkill"
+    },
+    {
+      "name": "Hit Location",
+      "attribute": "T",
+      "difficulty": 2,
+      "reference": "USER",
+      "points": 4,
+      "type": "P",
+      "useDefaultFrom": {
+        "name": "Staff",
+        "attribute": "DX",
+        "difficulty": 1,
+        "reference": "Basic Set - Characters, pg 208",
+        "points": 8,
+        "key": "StaffSkill"
+      },
+      "techniqueDefaultPenalty": 0,
+      "specialization": "Staff",
+      "maxRelLevel": 3
+    },
+    {
+      "line": false
+    },
+    {
+      "points": 0,
+      "line": "Craft"
+    },
+    {
+      "name": "Artist",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 179",
+      "points": 4,
+      "type": "M",
+      "specCategName": "art form",
+      "key": "Artist",
+      "specialization": "Woodworking"
+    },
+    {
+      "line": false
+    },
+    {
+      "points": 0,
+      "line": "Outdoor"
+    },
+    {
+      "name": "Crewman",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 185",
+      "points": 2,
+      "type": "M",
+      "TLspecs": {
+        "Airshipman": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Seamanship": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Spacer": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Submariner": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "specCategName": "vessel class",
+      "key": "Crewman",
+      "TL": 4,
+      "specialization": "Seamanship"
+    },
+    {
+      "name": "Survival",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 4,
+      "type": "P",
+      "key": "Survival",
+      "specialization": "Woodlands"
+    },
+    {
+      "name": "Survival",
+      "attribute": "Per",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 1,
+      "type": "P",
+      "key": "Survival",
+      "specialization": "Artic"
+    },
+    {
+      "line": false
+    },
+    {
+      "line": false
+    },
+    {
+      "points": 0,
+      "line": "Professional"
+    },
+    {
+      "name": "Heraldry",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 199",
+      "points": 1,
+      "type": "M",
+      "key": "Heraldry"
+    },
+    {
+      "name": "Law",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 204",
+      "points": 1,
+      "type": "M",
+      "specCategName": "region &amp; field, or a body of law",
+      "key": "Law",
+      "specialization": "Criminal",
+      "optSpecsArray": [
+        "Theft"
+      ]
+    },
+    {
+      "line": false
+    },
+    {
+      "points": 0,
+      "line": "Social"
+    },
+    {
+      "name": "Acting",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 174",
+      "points": 0,
+      "type": "M",
+      "key": "Acting"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 2,
+      "type": "M",
+      "specCategName": "area",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Colombo"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Pelinar"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Torino"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Ur"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Bainbridge"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Alba"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Orange"
+    },
+    {
+      "name": "Area Knowledge",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 176",
+      "points": 1,
+      "type": "M",
+      "specCategName": "area",
+      "shortname": "AK",
+      "key": "AreaKnowledge",
+      "specialization": "Imperial Palace"
+    },
+    {
+      "name": "Public Speaking",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 216",
+      "points": 0,
+      "type": "M",
+      "key": "PublicSpeaking"
+    },
+    {
+      "name": "Carousing",
+      "attribute": "HT",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 183",
+      "points": 2,
+      "type": "P",
+      "key": "Carousing"
+    },
+    {
+      "name": "Diplomacy",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 2,
+      "type": "M",
+      "key": "Diplomacy"
+    },
+    {
+      "name": "Fast-Talk",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 195",
+      "points": 2,
+      "type": "M",
+      "key": "FastTalk"
+    },
+    {
+      "name": "Gambling",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 197",
+      "points": 1,
+      "type": "M",
+      "key": "Gambling"
+    },
+    {
+      "name": "Merchant",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 209",
+      "points": 2,
+      "type": "M",
+      "key": "Merchant"
+    },
+    {
+      "name": "Performance",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 212",
+      "points": 16,
+      "type": "M",
+      "key": "Performance"
+    },
+    {
+      "name": "Savoir-Faire",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 2,
+      "type": "M",
+      "key": "SavoirFaire",
+      "specialization": "High Society"
+    },
+    {
+      "name": "Sex Appeal",
+      "attribute": "HT",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 219",
+      "points": 4,
+      "type": "P",
+      "key": "SexAppeal"
+    },
+    {
+      "name": "Tactics",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 224",
+      "points": 2,
+      "type": "M",
+      "key": "Tactics"
+    },
+    {
+      "line": false
+    },
+    {
+      "points": 0,
+      "line": "Thief/Spy"
+    },
+    {
+      "name": "Camouflage",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 183",
+      "points": 0,
+      "type": "M",
+      "key": "Camouflage"
+    },
+    {
+      "name": "Detect Lies",
+      "attribute": "Per",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 187",
+      "points": 1,
+      "type": "P",
+      "key": "DetectLies"
+    },
+    {
+      "name": "Escape",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 192",
+      "points": 2,
+      "type": "P",
+      "key": "Escape"
+    },
+    {
+      "name": "Holdout",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 200",
+      "points": 0,
+      "type": "M",
+      "key": "Holdout"
+    },
+    {
+      "name": "Lockpicking",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 206",
+      "points": 20,
+      "type": "M",
+      "minTL": 2,
+      "key": "Lockpicking",
+      "TL": 8
+    },
+    {
+      "name": "Pickpocket",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 213",
+      "points": 1,
+      "type": "P",
+      "key": "Pickpocket"
+    },
+    {
+      "name": "Scrounging",
+      "attribute": "Per",
+      "difficulty": 0,
+      "reference": "Basic Set - Characters, pg 218",
+      "points": 1,
+      "type": "P",
+      "key": "Scrounging"
+    },
+    {
+      "name": "Shadowing",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 219",
+      "points": 0,
+      "type": "M",
+      "key": "Shadowing"
+    },
+    {
+      "name": "Sleight of Hand",
+      "attribute": "DX",
+      "difficulty": 2,
+      "reference": "Basic Set - Characters, pg 221",
+      "points": 8,
+      "type": "P",
+      "key": "SleightofHand"
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 222",
+      "points": 8,
+      "type": "P",
+      "key": "Stealth"
+    },
+    {
+      "name": "Streetwise",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 223",
+      "points": 8,
+      "type": "M",
+      "key": "Streetwise"
+    },
+    {
+      "name": "Traps",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 226",
+      "points": 8,
+      "type": "M",
+      "key": "Traps",
+      "TL": 8
+    },
+    {
+      "line": false
+    },
+    {
+      "points": 0,
+      "line": "Vehicle"
+    },
+    {
+      "name": "Boating",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set - Characters, pg 180",
+      "points": 1,
+      "type": "P",
+      "TLspecs": {
+        "Powerboat": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Motorboat": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Sailboat": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "Unpowered": []
+      },
+      "specCategName": "boat type",
+      "key": "Boating",
+      "TL": 8,
+      "specialization": "Unpowered"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Elven silversilk",
+      "weight": 2,
+      "cost": 40000,
+      "TL": 8,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "DR": 6,
+      "PD": 4,
+      "location": [
+        "neck",
+        "torso",
+        "waist",
+        "groin",
+        "domArm",
+        "offArm",
+        "domLeg",
+        "offLeg"
+      ],
+      "splitPD": 2,
+      "layerable": true,
+      "description": "enchanted (<i>+1 PD, +2 DR</i>)"
+    },
+    {
+      "name": "Lockpicks",
+      "weight": 0,
+      "cost": 200,
+      "TL": 2,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "description": "good ones, +1 to Lockpicking"
+    },
+    {
+      "name": "light cloak",
+      "weight": 2,
+      "cost": 350,
+      "TL": 2,
+      "LC": 3,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "DR": 1,
+      "PD": 1,
+      "location": [
+        "neck",
+        "torso",
+        "waist"
+      ],
+      "description": "<i>+1 PD, +1 DR</i>"
+    },
+    {
+      "name": "Amulet - Order of the Golden Halberd (duplicate)",
+      "weight": 0,
+      "cost": 0,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "Dice, cards, etc.",
+      "weight": 0,
+      "cost": 5,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "Cloak clasp with <i>Umbrella</i>, <i>Clean</i>, and <i>No-Smell</i>",
+      "weight": 0,
+      "cost": 800,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "1 gal <i>Purify Water</i>-skin (ivory neck and stopper)",
+      "weight": 0,
+      "cost": 200,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "Plain gold <i>Holding</i> ring",
+      "weight": 0,
+      "cost": 10000,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "Ring <i>Sheath</i>",
+      "weight": 0,
+      "cost": 10000,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "Earring: <i>Power +1, Rear Vision, Infravision, Hide Thoughts</i>",
+      "weight": 0,
+      "cost": 140000,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "Silver ring with large onyx stone: 17-point Dedicated <i>Powerstone, Walk Through Earth</i>",
+      "weight": 0,
+      "cost": 100000,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "Gold ring with lapis stone: <i>Power +3, Haste +3, Invisibility, Resist Pain</i>",
+      "weight": 0,
+      "cost": 350000,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "Cat's Head medallion, worn on silver chain around neck: <i>Power +2, Hush, Cat Speech, Blink, Walk on Air (23), See Secrets, Mage Sight, Dark Vision, See Invisible, Glass Wall, Missile Shield</i>",
+      "weight": 0,
+      "cost": 500000,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "<i>Cornucopia</i> quiver",
+      "weight": 0.5,
+      "cost": 300,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "demi-buckler",
+      "weight": 0,
+      "cost": 75000,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "PD": 5,
+      "DB": 4,
+      "DR": 0,
+      "HP": 0,
+      "skill": "Shield_Buckler",
+      "description": "<i>+4 Defense</i>"
+    },
+    {
+      "name": "Gold necklace; <i>Power +2, Breathe Water</i>",
+      "weight": 0,
+      "cost": 100000,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Quarterstaff",
+      "weight": 4,
+      "cost": 5000,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -8,
+      "qualityEffectGroup": "natural",
+      "quality": 2,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "StaffSkill": [
+          {
+            "title": "swung",
+            "hands": "both",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": 2,
+              "type": "cr"
+            },
+            "note": [
+              "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+            ],
+            "reach": "1,2",
+            "parryBonus": "2"
+          },
+          {
+            "title": "thrust",
+            "hands": "both",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 2,
+              "type": "cr"
+            },
+            "note": [
+              "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+            ],
+            "reach": "1,2",
+            "parryBonus": "2"
+          }
+        ],
+        "TwoHandedSword": [
+          {
+            "title": "swung",
+            "hands": "both",
+            "strength": 9,
+            "damage": {
+              "base": "sw",
+              "mods": 2,
+              "type": "cr"
+            },
+            "note": [
+              "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+            ],
+            "reach": "1,2"
+          },
+          {
+            "title": "thrust",
+            "hands": "both",
+            "strength": 9,
+            "damage": {
+              "base": "thr",
+              "mods": 1,
+              "type": "cr"
+            },
+            "note": [
+              "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+            ],
+            "reach": "2"
+          }
+        ]
+      },
+      "detail": "fine",
+      "description": "hardwood, iron-shod & reinforced, <i>+1 Acc</i>",
+      "shots": 0
+    },
+    {
+      "name": "Saber",
+      "weight": 2,
+      "cost": 455000,
+      "TL": 4,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -4,
+      "qualityEffectGroup": "blade",
+      "quality": 3,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Saber": [
+          {
+            "title": "swung",
+            "hands": "dom",
+            "strength": 8,
+            "damage": {
+              "base": "sw",
+              "mods": -1,
+              "type": "cut"
+            },
+            "parryBonus": "0"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 8,
+            "damage": {
+              "base": "thr",
+              "mods": 1,
+              "type": "imp"
+            },
+            "parryBonus": "0"
+          }
+        ]
+      },
+      "detail": "very fine",
+      "description": "basket hilt (PD 1), <i>+3 Acc, +1 Puis, +2 Vigor, Quick-Draw</i>",
+      "shots": 0
+    },
+    {
+      "name": "Saber",
+      "weight": 2,
+      "cost": 3200,
+      "TL": 4,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -4,
+      "qualityEffectGroup": "blade",
+      "quality": 3,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Saber": [
+          {
+            "title": "swung",
+            "hands": "dom",
+            "strength": 8,
+            "damage": {
+              "base": "sw",
+              "mods": -1,
+              "type": "cut"
+            },
+            "parryBonus": "0"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 8,
+            "damage": {
+              "base": "thr",
+              "mods": 1,
+              "type": "imp"
+            },
+            "parryBonus": "0"
+          }
+        ]
+      },
+      "detail": "very fine",
+      "description": "basket hilt (PD 1), usually in <i>Sheath</i> ring",
+      "shots": 0
+    },
+    {
+      "name": "Bow",
+      "weight": 4,
+      "cost": 900,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -7,
+      "qualityEffectGroup": "bow",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Bow": [
+          {
+            "title": "",
+            "hands": "both",
+            "strength": 10,
+            "damage": {
+              "base": "thr",
+              "mods": 3,
+              "type": "imp"
+            },
+            "note": [
+              "Requires two hands. Arrows cost $2."
+            ],
+            "rangeBasedOnST": true,
+            "halfDamageRange": 20,
+            "maximumRange": 25,
+            "accuracy": "3"
+          }
+        ]
+      },
+      "shots": 1,
+      "detail": "composite"
+    },
+    {
+      "name": "Sling",
+      "weight": 0.5,
+      "cost": 10,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": 0,
+      "qualityEffectGroup": "bow",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Sling": [
+          {
+            "title": "",
+            "hands": "dom",
+            "damage": {
+              "base": "sw",
+              "mods": 0,
+              "type": "cr"
+            },
+            "halfDamageRange": 6,
+            "maximumRange": 10,
+            "rangeBasedOnST": true,
+            "note": [
+              "Can fire stones (TL0, free) or lead bullets (TL2, $0.10). Lead bullets give +1 damage and double range.",
+              "Requires <i>two</i> hands to ready, but only <i>one</i> hand to attack."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knife",
+      "weight": 1,
+      "cost": 50000,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -2,
+      "qualityEffectGroup": "natural",
+      "quality": 0,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swung",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "parryBonus": "-1"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "parryBonus": "-1"
+          }
+        ],
+        "ThrownWeapon_Knife": [
+          {
+            "title": "thrown",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "rangeBasedOnST": true,
+            "halfDamageRange": 0.8,
+            "maximumRange": 1.5,
+            "accuracy": "0"
+          }
+        ]
+      },
+      "detail": "large, very fine",
+      "description": "<i>+2 Acc</i>",
+      "shots": 0
+    },
+    {
+      "name": "Knife",
+      "weight": 1,
+      "cost": 5000,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 2,
+      "bulk": -2,
+      "qualityEffectGroup": "blade",
+      "quality": 2,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swung",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+            ],
+            "reach": "C,1",
+            "parryBonus": "-1"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "note": [
+              "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+            ],
+            "reach": "C",
+            "parryBonus": "-1"
+          }
+        ],
+        "ThrownWeapon_Knife": [
+          {
+            "title": "thrown",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "rangeBasedOnST": true,
+            "halfDamageRange": 0.8,
+            "maximumRange": 1.5
+          }
+        ]
+      },
+      "detail": "large, fine",
+      "description": "<i>+2 Acc</i>",
+      "shots": 0
+    }
+  ],
+  "collections": {
+    "equipped": "adventuring",
+    "default": [
+      "default collection",
+      {
+        "name": "Quarterstaff, fine: hardwood, iron-shod & reinforced, <i>+1 Acc</i>",
+        "weight": 4,
+        "cost": 5000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -8,
+        "qualityEffectGroup": "mace/spear",
+        "quality": 2,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "StaffSkill": [
+            {
+              "title": "swung",
+              "hands": "both",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "parryBonus": 2,
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "both",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "parryBonus": 2,
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            }
+          ],
+          "TwoHandedSword": [
+            {
+              "title": "swung",
+              "hands": "both",
+              "strength": 9,
+              "damage": {
+                "base": "sw",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "both",
+              "strength": 9,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "cr"
+              },
+              "reach": "2",
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Saber: very fine, basket hilt (PD 1), <i>+3 Acc, +1 Puis, +2 Vigor, Quick-Draw</i>",
+        "weight": 2,
+        "cost": 455000,
+        "TL": 4,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -4,
+        "qualityEffectGroup": "blade",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Saber": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "sw",
+                "mods": -1,
+                "type": "cut"
+              },
+              "parryBonus": 0
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "imp"
+              },
+              "parryBonus": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Saber: very fine, basket hilt (PD 1), usually in <i>Sheath</i> ring",
+        "weight": 2,
+        "cost": 3200,
+        "TL": 4,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -4,
+        "qualityEffectGroup": "blade",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Saber": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "sw",
+                "mods": -1,
+                "type": "cut"
+              },
+              "parryBonus": 0
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "imp"
+              },
+              "parryBonus": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Bow, composite",
+        "weight": 4,
+        "cost": 900,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -7,
+        "qualityEffectGroup": "bow",
+        "quality": 1,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Bow": [
+            {
+              "title": "",
+              "hands": "both",
+              "strength": 10,
+              "damage": {
+                "base": "thr",
+                "mods": 3,
+                "type": "imp"
+              },
+              "halfDamageRange": 20,
+              "maximumRange": 25,
+              "accuracy": 3,
+              "rangeBasedOnST": true,
+              "note": [
+                "Requires two hands. Arrows cost $2."
+              ]
+            }
+          ]
+        },
+        "shots": 1
+      },
+      {
+        "name": "Sling",
+        "weight": 0.5,
+        "cost": 10,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": 0,
+        "qualityEffectGroup": "bow",
+        "quality": 1,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Sling": [
+            {
+              "title": "",
+              "hands": "dom",
+              "damage": {
+                "base": "sw",
+                "mods": 0,
+                "type": "cr"
+              },
+              "halfDamageRange": 6,
+              "maximumRange": 10,
+              "rangeBasedOnST": true,
+              "note": [
+                "Requires two hands to ready, but only one hand to attack. Can fire stones (TL0, free) or lead bullets (TL2, $0.10). Lead bullets give +1 damage and double range."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Elven silversilk: enchanted (<i>+1 PD, +2 DR</i>)",
+        "weight": 2,
+        "cost": 40000,
+        "TL": 8,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "DR": 6,
+        "PD": 4,
+        "location": [
+          "neck",
+          "torso",
+          "waist",
+          "groin",
+          "domArm",
+          "offArm",
+          "domLeg",
+          "offLeg"
+        ],
+        "splitPD": 2,
+        "layerable": true
+      },
+      {
+        "name": "Lockpicks (good ones, +1 to Lockpicking)",
+        "weight": 0,
+        "cost": 200,
+        "TL": 2,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "light cloak, <i>+1 PD, +1 DR</i>",
+        "weight": 2,
+        "cost": 350,
+        "TL": 2,
+        "LC": 3,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "DR": 1,
+        "PD": 1,
+        "location": [
+          "neck",
+          "torso",
+          "waist"
+        ]
+      },
+      {
+        "name": "Amulet - Order of the Golden Halberd (duplicate)",
+        "weight": 0,
+        "cost": 0,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Dice, cards, etc.",
+        "weight": 0,
+        "cost": 5,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Cloak clasp with <i>Umbrella</i>, <i>Clean</i>, and <i>No-Smell</i>",
+        "weight": 0,
+        "cost": 800,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "1 gal <i>Purify Water</i>-skin (ivory neck and stopper)",
+        "weight": 0,
+        "cost": 200,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Plain gold <i>Holding</i> ring",
+        "weight": 0,
+        "cost": 10000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Ring <i>Sheath</i>",
+        "weight": 0,
+        "cost": 10000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Earring: <i>Power +1, Rear Vision, Infravision, Hide Thoughts</i>",
+        "weight": 0,
+        "cost": 140000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Silver ring with large onyx stone: 17-point Dedicated <i>Powerstone, Walk Through Earth</i>",
+        "weight": 0,
+        "cost": 100000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Gold ring with lapis stone: <i>Power +3, Haste +3, Invisibility, Resist Pain</i>",
+        "weight": 0,
+        "cost": 350000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Cat's Head medallion, worn on silver chain around neck: <i>Power +2, Hush, Cat Speech, Blink, Walk on Air (23), See Secrets, Mage Sight, Dark Vision, See Invisible, Glass Wall, Missile Shield</i>",
+        "weight": 0,
+        "cost": 500000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "<i>Cornucopia</i> quiver",
+        "weight": 0.5,
+        "cost": 300,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "demi-buckler, <i>+4 Defense</i>",
+        "weight": 0,
+        "cost": 75000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "PD": 5,
+        "DB": 4,
+        "DR": 0,
+        "HP": 0,
+        "skill": "Shield_Buckler"
+      },
+      {
+        "name": "Gold necklace; <i>Power +2, Breathe Water</i>",
+        "weight": 0,
+        "cost": 100000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Knife, large, very fine, <i>+2 Acc</i>",
+        "weight": 1,
+        "cost": 50000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -2,
+        "qualityEffectGroup": "undefined",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Knife": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": -2,
+                "type": "cut"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C,1",
+              "parryBonus": -1
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C",
+              "parryBonus": -1
+            }
+          ],
+          "ThrownWeapon_Knife": [
+            {
+              "title": "thrown",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "rangeBasedOnST": true,
+              "halfDamageRange": 0.8,
+              "maximumRange": 1.5,
+              "snapShot": 0,
+              "accuracy": 0,
+              "rateOfFire": 0,
+              "recoil": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Knives, large, fine, <i>+2 Acc</i>",
+        "weight": 1,
+        "cost": 5000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 2,
+        "bulk": -2,
+        "qualityEffectGroup": "blade",
+        "quality": 2,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Knife": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": -2,
+                "type": "cut"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C,1",
+              "parryBonus": -1,
+              "note": [
+                "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C",
+              "parryBonus": -1,
+              "note": [
+                "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+              ]
+            }
+          ],
+          "ThrownWeapon_Knife": [
+            {
+              "title": "thrown",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "rangeBasedOnST": true,
+              "halfDamageRange": 0.8,
+              "maximumRange": 1.5
+            }
+          ]
+        }
+      }
+    ],
+    "magic": [
+      "magic",
+      {
+        "name": "Cloak clasp with <i>Umbrella</i>, <i>Clean</i>, and <i>No-Smell</i>",
+        "weight": 0,
+        "cost": 800,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Plain gold <i>Holding</i> ring",
+        "weight": 0,
+        "cost": 10000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Ring <i>Sheath</i>",
+        "weight": 0,
+        "cost": 10000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Earring: <i>Power +1, Rear Vision, Infravision, Hide Thoughts</i>",
+        "weight": 0,
+        "cost": 140000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Silver ring with large onyx stone: 17-point Dedicated <i>Powerstone, Walk Through Earth</i>",
+        "weight": 0,
+        "cost": 100000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Gold ring with lapis stone: <i>Power +3, Haste +3, Invisibility, Resist Pain</i>",
+        "weight": 0,
+        "cost": 350000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Cat's Head medallion, worn on silver chain around neck: <i>Power +2, Hush, Cat Speech, Blink, Walk on Air (23), See Secrets, Mage Sight, Dark Vision, See Invisible, Glass Wall, Missile Shield</i>",
+        "weight": 0,
+        "cost": 500000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Gold necklace; <i>Power +2, Breathe Water</i>",
+        "weight": 0,
+        "cost": 100000,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      }
+    ],
+    "personal": [
+      "personal",
+      {
+        "name": "Lockpicks (good ones, +1 to Lockpicking)",
+        "weight": 0,
+        "cost": 200,
+        "TL": 2,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Amulet - Order of the Golden Halberd (duplicate)",
+        "weight": 0,
+        "cost": 0,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Dice, cards, etc.",
+        "weight": 0,
+        "cost": 5,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "1 gal <i>Purify Water</i>-skin (ivory neck and stopper)",
+        "weight": 0,
+        "cost": 200,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      }
+    ],
+    "armor": [
+      "armor",
+      {
+        "name": "Elven silversilk: enchanted (<i>+1 PD, +2 DR</i>)",
+        "weight": 2,
+        "cost": 40000,
+        "TL": 8,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "DR": 6,
+        "PD": 4,
+        "location": [
+          "neck",
+          "torso",
+          "waist",
+          "groin",
+          "domArm",
+          "offArm",
+          "domLeg",
+          "offLeg"
+        ],
+        "splitPD": 2,
+        "layerable": true
+      },
+      {
+        "name": "light cloak, <i>+1 PD, +1 DR</i>",
+        "weight": 2,
+        "cost": 350,
+        "TL": 2,
+        "LC": 3,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "DR": 1,
+        "PD": 1,
+        "location": [
+          "neck",
+          "torso",
+          "waist"
+        ]
+      },
+      {
+        "name": "demi-buckler, <i>+4 Defense</i>",
+        "weight": 0,
+        "cost": 75000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "PD": 5,
+        "DB": 4,
+        "DR": 0,
+        "HP": 0,
+        "skill": "Shield_Buckler"
+      }
+    ],
+    "weapons": [
+      "weapons",
+      {
+        "name": "Quarterstaff, fine: hardwood, iron-shod & reinforced, <i>+1 Acc</i>",
+        "weight": 4,
+        "cost": 5000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -8,
+        "qualityEffectGroup": "mace/spear",
+        "quality": 2,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "StaffSkill": [
+            {
+              "title": "swung",
+              "hands": "both",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "parryBonus": 2,
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "both",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "parryBonus": 2,
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            }
+          ],
+          "TwoHandedSword": [
+            {
+              "title": "swung",
+              "hands": "both",
+              "strength": 9,
+              "damage": {
+                "base": "sw",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "both",
+              "strength": 9,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "cr"
+              },
+              "reach": "2",
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Saber: very fine, basket hilt (PD 1), <i>+3 Acc, +1 Puis, +2 Vigor, Quick-Draw</i>",
+        "weight": 2,
+        "cost": 455000,
+        "TL": 4,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -4,
+        "qualityEffectGroup": "blade",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Saber": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "sw",
+                "mods": -1,
+                "type": "cut"
+              },
+              "parryBonus": 0
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "imp"
+              },
+              "parryBonus": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Saber: very fine, basket hilt (PD 1), usually in <i>Sheath</i> ring",
+        "weight": 2,
+        "cost": 3200,
+        "TL": 4,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -4,
+        "qualityEffectGroup": "blade",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Saber": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "sw",
+                "mods": -1,
+                "type": "cut"
+              },
+              "parryBonus": 0
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "imp"
+              },
+              "parryBonus": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Bow, composite",
+        "weight": 4,
+        "cost": 900,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -7,
+        "qualityEffectGroup": "bow",
+        "quality": 1,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Bow": [
+            {
+              "title": "",
+              "hands": "both",
+              "strength": 10,
+              "damage": {
+                "base": "thr",
+                "mods": 3,
+                "type": "imp"
+              },
+              "halfDamageRange": 20,
+              "maximumRange": 25,
+              "accuracy": 3,
+              "rangeBasedOnST": true,
+              "note": [
+                "Requires two hands. Arrows cost $2."
+              ]
+            }
+          ]
+        },
+        "shots": 1
+      },
+      {
+        "name": "<i>Cornucopia</i> quiver",
+        "weight": 0.5,
+        "cost": 300,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Sling",
+        "weight": 0.5,
+        "cost": 10,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": 0,
+        "qualityEffectGroup": "bow",
+        "quality": 1,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Sling": [
+            {
+              "title": "",
+              "hands": "dom",
+              "damage": {
+                "base": "sw",
+                "mods": 0,
+                "type": "cr"
+              },
+              "halfDamageRange": 6,
+              "maximumRange": 10,
+              "rangeBasedOnST": true,
+              "note": [
+                "Requires two hands to ready, but only one hand to attack. Can fire stones (TL0, free) or lead bullets (TL2, $0.10). Lead bullets give +1 damage and double range."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Knife, large, very fine, <i>+2 Acc</i>",
+        "weight": 1,
+        "cost": 50000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -2,
+        "qualityEffectGroup": "undefined",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Knife": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": -2,
+                "type": "cut"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C,1",
+              "parryBonus": -1
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C",
+              "parryBonus": -1
+            }
+          ],
+          "ThrownWeapon_Knife": [
+            {
+              "title": "thrown",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "rangeBasedOnST": true,
+              "halfDamageRange": 0.8,
+              "maximumRange": 1.5,
+              "snapShot": 0,
+              "accuracy": 0,
+              "rateOfFire": 0,
+              "recoil": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Knives, large, fine, <i>+2 Acc</i>",
+        "weight": 1,
+        "cost": 5000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 2,
+        "bulk": -2,
+        "qualityEffectGroup": "blade",
+        "quality": 2,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Knife": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": -2,
+                "type": "cut"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C,1",
+              "parryBonus": -1,
+              "note": [
+                "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C",
+              "parryBonus": -1,
+              "note": [
+                "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+              ]
+            }
+          ],
+          "ThrownWeapon_Knife": [
+            {
+              "title": "thrown",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "rangeBasedOnST": true,
+              "halfDamageRange": 0.8,
+              "maximumRange": 1.5
+            }
+          ]
+        }
+      }
+    ],
+    "adventuring": [
+      "adventuring",
+      {
+        "name": "Quarterstaff, fine: hardwood, iron-shod & reinforced, <i>+1 Acc</i>",
+        "weight": 4,
+        "cost": 5000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -8,
+        "qualityEffectGroup": "mace/spear",
+        "quality": 2,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "StaffSkill": [
+            {
+              "title": "swung",
+              "hands": "both",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "parryBonus": 2,
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "both",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "parryBonus": 2,
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            }
+          ],
+          "TwoHandedSword": [
+            {
+              "title": "swung",
+              "hands": "both",
+              "strength": 9,
+              "damage": {
+                "base": "sw",
+                "mods": 2,
+                "type": "cr"
+              },
+              "reach": "1,2",
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "both",
+              "strength": 9,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "cr"
+              },
+              "reach": "2",
+              "note": [
+                "Requires two hands. If you have at least 1.5 times the listed ST (round <i>up</i>), you can use this weapon in one hand, but it becomes <i>unready</i> after you attack with it. If you have at least <i>twice</i> the listed ST, you can wield it one-handed with no readiness penalty. But if it requires one hand to hold it and another to operate a moving part, like a bow or a pump shotgun, it always requires two hands, regardless of ST."
+              ]
+            }
+          ]
+        }
+      },
+      "wield",
+      "Saber",
+      {
+        "name": "Saber: very fine, basket hilt (PD 1), <i>+3 Acc, +1 Puis, +2 Vigor, Quick-Draw</i>",
+        "weight": 2,
+        "cost": 455000,
+        "TL": 4,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -4,
+        "qualityEffectGroup": "blade",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Saber": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "sw",
+                "mods": -1,
+                "type": "cut"
+              },
+              "parryBonus": 0
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "imp"
+              },
+              "parryBonus": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Saber: very fine, basket hilt (PD 1), usually in <i>Sheath</i> ring",
+        "weight": 2,
+        "cost": 3200,
+        "TL": 4,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -4,
+        "qualityEffectGroup": "blade",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Saber": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "sw",
+                "mods": -1,
+                "type": "cut"
+              },
+              "parryBonus": 0
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 8,
+              "damage": {
+                "base": "thr",
+                "mods": 1,
+                "type": "imp"
+              },
+              "parryBonus": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Bow, composite",
+        "weight": 4,
+        "cost": 900,
+        "TL": 1,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -7,
+        "qualityEffectGroup": "bow",
+        "quality": 1,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Bow": [
+            {
+              "title": "",
+              "hands": "both",
+              "strength": 10,
+              "damage": {
+                "base": "thr",
+                "mods": 3,
+                "type": "imp"
+              },
+              "halfDamageRange": 20,
+              "maximumRange": 25,
+              "accuracy": 3,
+              "rangeBasedOnST": true,
+              "note": [
+                "Requires two hands. Arrows cost $2."
+              ]
+            }
+          ]
+        },
+        "shots": 1
+      },
+      {
+        "name": "<i>Cornucopia</i> quiver",
+        "weight": 0.5,
+        "cost": 300,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Sling",
+        "weight": 0.5,
+        "cost": 10,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": 0,
+        "qualityEffectGroup": "bow",
+        "quality": 1,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Sling": [
+            {
+              "title": "",
+              "hands": "dom",
+              "damage": {
+                "base": "sw",
+                "mods": 0,
+                "type": "cr"
+              },
+              "halfDamageRange": 6,
+              "maximumRange": 10,
+              "rangeBasedOnST": true,
+              "note": [
+                "Requires two hands to ready, but only one hand to attack. Can fire stones (TL0, free) or lead bullets (TL2, $0.10). Lead bullets give +1 damage and double range."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Knife, large, very fine, <i>+2 Acc</i>",
+        "weight": 1,
+        "cost": 50000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "bulk": -2,
+        "qualityEffectGroup": "undefined",
+        "quality": 3,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Knife": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": -2,
+                "type": "cut"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C,1",
+              "parryBonus": -1
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C",
+              "parryBonus": -1
+            }
+          ],
+          "ThrownWeapon_Knife": [
+            {
+              "title": "thrown",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "rangeBasedOnST": true,
+              "halfDamageRange": 0.8,
+              "maximumRange": 1.5,
+              "snapShot": 0,
+              "accuracy": 0,
+              "rateOfFire": 0,
+              "recoil": 0
+            }
+          ]
+        }
+      },
+      {
+        "name": "Knives, large, fine, <i>+2 Acc</i>",
+        "weight": 1,
+        "cost": 5000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 2,
+        "bulk": -2,
+        "qualityEffectGroup": "blade",
+        "quality": 2,
+        "armorDivisor": 1,
+        "wieldOptions": {
+          "Knife": [
+            {
+              "title": "swung",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "sw",
+                "mods": -2,
+                "type": "cut"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C,1",
+              "parryBonus": -1,
+              "note": [
+                "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+              ]
+            },
+            {
+              "title": "thrust",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "reach": "C",
+              "parryBonus": -1,
+              "note": [
+                "Can be thrown. See <i>Muscle-Powered Ranged Weapon Table</i> (p. 275)."
+              ]
+            }
+          ],
+          "ThrownWeapon_Knife": [
+            {
+              "title": "thrown",
+              "hands": "dom",
+              "strength": 6,
+              "damage": {
+                "base": "thr",
+                "mods": 0,
+                "type": "imp"
+              },
+              "maxDamage": "1d+2",
+              "rangeBasedOnST": true,
+              "halfDamageRange": 0.8,
+              "maximumRange": 1.5
+            }
+          ]
+        }
+      },
+      {
+        "line": false
+      },
+      "wear",
+      {
+        "name": "Elven silversilk: enchanted (<i>+1 PD, +2 DR</i>)",
+        "weight": 2,
+        "cost": 40000,
+        "TL": 8,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "DR": 6,
+        "PD": 4,
+        "location": [
+          "neck",
+          "torso",
+          "waist",
+          "groin",
+          "domArm",
+          "offArm",
+          "domLeg",
+          "offLeg"
+        ],
+        "splitPD": 2,
+        "layerable": true
+      },
+      "wear",
+      {
+        "name": "light cloak, <i>+1 PD, +1 DR</i>",
+        "weight": 2,
+        "cost": 350,
+        "TL": 2,
+        "LC": 3,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "DR": 1,
+        "PD": 1,
+        "location": [
+          "neck",
+          "torso",
+          "waist"
+        ]
+      },
+      "ready",
+      {
+        "name": "demi-buckler, <i>+4 Defense</i>",
+        "weight": 0,
+        "cost": 75000,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1,
+        "PD": 5,
+        "DB": 4,
+        "DR": 0,
+        "HP": 0,
+        "skill": "Shield_Buckler"
+      },
+      {
+        "line": false
+      },
+      {
+        "name": "Lockpicks (good ones, +1 to Lockpicking)",
+        "weight": 0,
+        "cost": 200,
+        "TL": 2,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      {
+        "name": "Dice, cards, etc.",
+        "weight": 0,
+        "cost": 5,
+        "TL": 0,
+        "LC": 4,
+        "ruleset": {
+          "e3": true,
+          "e3lite": true,
+          "e4": true,
+          "e4lite": true
+        },
+        "number": 1
+      },
+      [
+        "magic",
+        {
+          "name": "Cloak clasp with <i>Umbrella</i>, <i>Clean</i>, and <i>No-Smell</i>",
+          "weight": 0,
+          "cost": 800,
+          "TL": 1,
+          "LC": 4,
+          "ruleset": {
+            "e3": true,
+            "e3lite": true,
+            "e4": true,
+            "e4lite": true
+          },
+          "number": 1
+        },
+        {
+          "name": "Plain gold <i>Holding</i> ring",
+          "weight": 0,
+          "cost": 10000,
+          "TL": 1,
+          "LC": 4,
+          "ruleset": {
+            "e3": true,
+            "e3lite": true,
+            "e4": true,
+            "e4lite": true
+          },
+          "number": 1
+        },
+        {
+          "name": "Ring <i>Sheath</i>",
+          "weight": 0,
+          "cost": 10000,
+          "TL": 1,
+          "LC": 4,
+          "ruleset": {
+            "e3": true,
+            "e3lite": true,
+            "e4": true,
+            "e4lite": true
+          },
+          "number": 1
+        },
+        {
+          "name": "Earring: <i>Power +1, Rear Vision, Infravision, Hide Thoughts</i>",
+          "weight": 0,
+          "cost": 140000,
+          "TL": 1,
+          "LC": 4,
+          "ruleset": {
+            "e3": true,
+            "e3lite": true,
+            "e4": true,
+            "e4lite": true
+          },
+          "number": 1
+        },
+        {
+          "name": "Silver ring with large onyx stone: 17-point Dedicated <i>Powerstone, Walk Through Earth</i>",
+          "weight": 0,
+          "cost": 100000,
+          "TL": 1,
+          "LC": 4,
+          "ruleset": {
+            "e3": true,
+            "e3lite": true,
+            "e4": true,
+            "e4lite": true
+          },
+          "number": 1
+        },
+        {
+          "name": "Gold ring with lapis stone: <i>Power +3, Haste +3, Invisibility, Resist Pain</i>",
+          "weight": 0,
+          "cost": 350000,
+          "TL": 1,
+          "LC": 4,
+          "ruleset": {
+            "e3": true,
+            "e3lite": true,
+            "e4": true,
+            "e4lite": true
+          },
+          "number": 1
+        },
+        {
+          "name": "Cat's Head medallion, worn on silver chain around neck: <i>Power +2, Hush, Cat Speech, Blink, Walk on Air (23), See Secrets, Mage Sight, Dark Vision, See Invisible, Glass Wall, Missile Shield</i>",
+          "weight": 0,
+          "cost": 500000,
+          "TL": 1,
+          "LC": 4,
+          "ruleset": {
+            "e3": true,
+            "e3lite": true,
+            "e4": true,
+            "e4lite": true
+          },
+          "number": 1
+        },
+        {
+          "name": "Gold necklace; <i>Power +2, Breathe Water</i>",
+          "weight": 0,
+          "cost": 100000,
+          "TL": 1,
+          "LC": 4,
+          "ruleset": {
+            "e3": true,
+            "e3lite": true,
+            "e4": true,
+            "e4lite": true
+          },
+          "number": 1
+        }
+      ]
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "AnimalSkills": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary",
+      "Bulldancing",
+      "Bullfighting",
+      "EquestrianAcrobatics",
+      "SnakeCharming"
+    ],
+    "AnimalFriendTalent": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Veterinary"
+    ],
+    "AnimalFriend": "JSONcircRef:groups.AnimalFriendTalent",
+    "AthleticSkills": [
+      "Acrobatics",
+      "Bicycling",
+      "BreathControl",
+      "FreeFall",
+      "Jumping",
+      "Parachuting",
+      "Riding",
+      "Running",
+      "Scuba",
+      "Skiing",
+      "Swimming",
+      "Throwing",
+      "BodySense",
+      "BullDancing",
+      "CombatWeaponSport",
+      "Darts",
+      "EquestrianAcrobatics",
+      "Flight",
+      "Hiking",
+      "InertialessAgility",
+      "Juggling",
+      "Lifting",
+      "LowGFlight",
+      "Skating",
+      "StageCombat",
+      "TournamentLaw",
+      "Aerobatics",
+      "Aquabatics"
+    ],
+    "MagicalSkills": [
+      "Alchemy",
+      "BodySense",
+      "MagicBreath",
+      "MagicJet",
+      "SpellThrowing",
+      "RuneLore"
+    ],
+    "Magic": "JSONcircRef:groups.MagicalSkills",
+    "Magical": "JSONcircRef:groups.MagicalSkills",
+    "MagicSkills": "JSONcircRef:groups.MagicalSkills",
+    "ArtisticSkills": [
+      "Artist",
+      "Bard",
+      "Calligraphy",
+      "Dancing",
+      "MusicalInstrument",
+      "Photography",
+      "Poetry",
+      "Sculpting",
+      "Singing",
+      "Writing",
+      "AppreciateBeauty",
+      "Bulldancing",
+      "Choreography",
+      "Conducting",
+      "Cyberaxe",
+      "Directing",
+      "Featherworking",
+      "FightChoreography",
+      "FireEating",
+      "FlowerArranging",
+      "Gardening",
+      "Illumination",
+      "IllusionArt",
+      "Juggling",
+      "LucidDreaming",
+      "MakeUp",
+      "MusicalComposition",
+      "Neurophon",
+      "Origami",
+      "PictureWriting",
+      "Punning",
+      "SceneDesign",
+      "SensieInterface",
+      "StageCombat",
+      "SymbolDrawing",
+      "VideoProduction",
+      "Weaving"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Cloak",
+      "Crossbow",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "KnifeThrowing",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "StaffSkill",
+      "Throwing",
+      "ThrowingStick",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwohandedAxeMace",
+      "TwohandedSword",
+      "Whip",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Rapier",
+      "Saber",
+      "Smallsword",
+      "TwoHandedFlail"
+    ],
+    "ManualDexteritySkills": [
+      "Artist",
+      "Jeweler",
+      "KnotTying",
+      "Leatherworking",
+      "Lockpicking",
+      "Pickpocket",
+      "Sewing",
+      "SleightofHand",
+      "Surgery"
+    ],
+    "EmotionSkills": [
+      "Acting",
+      "Carousing",
+      "Criminology",
+      "DetectLies",
+      "Diplomacy",
+      "Enthrallment",
+      "FastTalk",
+      "Interrogation",
+      "Leadership",
+      "Merchant",
+      "Politics",
+      "Psychology",
+      "SavoirFaire",
+      "SexAppeal",
+      "Sociology",
+      "Streetwise"
+    ],
+    "PeopleSkills": [
+      "Acting",
+      "Carousing",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Merchant",
+      "Panhandling",
+      "Performance",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise",
+      "Teaching"
+    ],
+    "BusinessAcumenTalent": [
+      "Accounting",
+      "Administration",
+      "Economics",
+      "Finance",
+      "Gambling",
+      "MarketAnalysis",
+      "Merchant",
+      "Propaganda"
+    ],
+    "BusinessAcumen": "JSONcircRef:groups.BusinessAcumenTalent",
+    "AnimalSkillsGURPSLite": [
+      "AnimalHandling",
+      "Riding"
+    ],
+    "AthleticSkillsGURPSLite": [
+      "Acrobatics",
+      "Bicycling",
+      "Hiking",
+      "Jumping",
+      "Riding",
+      "Swimming",
+      "Throwing"
+    ],
+    "bows": [
+      "Bow",
+      "ShortBow",
+      "Longbow",
+      "CompositeBow"
+    ],
+    "swords": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr"
+    ],
+    "blades": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge"
+    ],
+    "edged": [
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Axe",
+      "Hatchet",
+      "ThrowingAxe",
+      "GreatAxe",
+      "Scythe",
+      "Glaive",
+      "Naginata",
+      "Halberd",
+      "Poleaxe",
+      "ironplow",
+      "saw",
+      "shovel"
+    ],
+    "GiftedArtistTalent": [
+      "Artist",
+      "Jeweler",
+      "Leatherworking",
+      "Photography",
+      "Sewing"
+    ],
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ],
+    "SmoothOperatorTalent": [
+      "Acting",
+      "Carousing",
+      "DetectLies",
+      "Diplomacy",
+      "FastTalk",
+      "Intimidation",
+      "Leadership",
+      "Panhandling",
+      "Politics",
+      "PublicSpeaking",
+      "SavoirFaire",
+      "SexAppeal",
+      "Streetwise"
+    ],
+    "KnownLanguages": [],
+    "WeaponSkills": [
+      "AxeMace",
+      "BeamWeapons",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Crossbow",
+      "Flail",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "JitteSai",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "Throwing",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "CombatSkills": [
+      "Battlesuit",
+      "BodyLanguage",
+      "Boxing",
+      "Brawling",
+      "Cloak",
+      "FastDraw",
+      "Judo",
+      "Karate",
+      "ParryMissileWeapons",
+      "Shield",
+      "SumoWrestling",
+      "Wrestling"
+    ],
+    "FencingSkills": [
+      "MainGauche",
+      "Rapier",
+      "Saber",
+      "Smallsword"
+    ],
+    "PoleWeaponSkills": [
+      "Polearm",
+      "Spear",
+      "StaffSkill"
+    ],
+    "Weapons": [
+      "fist",
+      "bluntclawedhand",
+      "sharpclawedhand",
+      "talonedhand",
+      "longtalonedhand",
+      "foot",
+      "hoof",
+      "bluntclawedfoot",
+      "sharpclawedfoot",
+      "talonedfoot",
+      "longtalonedfoot",
+      "teeth",
+      "sharpteeth",
+      "fangs",
+      "sharpbeak",
+      "crushingstriker",
+      "piercingstriker",
+      "lgpiercingstriker",
+      "cuttingstriker",
+      "impalingstriker",
+      "CattleProd",
+      "Chainsaw",
+      "Whip",
+      "WhipMonowire",
+      "BrassKnuckles",
+      "Axe",
+      "Hatchet",
+      "ThrowingAxe",
+      "Pick",
+      "GreatAxe",
+      "Scythe",
+      "Warhammer",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Rapier",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "ForceSword",
+      "Glaive",
+      "Naginata",
+      "Halberd",
+      "Poleaxe",
+      "Javelin",
+      "Spear",
+      "LongSpear",
+      "Quarterstaff",
+      "Lance",
+      "Baton",
+      "ShortStaff",
+      "BillieClub",
+      "LightClub",
+      "SmallMace",
+      "Mace",
+      "Morningstar",
+      "Kusari",
+      "Nunchaku",
+      "Maul",
+      "Flail",
+      "Blowpipe",
+      "Bow",
+      "ShortBow",
+      "Longbow",
+      "CompositeBow",
+      "Crossbow",
+      "PistolCrossbow",
+      "Prodd",
+      "Shuriken",
+      "Bolas",
+      "Sling",
+      "StaffSling",
+      "Atlatl",
+      "SpearThrower",
+      "FlintlockPistol51",
+      "Derringer41",
+      "Revolver36",
+      "Revolver38",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "AutoPistol44M",
+      "BoltActionRifle",
+      "FlintlockMusket75",
+      "grenadeBP",
+      "grenadeConcussionTL6",
+      "grenadeFragmentationTL6",
+      "MolotovCocktail",
+      "grenadeChemical",
+      "grenadeConcussionTL7",
+      "grenadeFragmentationTL7",
+      "grenadeStun",
+      "grenadePlasma",
+      "WheelLockPistol60",
+      "AutoPistol45",
+      "SnubRevolver38",
+      "HoldoutPistol380",
+      "Revolver357M",
+      "Revolver44M",
+      "AutoPistol40",
+      "GyrocPistol15mm",
+      "SMG45",
+      "SMG9mm",
+      "MachinePistol9mm",
+      "PDW46mm",
+      "GaussPDW4mm",
+      "Handgonne90",
+      "MatchlockMusket80",
+      "RifleMusket577",
+      "CartridgeRifle45",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "AssaultRifle556mm",
+      "AssaultRifle762mmS",
+      "BattleRifle762mm",
+      "AssaultCarbine556mm",
+      "DartRifle11mm",
+      "SniperRifle338",
+      "ICW68mm",
+      "GaussRifle4mm",
+      "Blunderbuss8G",
+      "DoubleShotgun10G",
+      "PumpShotgun12G",
+      "AutoShotgun12G",
+      "ElectrolaserPistol",
+      "LaserPistol",
+      "BlasterPistol",
+      "ElectrolaserCarbine",
+      "LaserSniperRifle",
+      "LaserRifle",
+      "BlasterRifle",
+      "HeavyBlaster",
+      "ATGM115mm",
+      "SAM70mm",
+      "Scorpion",
+      "HMG50",
+      "UnderBarrel40mmGL",
+      "Integral25mmGL",
+      "Bazooka60mm",
+      "RPG85mm",
+      "LAW84mm",
+      "AutoRifle762mm",
+      "LMG762mm",
+      "SAW556mm",
+      "Flamethrower",
+      "SMG9mmTL6",
+      "SMG9mmTL7"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "BodyLanguage_from_AcuteVision": {
+      "from": "AcuteVision",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "BodyLanguage"
+    },
+    "Vision_from_AcuteVision": {
+      "from": "AcuteVision",
+      "amount": 1,
+      "target": "Vision"
+    },
+    "Appearance_from_AppearanceAttractive": {
+      "from": "Attractive",
+      "amount": 1,
+      "targetCategory": "GR",
+      "target": "Appearance"
+    },
+    "FortuneTelling_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FortuneTelling"
+    },
+    "Leadership_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Leadership"
+    },
+    "Panhandling_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Panhandling"
+    },
+    "PublicSpeaking_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "Reaction_from_Charisma": {
+      "from": "Charisma",
+      "amount": 1,
+      "targetCategory": "GR",
+      "target": "Reaction"
+    },
+    "Climbing_from_Flexibility": {
+      "from": "Flexibility",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "EroticArt_from_Flexibility": {
+      "from": "Flexibility",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "EroticArt"
+    },
+    "Escape_from_Flexibility": {
+      "from": "Flexibility",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "Escape"
+    },
+    "Status_from_Status": {
+      "from": "Status",
+      "amount": 1,
+      "targetCategory": "AD",
+      "target": "Status"
+    },
+    "Status_from_WealthFilthyRichx100": {
+      "from": "WealthFilthyRichx100",
+      "amount": 1,
+      "targetCategory": "AD",
+      "target": "Status"
+    },
+    "AnimalHandling_from_AnimalFriendTalent": {
+      "from": "AnimalFriendTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "AnimalHandling"
+    },
+    "Riding_from_AnimalFriendTalent": {
+      "from": "AnimalFriendTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Riding"
+    },
+    "Teamster_from_AnimalFriendTalent": {
+      "from": "AnimalFriendTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Teamster"
+    },
+    "Acrobatics_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Acrobatics"
+    },
+    "BodySense_from_SpatialSense3D": {
+      "from": "SpatialSense3D",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "BodySense"
+    },
+    "BodySense_from_AbsoluteDirection": {
+      "from": "AbsoluteDirection",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "BodySense"
+    },
+    "Climbing_from_BadGrip": {
+      "from": "BadGrip",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_Brachiator": {
+      "from": "Brachiator",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_DoubleJointed": {
+      "from": "DoubleJointed",
+      "amount": 5,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "Climbing_from_PerfectBalance": {
+      "from": "PerfectBalance",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Climbing"
+    },
+    "FastDraw_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_EnhancedTimeSense": {
+      "from": "EnhancedTimeSense",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_HamFisted": {
+      "from": "HamFisted",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "Survival_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Survival"
+    },
+    "Acting_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Acting"
+    },
+    "Acting_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Acting"
+    },
+    "PublicSpeaking_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "PublicSpeaking_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "PublicSpeaking_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "PublicSpeaking"
+    },
+    "Carousing_from_Killjoy": {
+      "from": "Killjoy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Carousing"
+    },
+    "Carousing_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Carousing"
+    },
+    "Carousing_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Carousing"
+    },
+    "Diplomacy_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "Diplomacy_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Diplomacy"
+    },
+    "FastTalk_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_Truthfulness": {
+      "from": "Truthfulness",
+      "amount": -5,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_SubsonicSpeech": {
+      "from": "SubsonicSpeech",
+      "amount": -2,
+      "targetCategory": "\"SK",
+      "target": "FastTalk"
+    },
+    "FastTalk_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "FastTalk"
+    },
+    "Gambling_from_Killjoy": {
+      "from": "Killjoy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Gambling"
+    },
+    "Gambling_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Gambling"
+    },
+    "Merchant_from_Gullibility": {
+      "from": "Gullibility",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Merchant_from_BusinessAcumenTalent": {
+      "from": "BusinessAcumenTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Merchant"
+    },
+    "Performance_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "Performance"
+    },
+    "Performance_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "Performance"
+    },
+    "SavoirFaire_from_Clueless": {
+      "from": "Clueless",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SavoirFaire_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "SavoirFaire"
+    },
+    "SexAppeal_from_Voice": {
+      "from": "Voice",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Handsome": {
+      "from": "Handsome",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Stuttering": {
+      "from": "Stuttering",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "Camouflage_from_OutdoorsmanTalent": {
+      "from": "OutdoorsmanTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Camouflage"
+    },
+    "DetectLies_from_Sensitive": {
+      "from": "Sensitive",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_Empathy": {
+      "from": "Empathy",
+      "amount": 3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "DetectLies_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "DetectLies"
+    },
+    "Escape_from_DoubleJointed": {
+      "from": "DoubleJointed",
+      "amount": 5,
+      "targetCategory": "SK",
+      "target": "Escape"
+    },
+    "Escape_from_Slippery": {
+      "from": "Slippery",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Escape"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Streetwise_from_LowEmpathy": {
+      "from": "LowEmpathy",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Streetwise_from_Oblivious": {
+      "from": "Oblivious",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "Streetwise_from_SmoothOperatorTalent": {
+      "from": "SmoothOperatorTalent",
+      "amount": 1,
+      "upto": 4,
+      "targetCategory": "SK",
+      "target": "Streetwise"
+    },
+    "SexAppeal_from_Attractive": {
+      "from": "Attractive",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Horrific": {
+      "from": "Horrific",
+      "amount": -12,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Monstrous": {
+      "from": "Monstrous",
+      "amount": -10,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Hideous": {
+      "from": "Hideous",
+      "amount": -8,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Ugly": {
+      "from": "Ugly",
+      "amount": -4,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Unattractive": {
+      "from": "Unattractive",
+      "amount": -2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Appearance": {
+      "from": "Appearance",
+      "amount": 2,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Beautiful": {
+      "from": "Beautiful",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_VeryHandsome": {
+      "from": "VeryHandsome",
+      "amount": 6,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_VeryBeautiful": {
+      "from": "VeryBeautiful",
+      "amount": 6,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "SexAppeal_from_Transcendent": {
+      "from": "Transcendent",
+      "amount": 8,
+      "targetCategory": "SK",
+      "target": "SexAppeal"
+    },
+    "Stealth_from_Encumbrance": {
+      "from": "Encumbrance",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Stealth",
+      "fromCategory": "stats"
+    }
+  },
+  "prerequisites": {},
+  "defaults": {
+    "Riding_from_AnimalHandling": {
+      "target": "Riding",
+      "penalty": -3,
+      "from": "AnimalHandling",
+      "fromSpec": "same"
+    },
+    "Teamster_from_AnimalHandling": {
+      "target": "Teamster",
+      "penalty": -4,
+      "from": "AnimalHandling",
+      "fromSpec": "same"
+    },
+    "Teamster_from_Riding": {
+      "target": "Teamster",
+      "penalty": -2,
+      "from": "Riding",
+      "fromSpec": "same"
+    },
+    "BodySense_from_Acrobatics": {
+      "target": "BodySense",
+      "penalty": -3,
+      "from": "Acrobatics"
+    },
+    "Jumping_from_stat": {
+      "target": "Jumping",
+      "penalty": false,
+      "category": "stat"
+    },
+    "ShieldBuckler_from_ShieldForceShield": {
+      "target": "Shield",
+      "targetSpec": "Buckler",
+      "penalty": -2,
+      "from": "Shield",
+      "fromSpec": "Force"
+    },
+    "ShieldBuckler_from_ShieldShield": {
+      "target": "Shield",
+      "targetSpec": "Buckler",
+      "penalty": -2,
+      "from": "Shield",
+      "fromSpec": "Shield"
+    },
+    "Cloak_from_Net": {
+      "target": "Cloak",
+      "penalty": -4,
+      "from": "Net"
+    },
+    "Cloak_from_Shield": {
+      "target": "Cloak",
+      "penalty": -4,
+      "from": "Shield"
+    },
+    "FastDraw_from_stat": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Saber_from_Broadsword": {
+      "target": "Saber",
+      "penalty": -4,
+      "from": "Broadsword"
+    },
+    "Saber_from_MainGauche": {
+      "target": "Saber",
+      "penalty": -3,
+      "from": "MainGauche"
+    },
+    "Saber_from_Rapier": {
+      "target": "Saber",
+      "penalty": -3,
+      "from": "Rapier"
+    },
+    "Saber_from_Shortsword": {
+      "target": "Saber",
+      "penalty": -4,
+      "from": "Shortsword"
+    },
+    "Saber_from_Smallsword": {
+      "target": "Saber",
+      "penalty": -3,
+      "from": "Smallsword"
+    },
+    "Guns_from_Guns": {
+      "target": "Guns",
+      "penalty": -2,
+      "from": "Guns"
+    },
+    "MainGauche_from_JitteSai": {
+      "target": "MainGauche",
+      "penalty": -4,
+      "from": "JitteSai"
+    },
+    "MainGauche_from_Knife": {
+      "target": "MainGauche",
+      "penalty": -4,
+      "from": "Knife"
+    },
+    "MainGauche_from_Rapier": {
+      "target": "MainGauche",
+      "penalty": -3,
+      "from": "Rapier"
+    },
+    "MainGauche_from_Saber": {
+      "target": "MainGauche",
+      "penalty": -3,
+      "from": "Saber"
+    },
+    "MainGauche_from_Smallsword": {
+      "target": "MainGauche",
+      "penalty": -3,
+      "from": "Smallsword"
+    },
+    "StaffSkill_from_Polearm": {
+      "target": "StaffSkill",
+      "penalty": -2,
+      "from": "Polearm"
+    },
+    "StaffSkill_from_Spear": {
+      "target": "StaffSkill",
+      "penalty": -4,
+      "from": "Spear"
+    },
+    "ArtistWoodworking_from_Carpentry": {
+      "target": "Artist",
+      "targetSpec": "Woodworking",
+      "penalty": -3,
+      "from": "Carpentry"
+    },
+    "Survival_from_Naturalist": {
+      "target": "Survival",
+      "penalty": -3,
+      "from": "Naturalist"
+    },
+    "Heraldry_from_SavoirFaire": {
+      "target": "Heraldry",
+      "penalty": -3,
+      "from": "SavoirFaire",
+      "fromSpec": "High Society"
+    },
+    "Acting_from_Performance": {
+      "target": "Acting",
+      "penalty": -2,
+      "from": "Performance"
+    },
+    "Acting_from_PublicSpeaking": {
+      "target": "Acting",
+      "penalty": -5,
+      "from": "PublicSpeaking"
+    },
+    "PublicSpeaking_from_Acting": {
+      "target": "PublicSpeaking",
+      "penalty": -5,
+      "from": "Acting"
+    },
+    "PublicSpeaking_from_Performance": {
+      "target": "PublicSpeaking",
+      "penalty": -2,
+      "from": "Performance"
+    },
+    "PublicSpeaking_from_Politics": {
+      "target": "PublicSpeaking",
+      "penalty": -5,
+      "from": "Politics"
+    },
+    "Diplomacy_from_Politics": {
+      "target": "Diplomacy",
+      "penalty": -6,
+      "from": "Politics"
+    },
+    "FastTalk_from_Acting": {
+      "target": "FastTalk",
+      "penalty": -5,
+      "from": "Acting"
+    },
+    "Gambling_from_MathematicsStatistics": {
+      "target": "Gambling",
+      "penalty": -5,
+      "from": "Mathematics",
+      "fromSpec": "Statistics"
+    },
+    "Merchant_from_Finance": {
+      "target": "Merchant",
+      "penalty": -6,
+      "from": "Finance"
+    },
+    "Merchant_from_MarketAnalysis": {
+      "target": "Merchant",
+      "penalty": -4,
+      "from": "MarketAnalysis"
+    },
+    "Performance_from_Acting": {
+      "target": "Performance",
+      "penalty": -2,
+      "from": "Acting"
+    },
+    "Performance_from_PublicSpeaking": {
+      "target": "Performance",
+      "penalty": -2,
+      "from": "PublicSpeaking"
+    },
+    "SavoirFaireHiSoc_from_SavoirFaireServant": {
+      "target": "SavoirFaire",
+      "targetSpec": "High Society",
+      "penalty": -2,
+      "from": "SavoirFaire",
+      "fromSpec": "Servant"
+    },
+    "SexAppeal_from_HT": {
+      "target": "SexAppeal",
+      "penalty": -3,
+      "from": "HT",
+      "category": "stat"
+    },
+    "Tactics_from_Strategy": {
+      "target": "Tactics",
+      "penalty": -6,
+      "from": "Strategy"
+    },
+    "Camouflage_from_Survival": {
+      "target": "Camouflage",
+      "penalty": -2,
+      "from": "Survival"
+    },
+    "DetectLies_from_stat": {
+      "target": "DetectLies",
+      "penalty": false,
+      "category": "stat"
+    },
+    "DetectLies_from_BodyLanguage": {
+      "target": "DetectLies",
+      "penalty": -4,
+      "from": "BodyLanguage"
+    },
+    "DetectLies_from_Psychology": {
+      "target": "DetectLies",
+      "penalty": -4,
+      "from": "Psychology"
+    },
+    "Holdout_from_SleightofHand": {
+      "target": "Holdout",
+      "penalty": -3,
+      "from": "SleightofHand"
+    },
+    "Pickpocket_from_Filch": {
+      "target": "Pickpocket",
+      "penalty": -5,
+      "from": "Filch"
+    },
+    "Pickpocket_from_SleightofHand": {
+      "target": "Pickpocket",
+      "penalty": -4,
+      "from": "SleightofHand"
+    },
+    "Shadowing_from_Observation": {
+      "target": "Shadowing",
+      "penalty": -5,
+      "from": "Observation"
+    },
+    "SleightofHand_from_stat": {
+      "target": "SleightofHand",
+      "penalty": false,
+      "category": "stat"
+    },
+    "SleightofHand_from_Filch": {
+      "target": "SleightofHand",
+      "penalty": -5,
+      "from": "Filch"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ",
+      "category": "stat"
+    },
+    "Traps_from_Lockpicking": {
+      "target": "Traps",
+      "penalty": -3,
+      "from": "Lockpicking"
+    },
+    "Boating_from_IQ": {
+      "target": "Boating",
+      "penalty": -5,
+      "from": "IQ",
+      "category": "stat"
+    },
+    "BoatingUnpowered_from_BoatingMotorboat": {
+      "target": "Boating",
+      "targetSpec": "Unpowered",
+      "penalty": -3,
+      "from": "Boating",
+      "fromSpec": "Motorboat"
+    },
+    "BoatingUnpowered_from_BoatingPowerboat": {
+      "target": "Boating",
+      "targetSpec": "Unpowered",
+      "penalty": -4,
+      "from": "Boating",
+      "fromSpec": "Powerboat"
+    },
+    "BoatingUnpowered_from_BoatingSailboat": {
+      "target": "Boating",
+      "targetSpec": "Unpowered",
+      "penalty": -3,
+      "from": "Boating",
+      "fromSpec": "Sailboat"
+    }
+  }
+}

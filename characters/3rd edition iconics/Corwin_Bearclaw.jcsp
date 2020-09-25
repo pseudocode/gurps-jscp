@@ -1,0 +1,1574 @@
+{
+  "gameInfo": {
+    "ruleset": "e3",
+    "TL": 3,
+    "disadPointsLimit": 40,
+    "quirkPointsLimit": 5
+  },
+  "description": {
+    "name": "Corwin Bearclaw",
+    "ID": "bGLQHSBXwngb",
+    "createDate": 1383946667742,
+    "pointTotal": 100,
+    "height": 73,
+    "weight": 180,
+    "sizeMod": 0,
+    "age": 20,
+    "appearance": "6'1\" 180 lbs., tanned, light brown hair",
+    "statusText": "",
+    "repText": "",
+    "shortStory": "Mercenary in ranger/scout unit.  Employer went broke, left Corwin broke as well, and far from home.",
+    "story": "",
+    "goals": "",
+    "notes": "(1) If Corwin drops his shield, Move and Dodge go up to 5.\n(2) The backpack wouldn't normally be worn in combat!",
+    "artPath": "../characters/images/corwin_full.png"
+  },
+  "playerInfo": {
+    "name": ""
+  },
+  "preferences": {
+    "display": {
+      "theme": "green",
+      "watermark": "null",
+      "grimoire": false,
+      "adjTraitRows": false,
+      "traitsScroll": false,
+      "traitsSupp": false,
+      "skillsScroll": false,
+      "skillsSupp": false,
+      "stuffScroll": false,
+      "stuffSupp": false,
+      "suppCombo": false,
+      "TLinfo": true,
+      "property": false,
+      "fractions": true,
+      "shortnames": false
+    },
+    "units": {
+      "measure": "English",
+      "money": "$"
+    },
+    "autoAdjustBuild": false
+  },
+  "attributePoints": {
+    "ST": 20,
+    "DX": 20,
+    "IQ": 10,
+    "HT": 20,
+    "HP": 0,
+    "Will": 0,
+    "Per": 0,
+    "FP": 0,
+    "Speed": 0,
+    "Move": 0,
+    "TL": 0
+  },
+  "traits": [
+    {
+      "name": "Alertness",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 5,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 19",
+      "key": "Alertness",
+      "levels": 3
+    },
+    {
+      "name": "Toughness",
+      "type": "A",
+      "physMntlScl": "P",
+      "cost": 15,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 23",
+      "key": "Toughness",
+      "levels": 2,
+      "highestLevel": 2,
+      "fixedCost": -5
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Impulsive",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -10,
+      "reference": "Basic Set 3rd ed., pg 33",
+      "key": "Impulsiveness"
+    },
+    {
+      "name": "Phobia",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -5,
+      "hasLevels": true,
+      "reference": "Basic Set 3rd ed., pg 35",
+      "key": "Phobia",
+      "multiple": 1,
+      "levels": 2,
+      "levelNames": [
+        "",
+        "severe"
+      ],
+      "MultipliersArray": [
+        {
+          "text": "hard to avoid",
+          "value": 2
+        }
+      ],
+      "description": "reptiles",
+      "expand": false
+    },
+    {
+      "name": "Honest",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": -10,
+      "reference": "Basic Set 3rd ed., pg 33",
+      "key": "Honesty"
+    },
+    {
+      "name": "Illiterate",
+      "type": "D",
+      "physMntlScl": "M",
+      "cost": 0,
+      "reference": "Basic Set 3rd ed., pg 33",
+      "key": "Illiteracy",
+      "group": "literacy",
+      "ConstantModsArray": [
+        {
+          "text": "Illiteracy norm",
+          "value": 0
+        }
+      ],
+      "expand": false
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Considers green his &ldquo;lucky color&rdquo;",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Likes gambling (default skill is 6&hellip;)",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Likes to imitate people",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Oversleeps",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    },
+    {
+      "name": "Soft touch for beggers, children, <i>etc</i>.",
+      "type": "Q",
+      "physMntlScl": "MPSo",
+      "cost": -1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Shortsword",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 52",
+      "points": 8,
+      "type": "P",
+      "key": "Shortsword"
+    },
+    {
+      "name": "Fast-Draw",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 50",
+      "points": 1,
+      "type": "P",
+      "key": "FastDraw",
+      "specCategName": "weapon or ammo type",
+      "specialization": "Sword",
+      "dash": false
+    },
+    {
+      "name": "Knife",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 51",
+      "points": 1,
+      "type": "P",
+      "key": "Knife"
+    },
+    {
+      "name": "Shield",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 52",
+      "points": 1,
+      "type": "P",
+      "key": "Shield"
+    },
+    {
+      "name": "Broadsword",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 50",
+      "points": 0,
+      "type": "P",
+      "key": "Broadsword"
+    },
+    {
+      "name": "Crossbow",
+      "attribute": "DX",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 49",
+      "points": 2,
+      "type": "P",
+      "key": "Crossbow"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Naturalist",
+      "attribute": "IQ",
+      "difficulty": 2,
+      "reference": "Basic Set 3rd ed., pg 57",
+      "points": 14,
+      "type": "M",
+      "key": "Naturalist"
+    },
+    {
+      "name": "Survival",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 57",
+      "points": 0,
+      "type": "M",
+      "key": "Survival",
+      "specialization": "any - Naturalist",
+      "dash": false
+    },
+    {
+      "name": "Stealth",
+      "attribute": "DX",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 67",
+      "points": 4,
+      "type": "P",
+      "key": "Stealth",
+      "dash": false
+    },
+    {
+      "name": "Tracking",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 57",
+      "points": 0,
+      "type": "M",
+      "key": "Tracking"
+    },
+    {
+      "name": "Traps",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "Basic Set 3rd ed., pg 68",
+      "points": 2,
+      "type": "M",
+      "key": "Traps",
+      "TL": 3
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "Language (any one \"average\" language you choose)",
+      "attribute": "IQ",
+      "difficulty": 1,
+      "reference": "USER",
+      "points": 1,
+      "type": "M",
+      "key": "Languageanyoneaveragelanguageyouchoose"
+    },
+    {
+      "line": false
+    },
+    {
+      "name": "First Aid",
+      "attribute": "IQ",
+      "difficulty": 0,
+      "reference": "Basic Set 3rd ed., pg 56",
+      "points": 1,
+      "type": "M",
+      "key": "FirstAid"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "medium shield",
+      "weight": 15,
+      "cost": 60,
+      "TL": 1,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "PDB": 3,
+      "DR": 7,
+      "HP": 40,
+      "skill": "Shield"
+    },
+    {
+      "name": "chainmail",
+      "weight": 45,
+      "cost": 550,
+      "TL": 3,
+      "LC": 5,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "DR": 4,
+      "PD": 3,
+      "location": [
+        "suit",
+        "neck",
+        "torso",
+        "waist",
+        "groin",
+        "domArm",
+        "offArm",
+        "domLeg",
+        "offLeg",
+        "domHand",
+        "offHand",
+        "domFoot",
+        "offFoot"
+      ],
+      "splitPD": 1,
+      "splitDR": 2
+    },
+    {
+      "name": "backpack",
+      "weight": 3,
+      "cost": 60,
+      "TL": 1,
+      "LC": 0,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "first-aid kit (+1 to rolls)",
+      "weight": 2,
+      "cost": 30,
+      "TL": 1,
+      "LC": 0,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "blanket",
+      "weight": 5,
+      "cost": 20,
+      "TL": 1,
+      "LC": 0,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "personal camping basics",
+      "weight": 0,
+      "cost": 5,
+      "TL": 1,
+      "LC": 0,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    },
+    {
+      "name": "gold and silver coins",
+      "weight": 0,
+      "cost": 75,
+      "TL": 1,
+      "LC": 6,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Shortsword",
+      "weight": 2,
+      "cost": 400,
+      "TL": 2,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -4,
+      "note": null,
+      "qualityEffectGroup": "edged",
+      "quality": 0,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Shortsword": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 7,
+            "damage": {
+              "base": "sw",
+              "mods": 0,
+              "type": "cut"
+            },
+            "reach": "1",
+            "parryBonus": "0"
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 7,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "reach": "1",
+            "parryBonus": "0"
+          }
+        ]
+      },
+      "addedCost": 0,
+      "shots": 0
+    },
+    {
+      "name": "Large Knife",
+      "weight": 1,
+      "cost": 40,
+      "TL": 0,
+      "LC": 4,
+      "ruleset": {
+        "e3": true,
+        "e3lite": true,
+        "e4": true,
+        "e4lite": true
+      },
+      "number": 1,
+      "bulk": -2,
+      "note": "[1]",
+      "qualityEffectGroup": "edged",
+      "quality": 1,
+      "armorDivisor": 1,
+      "wieldOptions": {
+        "Knife": [
+          {
+            "title": "swing",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "parryBonus": -1
+          },
+          {
+            "title": "thrust",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "parryBonus": -1
+          }
+        ],
+        "MainGauche": [
+          {
+            "title": "swing",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "sw",
+              "mods": -2,
+              "type": "cut"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C,1",
+            "parryBonus": 0
+          },
+          {
+            "title": "thrust",
+            "hands": "off",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "reach": "C",
+            "parryBonus": 0
+          }
+        ],
+        "KnifeThrowing": [
+          {
+            "title": "throw",
+            "hands": "dom",
+            "strength": 6,
+            "damage": {
+              "base": "thr",
+              "mods": 0,
+              "type": "imp"
+            },
+            "maxDamage": "1d+2",
+            "rangeBasedOnST": "add",
+            "halfDamageRange": -2,
+            "maximumRange": 5,
+            "snapShot": 12,
+            "accuracy": 0,
+            "rateOfFire": 1,
+            "recoil": 0
+          }
+        ]
+      }
+    }
+  ],
+  "collections": {
+    "equipped": "default",
+    "default": [
+      "default collection",
+      "wield",
+      "Shortsword",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1",
+      {
+        "line": false
+      },
+      "ready",
+      "JSONcircRef:equipment.0",
+      "wear",
+      "JSONcircRef:equipment.1",
+      {
+        "line": false
+      },
+      "JSONcircRef:equipment.2",
+      "JSONcircRef:equipment.3",
+      "JSONcircRef:equipment.4",
+      "JSONcircRef:equipment.5",
+      {
+        "line": false
+      },
+      "JSONcircRef:equipment.6"
+    ],
+    "backpack": [
+      "backpack",
+      "JSONcircRef:equipment.2",
+      "JSONcircRef:equipment.3",
+      "JSONcircRef:equipment.4",
+      "JSONcircRef:equipment.5"
+    ],
+    "adventuring": [
+      "adventuring",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1",
+      {
+        "line": false
+      },
+      "JSONcircRef:equipment.0",
+      "wear",
+      "JSONcircRef:equipment.1",
+      {
+        "line": false
+      },
+      "JSONcircRef:collections.backpack",
+      {
+        "line": false
+      },
+      "JSONcircRef:equipment.6"
+    ],
+    "combat": [
+      "combat",
+      "wield",
+      "Shortsword",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1",
+      {
+        "line": false
+      },
+      "ready",
+      "JSONcircRef:equipment.0",
+      "wear",
+      "JSONcircRef:equipment.1",
+      {
+        "line": false
+      },
+      "JSONcircRef:equipment.6"
+    ],
+    "combatwoshield": [
+      "combat w/o shield",
+      "wield",
+      "Shortsword",
+      "JSONcircRef:weapons.0",
+      "JSONcircRef:weapons.1",
+      {
+        "line": false
+      },
+      "wear",
+      "JSONcircRef:equipment.1",
+      {
+        "line": false
+      },
+      "JSONcircRef:equipment.6"
+    ]
+  },
+  "templates": {},
+  "groups": {
+    "HandWeaponSkills": [
+      "AxeMace",
+      "Blackjack",
+      "Broadsword",
+      "Fencing",
+      "Flail",
+      "ForceSword",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "MainGauche",
+      "Net",
+      "Polearm",
+      "ShortStaff",
+      "Shortsword",
+      "Spear",
+      "StaffSkill",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword"
+    ],
+    "CombatWeaponSkills": [
+      "AxeMace",
+      "AxeThrowing",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "Bolas",
+      "Bow",
+      "Brawling",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "FastDraw",
+      "Fencing",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "Gunner",
+      "Guns",
+      "Judo",
+      "Karate",
+      "Knife",
+      "KnifeThrowing",
+      "Lance",
+      "Lasso",
+      "Net",
+      "Polearm",
+      "Shield",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "SpearThrowing",
+      "SpeedLoad",
+      "StaffSkill",
+      "ThrownWeapon",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip",
+      "BlowpipeFukiya",
+      "BodyLanguage",
+      "Boxing",
+      "Bullfighting",
+      "Cloak",
+      "Fanning",
+      "FireSiphon",
+      "ForceWhip",
+      "Garrote",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Kusari",
+      "MainGauche",
+      "MonowireWhip",
+      "ParryMissileWeapons",
+      "Sensitivity",
+      "ShortStaff",
+      "Shuriken",
+      "SlippingtheHammer",
+      "SpellThrowing",
+      "StageCombat",
+      "StyleAnalysis",
+      "SumoWrestling",
+      "Throwing",
+      "ThrowingStick",
+      "Tonfa",
+      "Wrestling"
+    ],
+    "OutdoorSkills": [
+      "AreaKnowledge",
+      "Boating",
+      "Climbing",
+      "Fishing",
+      "Naturalist",
+      "Navigation",
+      "Seamanship",
+      "Survival",
+      "Tracking",
+      "AnimalGuise",
+      "BowandPalette",
+      "Cartography",
+      "FlintSparking",
+      "HardHatDiving",
+      "Hiking",
+      "Mimicry",
+      "OpenDressDiving",
+      "Orienteering",
+      "Skating",
+      "Surveying"
+    ],
+    "ScienceSkills": [
+      "Agronomy",
+      "Alchemy",
+      "Anthropology",
+      "Archaeology",
+      "Architecture",
+      "Astrogation",
+      "Astronomy",
+      "Biochemistry",
+      "Botany",
+      "Chemistry",
+      "ComputerProgramming",
+      "Criminology",
+      "Ecology",
+      "Economics",
+      "Electronics",
+      "Engineer",
+      "Forensics",
+      "Genetics",
+      "Geology",
+      "History",
+      "Linguistics",
+      "Literature",
+      "Mathematics",
+      "Metallurgy",
+      "Meteorology",
+      "Naturalist",
+      "NuclearPhysics",
+      "Occultism",
+      "Physics",
+      "Physiology",
+      "Prospecting",
+      "Psychology",
+      "Research",
+      "Theology",
+      "Zoology",
+      "Abacus",
+      "ArtificialIntelligence",
+      "Cartography",
+      "ComputerHacking",
+      "ConspiracyTheory",
+      "Cryptanalysis",
+      "Cryptography",
+      "Cryptology",
+      "Cyphering",
+      "Herbalist",
+      "Herbary",
+      "HistoryEsoteric",
+      "Hydrology",
+      "HyperspacePhysics",
+      "Paleontology",
+      "Paraphysics",
+      "Philosophy",
+      "Photonics",
+      "Planetology",
+      "ProbabilityPhysics",
+      "Psionics",
+      "Science",
+      "SpeedReading",
+      "Surveying",
+      "TemporalElectronics",
+      "TemporalPhysics",
+      "Thanatology",
+      "Thaumatology",
+      "WeirdScience",
+      "Xenobiology",
+      "Xenology"
+    ],
+    "Science": "JSONcircRef:groups.ScienceSkills",
+    "Scientific": "JSONcircRef:groups.ScienceSkills",
+    "ScientificSkills": "JSONcircRef:groups.ScienceSkills",
+    "ThiefSpySkills": [
+      "Acting",
+      "Climbing",
+      "Camouflage",
+      "Demolition",
+      "DetectLies",
+      "Disguise",
+      "Escape",
+      "FastTalk",
+      "Forgery",
+      "Holdout",
+      "IntelligenceAnalysis",
+      "Interrogation",
+      "LipReading",
+      "Lockpicking",
+      "Pickpocket",
+      "Poisons",
+      "Scrounging",
+      "Shadowing",
+      "SleightofHand",
+      "Stealth",
+      "Streetwise",
+      "Tracking",
+      "Traps",
+      "UnderwaterDemolition",
+      "Ventriloquism",
+      "BrainHacking",
+      "ComputerHacking",
+      "Filch",
+      "Starglazing",
+      "UtteringofBaseCoin"
+    ],
+    "AnimalSkills": [
+      "AnimalHandling",
+      "Falconry",
+      "Packing",
+      "Riding",
+      "Teamster",
+      "Tracking",
+      "Veterinary",
+      "Bulldancing",
+      "Bullfighting",
+      "EquestrianAcrobatics",
+      "SnakeCharming"
+    ],
+    "MedicalSkills": [
+      "Diagnosis",
+      "FirstAid",
+      "Hypnotism",
+      "Physician",
+      "Surgery",
+      "ChiTreatment",
+      "Herbalist",
+      "Herbary",
+      "Pharmacy",
+      "Veterinary",
+      "YinYangHealing"
+    ],
+    "KnownLanguages": [],
+    "WeaponsSkills": [
+      "AxeMace",
+      "Battlesuit",
+      "BeamWeapons",
+      "Blackjack",
+      "BlackPowderWeapons",
+      "BlowpipeFukiya",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Buckler",
+      "Crossbow",
+      "Fencing",
+      "FireSiphon",
+      "Flail",
+      "ForceShield",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "Harpoon",
+      "JitteSai",
+      "Katana",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shield",
+      "ShortStaff",
+      "Shortsword",
+      "Shuriken",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "ThrowingStick",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "swords": [
+      "Broadsword",
+      "BroadswordThr",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Shortsword",
+      "Smallsword",
+      "Saber",
+      "Cutlass",
+      "CavalrySaber",
+      "Katana"
+    ],
+    "blades": [
+      "Broadsword",
+      "BroadswordThr",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Shortsword",
+      "Smallsword",
+      "Saber",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Cutlass",
+      "CavalrySaber",
+      "Katana"
+    ],
+    "edged": [
+      "Broadsword",
+      "BroadswordThr",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "Shortsword",
+      "Smallsword",
+      "Saber",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Hatchet",
+      "Axe",
+      "ThrowingAxe",
+      "GreatAxe",
+      "Scythe",
+      "Glaive",
+      "Halberd",
+      "Poleaxe",
+      "Axe",
+      "Hatchet",
+      "Shovel",
+      "SwissArmyKnife",
+      "SurvivalKnife",
+      "Cutlass",
+      "CavalrySaber",
+      "Katana",
+      "Naginata",
+      "ironplow",
+      "saw",
+      "shovel"
+    ],
+    "WeaponsGURPSLite": [
+      "Axe",
+      "Baton",
+      "Blackjack",
+      "Bow",
+      "Broadsword",
+      "Colt45",
+      "CompositeBow",
+      "Crossbow",
+      "Dagger",
+      "Flail",
+      "Glaive",
+      "Glock17",
+      "GreatAxe",
+      "Greatsword",
+      "Halberd",
+      "Javelin",
+      "KnifeLarge",
+      "KnifeSmall",
+      "LightClub",
+      "Longbow",
+      "Mace",
+      "Maul",
+      "Morningstar",
+      "MsrLuger",
+      "Poleaxe",
+      "Prodd",
+      "Quarterstaff",
+      "Rapier",
+      "RemingtonM870_12G",
+      "Revolver38",
+      "Revolver44M",
+      "Saber",
+      "Shortsword",
+      "ShortBow",
+      "Sling",
+      "Smallsword",
+      "Spear",
+      "StaffSling",
+      "ThrowingAxe",
+      "WltrPPK",
+      "BrassKnuckles",
+      "BroadswordThr",
+      "GreatswordThr",
+      "PumpShotgun12G",
+      "Derringer41",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "Revolver357M",
+      "AutoPistol44M",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "SniperRifle338"
+    ],
+    "WeaponSkills": [
+      "AxeMace",
+      "BeamWeapons",
+      "Bolas",
+      "Bow",
+      "Broadsword",
+      "Crossbow",
+      "Flail",
+      "ForceSword",
+      "ForceWhip",
+      "Garrote",
+      "Gunner",
+      "Guns",
+      "JitteSai",
+      "Knife",
+      "Kusari",
+      "Lance",
+      "Lasso",
+      "MainGauche",
+      "MonowireWhip",
+      "Net",
+      "Polearm",
+      "Shortsword",
+      "Sling",
+      "Spear",
+      "SpearThrower",
+      "StaffSkill",
+      "Throwing",
+      "ThrownWeapon",
+      "Tonfa",
+      "TwoHandedAxeMace",
+      "TwoHandedSword",
+      "Whip"
+    ],
+    "Weapons": [
+      "fist",
+      "bluntclawedhand",
+      "sharpclawedhand",
+      "talonedhand",
+      "longtalonedhand",
+      "foot",
+      "hoof",
+      "bluntclawedfoot",
+      "sharpclawedfoot",
+      "talonedfoot",
+      "longtalonedfoot",
+      "teeth",
+      "sharpteeth",
+      "fangs",
+      "sharpbeak",
+      "crushingstriker",
+      "piercingstriker",
+      "lgpiercingstriker",
+      "cuttingstriker",
+      "impalingstriker",
+      "CattleProd",
+      "Chainsaw",
+      "Whip",
+      "WhipMonowire",
+      "BrassKnuckles",
+      "Axe",
+      "Hatchet",
+      "ThrowingAxe",
+      "Pick",
+      "GreatAxe",
+      "Scythe",
+      "Warhammer",
+      "Dagger",
+      "KnifeSmall",
+      "KnifeLarge",
+      "Smallsword",
+      "Shortsword",
+      "Cutlass",
+      "Saber",
+      "CavalrySaber",
+      "Rapier",
+      "Broadsword",
+      "BroadswordThr",
+      "Katana",
+      "BastardSword",
+      "BastardSwordThr",
+      "Greatsword",
+      "GreatswordThr",
+      "ForceSword",
+      "Glaive",
+      "Naginata",
+      "Halberd",
+      "Poleaxe",
+      "Javelin",
+      "Spear",
+      "LongSpear",
+      "Quarterstaff",
+      "Lance",
+      "Baton",
+      "ShortStaff",
+      "BillieClub",
+      "LightClub",
+      "SmallMace",
+      "Mace",
+      "Morningstar",
+      "Kusari",
+      "Nunchaku",
+      "Maul",
+      "Flail",
+      "Blowpipe",
+      "Bow",
+      "ShortBow",
+      "Longbow",
+      "CompositeBow",
+      "Crossbow",
+      "PistolCrossbow",
+      "Prodd",
+      "Shuriken",
+      "Bolas",
+      "Sling",
+      "StaffSling",
+      "Atlatl",
+      "SpearThrower",
+      "FlintlockPistol51",
+      "Derringer41",
+      "Revolver36",
+      "Revolver38",
+      "AutoPistol9mmTL6",
+      "AutoPistol9mmTL7",
+      "AutoPistol9mmTL9",
+      "AutoPistol44M",
+      "BoltActionRifle",
+      "FlintlockMusket75",
+      "grenadeBP",
+      "grenadeConcussionTL6",
+      "grenadeFragmentationTL6",
+      "MolotovCocktail",
+      "grenadeChemical",
+      "grenadeConcussionTL7",
+      "grenadeFragmentationTL7",
+      "grenadeStun",
+      "grenadePlasma",
+      "WheelLockPistol60",
+      "AutoPistol45",
+      "SnubRevolver38",
+      "HoldoutPistol380",
+      "Revolver357M",
+      "Revolver44M",
+      "AutoPistol40",
+      "GyrocPistol15mm",
+      "SMG45",
+      "SMG9mmTL6",
+      "MachinePistol9mm",
+      "SMG9mmTL7",
+      "PDW46mm",
+      "GaussPDW4mm",
+      "Handgonne90",
+      "MatchlockMusket80",
+      "RifleMusket577",
+      "CartridgeRifle45",
+      "LeverActionCarbine30",
+      "SelfLoadingRifle762mm",
+      "AssaultRifle556mm",
+      "AssaultRifle762mmS",
+      "BattleRifle762mm",
+      "AssaultCarbine556mm",
+      "DartRifle11mm",
+      "SniperRifle338",
+      "ICW68mm",
+      "GaussRifle4mm",
+      "Blunderbuss8G",
+      "DoubleShotgun10G",
+      "PumpShotgun12G",
+      "AutoShotgun12G",
+      "ElectrolaserPistol",
+      "LaserPistol",
+      "BlasterPistol",
+      "ElectrolaserCarbine",
+      "LaserSniperRifle",
+      "LaserRifle",
+      "BlasterRifle",
+      "HeavyBlaster",
+      "ATGM115mm",
+      "SAM70mm",
+      "Scorpion",
+      "HMG50",
+      "UnderBarrel40mmGL",
+      "Integral25mmGL",
+      "Bazooka60mm",
+      "RPG85mm",
+      "LAW84mm",
+      "AutoRifle762mm",
+      "LMG762mm",
+      "SAW556mm",
+      "Flamethrower"
+    ],
+    "SwordSkills": [
+      "Broadsword",
+      "ForceSword",
+      "JitteSai",
+      "Knife",
+      "Shortsword",
+      "TwoHandedSword"
+    ],
+    "MeleeWeaponSkills": [
+      "MainGauche",
+      "Rapier",
+      "Saber",
+      "Smallsword",
+      "Flail",
+      "TwoHandedFlail",
+      "AxeMace",
+      "TwoHandedAxeMace",
+      "Polearm",
+      "Spear",
+      "StaffSkill",
+      "Broadsword",
+      "ForceSword",
+      "JitteSai",
+      "Knife",
+      "Shortsword",
+      "TwoHandedSword",
+      "ForceWhip",
+      "Kusari",
+      "MonowireWhip",
+      "Whip"
+    ],
+    "CombatSkills": [
+      "Battlesuit",
+      "BodyLanguage",
+      "Boxing",
+      "Brawling",
+      "Cloak",
+      "FastDraw",
+      "Judo",
+      "Karate",
+      "ParryMissileWeapons",
+      "Shield",
+      "SumoWrestling",
+      "Wrestling"
+    ],
+    "crossbows": [
+      "Crossbow"
+    ],
+    "OutdoorsmanTalent": [
+      "Camouflage",
+      "Fishing",
+      "Mimicry",
+      "Naturalist",
+      "Navigation",
+      "Survival",
+      "Tracking"
+    ]
+  },
+  "modifiers": {},
+  "adjustments": {
+    "BlindFighting_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "BlindFighting"
+    },
+    "Hearing_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Hearing"
+    },
+    "TasteSmell_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "TasteSmell"
+    },
+    "Vision_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Vision"
+    },
+    "DR_from_Toughness": {
+      "from": "Toughness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "target": "DR"
+    },
+    "FastDraw_from_CombatReflexes": {
+      "from": "CombatReflexes",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "FastDraw_from_EnhancedTimeSense": {
+      "from": "EnhancedTimeSense",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "Stealth_from_Chameleon": {
+      "from": "Chameleon",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Invisibility": {
+      "from": "Invisibility",
+      "fromCategory": "AD",
+      "amount": 9,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Stealth_from_Encumbrance": {
+      "from": "Encumbrance",
+      "fromCategory": "enc",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    },
+    "Tracking_from_ColorBlind": {
+      "from": "ColorBlind",
+      "fromCategory": "DI",
+      "amount": -1,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "Tracking_from_DiscriminatorySmell": {
+      "from": "DiscriminatorySmell",
+      "fromCategory": "AD",
+      "amount": 4,
+      "targetCategory": "SK",
+      "target": "Tracking"
+    },
+    "Faz_from_Alertness": {
+      "from": "Alertness",
+      "fromCategory": "AD",
+      "amount": 1,
+      "targetCategory": "sense",
+      "target": "Faz"
+    },
+    "Per_from_Alertness": {
+      "from": "Alertness",
+      "amount": 1,
+      "targetCategory": "stats",
+      "target": "Per"
+    },
+    "FastDraw_from_HamFisted": {
+      "from": "HamFisted",
+      "amount": -3,
+      "targetCategory": "SK",
+      "target": "FastDraw"
+    },
+    "Stealth_from_Silence": {
+      "from": "Silence",
+      "amount": 1,
+      "targetCategory": "SK",
+      "target": "Stealth"
+    }
+  },
+  "prerequisites": {},
+  "defaults": {
+    "Shortsword_from_Broadsword": {
+      "target": "Shortsword",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Broadsword"
+    },
+    "Shortsword_from_ForceSword": {
+      "target": "Shortsword",
+      "penalty": -3,
+      "category": "SK",
+      "from": "ForceSword"
+    },
+    "FastDraw_from_stat": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Shield_from_Buckler": {
+      "target": "Shield",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Buckler"
+    },
+    "Broadsword_from_ForceSword": {
+      "target": "Broadsword",
+      "penalty": -3,
+      "category": "SK",
+      "from": "ForceSword"
+    },
+    "Broadsword_from_Shortsword": {
+      "target": "Broadsword",
+      "penalty": -2,
+      "category": "SK",
+      "from": "Shortsword"
+    },
+    "Survival_from_Naturalist": {
+      "target": "Survival",
+      "penalty": -3,
+      "category": "SK",
+      "from": "Naturalist"
+    },
+    "Survival_from_Survival": {
+      "target": "Survival",
+      "penalty": -3,
+      "category": "SK",
+      "from": "Survival"
+    },
+    "Stealth_from_IQ": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "IQ"
+    },
+    "Stealth_from_DX": {
+      "target": "Stealth",
+      "penalty": -5,
+      "from": "DX"
+    },
+    "Tracking_from_Naturalist": {
+      "target": "Tracking",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Naturalist"
+    },
+    "Traps_from_IQ": {
+      "target": "Traps",
+      "penalty": -5,
+      "from": "IQ"
+    },
+    "Traps_from_DX": {
+      "target": "Traps",
+      "penalty": -5,
+      "from": "DX"
+    },
+    "Traps_from_Lockpicking": {
+      "target": "Traps",
+      "penalty": -3,
+      "from": "Lockpicking",
+      "category": "SK"
+    },
+    "FirstAid_from_IQ": {
+      "target": "FirstAid",
+      "penalty": -5,
+      "from": "IQ"
+    },
+    "FirstAid_from_Physician": {
+      "target": "FirstAid",
+      "penalty": 0,
+      "category": "SK",
+      "from": "Physician"
+    },
+    "FirstAid_from_Physiology": {
+      "target": "FirstAid",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Physiology"
+    },
+    "FirstAid_from_Veterinary": {
+      "target": "FirstAid",
+      "penalty": -5,
+      "category": "SK",
+      "from": "Veterinary"
+    },
+    "FastDraw_no_stat_default": {
+      "target": "FastDraw",
+      "penalty": false,
+      "category": "stat"
+    },
+    "Broadsword_from_Rapier": {
+      "target": "Broadsword",
+      "penalty": -4,
+      "from": "Rapier"
+    },
+    "Broadsword_from_Saber": {
+      "target": "Broadsword",
+      "penalty": -4,
+      "from": "Saber"
+    },
+    "Broadsword_from_TwoHandedSword": {
+      "target": "Broadsword",
+      "penalty": -4,
+      "from": "TwoHandedSword"
+    }
+  }
+}
